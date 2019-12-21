@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgxBootstrapIconsLibComponent } from './ngx-bootstrap-icons-lib.component';
+import { NgxBootstrapIconsLibComponent } from './ngx-bootstrap-icons.component';
 
 describe('NgxBootstrapIconsLibComponent', () => {
   let component: NgxBootstrapIconsLibComponent;

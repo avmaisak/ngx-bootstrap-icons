@@ -1,12 +1,13 @@
 {
-  "name": "ngx-bootstrap-icons",
+  "name": "ngx-bootstrap-icons-demo",
   "version": "0.0.1",
   "scripts": {
     "ng": "./node_modules/@angular/cli/bin/ng",
-    "start": "./node_modules/@angular/cli/bin/ng serve",
+    "start": "ng serve",
     "gen": "node tools/generate-icons.js",
     "build": "./node_modules/@angular/cli/bin/ng build",
     "build-lib": "npm run gen && ng-packagr -p projects/ngx-bootstrap-icons-lib/ng-package.json",
+    "build-publish": "npm run build-lib && npm publish dist/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -21,6 +22,7 @@
     "@angular/platform-browser": "8.2.14",
     "@angular/platform-browser-dynamic": "8.2.14",
     "@angular/router": "8.2.14",
+    "ngx-bootstrap-icons": "0.0.5",
     "rxjs": "6.5.3",
     "tslib": "1.10.0",
     "zone.js": "0.10.2"

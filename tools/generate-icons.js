@@ -2,8 +2,11 @@ const del = require('del');
 const fs = require('fs-extra');
 const uppercamelcase = require('uppercamelcase');
 
+// source oroginal bootstrap icons
 const iconsSrcFolder = 'node_modules/bootstrap-icons/icons';
+// destination of generated icons
 const iconsDestFolder = 'projects/ngx-bootstrap-icons-lib/src/lib/icons';
+// template for icons
 const componentTemplate = fs.readFileSync('tools/tmpl/component.ts.tpl', 'utf-8');
 
 const indexFile = `${iconsDestFolder}/index.ts`;

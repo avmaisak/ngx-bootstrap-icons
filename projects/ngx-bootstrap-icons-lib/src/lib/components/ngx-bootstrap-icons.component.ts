@@ -10,7 +10,7 @@ import { Icons } from '../providers/icon.provider';
 })
 export class NgxBootstrapIconsLibComponent implements OnChanges {
 
-  @Input() name: string;
+  @Input() name!: string;
 
   constructor(
     private elem: ElementRef,
@@ -20,11 +20,7 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
   ngOnChanges(changes: SimpleChanges) {
     // icons are provided as an array of objects because of "multi: true"
     const icons = Object.assign({}, ...(this.icons as any as object[]));
-    console.dir(icons);
     const svg = icons[uppercamelcase(changes.name.currentValue)] || '';
-    console.dir(this.name);
-
-
 
     // tslint:disable-next-line: curly
     if (!svg) console.warn(`Icon not found: ${changes.name.currentValue}\n`);
