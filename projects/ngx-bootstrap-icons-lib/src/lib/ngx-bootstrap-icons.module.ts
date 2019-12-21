@@ -7,8 +7,7 @@ import { NgxBootstrapIconsLibComponent } from './components/ngx-bootstrap-icons.
   exports: [NgxBootstrapIconsLibComponent]
 })
 export class NgxBootstrapIconsModule {
-  constructor(
-    @Optional() private icons: Icons) {
+  constructor(@Optional() private icons: Icons) {
     // tslint:disable-next-line: curly
     if (!this.icons) throw new Error(`No icon provided. Make sure to use 'NgxBootstrapIconsModule.pick({ ... })' when importing the module\n`);
   }
