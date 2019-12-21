@@ -7,7 +7,6 @@
     "gen": "node tools/generate-icons.js",
     "build": "./node_modules/@angular/cli/bin/ng build",
     "build-lib": "npm run gen && ng-packagr -p projects/ngx-bootstrap-icons-lib/ng-package.json",
-    "build-publish": "npm run build-lib && npm publish dist/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
