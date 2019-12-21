@@ -1,0 +1,33 @@
+{
+  "name": "ngx-bootstrap-icons-lib",
+  "version": "0.0.1",
+  "description": "Bootstrap Icons components library for your Angular Applications",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avmaisak/ngx-bootstrap-icons.git"
+  },
+  "keywords": [
+    "angular2",
+    "angular",
+    "ngx",
+    "bootstrap",
+    "bootstrap-icons",
+    "twbs-icons",
+    "twbs",
+    "icons",
+    "svg",
+    "ui",
+    "components",
+    "library"
+  ],
+  "author": "Anton Maisak",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 6.9.0",
+    "npm": ">= 3.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  }
+}
