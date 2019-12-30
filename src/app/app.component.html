@@ -1,1 +1,9 @@
-<i-bs name="x"></i-bs>
+<div class="text-center">
+  <div class="p-4">
+    <input type="text" class="form-control w-50 mx-auto" placeholder="Search icon" (change)="onSearch($event)" />
+  </div>
+  <div *ngFor="let item of items" class="d-inline-block text-center w-25 border m-2">
+    <i-bs [name]="item" class="bs-icon d-block pb-2 text-center"></i-bs>
+    <small class="d-inline-block text-muted mx-auto mb-2">{{ item }}</small>
+  </div>
+</div>
