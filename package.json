@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "ng": "./node_modules/@angular/cli/bin/ng",
-    "start": "ng serve",
+    "start": "ng serve --open",
     "gen": "node tools/generate-icons.js",
     "build": "ng build --prod",
     "build-lib": "npm run gen && ng-packagr -p projects/ngx-bootstrap-icons-lib/ng-package.json",
@@ -22,7 +22,7 @@
     "@angular/platform-browser-dynamic": "8.2.14",
     "@angular/router": "8.2.14",
     "bootstrap": "^4.4.1",
-    "ngx-bootstrap-icons": "0.0.6",
+    "ngx-bootstrap-icons": "0.0.7",
     "rxjs": "6.5.4",
     "tslib": "1.10.0",
     "zone.js": "0.10.2"
@@ -35,7 +35,7 @@
     "@angular/language-service": "8.2.14",
     "@types/jasmine": "3.5.0",
     "@types/jasminewd2": "2.0.8",
-    "@types/node": "13.1.1",
+    "@types/node": "13.1.2",
     "bootstrap-icons": "^1.0.0-alpha2",
     "codelyzer": "5.2.1",
     "jasmine-core": "3.5.0",
