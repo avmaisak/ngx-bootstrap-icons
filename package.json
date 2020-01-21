@@ -22,20 +22,21 @@
     "@angular/platform-browser-dynamic": "8.2.14",
     "@angular/router": "8.2.14",
     "bootstrap": "^4.4.1",
+    "loadsh": "0.0.4",
     "ngx-bootstrap-icons": "0.0.10",
     "rxjs": "6.5.4",
     "tslib": "1.10.0",
     "zone.js": "0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "0.803.22",
-    "@angular-devkit/build-ng-packagr": "0.803.22",
-    "@angular/cli": "8.3.22",
+    "@angular-devkit/build-angular": "0.803.23",
+    "@angular-devkit/build-ng-packagr": "0.803.23",
+    "@angular/cli": "8.3.23",
     "@angular/compiler-cli": "8.2.14",
     "@angular/language-service": "8.2.14",
-    "@types/jasmine": "3.5.0",
+    "@types/jasmine": "3.5.1",
     "@types/jasminewd2": "2.0.8",
-    "@types/node": "13.1.6",
+    "@types/node": "13.1.8",
     "bootstrap-icons": "1.0.0-alpha2",
     "codelyzer": "5.2.1",
     "jasmine-core": "3.5.0",
@@ -50,7 +51,7 @@
     "ts-node": "8.6.2",
     "tsickle": "0.38.0",
     "tslint": "5.20.1",
-    "typescript": "3.5.3",
+    "typescript": "3.7.5",
     "uppercamelcase": "3.0.0"
   }
 }
