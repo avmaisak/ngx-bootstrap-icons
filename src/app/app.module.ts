@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgxBootstrapIconsModule, allIcons } from 'ngx-bootstrap-icons';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -10,6 +12,8 @@ import { NgxBootstrapIconsModule, allIcons } from 'ngx-bootstrap-icons';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    CommonModule,
     AppRoutingModule,
     NgxBootstrapIconsModule.pick(allIcons)
   ],

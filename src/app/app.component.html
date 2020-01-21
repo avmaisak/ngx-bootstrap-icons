@@ -1,7 +1,9 @@
-<div class="text-center">
-  <div class="p-4">
-    <!-- <input type="text" class="form-control w-50 mx-auto" placeholder="Search icon" (change)="onSearch($event)" /> -->
+<div class="text-center container">
+
+  <div class="w-75 mx-auto py-3">
+    <input type="text" class="form-control" placeholder="Search icon" (change)="onSearch()" [(ngModel)]="search" /> <!-- -->
   </div>
+
   <div *ngFor="let item of items" class="d-inline-block text-center w-25 border m-2">
     <i-bs [name]="item" class="bs-icon d-block pb-2 text-center"></i-bs>
     <small class="d-inline-block text-muted mx-auto mb-2">{{ item }}</small>
