@@ -50,8 +50,8 @@
     "protractor": "5.4.2",
     "ts-node": "8.6.2",
     "tsickle": "0.38.0",
-    "tslint": "5.20.1",
-    "typescript": "3.7.5",
+    "tslint": "6.0.0",
+    "typescript": "3.5.3",
     "uppercamelcase": "3.0.0"
   }
 }
