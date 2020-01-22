@@ -65,4 +65,4 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 
  // @ts-ignore
 // tslint:disable-next-line: only-arrow-functions
-window.__importDefault = function (mod) { return mod && mod.__esModule ? mod : { default: mod }; };
+window.__importDefault = function(mod) { return mod && mod.__esModule ? mod : { default: mod }; };
