@@ -3,7 +3,7 @@ const fs = require('fs-extra');
 const uppercamelcase = require('uppercamelcase');
 
 // source oroginal bootstrap icons
-const iconsSrcFolder = 'node_modules/bootstrap-icons/icons';
+const iconsSrcFolder = '../icons/icons';
 // destination of generated icons
 const iconsDestFolder = 'projects/ngx-bootstrap-icons-lib/src/lib/icons';
 // template for icons
@@ -18,6 +18,10 @@ return Promise.resolve()
   .then(() => fs.emptyDirSync(iconsDestFolder))
   .then(() => {
     fs.readdirSync(`${iconsSrcFolder}`).forEach(filename => {
+
+      if (filename === '__t.txt') {
+        return;
+      }
 
       const iconName = filename.replace('.svg', '').trim();
       const fileContent = fs.readFileSync(`${iconsSrcFolder}/${filename}`, 'utf-8');
