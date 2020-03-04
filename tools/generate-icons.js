@@ -3,7 +3,7 @@ const fs = require('fs-extra');
 const uppercamelcase = require('uppercamelcase');
 
 // source oroginal bootstrap icons
-const iconsSrcFolder = 'node_modules/bootstrap-icons/icons';
+const iconsSrcFolder = '../icons/icons';
 // destination of generated icons
 const iconsDestFolder = 'projects/ngx-bootstrap-icons-lib/src/lib/icons';
 // template for icons

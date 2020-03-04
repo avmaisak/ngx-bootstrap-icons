@@ -629,5 +629,5 @@ export const allIcons = {
   XOctagon,
   XSquareFill,
   XSquare,
-  X,
+  X
 };

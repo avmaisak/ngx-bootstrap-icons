@@ -1,6 +1,6 @@
 {
   "name": "ngx-bootstrap-icons",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Bootstrap Icons components library for your Angular Applications",
   "repository": {
     "type": "git",
@@ -30,7 +30,7 @@
     "npm": ">= 6.13.7"
   },
   "peerDependencies": {
-    "@angular/common": "9.0.0",
-    "@angular/core": "9.0.0"
+    "@angular/common": "9.0.4",
+    "@angular/core": "9.0.4"
   }
 }
