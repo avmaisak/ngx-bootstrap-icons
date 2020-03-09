@@ -51,7 +51,7 @@ import { BellFill } from './bell-fill';
 import { Bell } from './bell';
 import { BlockquoteLeft } from './blockquote-left';
 import { BlockquoteRight } from './blockquote-right';
-import { BookHalfFill } from './book-half-fill';
+import { BookHalf } from './book-half';
 import { Book } from './book';
 import { BookmarkFill } from './bookmark-fill';
 import { Bookmark } from './bookmark';
@@ -67,9 +67,9 @@ import { BoxArrowUpLeft } from './box-arrow-up-left';
 import { BoxArrowUpRight } from './box-arrow-up-right';
 import { BoxArrowUp } from './box-arrow-up';
 import { Braces } from './braces';
-import { BrightnessFillHigh } from './brightness-fill-high';
-import { BrightnessFillLow } from './brightness-fill-low';
+import { BrightnessHighFill } from './brightness-high-fill';
 import { BrightnessHigh } from './brightness-high';
+import { BrightnessLowFill } from './brightness-low-fill';
 import { BrightnessLow } from './brightness-low';
 import { Brush } from './brush';
 import { BucketFill } from './bucket-fill';
@@ -108,7 +108,7 @@ import { CloudUpload } from './cloud-upload';
 import { Cloud } from './cloud';
 import { CodeSlash } from './code-slash';
 import { Code } from './code';
-import { ColumnsGutters } from './columns-gutters';
+import { ColumnsGap } from './columns-gap';
 import { Columns } from './columns';
 import { Command } from './command';
 import { Compass } from './compass';
@@ -120,17 +120,8 @@ import { CursorFill } from './cursor-fill';
 import { Cursor } from './cursor';
 import { Dash } from './dash';
 import { DiamondHalf } from './diamond-half';
-import { Diamond } from './diamond';
 import { DisplayFill } from './display-fill';
 import { Display } from './display';
-import { DocumentCode } from './document-code';
-import { DocumentDiff } from './document-diff';
-import { DocumentRichtext } from './document-richtext';
-import { DocumentSpreadsheet } from './document-spreadsheet';
-import { DocumentText } from './document-text';
-import { Document } from './document';
-import { DocumentsAlt } from './documents-alt';
-import { Documents } from './documents';
 import { Dot } from './dot';
 import { Download } from './download';
 import { EggFried } from './egg-fried';
@@ -144,6 +135,14 @@ import { EyeFill } from './eye-fill';
 import { EyeSlashFill } from './eye-slash-fill';
 import { EyeSlash } from './eye-slash';
 import { Eye } from './eye';
+import { FileCode } from './file-code';
+import { FileDiff } from './file-diff';
+import { FileRichtext } from './file-richtext';
+import { FileSpreadsheet } from './file-spreadsheet';
+import { FileText } from './file-text';
+import { File } from './file';
+import { FilesAlt } from './files-alt';
+import { Files } from './files';
 import { Filter } from './filter';
 import { FlagFill } from './flag-fill';
 import { Flag } from './flag';
@@ -158,6 +157,7 @@ import { GearFill } from './gear-fill';
 import { GearWideConnected } from './gear-wide-connected';
 import { GearWide } from './gear-wide';
 import { Gear } from './gear';
+import { Gem } from './gem';
 import { Geo } from './geo';
 import { GraphDown } from './graph-down';
 import { GraphUp } from './graph-up';
@@ -368,7 +368,7 @@ export const allIcons = {
   Bell,
   BlockquoteLeft,
   BlockquoteRight,
-  BookHalfFill,
+  BookHalf,
   Book,
   BookmarkFill,
   Bookmark,
@@ -384,9 +384,9 @@ export const allIcons = {
   BoxArrowUpRight,
   BoxArrowUp,
   Braces,
-  BrightnessFillHigh,
-  BrightnessFillLow,
+  BrightnessHighFill,
   BrightnessHigh,
+  BrightnessLowFill,
   BrightnessLow,
   Brush,
   BucketFill,
@@ -425,7 +425,7 @@ export const allIcons = {
   Cloud,
   CodeSlash,
   Code,
-  ColumnsGutters,
+  ColumnsGap,
   Columns,
   Command,
   Compass,
@@ -437,17 +437,8 @@ export const allIcons = {
   Cursor,
   Dash,
   DiamondHalf,
-  Diamond,
   DisplayFill,
   Display,
-  DocumentCode,
-  DocumentDiff,
-  DocumentRichtext,
-  DocumentSpreadsheet,
-  DocumentText,
-  Document,
-  DocumentsAlt,
-  Documents,
   Dot,
   Download,
   EggFried,
@@ -461,6 +452,14 @@ export const allIcons = {
   EyeSlashFill,
   EyeSlash,
   Eye,
+  FileCode,
+  FileDiff,
+  FileRichtext,
+  FileSpreadsheet,
+  FileText,
+  File,
+  FilesAlt,
+  Files,
   Filter,
   FlagFill,
   Flag,
@@ -475,6 +474,7 @@ export const allIcons = {
   GearWideConnected,
   GearWide,
   Gear,
+  Gem,
   Geo,
   GraphDown,
   GraphUp,
