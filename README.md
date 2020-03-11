@@ -19,6 +19,9 @@
 [![npm version](https://badge.fury.io/js/ngx-bootstrap-icons.svg)](https://badge.fury.io/js/ngx-bootstrap-icons)
 
 
+[![Package Quality](https://npm.packagequality.com/badge/ngx-bootstrap-icons.png)](https://packagequality.com/#?package=ngx-bootstrap-icons)
+
+
 
 ![Bootstrap Icons full set](https://user-images.githubusercontent.com/98681/69751498-12224a80-1104-11ea-9dd6-6f162a8a2566.png)
 
