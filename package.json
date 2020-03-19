@@ -23,7 +23,7 @@
     "@angular/router": "9.0.7",
     "bootstrap": "^4.4.1",
     "loadsh": "0.0.4",
-    "ngx-bootstrap-icons": "0.0.15",
+    "ngx-bootstrap-icons": "0.0.16",
     "rxjs": "6.5.4",
     "tslib": "1.11.1",
     "zone.js": "0.10.3"
