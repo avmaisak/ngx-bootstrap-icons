@@ -15,22 +15,54 @@ import { ArrowBarRight } from './arrow-bar-right';
 import { ArrowBarUp } from './arrow-bar-up';
 import { ArrowClockwise } from './arrow-clockwise';
 import { ArrowCounterclockwise } from './arrow-counterclockwise';
+import { ArrowDownCircleFill } from './arrow-down-circle-fill';
+import { ArrowDownCircle } from './arrow-down-circle';
+import { ArrowDownLeftCircleFill } from './arrow-down-left-circle-fill';
+import { ArrowDownLeftCircle } from './arrow-down-left-circle';
+import { ArrowDownLeftSquareFill } from './arrow-down-left-square-fill';
+import { ArrowDownLeftSquare } from './arrow-down-left-square';
 import { ArrowDownLeft } from './arrow-down-left';
+import { ArrowDownRightCircleFill } from './arrow-down-right-circle-fill';
+import { ArrowDownRightCircle } from './arrow-down-right-circle';
+import { ArrowDownRightSquareFill } from './arrow-down-right-square-fill';
+import { ArrowDownRightSquare } from './arrow-down-right-square';
 import { ArrowDownRight } from './arrow-down-right';
 import { ArrowDownShort } from './arrow-down-short';
+import { ArrowDownSquareFill } from './arrow-down-square-fill';
+import { ArrowDownSquare } from './arrow-down-square';
+import { ArrowDownUp } from './arrow-down-up';
 import { ArrowDown } from './arrow-down';
+import { ArrowLeftCircleFill } from './arrow-left-circle-fill';
+import { ArrowLeftCircle } from './arrow-left-circle';
 import { ArrowLeftRight } from './arrow-left-right';
 import { ArrowLeftShort } from './arrow-left-short';
+import { ArrowLeftSquareFill } from './arrow-left-square-fill';
+import { ArrowLeftSquare } from './arrow-left-square';
 import { ArrowLeft } from './arrow-left';
 import { ArrowRepeat } from './arrow-repeat';
 import { ArrowReturnLeft } from './arrow-return-left';
 import { ArrowReturnRight } from './arrow-return-right';
+import { ArrowRightCircleFill } from './arrow-right-circle-fill';
+import { ArrowRightCircle } from './arrow-right-circle';
 import { ArrowRightShort } from './arrow-right-short';
+import { ArrowRightSquareFill } from './arrow-right-square-fill';
+import { ArrowRightSquare } from './arrow-right-square';
 import { ArrowRight } from './arrow-right';
-import { ArrowUpDown } from './arrow-up-down';
+import { ArrowUpCircleFill } from './arrow-up-circle-fill';
+import { ArrowUpCircle } from './arrow-up-circle';
+import { ArrowUpLeftCircleFill } from './arrow-up-left-circle-fill';
+import { ArrowUpLeftCircle } from './arrow-up-left-circle';
+import { ArrowUpLeftSquareFill } from './arrow-up-left-square-fill';
+import { ArrowUpLeftSquare } from './arrow-up-left-square';
 import { ArrowUpLeft } from './arrow-up-left';
+import { ArrowUpRightCircleFill } from './arrow-up-right-circle-fill';
+import { ArrowUpRightCircle } from './arrow-up-right-circle';
+import { ArrowUpRightSquareFill } from './arrow-up-right-square-fill';
+import { ArrowUpRightSquare } from './arrow-up-right-square';
 import { ArrowUpRight } from './arrow-up-right';
 import { ArrowUpShort } from './arrow-up-short';
+import { ArrowUpSquareFill } from './arrow-up-square-fill';
+import { ArrowUpSquare } from './arrow-up-square';
 import { ArrowUp } from './arrow-up';
 import { ArrowsAngleContract } from './arrows-angle-contract';
 import { ArrowsAngleExpand } from './arrows-angle-expand';
@@ -40,6 +72,7 @@ import { ArrowsFullscreen } from './arrows-fullscreen';
 import { ArrowsMove } from './arrows-move';
 import { AspectRatioFill } from './aspect-ratio-fill';
 import { AspectRatio } from './aspect-ratio';
+import { Asterisk } from './asterisk';
 import { At } from './at';
 import { AwardFill } from './award-fill';
 import { Award } from './award';
@@ -47,10 +80,19 @@ import { BackspaceFill } from './backspace-fill';
 import { BackspaceReverseFill } from './backspace-reverse-fill';
 import { BackspaceReverse } from './backspace-reverse';
 import { Backspace } from './backspace';
+import { BagCheck } from './bag-check';
+import { BagDash } from './bag-dash';
 import { BagFill } from './bag-fill';
+import { BagPlus } from './bag-plus';
 import { Bag } from './bag';
 import { BarChartFill } from './bar-chart-fill';
 import { BarChart } from './bar-chart';
+import { BasketFill } from './basket-fill';
+import { Basket } from './basket';
+import { Basket2Fill } from './basket2-fill';
+import { Basket2 } from './basket2';
+import { Basket3Fill } from './basket3-fill';
+import { Basket3 } from './basket3';
 import { BatteryCharging } from './battery-charging';
 import { BatteryFull } from './battery-full';
 import { BatteryHalf } from './battery-half';
@@ -89,6 +131,8 @@ import { BoxArrowRight } from './box-arrow-right';
 import { BoxArrowUpLeft } from './box-arrow-up-left';
 import { BoxArrowUpRight } from './box-arrow-up-right';
 import { BoxArrowUp } from './box-arrow-up';
+import { BoxSeam } from './box-seam';
+import { Box } from './box';
 import { Braces } from './braces';
 import { BriefcaseFill } from './briefcase-fill';
 import { Briefcase } from './briefcase';
@@ -105,9 +149,40 @@ import { BucketFill } from './bucket-fill';
 import { Bucket } from './bucket';
 import { Building } from './building';
 import { Bullseye } from './bullseye';
+import { CalendarCheckFill } from './calendar-check-fill';
+import { CalendarCheck } from './calendar-check';
+import { CalendarDateFill } from './calendar-date-fill';
+import { CalendarDate } from './calendar-date';
+import { CalendarDayFill } from './calendar-day-fill';
+import { CalendarDay } from './calendar-day';
 import { CalendarFill } from './calendar-fill';
+import { CalendarMinusFill } from './calendar-minus-fill';
+import { CalendarMinus } from './calendar-minus';
+import { CalendarMonthFill } from './calendar-month-fill';
+import { CalendarMonth } from './calendar-month';
+import { CalendarPlusFill } from './calendar-plus-fill';
+import { CalendarPlus } from './calendar-plus';
 import { Calendar } from './calendar';
+import { Calendar2CheckFill } from './calendar2-check-fill';
+import { Calendar2Check } from './calendar2-check';
+import { Calendar2DateFill } from './calendar2-date-fill';
+import { Calendar2Date } from './calendar2-date';
+import { Calendar2DayFill } from './calendar2-day-fill';
+import { Calendar2Day } from './calendar2-day';
+import { Calendar2Fill } from './calendar2-fill';
+import { Calendar2MinusFill } from './calendar2-minus-fill';
+import { Calendar2Minus } from './calendar2-minus';
+import { Calendar2MonthFill } from './calendar2-month-fill';
+import { Calendar2Month } from './calendar2-month';
+import { Calendar2PlusFill } from './calendar2-plus-fill';
+import { Calendar2Plus } from './calendar2-plus';
+import { Calendar2 } from './calendar2';
+import { Calendar3Fill } from './calendar3-fill';
+import { Calendar3 } from './calendar3';
+import { Calendar4 } from './calendar4';
 import { CameraVideoFill } from './camera-video-fill';
+import { CameraVideoOffFill } from './camera-video-off-fill';
+import { CameraVideoOff } from './camera-video-off';
 import { CameraVideo } from './camera-video';
 import { Camera } from './camera';
 import { CapslockFill } from './capslock-fill';
@@ -118,13 +193,29 @@ import { CardImage } from './card-image';
 import { CardList } from './card-list';
 import { CardText } from './card-text';
 import { CaretDownFill } from './caret-down-fill';
+import { CaretDownSquareFill } from './caret-down-square-fill';
+import { CaretDownSquare } from './caret-down-square';
 import { CaretDown } from './caret-down';
 import { CaretLeftFill } from './caret-left-fill';
+import { CaretLeftSquareFill } from './caret-left-square-fill';
+import { CaretLeftSquare } from './caret-left-square';
 import { CaretLeft } from './caret-left';
 import { CaretRightFill } from './caret-right-fill';
+import { CaretRightSquareFill } from './caret-right-square-fill';
+import { CaretRightSquare } from './caret-right-square';
 import { CaretRight } from './caret-right';
 import { CaretUpFill } from './caret-up-fill';
+import { CaretUpSquareFill } from './caret-up-square-fill';
+import { CaretUpSquare } from './caret-up-square';
 import { CaretUp } from './caret-up';
+import { CartCheck } from './cart-check';
+import { CartDash } from './cart-dash';
+import { CartFill } from './cart-fill';
+import { CartPlus } from './cart-plus';
+import { Cart } from './cart';
+import { Cart2 } from './cart2';
+import { Cart3 } from './cart3';
+import { Cart4 } from './cart4';
 import { ChatDotsFill } from './chat-dots-fill';
 import { ChatDots } from './chat-dots';
 import { ChatFill } from './chat-fill';
@@ -138,9 +229,15 @@ import { ChatSquareQuote } from './chat-square-quote';
 import { ChatSquare } from './chat-square';
 import { Chat } from './chat';
 import { CheckAll } from './check-all';
-import { CheckBox } from './check-box';
+import { CheckCircleFill } from './check-circle-fill';
 import { CheckCircle } from './check-circle';
+import { CheckSquareFill } from './check-square-fill';
+import { CheckSquare } from './check-square';
 import { Check } from './check';
+import { Check2All } from './check2-all';
+import { Check2Circle } from './check2-circle';
+import { Check2Square } from './check2-square';
+import { Check2 } from './check2';
 import { ChevronBarContract } from './chevron-bar-contract';
 import { ChevronBarDown } from './chevron-bar-down';
 import { ChevronBarExpand } from './chevron-bar-expand';
@@ -172,6 +269,8 @@ import { ClockHistory } from './clock-history';
 import { Clock } from './clock';
 import { CloudDownload } from './cloud-download';
 import { CloudFill } from './cloud-fill';
+import { CloudSlashFill } from './cloud-slash-fill';
+import { CloudSlash } from './cloud-slash';
 import { CloudUpload } from './cloud-upload';
 import { Cloud } from './cloud';
 import { CodeSlash } from './code-slash';
@@ -189,6 +288,7 @@ import { Cone } from './cone';
 import { Controller } from './controller';
 import { CreditCard } from './credit-card';
 import { Crop } from './crop';
+import { Cup } from './cup';
 import { CursorFill } from './cursor-fill';
 import { CursorText } from './cursor-text';
 import { Cursor } from './cursor';
@@ -202,6 +302,8 @@ import { DiamondHalf } from './diamond-half';
 import { Diamond } from './diamond';
 import { DisplayFill } from './display-fill';
 import { Display } from './display';
+import { DoorClosedFill } from './door-closed-fill';
+import { DoorClosed } from './door-closed';
 import { Dot } from './dot';
 import { Download } from './download';
 import { DropletFill } from './droplet-fill';
@@ -212,6 +314,14 @@ import { EggFried } from './egg-fried';
 import { Egg } from './egg';
 import { EjectFill } from './eject-fill';
 import { Eject } from './eject';
+import { EmojiAngry } from './emoji-angry';
+import { EmojiDizzy } from './emoji-dizzy';
+import { EmojiFrown } from './emoji-frown';
+import { EmojiLaughing } from './emoji-laughing';
+import { EmojiNeutral } from './emoji-neutral';
+import { EmojiSmileUpsideDown } from './emoji-smile-upside-down';
+import { EmojiSmile } from './emoji-smile';
+import { EmojiSunglasses } from './emoji-sunglasses';
 import { EnvelopeFill } from './envelope-fill';
 import { EnvelopeOpenFill } from './envelope-open-fill';
 import { EnvelopeOpen } from './envelope-open';
@@ -303,11 +413,23 @@ import { Grid3x3Gap } from './grid-3x3-gap';
 import { Grid3x3 } from './grid-3x3';
 import { GridFill } from './grid-fill';
 import { Grid } from './grid';
+import { GripHorizontal } from './grip-horizontal';
+import { GripVertical } from './grip-vertical';
 import { Hammer } from './hammer';
+import { HandIndexThumb } from './hand-index-thumb';
+import { HandIndex } from './hand-index';
+import { HandThumbsDown } from './hand-thumbs-down';
+import { HandThumbsUp } from './hand-thumbs-up';
+import { HandbagFill } from './handbag-fill';
+import { Handbag } from './handbag';
 import { Hash } from './hash';
+import { Headphones } from './headphones';
 import { HeartFill } from './heart-fill';
 import { HeartHalf } from './heart-half';
 import { Heart } from './heart';
+import { HexagonFill } from './hexagon-fill';
+import { HexagonHalf } from './hexagon-half';
+import { Hexagon } from './hexagon';
 import { HouseDoorFill } from './house-door-fill';
 import { HouseDoor } from './house-door';
 import { HouseFill } from './house-fill';
@@ -365,6 +487,8 @@ import { MicFill } from './mic-fill';
 import { MicMuteFill } from './mic-mute-fill';
 import { MicMute } from './mic-mute';
 import { Mic } from './mic';
+import { MinecartLoaded } from './minecart-loaded';
+import { Minecart } from './minecart';
 import { Moon } from './moon';
 import { MusicNoteBeamed } from './music-note-beamed';
 import { MusicNoteList } from './music-note-list';
@@ -386,12 +510,12 @@ import { Pencil } from './pencil';
 import { PentagonFill } from './pentagon-fill';
 import { PentagonHalf } from './pentagon-half';
 import { Pentagon } from './pentagon';
-import { PeopleCircle } from './people-circle';
 import { PeopleFill } from './people-fill';
 import { People } from './people';
 import { PersonBoundingBox } from './person-bounding-box';
 import { PersonCheckFill } from './person-check-fill';
 import { PersonCheck } from './person-check';
+import { PersonCircle } from './person-circle';
 import { PersonDashFill } from './person-dash-fill';
 import { PersonDash } from './person-dash';
 import { PersonFill } from './person-fill';
@@ -426,6 +550,8 @@ import { QuestionOctagon } from './question-octagon';
 import { QuestionSquareFill } from './question-square-fill';
 import { QuestionSquare } from './question-square';
 import { Question } from './question';
+import { ReceiptCutoff } from './receipt-cutoff';
+import { Receipt } from './receipt';
 import { ReplyAllFill } from './reply-all-fill';
 import { ReplyAll } from './reply-all';
 import { ReplyFill } from './reply-fill';
@@ -437,9 +563,13 @@ import { ShieldFill } from './shield-fill';
 import { ShieldLockFill } from './shield-lock-fill';
 import { ShieldLock } from './shield-lock';
 import { ShieldShaded } from './shield-shaded';
+import { ShieldSlashFill } from './shield-slash-fill';
+import { ShieldSlash } from './shield-slash';
 import { Shield } from './shield';
 import { ShiftFill } from './shift-fill';
 import { Shift } from './shift';
+import { ShopWindow } from './shop-window';
+import { Shop } from './shop';
 import { Shuffle } from './shuffle';
 import { SkipBackwardFill } from './skip-backward-fill';
 import { SkipBackward } from './skip-backward';
@@ -497,6 +627,8 @@ import { TriangleFill } from './triangle-fill';
 import { TriangleHalf } from './triangle-half';
 import { Triangle } from './triangle';
 import { Trophy } from './trophy';
+import { TruckFlatbed } from './truck-flatbed';
+import { Truck } from './truck';
 import { TvFill } from './tv-fill';
 import { Tv } from './tv';
 import { TypeBold } from './type-bold';
@@ -510,6 +642,8 @@ import { Type } from './type';
 import { Union } from './union';
 import { UnlockFill } from './unlock-fill';
 import { Unlock } from './unlock';
+import { UpcScan } from './upc-scan';
+import { Upc } from './upc';
 import { Upload } from './upload';
 import { ViewList } from './view-list';
 import { ViewStacked } from './view-stacked';
@@ -517,10 +651,13 @@ import { VolumeDownFill } from './volume-down-fill';
 import { VolumeDown } from './volume-down';
 import { VolumeMuteFill } from './volume-mute-fill';
 import { VolumeMute } from './volume-mute';
+import { VolumeOffFill } from './volume-off-fill';
+import { VolumeOff } from './volume-off';
 import { VolumeUpFill } from './volume-up-fill';
 import { VolumeUp } from './volume-up';
 import { Vr } from './vr';
 import { Wallet } from './wallet';
+import { Wallet2 } from './wallet2';
 import { Watch } from './watch';
 import { Wifi } from './wifi';
 import { Window } from './window';
@@ -553,22 +690,54 @@ export const allIcons = {
   ArrowBarUp,
   ArrowClockwise,
   ArrowCounterclockwise,
+  ArrowDownCircleFill,
+  ArrowDownCircle,
+  ArrowDownLeftCircleFill,
+  ArrowDownLeftCircle,
+  ArrowDownLeftSquareFill,
+  ArrowDownLeftSquare,
   ArrowDownLeft,
+  ArrowDownRightCircleFill,
+  ArrowDownRightCircle,
+  ArrowDownRightSquareFill,
+  ArrowDownRightSquare,
   ArrowDownRight,
   ArrowDownShort,
+  ArrowDownSquareFill,
+  ArrowDownSquare,
+  ArrowDownUp,
   ArrowDown,
+  ArrowLeftCircleFill,
+  ArrowLeftCircle,
   ArrowLeftRight,
   ArrowLeftShort,
+  ArrowLeftSquareFill,
+  ArrowLeftSquare,
   ArrowLeft,
   ArrowRepeat,
   ArrowReturnLeft,
   ArrowReturnRight,
+  ArrowRightCircleFill,
+  ArrowRightCircle,
   ArrowRightShort,
+  ArrowRightSquareFill,
+  ArrowRightSquare,
   ArrowRight,
-  ArrowUpDown,
+  ArrowUpCircleFill,
+  ArrowUpCircle,
+  ArrowUpLeftCircleFill,
+  ArrowUpLeftCircle,
+  ArrowUpLeftSquareFill,
+  ArrowUpLeftSquare,
   ArrowUpLeft,
+  ArrowUpRightCircleFill,
+  ArrowUpRightCircle,
+  ArrowUpRightSquareFill,
+  ArrowUpRightSquare,
   ArrowUpRight,
   ArrowUpShort,
+  ArrowUpSquareFill,
+  ArrowUpSquare,
   ArrowUp,
   ArrowsAngleContract,
   ArrowsAngleExpand,
@@ -578,6 +747,7 @@ export const allIcons = {
   ArrowsMove,
   AspectRatioFill,
   AspectRatio,
+  Asterisk,
   At,
   AwardFill,
   Award,
@@ -585,10 +755,19 @@ export const allIcons = {
   BackspaceReverseFill,
   BackspaceReverse,
   Backspace,
+  BagCheck,
+  BagDash,
   BagFill,
+  BagPlus,
   Bag,
   BarChartFill,
   BarChart,
+  BasketFill,
+  Basket,
+  Basket2Fill,
+  Basket2,
+  Basket3Fill,
+  Basket3,
   BatteryCharging,
   BatteryFull,
   BatteryHalf,
@@ -627,6 +806,8 @@ export const allIcons = {
   BoxArrowUpLeft,
   BoxArrowUpRight,
   BoxArrowUp,
+  BoxSeam,
+  Box,
   Braces,
   BriefcaseFill,
   Briefcase,
@@ -643,9 +824,40 @@ export const allIcons = {
   Bucket,
   Building,
   Bullseye,
+  CalendarCheckFill,
+  CalendarCheck,
+  CalendarDateFill,
+  CalendarDate,
+  CalendarDayFill,
+  CalendarDay,
   CalendarFill,
+  CalendarMinusFill,
+  CalendarMinus,
+  CalendarMonthFill,
+  CalendarMonth,
+  CalendarPlusFill,
+  CalendarPlus,
   Calendar,
+  Calendar2CheckFill,
+  Calendar2Check,
+  Calendar2DateFill,
+  Calendar2Date,
+  Calendar2DayFill,
+  Calendar2Day,
+  Calendar2Fill,
+  Calendar2MinusFill,
+  Calendar2Minus,
+  Calendar2MonthFill,
+  Calendar2Month,
+  Calendar2PlusFill,
+  Calendar2Plus,
+  Calendar2,
+  Calendar3Fill,
+  Calendar3,
+  Calendar4,
   CameraVideoFill,
+  CameraVideoOffFill,
+  CameraVideoOff,
   CameraVideo,
   Camera,
   CapslockFill,
@@ -656,13 +868,29 @@ export const allIcons = {
   CardList,
   CardText,
   CaretDownFill,
+  CaretDownSquareFill,
+  CaretDownSquare,
   CaretDown,
   CaretLeftFill,
+  CaretLeftSquareFill,
+  CaretLeftSquare,
   CaretLeft,
   CaretRightFill,
+  CaretRightSquareFill,
+  CaretRightSquare,
   CaretRight,
   CaretUpFill,
+  CaretUpSquareFill,
+  CaretUpSquare,
   CaretUp,
+  CartCheck,
+  CartDash,
+  CartFill,
+  CartPlus,
+  Cart,
+  Cart2,
+  Cart3,
+  Cart4,
   ChatDotsFill,
   ChatDots,
   ChatFill,
@@ -676,9 +904,15 @@ export const allIcons = {
   ChatSquare,
   Chat,
   CheckAll,
-  CheckBox,
+  CheckCircleFill,
   CheckCircle,
+  CheckSquareFill,
+  CheckSquare,
   Check,
+  Check2All,
+  Check2Circle,
+  Check2Square,
+  Check2,
   ChevronBarContract,
   ChevronBarDown,
   ChevronBarExpand,
@@ -710,6 +944,8 @@ export const allIcons = {
   Clock,
   CloudDownload,
   CloudFill,
+  CloudSlashFill,
+  CloudSlash,
   CloudUpload,
   Cloud,
   CodeSlash,
@@ -727,6 +963,7 @@ export const allIcons = {
   Controller,
   CreditCard,
   Crop,
+  Cup,
   CursorFill,
   CursorText,
   Cursor,
@@ -740,6 +977,8 @@ export const allIcons = {
   Diamond,
   DisplayFill,
   Display,
+  DoorClosedFill,
+  DoorClosed,
   Dot,
   Download,
   DropletFill,
@@ -750,6 +989,14 @@ export const allIcons = {
   Egg,
   EjectFill,
   Eject,
+  EmojiAngry,
+  EmojiDizzy,
+  EmojiFrown,
+  EmojiLaughing,
+  EmojiNeutral,
+  EmojiSmileUpsideDown,
+  EmojiSmile,
+  EmojiSunglasses,
   EnvelopeFill,
   EnvelopeOpenFill,
   EnvelopeOpen,
@@ -841,11 +1088,23 @@ export const allIcons = {
   Grid3x3,
   GridFill,
   Grid,
+  GripHorizontal,
+  GripVertical,
   Hammer,
+  HandIndexThumb,
+  HandIndex,
+  HandThumbsDown,
+  HandThumbsUp,
+  HandbagFill,
+  Handbag,
   Hash,
+  Headphones,
   HeartFill,
   HeartHalf,
   Heart,
+  HexagonFill,
+  HexagonHalf,
+  Hexagon,
   HouseDoorFill,
   HouseDoor,
   HouseFill,
@@ -903,6 +1162,8 @@ export const allIcons = {
   MicMuteFill,
   MicMute,
   Mic,
+  MinecartLoaded,
+  Minecart,
   Moon,
   MusicNoteBeamed,
   MusicNoteList,
@@ -924,12 +1185,12 @@ export const allIcons = {
   PentagonFill,
   PentagonHalf,
   Pentagon,
-  PeopleCircle,
   PeopleFill,
   People,
   PersonBoundingBox,
   PersonCheckFill,
   PersonCheck,
+  PersonCircle,
   PersonDashFill,
   PersonDash,
   PersonFill,
@@ -964,6 +1225,8 @@ export const allIcons = {
   QuestionSquareFill,
   QuestionSquare,
   Question,
+  ReceiptCutoff,
+  Receipt,
   ReplyAllFill,
   ReplyAll,
   ReplyFill,
@@ -975,9 +1238,13 @@ export const allIcons = {
   ShieldLockFill,
   ShieldLock,
   ShieldShaded,
+  ShieldSlashFill,
+  ShieldSlash,
   Shield,
   ShiftFill,
   Shift,
+  ShopWindow,
+  Shop,
   Shuffle,
   SkipBackwardFill,
   SkipBackward,
@@ -1035,6 +1302,8 @@ export const allIcons = {
   TriangleHalf,
   Triangle,
   Trophy,
+  TruckFlatbed,
+  Truck,
   TvFill,
   Tv,
   TypeBold,
@@ -1048,6 +1317,8 @@ export const allIcons = {
   Union,
   UnlockFill,
   Unlock,
+  UpcScan,
+  Upc,
   Upload,
   ViewList,
   ViewStacked,
@@ -1055,10 +1326,13 @@ export const allIcons = {
   VolumeDown,
   VolumeMuteFill,
   VolumeMute,
+  VolumeOffFill,
+  VolumeOff,
   VolumeUpFill,
   VolumeUp,
   Vr,
   Wallet,
+  Wallet2,
   Watch,
   Wifi,
   Window,
