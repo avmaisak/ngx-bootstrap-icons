@@ -12,7 +12,7 @@ export class NgxBootstrapIconsModule {
     if (!this.icons) throw new Error(`No icon provided. Make sure to use 'NgxBootstrapIconsModule.pick({ ... })' when importing the module\n`);
   }
 
-  static pick(icons: {[key: string]: string}): ModuleWithProviders {
+  static pick(icons: {[key: string]: string}): ModuleWithProviders<NgxBootstrapIconsModule> {
     return {
       ngModule: NgxBootstrapIconsModule,
       providers: [
