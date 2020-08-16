@@ -115,5 +115,12 @@ _5. Use it in template_
 ```ts
 <i-bs name="alarm-fill"></i-bs>
 ```
-
+Also you can use width and height for icon (By default width and height are 1rem)
+```ts
+<i-bs 
+  name="alarm-fill" 
+  width="2rem" 
+  height="2rem">
+</i-bs>
+```
 
