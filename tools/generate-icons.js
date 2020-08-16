@@ -19,9 +19,7 @@ return Promise.resolve()
   .then(() => {
     fs.readdirSync(`${iconsSrcFolder}`).forEach(filename => {
 
-      if (filename === '__t.txt') {
-        return;
-      }
+      if (filename === '__t.txt') return;
 
       const iconName = filename.replace('.svg', '').trim();
       const fileContent = fs.readFileSync(`${iconsSrcFolder}/${filename}`, 'utf-8');

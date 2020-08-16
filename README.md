@@ -23,7 +23,7 @@
 
 
 
-![Bootstrap Icons full set](https://user-images.githubusercontent.com/98681/69751498-12224a80-1104-11ea-9dd6-6f162a8a2566.png)
+![Bootstrap Icons full set](https://user-images.githubusercontent.com/98681/85891337-be640680-b7a3-11ea-84a0-0a103fce118c.png)
 
 
 ### Demo
@@ -115,3 +115,12 @@ _5. Use it in template_
 ```ts
 <i-bs name="alarm-fill"></i-bs>
 ```
+Also you can use width and height for icon (By default width and height are 1rem)
+```ts
+<i-bs 
+  name="alarm-fill" 
+  width="2rem" 
+  height="2rem">
+</i-bs>
+```
+

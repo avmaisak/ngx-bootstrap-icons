@@ -1,11 +1,15 @@
 <div class="text-center container">
 
   <div class="w-75 mx-auto py-3">
-    <input type="text" class="form-control" placeholder="Search icon" (change)="onSearch()" [(ngModel)]="search" /> <!-- -->
+    <input type="text" class="form-control" placeholder="Search icon" (change)="onSearch()" [(ngModel)]="search" />
   </div>
 
-  <div *ngFor="let item of items" class="d-inline-block text-center w-25 border m-2">
-    <i-bs [name]="item" class="bs-icon d-block pb-2 text-center"></i-bs>
-    <small class="d-inline-block text-muted mx-auto mb-2">{{ item }}</small>
+  <div class="row">
+    <ng-container *ngFor="let item of items">
+      <div class="col-3 border p-5" >
+        <i-bs [name]="item" width="2rem" height="2rem"></i-bs>
+        <b class="d-block">{{ item }}</b>
+      </div>
+    </ng-container>
   </div>
 </div>
