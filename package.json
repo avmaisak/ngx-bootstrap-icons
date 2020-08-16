@@ -7,9 +7,12 @@
     "start": "ng serve --open",
     "gen": "node tools/generate-icons.js",
     "build": "ng build --prod",
+    "build-gp": "ng build --prod --base-href https://avmaisak.github.io/ngx-bootstrap-icons/",
+    "deploy-gp": "ngh --dir dist/ngx-bootstrap-icons",
     "build-lib": "npm run gen && ng-packagr -p projects/ngx-bootstrap-icons-lib/ng-package.json",
     "test": "ng test",
     "lint": "ng lint",
+    "postinstall": "ngcc",
     "e2e": "ng e2e"
   },
   "private": true,
