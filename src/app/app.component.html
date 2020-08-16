@@ -1,14 +1,37 @@
 <div class="text-center container">
 
-  <div class="w-75 mx-auto py-3">
-    <input type="text" class="form-control" placeholder="Search icon" (change)="onSearch()" [(ngModel)]="search" />
+  <div class="py-3">
+    <div class="row">
+      <div class="col-12 p-0 m-0">
+        <div class="text-left">
+          <h1 class="d-1">Bootstrap Icons</h1>
+          <p>For the first time ever, Bootstrap has its own icon library, custom designed and built for our components and documentation.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3 p-0 m-0">
+        <input type="text"
+               class="form-control"
+               placeholder="Search icon"
+               (change)="onSearch()"
+               [(ngModel)]="search" />
+      </div>
+      <div class="col-9 text-left">
+        <a (click)="onClear()"
+           class="btn btn-light">Clear search</a>
+      </div>
+    </div>
   </div>
 
   <div class="row">
     <ng-container *ngFor="let item of items">
-      <div class="col-3 border p-5" >
-        <i-bs [name]="item" width="2rem" height="2rem"></i-bs>
-        <b class="d-block">{{ item }}</b>
+      <div class="col-4 border p-5">
+        <i-bs [name]="item"
+              class="text-primary"
+              width="2rem"
+              height="2rem"></i-bs>
+        <span class="d-block text-muted mt-2">{{ item }}</span>
       </div>
     </ng-container>
   </div>

@@ -12,18 +12,23 @@ export class AppComponent implements OnInit {
   items = icons;
   search: string;
 
-  ngOnInit(): void {
-    this.itemsDefault = _.clone(this.items);
-  }
+  private _init = () => this.itemsDefault = _.clone(this.items);
+
+  ngOnInit(): void { this._init(); }
 
   onSearch = () => {
 
+    if (this.search) this.items = this.items.filter(x => x.includes(this.search.trim()));
     if (!this.search) {
       this.items = _.clone(this.itemsDefault);
       return;
     }
 
-    this.items = this.items.filter(x => x.includes(this.search.trim()));
+  }
+
+  onClear() {
+    this.search = null;
+    this.items = _.clone(this.itemsDefault);
   }
 
 }
