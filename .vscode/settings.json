@@ -1,0 +1,18 @@
+{
+  "html.format.wrapAttributes": "force-aligned",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.unfoldOnClickAfterEndOfLine": true,
+  "editor.autoIndent": "none",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.renderControlCharacters": true,
+  "editor.renderIndentGuides": true,
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "editor.defaultFormatter": "vscode.configuration-editing",
+  "editor.detectIndentation": false
+}

@@ -7,17 +7,12 @@
   
   <span align="center">This package allows you to use the 
   <a align="center" href="https://icons.getbootstrap.com/">Bootstrap Icons</a> in your angular applications.</span>
-  
-  <br><a href="https://icons.getbootstrap.com/" align="center"><strong>Explore Bootstrap Icons »</strong></a>
 </p>
-
 
 [![GitHub issues](https://img.shields.io/github/issues/avmaisak/ngx-bootstrap-icons)](https://github.com/avmaisak/ngx-bootstrap-icons/issues)
 [![GitHub license](https://img.shields.io/github/license/avmaisak/ngx-bootstrap-icons)](https://github.com/avmaisak/ngx-bootstrap-icons/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/avmaisak/ngx-bootstrap-icons)](https://github.com/avmaisak/ngx-bootstrap-icons/stargazers)
-![Dependencies](https://david-dm.org/avmaisak/ngx-bootstrap-icons.svg)
 [![npm version](https://badge.fury.io/js/ngx-bootstrap-icons.svg)](https://badge.fury.io/js/ngx-bootstrap-icons)
-
 
 [![Package Quality](https://npm.packagequality.com/badge/ngx-bootstrap-icons.png)](https://packagequality.com/#?package=ngx-bootstrap-icons)
 
@@ -27,7 +22,8 @@
 
 
 ### Demo
-Coming soon
+
+<a href="https://avmaisak.github.io/ngx-bootstrap-icons/" align="center"><strong>Demo Here</strong></a>
 
 ### Usage
 
@@ -123,4 +119,3 @@ Also you can use width and height for icon (By default width and height are 1rem
   height="2rem">
 </i-bs>
 ```
-

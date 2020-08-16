@@ -1,6 +1,7 @@
 {
   "name": "ngx-bootstrap-icons-demo",
   "version": "0.0.2",
+  "homepage": "https://avmaisak.github.io/ngx-bootstrap-icons/",
   "scripts": {
     "ng": "./node_modules/@angular/cli/bin/ng",
     "start": "ng serve --open",
@@ -23,7 +24,7 @@
     "@angular/router": "10.0.9",
     "bootstrap": "^4.5.2",
     "loadsh": "0.0.4",
-    "ngx-bootstrap-icons": "0.0.20",
+    "ngx-bootstrap-icons": "0.0.22",
     "rxjs": "6.6.2",
     "tslib": "2.0.1",
     "zone.js": "0.10.3"
