@@ -8,27 +8,43 @@ import { icons } from './icons';
 })
 export class AppComponent implements OnInit {
 
-  itemsDefault = [];
   items = icons;
   search: string;
+  showCode = false;
+  selectedIcon: string;
 
-  private _init = () => this.itemsDefault = _.clone(this.items);
+  private _getItems = () => this.items = _.clone(icons);
 
-  ngOnInit(): void { this._init(); }
+  ngOnInit(): void { this._getItems(); }
 
   onSearch = () => {
-
-    if (this.search) this.items = this.items.filter(x => x.includes(this.search.trim()));
+    if (this.search) this.items = _.clone(icons).filter((x) => x.includes(this.search.trim()));
     if (!this.search) {
-      this.items = _.clone(this.itemsDefault);
+      this._getItems();
       return;
     }
-
   }
 
   onClear() {
     this.search = null;
-    this.items = _.clone(this.itemsDefault);
+    this._getItems();
   }
 
+  getHtmlCode = (item: string) => `<i-bs
+  [name]="${item}"
+  class="text-primary"
+  width="2rem"
+  height="2rem">
+</i-bs>`.trim();
+
+  showBtnCode = (icon: string) => this.selectedIcon && icon === this.selectedIcon && this.showBtnCode;
+
+  onShowCode(icon: string) {
+    this.showCode = !this.showCode;
+    this.selectedIcon = icon;
+    if (!this.showCode) {
+      this.selectedIcon = null;
+      return;
+    }
+  }
 }
