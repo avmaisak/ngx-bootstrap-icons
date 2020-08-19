@@ -31,7 +31,7 @@ export class AppComponent implements OnInit {
   }
 
   getHtmlCode = (item: string) => `<i-bs
-  [name]="${item}"
+  name="${item}"
   class="text-primary"
   width="2rem"
   height="2rem">

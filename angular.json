@@ -17,6 +17,12 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "lodash",
+              "@angular/common/locales/ru",
+              "@ant-design/colors",
+              "js-sha256"
+            ],
             "outputPath": "dist/ngx-bootstrap-icons",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -159,6 +165,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "ngx-bootstrap-icons"
 }

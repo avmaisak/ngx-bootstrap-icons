@@ -91,6 +91,8 @@ import { Badge4kFill } from './badge-4k-fill';
 import { Badge4k } from './badge-4k';
 import { Badge8kFill } from './badge-8k-fill';
 import { Badge8k } from './badge-8k';
+import { BadgeAdFill } from './badge-ad-fill';
+import { BadgeAd } from './badge-ad';
 import { BadgeCcFill } from './badge-cc-fill';
 import { BadgeCc } from './badge-cc';
 import { BadgeHdFill } from './badge-hd-fill';
@@ -99,10 +101,15 @@ import { BadgeTmFill } from './badge-tm-fill';
 import { BadgeTm } from './badge-tm';
 import { BadgeVoFill } from './badge-vo-fill';
 import { BadgeVo } from './badge-vo';
+import { BagCheckFill } from './bag-check-fill';
 import { BagCheck } from './bag-check';
+import { BagDashFill } from './bag-dash-fill';
 import { BagDash } from './bag-dash';
 import { BagFill } from './bag-fill';
+import { BagPlusFill } from './bag-plus-fill';
 import { BagPlus } from './bag-plus';
+import { BagXFill } from './bag-x-fill';
+import { BagX } from './bag-x';
 import { Bag } from './bag';
 import { BarChartFill } from './bar-chart-fill';
 import { BarChartLineFill } from './bar-chart-line-fill';
@@ -131,10 +138,19 @@ import { BlockquoteRight } from './blockquote-right';
 import { BookFill } from './book-fill';
 import { BookHalf } from './book-half';
 import { Book } from './book';
+import { BookmarkCheckFill } from './bookmark-check-fill';
 import { BookmarkCheck } from './bookmark-check';
+import { BookmarkDashFill } from './bookmark-dash-fill';
 import { BookmarkDash } from './bookmark-dash';
 import { BookmarkFill } from './bookmark-fill';
+import { BookmarkHeartFill } from './bookmark-heart-fill';
+import { BookmarkHeart } from './bookmark-heart';
+import { BookmarkPlusFill } from './bookmark-plus-fill';
 import { BookmarkPlus } from './bookmark-plus';
+import { BookmarkStarFill } from './bookmark-star-fill';
+import { BookmarkStar } from './bookmark-star';
+import { BookmarkXFill } from './bookmark-x-fill';
+import { BookmarkX } from './bookmark-x';
 import { Bookmark } from './bookmark';
 import { BookmarksFill } from './bookmarks-fill';
 import { Bookmarks } from './bookmarks';
@@ -178,6 +194,7 @@ import { BrightnessLowFill } from './brightness-low-fill';
 import { BrightnessLow } from './brightness-low';
 import { BroadcastPin } from './broadcast-pin';
 import { Broadcast } from './broadcast';
+import { BrushFill } from './brush-fill';
 import { Brush } from './brush';
 import { BucketFill } from './bucket-fill';
 import { Bucket } from './bucket';
@@ -206,6 +223,8 @@ import { CalendarRangeFill } from './calendar-range-fill';
 import { CalendarRange } from './calendar-range';
 import { CalendarWeekFill } from './calendar-week-fill';
 import { CalendarWeek } from './calendar-week';
+import { CalendarXFill } from './calendar-x-fill';
+import { CalendarX } from './calendar-x';
 import { Calendar } from './calendar';
 import { Calendar2CheckFill } from './calendar2-check-fill';
 import { Calendar2Check } from './calendar2-check';
@@ -226,6 +245,8 @@ import { Calendar2RangeFill } from './calendar2-range-fill';
 import { Calendar2Range } from './calendar2-range';
 import { Calendar2WeekFill } from './calendar2-week-fill';
 import { Calendar2Week } from './calendar2-week';
+import { Calendar2XFill } from './calendar2-x-fill';
+import { Calendar2X } from './calendar2-x';
 import { Calendar2 } from './calendar2';
 import { Calendar3EventFill } from './calendar3-event-fill';
 import { Calendar3Event } from './calendar3-event';
@@ -271,10 +292,15 @@ import { CaretUpFill } from './caret-up-fill';
 import { CaretUpSquareFill } from './caret-up-square-fill';
 import { CaretUpSquare } from './caret-up-square';
 import { CaretUp } from './caret-up';
+import { CartCheckFill } from './cart-check-fill';
 import { CartCheck } from './cart-check';
+import { CartDashFill } from './cart-dash-fill';
 import { CartDash } from './cart-dash';
 import { CartFill } from './cart-fill';
+import { CartPlusFill } from './cart-plus-fill';
 import { CartPlus } from './cart-plus';
+import { CartXFill } from './cart-x-fill';
+import { CartX } from './cart-x';
 import { Cart } from './cart';
 import { Cart2 } from './cart2';
 import { Cart3 } from './cart3';
@@ -352,6 +378,7 @@ import { ClipboardCheck } from './clipboard-check';
 import { ClipboardData } from './clipboard-data';
 import { ClipboardMinus } from './clipboard-minus';
 import { ClipboardPlus } from './clipboard-plus';
+import { ClipboardX } from './clipboard-x';
 import { Clipboard } from './clipboard';
 import { ClockFill } from './clock-fill';
 import { ClockHistory } from './clock-history';
@@ -384,6 +411,7 @@ import { Collection } from './collection';
 import { ColumnsGap } from './columns-gap';
 import { Columns } from './columns';
 import { Command } from './command';
+import { CompassFill } from './compass-fill';
 import { Compass } from './compass';
 import { ConeStriped } from './cone-striped';
 import { Cone } from './cone';
@@ -397,6 +425,7 @@ import { CreditCard2Front } from './credit-card-2-front';
 import { CreditCardFill } from './credit-card-fill';
 import { CreditCard } from './credit-card';
 import { Crop } from './crop';
+import { CupFill } from './cup-fill';
 import { CupStraw } from './cup-straw';
 import { Cup } from './cup';
 import { CursorFill } from './cursor-fill';
@@ -491,6 +520,7 @@ import { FileCodeFill } from './file-code-fill';
 import { FileCode } from './file-code';
 import { FileDiffFill } from './file-diff-fill';
 import { FileDiff } from './file-diff';
+import { FileEarmarkArrowDownFill } from './file-earmark-arrow-down-fill';
 import { FileEarmarkArrowDown } from './file-earmark-arrow-down';
 import { FileEarmarkArrowUpFill } from './file-earmark-arrow-up-fill';
 import { FileEarmarkArrowUp } from './file-earmark-arrow-up';
@@ -504,23 +534,57 @@ import { FileEarmarkCodeFill } from './file-earmark-code-fill';
 import { FileEarmarkCode } from './file-earmark-code';
 import { FileEarmarkDiffFill } from './file-earmark-diff-fill';
 import { FileEarmarkDiff } from './file-earmark-diff';
+import { FileEarmarkEaselFill } from './file-earmark-easel-fill';
+import { FileEarmarkEasel } from './file-earmark-easel';
 import { FileEarmarkFill } from './file-earmark-fill';
+import { FileEarmarkFontFill } from './file-earmark-font-fill';
+import { FileEarmarkFont } from './file-earmark-font';
+import { FileEarmarkImageFill } from './file-earmark-image-fill';
+import { FileEarmarkImage } from './file-earmark-image';
+import { FileEarmarkLockFill } from './file-earmark-lock-fill';
+import { FileEarmarkLock } from './file-earmark-lock';
+import { FileEarmarkLock2Fill } from './file-earmark-lock2-fill';
+import { FileEarmarkLock2 } from './file-earmark-lock2';
 import { FileEarmarkMedicalFill } from './file-earmark-medical-fill';
 import { FileEarmarkMedical } from './file-earmark-medical';
 import { FileEarmarkMinusFill } from './file-earmark-minus-fill';
 import { FileEarmarkMinus } from './file-earmark-minus';
+import { FileEarmarkMusicFill } from './file-earmark-music-fill';
+import { FileEarmarkMusic } from './file-earmark-music';
+import { FileEarmarkPersonFill } from './file-earmark-person-fill';
+import { FileEarmarkPerson } from './file-earmark-person';
+import { FileEarmarkPlayFill } from './file-earmark-play-fill';
+import { FileEarmarkPlay } from './file-earmark-play';
 import { FileEarmarkPlusFill } from './file-earmark-plus-fill';
 import { FileEarmarkPlus } from './file-earmark-plus';
+import { FileEarmarkPostFill } from './file-earmark-post-fill';
+import { FileEarmarkPost } from './file-earmark-post';
+import { FileEarmarkRichtextFill } from './file-earmark-richtext-fill';
+import { FileEarmarkRichtext } from './file-earmark-richtext';
 import { FileEarmarkRuledFill } from './file-earmark-ruled-fill';
 import { FileEarmarkRuled } from './file-earmark-ruled';
+import { FileEarmarkSlidesFill } from './file-earmark-slides-fill';
+import { FileEarmarkSlides } from './file-earmark-slides';
 import { FileEarmarkSpreadsheetFill } from './file-earmark-spreadsheet-fill';
 import { FileEarmarkSpreadsheet } from './file-earmark-spreadsheet';
 import { FileEarmarkTextFill } from './file-earmark-text-fill';
 import { FileEarmarkText } from './file-earmark-text';
+import { FileEarmarkXFill } from './file-earmark-x-fill';
+import { FileEarmarkX } from './file-earmark-x';
 import { FileEarmarkZipFill } from './file-earmark-zip-fill';
 import { FileEarmarkZip } from './file-earmark-zip';
 import { FileEarmark } from './file-earmark';
+import { FileEaselFill } from './file-easel-fill';
+import { FileEasel } from './file-easel';
 import { FileFill } from './file-fill';
+import { FileFontFill } from './file-font-fill';
+import { FileFont } from './file-font';
+import { FileImageFill } from './file-image-fill';
+import { FileImage } from './file-image';
+import { FileLockFill } from './file-lock-fill';
+import { FileLock } from './file-lock';
+import { FileLock2Fill } from './file-lock2-fill';
+import { FileLock2 } from './file-lock2';
 import { FileMedicalFill } from './file-medical-fill';
 import { FileMedical } from './file-medical';
 import { FileMinusFill } from './file-minus-fill';
@@ -529,6 +593,8 @@ import { FileMusicFill } from './file-music-fill';
 import { FileMusic } from './file-music';
 import { FilePersonFill } from './file-person-fill';
 import { FilePerson } from './file-person';
+import { FilePlayFill } from './file-play-fill';
+import { FilePlay } from './file-play';
 import { FilePlusFill } from './file-plus-fill';
 import { FilePlus } from './file-plus';
 import { FilePostFill } from './file-post-fill';
@@ -537,10 +603,14 @@ import { FileRichtextFill } from './file-richtext-fill';
 import { FileRichtext } from './file-richtext';
 import { FileRuledFill } from './file-ruled-fill';
 import { FileRuled } from './file-ruled';
+import { FileSlidesFill } from './file-slides-fill';
+import { FileSlides } from './file-slides';
 import { FileSpreadsheetFill } from './file-spreadsheet-fill';
 import { FileSpreadsheet } from './file-spreadsheet';
 import { FileTextFill } from './file-text-fill';
 import { FileText } from './file-text';
+import { FileXFill } from './file-x-fill';
+import { FileX } from './file-x';
 import { FileZipFill } from './file-zip-fill';
 import { FileZip } from './file-zip';
 import { File } from './file';
@@ -565,6 +635,7 @@ import { FolderMinus } from './folder-minus';
 import { FolderPlus } from './folder-plus';
 import { FolderSymlinkFill } from './folder-symlink-fill';
 import { FolderSymlink } from './folder-symlink';
+import { FolderX } from './folder-x';
 import { Folder } from './folder';
 import { Folder2Open } from './folder2-open';
 import { Folder2 } from './folder2';
@@ -581,7 +652,9 @@ import { GearWideConnected } from './gear-wide-connected';
 import { GearWide } from './gear-wide';
 import { Gear } from './gear';
 import { Gem } from './gem';
+import { GeoAltFill } from './geo-alt-fill';
 import { GeoAlt } from './geo-alt';
+import { GeoFill } from './geo-fill';
 import { Geo } from './geo';
 import { GiftFill } from './gift-fill';
 import { Gift } from './gift';
@@ -663,6 +736,7 @@ import { JournalMinus } from './journal-minus';
 import { JournalPlus } from './journal-plus';
 import { JournalRichtext } from './journal-richtext';
 import { JournalText } from './journal-text';
+import { JournalX } from './journal-x';
 import { Journal } from './journal';
 import { Journals } from './journals';
 import { Joystick } from './joystick';
@@ -710,6 +784,7 @@ import { LockFill } from './lock-fill';
 import { Lock } from './lock';
 import { Mailbox } from './mailbox';
 import { Mailbox2 } from './mailbox2';
+import { MapFill } from './map-fill';
 import { Map } from './map';
 import { MarkdownFill } from './markdown-fill';
 import { Markdown } from './markdown';
@@ -764,7 +839,9 @@ import { PauseFill } from './pause-fill';
 import { Pause } from './pause';
 import { PeaceFill } from './peace-fill';
 import { Peace } from './peace';
+import { PenFill } from './pen-fill';
 import { Pen } from './pen';
+import { PencilFill } from './pencil-fill';
 import { PencilSquare } from './pencil-square';
 import { Pencil } from './pencil';
 import { PentagonFill } from './pentagon-fill';
@@ -786,10 +863,13 @@ import { PersonLinesFill } from './person-lines-fill';
 import { PersonPlusFill } from './person-plus-fill';
 import { PersonPlus } from './person-plus';
 import { PersonSquare } from './person-square';
+import { PersonXFill } from './person-x-fill';
+import { PersonX } from './person-x';
 import { Person } from './person';
 import { PhoneFill } from './phone-fill';
 import { PhoneLandscapeFill } from './phone-landscape-fill';
 import { PhoneLandscape } from './phone-landscape';
+import { PhoneVibrate } from './phone-vibrate';
 import { Phone } from './phone';
 import { PieChartFill } from './pie-chart-fill';
 import { PieChart } from './pie-chart';
@@ -797,6 +877,7 @@ import { PipFill } from './pip-fill';
 import { Pip } from './pip';
 import { PlayFill } from './play-fill';
 import { Play } from './play';
+import { PlugFill } from './plug-fill';
 import { Plug } from './plug';
 import { PlusCircleFill } from './plus-circle-fill';
 import { PlusCircle } from './plus-circle';
@@ -830,6 +911,7 @@ import { ReplyFill } from './reply-fill';
 import { Reply } from './reply';
 import { RssFill } from './rss-fill';
 import { Rss } from './rss';
+import { Scissors } from './scissors';
 import { Screwdriver } from './screwdriver';
 import { Search } from './search';
 import { SegmentedNav } from './segmented-nav';
@@ -842,6 +924,7 @@ import { ShieldFillCheck } from './shield-fill-check';
 import { ShieldFillExclamation } from './shield-fill-exclamation';
 import { ShieldFillMinus } from './shield-fill-minus';
 import { ShieldFillPlus } from './shield-fill-plus';
+import { ShieldFillX } from './shield-fill-x';
 import { ShieldFill } from './shield-fill';
 import { ShieldLockFill } from './shield-lock-fill';
 import { ShieldLock } from './shield-lock';
@@ -850,6 +933,7 @@ import { ShieldPlus } from './shield-plus';
 import { ShieldShaded } from './shield-shaded';
 import { ShieldSlashFill } from './shield-slash-fill';
 import { ShieldSlash } from './shield-slash';
+import { ShieldX } from './shield-x';
 import { Shield } from './shield';
 import { ShiftFill } from './shift-fill';
 import { Shift } from './shift';
@@ -892,6 +976,7 @@ import { SortNumericUp } from './sort-numeric-up';
 import { SortUpAlt } from './sort-up-alt';
 import { SortUp } from './sort-up';
 import { Soundwave } from './soundwave';
+import { SpeakerFill } from './speaker-fill';
 import { Speaker } from './speaker';
 import { Spellcheck } from './spellcheck';
 import { SquareFill } from './square-fill';
@@ -950,6 +1035,7 @@ import { TextCenter } from './text-center';
 import { TextIndentLeft } from './text-indent-left';
 import { TextIndentRight } from './text-indent-right';
 import { TextLeft } from './text-left';
+import { TextParagraph } from './text-paragraph';
 import { TextRight } from './text-right';
 import { TextareaResize } from './textarea-resize';
 import { TextareaT } from './textarea-t';
@@ -974,6 +1060,7 @@ import { Tree } from './tree';
 import { TriangleFill } from './triangle-fill';
 import { TriangleHalf } from './triangle-half';
 import { Triangle } from './triangle';
+import { TrophyFill } from './trophy-fill';
 import { Trophy } from './trophy';
 import { TruckFlatbed } from './truck-flatbed';
 import { Truck } from './truck';
@@ -987,7 +1074,9 @@ import { TypeItalic } from './type-italic';
 import { TypeStrikethrough } from './type-strikethrough';
 import { TypeUnderline } from './type-underline';
 import { Type } from './type';
+import { UiChecksGrid } from './ui-checks-grid';
 import { UiChecks } from './ui-checks';
+import { UiRadiosGrid } from './ui-radios-grid';
 import { UiRadios } from './ui-radios';
 import { Union } from './union';
 import { UnlockFill } from './unlock-fill';
@@ -995,6 +1084,7 @@ import { Unlock } from './unlock';
 import { UpcScan } from './upc-scan';
 import { Upc } from './upc';
 import { Upload } from './upload';
+import { VectorPen } from './vector-pen';
 import { ViewList } from './view-list';
 import { ViewStacked } from './view-stacked';
 import { Voicemail } from './voicemail';
@@ -1123,6 +1213,8 @@ export const allIcons = {
   Badge4k,
   Badge8kFill,
   Badge8k,
+  BadgeAdFill,
+  BadgeAd,
   BadgeCcFill,
   BadgeCc,
   BadgeHdFill,
@@ -1131,10 +1223,15 @@ export const allIcons = {
   BadgeTm,
   BadgeVoFill,
   BadgeVo,
+  BagCheckFill,
   BagCheck,
+  BagDashFill,
   BagDash,
   BagFill,
+  BagPlusFill,
   BagPlus,
+  BagXFill,
+  BagX,
   Bag,
   BarChartFill,
   BarChartLineFill,
@@ -1163,10 +1260,19 @@ export const allIcons = {
   BookFill,
   BookHalf,
   Book,
+  BookmarkCheckFill,
   BookmarkCheck,
+  BookmarkDashFill,
   BookmarkDash,
   BookmarkFill,
+  BookmarkHeartFill,
+  BookmarkHeart,
+  BookmarkPlusFill,
   BookmarkPlus,
+  BookmarkStarFill,
+  BookmarkStar,
+  BookmarkXFill,
+  BookmarkX,
   Bookmark,
   BookmarksFill,
   Bookmarks,
@@ -1210,6 +1316,7 @@ export const allIcons = {
   BrightnessLow,
   BroadcastPin,
   Broadcast,
+  BrushFill,
   Brush,
   BucketFill,
   Bucket,
@@ -1238,6 +1345,8 @@ export const allIcons = {
   CalendarRange,
   CalendarWeekFill,
   CalendarWeek,
+  CalendarXFill,
+  CalendarX,
   Calendar,
   Calendar2CheckFill,
   Calendar2Check,
@@ -1258,6 +1367,8 @@ export const allIcons = {
   Calendar2Range,
   Calendar2WeekFill,
   Calendar2Week,
+  Calendar2XFill,
+  Calendar2X,
   Calendar2,
   Calendar3EventFill,
   Calendar3Event,
@@ -1303,10 +1414,15 @@ export const allIcons = {
   CaretUpSquareFill,
   CaretUpSquare,
   CaretUp,
+  CartCheckFill,
   CartCheck,
+  CartDashFill,
   CartDash,
   CartFill,
+  CartPlusFill,
   CartPlus,
+  CartXFill,
+  CartX,
   Cart,
   Cart2,
   Cart3,
@@ -1384,6 +1500,7 @@ export const allIcons = {
   ClipboardData,
   ClipboardMinus,
   ClipboardPlus,
+  ClipboardX,
   Clipboard,
   ClockFill,
   ClockHistory,
@@ -1416,6 +1533,7 @@ export const allIcons = {
   ColumnsGap,
   Columns,
   Command,
+  CompassFill,
   Compass,
   ConeStriped,
   Cone,
@@ -1429,6 +1547,7 @@ export const allIcons = {
   CreditCardFill,
   CreditCard,
   Crop,
+  CupFill,
   CupStraw,
   Cup,
   CursorFill,
@@ -1523,6 +1642,7 @@ export const allIcons = {
   FileCode,
   FileDiffFill,
   FileDiff,
+  FileEarmarkArrowDownFill,
   FileEarmarkArrowDown,
   FileEarmarkArrowUpFill,
   FileEarmarkArrowUp,
@@ -1536,23 +1656,57 @@ export const allIcons = {
   FileEarmarkCode,
   FileEarmarkDiffFill,
   FileEarmarkDiff,
+  FileEarmarkEaselFill,
+  FileEarmarkEasel,
   FileEarmarkFill,
+  FileEarmarkFontFill,
+  FileEarmarkFont,
+  FileEarmarkImageFill,
+  FileEarmarkImage,
+  FileEarmarkLockFill,
+  FileEarmarkLock,
+  FileEarmarkLock2Fill,
+  FileEarmarkLock2,
   FileEarmarkMedicalFill,
   FileEarmarkMedical,
   FileEarmarkMinusFill,
   FileEarmarkMinus,
+  FileEarmarkMusicFill,
+  FileEarmarkMusic,
+  FileEarmarkPersonFill,
+  FileEarmarkPerson,
+  FileEarmarkPlayFill,
+  FileEarmarkPlay,
   FileEarmarkPlusFill,
   FileEarmarkPlus,
+  FileEarmarkPostFill,
+  FileEarmarkPost,
+  FileEarmarkRichtextFill,
+  FileEarmarkRichtext,
   FileEarmarkRuledFill,
   FileEarmarkRuled,
+  FileEarmarkSlidesFill,
+  FileEarmarkSlides,
   FileEarmarkSpreadsheetFill,
   FileEarmarkSpreadsheet,
   FileEarmarkTextFill,
   FileEarmarkText,
+  FileEarmarkXFill,
+  FileEarmarkX,
   FileEarmarkZipFill,
   FileEarmarkZip,
   FileEarmark,
+  FileEaselFill,
+  FileEasel,
   FileFill,
+  FileFontFill,
+  FileFont,
+  FileImageFill,
+  FileImage,
+  FileLockFill,
+  FileLock,
+  FileLock2Fill,
+  FileLock2,
   FileMedicalFill,
   FileMedical,
   FileMinusFill,
@@ -1561,6 +1715,8 @@ export const allIcons = {
   FileMusic,
   FilePersonFill,
   FilePerson,
+  FilePlayFill,
+  FilePlay,
   FilePlusFill,
   FilePlus,
   FilePostFill,
@@ -1569,10 +1725,14 @@ export const allIcons = {
   FileRichtext,
   FileRuledFill,
   FileRuled,
+  FileSlidesFill,
+  FileSlides,
   FileSpreadsheetFill,
   FileSpreadsheet,
   FileTextFill,
   FileText,
+  FileXFill,
+  FileX,
   FileZipFill,
   FileZip,
   File,
@@ -1597,6 +1757,7 @@ export const allIcons = {
   FolderPlus,
   FolderSymlinkFill,
   FolderSymlink,
+  FolderX,
   Folder,
   Folder2Open,
   Folder2,
@@ -1613,7 +1774,9 @@ export const allIcons = {
   GearWide,
   Gear,
   Gem,
+  GeoAltFill,
   GeoAlt,
+  GeoFill,
   Geo,
   GiftFill,
   Gift,
@@ -1695,6 +1858,7 @@ export const allIcons = {
   JournalPlus,
   JournalRichtext,
   JournalText,
+  JournalX,
   Journal,
   Journals,
   Joystick,
@@ -1742,6 +1906,7 @@ export const allIcons = {
   Lock,
   Mailbox,
   Mailbox2,
+  MapFill,
   Map,
   MarkdownFill,
   Markdown,
@@ -1796,7 +1961,9 @@ export const allIcons = {
   Pause,
   PeaceFill,
   Peace,
+  PenFill,
   Pen,
+  PencilFill,
   PencilSquare,
   Pencil,
   PentagonFill,
@@ -1818,10 +1985,13 @@ export const allIcons = {
   PersonPlusFill,
   PersonPlus,
   PersonSquare,
+  PersonXFill,
+  PersonX,
   Person,
   PhoneFill,
   PhoneLandscapeFill,
   PhoneLandscape,
+  PhoneVibrate,
   Phone,
   PieChartFill,
   PieChart,
@@ -1829,6 +1999,7 @@ export const allIcons = {
   Pip,
   PlayFill,
   Play,
+  PlugFill,
   Plug,
   PlusCircleFill,
   PlusCircle,
@@ -1862,6 +2033,7 @@ export const allIcons = {
   Reply,
   RssFill,
   Rss,
+  Scissors,
   Screwdriver,
   Search,
   SegmentedNav,
@@ -1874,6 +2046,7 @@ export const allIcons = {
   ShieldFillExclamation,
   ShieldFillMinus,
   ShieldFillPlus,
+  ShieldFillX,
   ShieldFill,
   ShieldLockFill,
   ShieldLock,
@@ -1882,6 +2055,7 @@ export const allIcons = {
   ShieldShaded,
   ShieldSlashFill,
   ShieldSlash,
+  ShieldX,
   Shield,
   ShiftFill,
   Shift,
@@ -1924,6 +2098,7 @@ export const allIcons = {
   SortUpAlt,
   SortUp,
   Soundwave,
+  SpeakerFill,
   Speaker,
   Spellcheck,
   SquareFill,
@@ -1982,6 +2157,7 @@ export const allIcons = {
   TextIndentLeft,
   TextIndentRight,
   TextLeft,
+  TextParagraph,
   TextRight,
   TextareaResize,
   TextareaT,
@@ -2006,6 +2182,7 @@ export const allIcons = {
   TriangleFill,
   TriangleHalf,
   Triangle,
+  TrophyFill,
   Trophy,
   TruckFlatbed,
   Truck,
@@ -2019,7 +2196,9 @@ export const allIcons = {
   TypeStrikethrough,
   TypeUnderline,
   Type,
+  UiChecksGrid,
   UiChecks,
+  UiRadiosGrid,
   UiRadios,
   Union,
   UnlockFill,
@@ -2027,6 +2206,7 @@ export const allIcons = {
   UpcScan,
   Upc,
   Upload,
+  VectorPen,
   ViewList,
   ViewStacked,
   Voicemail,
