@@ -12,8 +12,26 @@ export class AppComponent implements OnInit {
   search: string;
   showCode = false;
   selectedIcon: string;
+  selectedColor: string;
+  colors: string[] = [
+    'text-primary',
+    'text-secondary',
+    'text-success',
+    'text-danger',
+    'text-warning',
+    'text-info',
+    'text-dark',
+    'text-body',
+    'text-muted',
+    'text-black-50',
+    'text-white-50'
+  ];
 
   private _getItems = () => this.items = _.clone(icons);
+
+  constructor() {
+    this.selectedColor = this.colors[0];
+  }
 
   ngOnInit(): void { this._getItems(); }
 
@@ -26,13 +44,14 @@ export class AppComponent implements OnInit {
   }
 
   onClear() {
+    if (!this.search) return;
     this.search = null;
     this._getItems();
   }
 
   getHtmlCode = (item: string) => `<i-bs
   name="${item}"
-  class="text-primary"
+  class="${this.selectedColor}"
   width="2rem"
   height="2rem">
 </i-bs>`.trim();
