@@ -30,18 +30,12 @@
           <h1 class="text-primary">
             Bootstrap Icons
           </h1>
-
           <p>For the first time ever, Bootstrap has its own icon library, custom designed and built for our components and documentation.</p>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-3 p-0 m-0">
-        <!-- <input type="text"
-               class="form-control"
-               placeholder="Search icon"
-               (change)="onSearch()"
-               [(ngModel)]="search" /> -->
         <div class="input-group mb-3">
           <input type="text"
                  class="form-control"
@@ -69,28 +63,30 @@
 
   <div class="row">
     <ng-container *ngFor="let item of items">
-      <div class="col-4 border p-5 text-center">
-        <!-- toggleShowCode -->
-        <i-bs name="code-slash"
-              class="position-absolute btn btn-light border"
-              style="right:6px;top:6px;"
-              width="20px"
-              height="20px"
-              (click)="onShowCode(item)"></i-bs>
+      <div class="col-4 p-1">
+        <div class="p-4 border text-center"
+             style="min-height: 120px;">
+          <!-- toggleShowCode -->
+          <i-bs name="code-slash"
+                class="position-absolute btn btn-light border"
+                style="right:8px;top:8px;"
+                width="20px"
+                height="20px"
+                (click)="onShowCode(item)"></i-bs>
 
-        <!-- icon -->
-        <i-bs [name]="item"
-              [class]="selectedColor"
-              width="2rem"
-              height="2rem"></i-bs>
-        <b class="d-block mt-2">{{ item }}</b>
+          <!-- icon -->
+          <i-bs [name]="item"
+                [class]="selectedColor"
+                width="2rem"
+                height="2rem"></i-bs>
+          <b class="d-block mt-2">{{ item }}</b>
 
-        <!-- code -->
-        <div class="text-left"
-             *ngIf="showBtnCode(item)">
-          <pre class="text-muted">{{ getHtmlCode(item) }}</pre>
+          <!-- code -->
+          <div class="text-left border bg-light p-2 mt-2"
+               *ngIf="showBtnCode(item)">
+            <pre class="text-muted">{{ getHtmlCode(item) }}</pre>
+          </div>
         </div>
-
       </div>
     </ng-container>
   </div>

@@ -37,10 +37,7 @@ export class AppComponent implements OnInit {
 
   onSearch = () => {
     if (this.search) this.items = _.clone(icons).filter((x) => x.includes(this.search.trim()));
-    if (!this.search) {
-      this._getItems();
-      return;
-    }
+    if (!this.search) this._getItems();
   }
 
   onClear() {
@@ -61,9 +58,6 @@ export class AppComponent implements OnInit {
   onShowCode(icon: string) {
     this.showCode = !this.showCode;
     this.selectedIcon = icon;
-    if (!this.showCode) {
-      this.selectedIcon = null;
-      return;
-    }
+    if (!this.showCode) this.selectedIcon = null;
   }
 }
