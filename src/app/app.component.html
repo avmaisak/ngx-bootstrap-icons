@@ -1,36 +1,4 @@
-<nav class="navbar-expand-lg navbar navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand"
-     href="/">Angular + Bootstrap Icons</a>
-  <button class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse"
-       id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link"
-           href="https://github.com/avmaisak/ngx-bootstrap-icons">GitHub</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link"
-           href="https://icons.getbootstrap.com/">Bootstrap Icons
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link"
-           href="https://www.npmjs.com/package/ngx-bootstrap-icons">NPM
-        </a>
-      </li>
-    </ul>
-  </div>
-</nav>
+<app-header></app-header>
 
 <div class="text-center container">
 
@@ -69,15 +37,32 @@
     </div>
     <div class="row">
       <div class="col-3 p-0 m-0">
-        <input type="text"
+        <!-- <input type="text"
                class="form-control"
                placeholder="Search icon"
                (change)="onSearch()"
-               [(ngModel)]="search" />
+               [(ngModel)]="search" /> -->
+        <div class="input-group mb-3">
+          <input type="text"
+                 class="form-control"
+                 placeholder="Search icon"
+                 aria-label="Search icon"
+                 aria-describedby="button-addon2"
+                 (change)="onSearch()"
+                 [(ngModel)]="search">
+          <div class="input-group-append">
+            <a class="btn btn-light border"
+               (click)="onClear()"
+               id="button-addon2">Clear</a>
+          </div>
+        </div>
       </div>
-      <div class="col-9 text-left">
-        <a (click)="onClear()"
-           class="btn btn-light">Clear search</a>
+
+      <div class="col-3">
+        <select class="form-control"
+                [(ngModel)]="selectedColor">
+          <option *ngFor="let clr of colors">{{ clr }}</option>
+        </select>
       </div>
     </div>
   </div>
@@ -95,7 +80,7 @@
 
         <!-- icon -->
         <i-bs [name]="item"
-              class="text-primary"
+              [class]="selectedColor"
               width="2rem"
               height="2rem"></i-bs>
         <b class="d-block mt-2">{{ item }}</b>
