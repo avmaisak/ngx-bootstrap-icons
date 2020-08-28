@@ -12,3 +12,4 @@
   #### ngx-bootstrap-icons
  * 28.08.2020 - Fixed #30 - Add changelog in library scope
  * 28.08.2020 - Updated Demo Page to 1.0.0 version
+ * 28.08.2020 - Updated meta tags, favicons to demopage
