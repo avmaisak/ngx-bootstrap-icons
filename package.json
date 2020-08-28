@@ -4,7 +4,7 @@
   "homepage": "https://avmaisak.github.io/ngx-bootstrap-icons/",
   "scripts": {
     "ng": "./node_modules/@angular/cli/bin/ng",
-    "start": "ng serve --open",
+    "start": "ng serve --open --port=8838",
     "gen": "node tools/generate-icons.js",
     "build": "ng build --prod",
     "build-gp": "ng build --prod --base-href https://avmaisak.github.io/ngx-bootstrap-icons/",
@@ -28,7 +28,7 @@
     "@angular/router": "10.0.14",
     "bootstrap": "^4.5.2",
     "lodash": "^4.17.20",
-    "ngx-bootstrap-icons": "0.0.26",
+    "ngx-bootstrap-icons": "1.0.0",
     "rxjs": "6.6.2",
     "tslib": "2.0.1",
     "zone.js": "0.11.1"
