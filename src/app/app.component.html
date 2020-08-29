@@ -1,29 +1,7 @@
 <app-header></app-header>
 
-<div class="text-center container">
-
-  <div class="pt-5 mt-5">
-    <svg xmlns="http://www.w3.org/2000/svg"
-         height="55"
-         class="d-inline-block text-primary"
-         viewBox="0 0 118 94"
-         role="img">
-      <title>Bootstrap</title>
-      <path fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
-            fill="currentColor"></path>
-    </svg>
-    <b class="mx-2 text-success h1"
-       style="position: relative; top: 8px">+</b>
-    <img alt="Angular"
-         height="60"
-         class="ml-2"
-         src="https://angular.io/assets/images/logos/angular/logo-nav@2x.png" />
-
-  </div>
-
-  <div class="py-3">
+<div style="margin-top:70px;">
+  <div class="text-center container py-3">
     <div class="row">
       <div class="col-12 p-0 m-0">
         <div class="text-left">
@@ -59,35 +37,34 @@
         </select>
       </div>
     </div>
-  </div>
+    <div class="row">
+      <ng-container *ngFor="let item of items">
+        <div class="col-4 p-1">
+          <div class="p-4 border text-center"
+               style="min-height: 120px;">
+            <!-- toggleShowCode -->
+            <i-bs name="code-slash"
+                  class="position-absolute btn btn-light border"
+                  style="right:8px;top:8px;"
+                  width="20px"
+                  height="20px"
+                  (click)="onShowCode(item)"></i-bs>
 
-  <div class="row">
-    <ng-container *ngFor="let item of items">
-      <div class="col-4 p-1">
-        <div class="p-4 border text-center"
-             style="min-height: 120px;">
-          <!-- toggleShowCode -->
-          <i-bs name="code-slash"
-                class="position-absolute btn btn-light border"
-                style="right:8px;top:8px;"
-                width="20px"
-                height="20px"
-                (click)="onShowCode(item)"></i-bs>
+            <!-- icon -->
+            <i-bs [name]="item"
+                  [class]="selectedColor"
+                  width="2rem"
+                  height="2rem"></i-bs>
+            <b class="d-block mt-2">{{ item }}</b>
 
-          <!-- icon -->
-          <i-bs [name]="item"
-                [class]="selectedColor"
-                width="2rem"
-                height="2rem"></i-bs>
-          <b class="d-block mt-2">{{ item }}</b>
-
-          <!-- code -->
-          <div class="text-left border bg-light p-2 mt-2"
-               *ngIf="showBtnCode(item)">
-            <pre class="text-muted">{{ getHtmlCode(item) }}</pre>
+            <!-- code -->
+            <div class="text-left border bg-light p-2 mt-2"
+                 *ngIf="showBtnCode(item)">
+              <pre class="text-muted">{{ getHtmlCode(item) }}</pre>
+            </div>
           </div>
         </div>
-      </div>
-    </ng-container>
+      </ng-container>
+    </div>
   </div>
 </div>
