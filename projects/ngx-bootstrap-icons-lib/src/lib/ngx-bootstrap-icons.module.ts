@@ -1,6 +1,6 @@
-import { Icons } from './providers/icon.provider';
-import { NgModule, Optional, ModuleWithProviders } from '@angular/core';
+import { ModuleWithProviders, NgModule, Optional } from '@angular/core';
 import { NgxBootstrapIconsLibComponent } from './components/ngx-bootstrap-icons.component';
+import { Icons } from './providers/icon.provider';
 
 @NgModule({
   declarations: [NgxBootstrapIconsLibComponent],
@@ -12,7 +12,7 @@ export class NgxBootstrapIconsModule {
     if (!this.icons) throw new Error(`No icon provided. Make sure to use 'NgxBootstrapIconsModule.pick({ ... })' when importing the module\n`);
   }
 
-  static pick(icons: {[key: string]: string}): ModuleWithProviders<NgxBootstrapIconsModule> {
+  static pick(icons: { [key: string]: string }): ModuleWithProviders<NgxBootstrapIconsModule> {
     return {
       ngModule: NgxBootstrapIconsModule,
       providers: [

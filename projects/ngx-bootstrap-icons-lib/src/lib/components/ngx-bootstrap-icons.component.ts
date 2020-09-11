@@ -1,7 +1,6 @@
-import { ChangeDetectorRef, Component, ElementRef, Inject, Input, OnChanges, SimpleChanges, HostBinding } from '@angular/core';
+import { ChangeDetectorRef, Component, ElementRef, Inject, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Icons } from '../providers/icon.provider';
 import { uppercamelcase } from '../utils/utils';
-
 
 @Component({
   // tslint:disable-next-line: component-selector
@@ -26,8 +25,6 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
     if (this.height && svg.includes('height')) svg = svg.replace('height="1em"', `height="${this.height}"`);
 
     this.elem.nativeElement.innerHTML = svg;
-
     this.changeDetector.markForCheck();
   }
-
 }
