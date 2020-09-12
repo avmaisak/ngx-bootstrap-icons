@@ -21,3 +21,4 @@
  * 03.09.2020 - Updated angular to 10.1.0, typescript to 4.0.2
  * 07.09.2020 - Updated rxjs 6.6.2  → 6.6.3, @types/node  14.6.3  →  14.6.4
  * 11.09.2020 - Updated Angular to 10.1.1
+ * 12.09.2020 - Updated @types/node to 14.10.1
