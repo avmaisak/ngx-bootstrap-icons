@@ -23,3 +23,6 @@
  * 11.09.2020 - Updated Angular to 10.1.1
  * 12.09.2020 - Updated @types/node to 14.10.1
  * 17.09.2020 - Updated angular to 10.1.2, @types/node to 14.11.1
+ * 17.09.2020 - Added ngx-clipboard v 13.0.1
+ * 17.09.2020 - Added copy to clipboard button
+ * 17.09.2020 - Buttons show on hover
