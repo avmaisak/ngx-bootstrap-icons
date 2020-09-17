@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as _ from 'lodash';
+import { ClipboardService } from 'ngx-clipboard';
 import { icons } from './icons';
 
 @Component({
@@ -7,7 +8,6 @@ import { icons } from './icons';
   templateUrl: './app.component.html',
 })
 export class AppComponent implements OnInit {
-
   items = icons;
   search: string;
   showCode = false;
@@ -26,38 +26,50 @@ export class AppComponent implements OnInit {
     'text-black-50',
     'text-white-50'
   ];
+  showAlert = false;
 
-  private _getItems = () => this.items = _.clone(icons);
+  private _getItems(): void {
+    this.items = _.clone(icons);
+  }
 
-  constructor() {
+  constructor(private _clipboardService: ClipboardService) {
     this.selectedColor = this.colors[0];
   }
 
   ngOnInit(): void { this._getItems(); }
 
-  onSearch = () => {
+  onSearch(): void {
     if (this.search) this.items = _.clone(icons).filter((x) => x.includes(this.search.trim()));
     if (!this.search) this._getItems();
   }
 
-  onClear() {
+  onClear(): void {
     if (!this.search) return;
     this.search = null;
     this._getItems();
   }
 
-  getHtmlCode = (item: string) => `<i-bs
+  htmlCode = (item: string): string => `<i-bs
   name="${item}"
   class="${this.selectedColor}"
   width="2rem"
   height="2rem">
 </i-bs>`.trim();
 
-  showBtnCode = (icon: string) => this.selectedIcon && icon === this.selectedIcon && this.showBtnCode;
+  btnCode = (icon: string) => this.selectedIcon && icon === this.selectedIcon && this.btnCode;
 
-  onShowCode(icon: string) {
+  onShowCode(icon: string): void {
     this.showCode = !this.showCode;
     this.selectedIcon = icon;
     if (!this.showCode) this.selectedIcon = null;
+  }
+
+  toggleShowAlert(): void {
+    this.showAlert = !this.showAlert;
+  }
+
+  onCopyToClipboard(code: string) {
+    this._clipboardService.copy(code);
+    this.showAlert = true;
   }
 }

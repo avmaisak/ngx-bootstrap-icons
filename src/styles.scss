@@ -1,1 +1,12 @@
 @import '~bootstrap/scss/bootstrap';
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.icon-item  {
+  .btn.btn-light  { opacity: 0;}
+  &:hover {
+    .btn.btn-light  { opacity: 1; transition: 0.3s;}
+  }
+}
