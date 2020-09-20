@@ -9,13 +9,10 @@
 * engines - npm up to 6.14.6
 
 ### dev
-  #### ngx-bootstrap-icons
  * 28.08.2020 - Fixed #30 - Add changelog in library scope
  * 28.08.2020 - Updated Demo Page to 1.0.0 version
  * 28.08.2020 - Updated meta tags, favicons to demopage
  * 03.09.2020 - Updated Angular peer Dependencies up to 10.1.0
- 
-#### ngx-bootstrap-icons demo-page
  * 29.08.2020 - Updated @types/node  14.6.1  →  14.6.2
  * 29.08.2020 - move logo to header
  * 03.09.2020 - Updated angular to 10.1.0, typescript to 4.0.2
@@ -26,3 +23,4 @@
  * 17.09.2020 - Added ngx-clipboard v 13.0.1
  * 17.09.2020 - Added copy to clipboard button
  * 17.09.2020 - Buttons show on hover
+ * 20.09.2020 - Updated typescript 4.0.2  →  4.0.3
