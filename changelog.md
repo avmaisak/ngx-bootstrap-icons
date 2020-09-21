@@ -24,3 +24,4 @@
  * 17.09.2020 - Added copy to clipboard button
  * 17.09.2020 - Buttons show on hover
  * 20.09.2020 - Updated typescript 4.0.2  →  4.0.3
+ * 21.09.2020 - Updated jasmine-spec-reporter  5.0.2  →  6.0.0
