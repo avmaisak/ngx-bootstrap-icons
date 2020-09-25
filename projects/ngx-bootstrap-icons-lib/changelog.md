@@ -25,3 +25,4 @@
  * 17.09.2020 - Buttons show on hover
  * 20.09.2020 - Updated typescript 4.0.2  →  4.0.3
  * 21.09.2020 - Updated jasmine-spec-reporter  5.0.2  →  6.0.0
+ * 25.09.2020 - Updated angular to 10.1.3, @types/node to 14.11.2
