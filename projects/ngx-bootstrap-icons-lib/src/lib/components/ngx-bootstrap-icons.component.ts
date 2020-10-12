@@ -1,16 +1,20 @@
-import { ChangeDetectorRef, Component, ElementRef, Inject, Input, OnChanges, SimpleChanges } from '@angular/core';
+import {
+  ChangeDetectorRef, Component, ElementRef, Inject, Input, OnChanges, SimpleChanges,
+} from '@angular/core';
+
 import { Icons } from '../providers/icon.provider';
 import { uppercamelcase } from '../utils/utils';
 
 @Component({
   // tslint:disable-next-line: component-selector
   selector: 'i-bs',
-  template: '<ng-content></ng-content>'
+  template: '<ng-content></ng-content>',
 })
 export class NgxBootstrapIconsLibComponent implements OnChanges {
-
   @Input() name!: string;
+
   @Input() width!: string;
+
   @Input() height!: string;
 
   constructor(private elem: ElementRef, private changeDetector: ChangeDetectorRef, @Inject(Icons) private icons: Icons) { }
