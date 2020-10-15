@@ -13,9 +13,17 @@
                (change)="onSearch()"
                [(ngModel)]="search">
         <div class="input-group-append">
-          <a class="btn btn-light border"
-             (click)="onClear()"
-             id="button-addon2">Clear</a>
+          <button class="btn btn-light border"
+                  [disabled]="noSearchData"
+                  (click)="onClear()"
+                  id="button-addon2">
+            <i-bs name="x"
+                  class="position-ralative"
+                  style="top:-5px !important"
+                  width="1.3rem"
+                  height="1.3rem">
+            </i-bs>
+          </button>
         </div>
       </div>
     </div>

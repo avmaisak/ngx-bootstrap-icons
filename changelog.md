@@ -29,3 +29,4 @@
 * 25.09.2020 - Updated angular to 10.1.3, @types/node to 14.11.2
 * 27.09.2020 - Updated  karma 5.2.2 → 5.2.3, ng-packagr 10.1.0 → 10.1.2
 * 29.09.2020 - Updated cover image in readme
+* 15.10.2020 - Updated to angular 10.1.6, Updated bootstrap to 4.5.3, updated demo
