@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import * as _ from 'lodash';
+import { clone } from 'lodash';
 import { ClipboardService } from 'ngx-clipboard';
 import { icons } from './icons';
-
 
 @Component({
   selector: 'app-root',
@@ -42,7 +41,7 @@ export class AppComponent implements OnInit {
   public ngOnInit(): void { this._getItems(); }
 
   public onSearch(): void {
-    if (this.search) this.items = _.clone(icons).filter((x) => x.includes(this.search.trim()));
+    if (this.search) this.items = clone(icons).filter((x) => x.includes(this.search.trim()));
     if (!this.search) this._getItems();
   }
 
@@ -71,7 +70,7 @@ export class AppComponent implements OnInit {
     this.showAlert = !this.showAlert;
   }
 
-  public onCopyToClipboard(code: string) {
+  public onCopyToClipboard(code: string): void {
     this._clipboardService.copy(code);
     this.showAlert = true;
   }
@@ -83,6 +82,6 @@ export class AppComponent implements OnInit {
   }
 
   private _getItems(): void {
-    this.items = _.clone(icons);
+    this.items = clone(icons);
   }
 }
