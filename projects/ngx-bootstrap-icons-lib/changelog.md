@@ -28,3 +28,6 @@
 * 21.09.2020 - Updated jasmine-spec-reporter  5.0.2  →  6.0.0
 * 25.09.2020 - Updated angular to 10.1.3, @types/node to 14.11.2
 * 27.09.2020 - Updated  karma 5.2.2 → 5.2.3, ng-packagr 10.1.0 → 10.1.2
+* 29.09.2020 - Updated cover image in readme
+* 15.10.2020 - Updated to angular 10.1.6, Updated bootstrap to 4.5.3, updated demo
+* 19.10.2020 - updated: eslint-config-airbnb-typescript to 12.0.0,engines: node >= 12.19,npm >=6.14.8, small refactorings in generator script

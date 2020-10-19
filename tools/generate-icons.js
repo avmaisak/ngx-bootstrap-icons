@@ -1,4 +1,3 @@
-const del = require('del');
 const fs = require('fs-extra');
 const uppercamelcase = require('uppercamelcase');
 
@@ -30,29 +29,12 @@ return Promise.resolve()
         .replace(/__PAYLOAD__/, fileContent);
 
       fs.writeFileSync(`${iconsDestFolder}/${iconName}.ts`, output, 'utf-8');
-
-      fs.appendFileSync(
-        indexFile,
-        `export { ${exportName} } from './${iconName}';\n`
-      );
-      fs.appendFileSync(
-        allFile,
-        `import { ${exportName} } from './${iconName}';\n`
-      );
-
+      fs.appendFileSync(indexFile,`export { ${exportName} } from './${iconName}';\n`);
+      fs.appendFileSync(allFile,`import { ${exportName} } from './${iconName}';\n`);
       exportAllString += `  ${exportName},\n`;
-
     })
 
     exportAllString += `};\n`;
-
-    fs.appendFileSync(
-      allFile,
-      exportAllString
-    );
-
-    fs.appendFileSync(
-      indexFile,
-      `\nexport { allIcons } from './all';\n`
-    );
+    fs.appendFileSync(allFile,exportAllString);
+    fs.appendFileSync(indexFile,`\nexport { allIcons } from './all';\n`);
   });
