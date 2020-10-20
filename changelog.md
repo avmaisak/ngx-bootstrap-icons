@@ -8,7 +8,7 @@
 * Updated Angular peer Dependencies up to 10.0.14
 * engines - npm up to 6.14.6
 
-## v.1.0.1 (20.10.2020)
+## v.1.1.0 (20.10.2020)
 
 * 28.08.2020 - Updated Demo Page to 1.0.0 version
 * 28.08.2020 - Updated meta tags, favicons to demopage

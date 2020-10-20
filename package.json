@@ -28,7 +28,7 @@
     "@angular/router": "10.1.6",
     "bootstrap": "^4.5.3",
     "lodash": "^4.17.20",
-    "ngx-bootstrap-icons": "1.0.0",
+    "ngx-bootstrap-icons": "1.1.0",
     "ngx-clipboard": "^14.0.1",
     "rxjs": "6.6.3",
     "tslib": "2.0.3",
