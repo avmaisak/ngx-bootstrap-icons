@@ -1,6 +1,6 @@
 <p align="center" style="text-align:center">
   <a href="https://v5.getbootstrap.com/">
-    <img src="https://v5.getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="200" height="165">
+    <img src="https://getbootstrap.com/docs/4.5/assets/img/bootstrap-icons.png" alt="Bootstrap logo" width="270" height="165">
   </a>
   <h3 align="center">ngx-bootstrap-icons</h3>
 </p>
