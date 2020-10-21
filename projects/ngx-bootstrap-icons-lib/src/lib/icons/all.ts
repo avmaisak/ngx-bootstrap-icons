@@ -476,15 +476,28 @@ import { EggFried } from './egg-fried';
 import { Egg } from './egg';
 import { EjectFill } from './eject-fill';
 import { Eject } from './eject';
+import { EmojiAngryFill } from './emoji-angry-fill';
 import { EmojiAngry } from './emoji-angry';
+import { EmojiDizzyFill } from './emoji-dizzy-fill';
 import { EmojiDizzy } from './emoji-dizzy';
+import { EmojiExpressionlessFill } from './emoji-expressionless-fill';
 import { EmojiExpressionless } from './emoji-expressionless';
+import { EmojiFrownFill } from './emoji-frown-fill';
 import { EmojiFrown } from './emoji-frown';
+import { EmojiHeartEyesFill } from './emoji-heart-eyes-fill';
+import { EmojiHeartEyes } from './emoji-heart-eyes';
+import { EmojiLaughingFill } from './emoji-laughing-fill';
 import { EmojiLaughing } from './emoji-laughing';
+import { EmojiNeutralFill } from './emoji-neutral-fill';
 import { EmojiNeutral } from './emoji-neutral';
+import { EmojiSmileFill } from './emoji-smile-fill';
+import { EmojiSmileUpsideDownFill } from './emoji-smile-upside-down-fill';
 import { EmojiSmileUpsideDown } from './emoji-smile-upside-down';
 import { EmojiSmile } from './emoji-smile';
+import { EmojiSunglassesFill } from './emoji-sunglasses-fill';
 import { EmojiSunglasses } from './emoji-sunglasses';
+import { EmojiWinkFill } from './emoji-wink-fill';
+import { EmojiWink } from './emoji-wink';
 import { EnvelopeFill } from './envelope-fill';
 import { EnvelopeOpenFill } from './envelope-open-fill';
 import { EnvelopeOpen } from './envelope-open';
@@ -510,6 +523,8 @@ import { FileArrowDownFill } from './file-arrow-down-fill';
 import { FileArrowDown } from './file-arrow-down';
 import { FileArrowUpFill } from './file-arrow-up-fill';
 import { FileArrowUp } from './file-arrow-up';
+import { FileBarGraphFill } from './file-bar-graph-fill';
+import { FileBarGraph } from './file-bar-graph';
 import { FileBinaryFill } from './file-binary-fill';
 import { FileBinary } from './file-binary';
 import { FileBreakFill } from './file-break-fill';
@@ -524,6 +539,8 @@ import { FileEarmarkArrowDownFill } from './file-earmark-arrow-down-fill';
 import { FileEarmarkArrowDown } from './file-earmark-arrow-down';
 import { FileEarmarkArrowUpFill } from './file-earmark-arrow-up-fill';
 import { FileEarmarkArrowUp } from './file-earmark-arrow-up';
+import { FileEarmarkBarGraphFill } from './file-earmark-bar-graph-fill';
+import { FileEarmarkBarGraph } from './file-earmark-bar-graph';
 import { FileEarmarkBinaryFill } from './file-earmark-binary-fill';
 import { FileEarmarkBinary } from './file-earmark-binary';
 import { FileEarmarkBreakFill } from './file-earmark-break-fill';
@@ -536,6 +553,8 @@ import { FileEarmarkDiffFill } from './file-earmark-diff-fill';
 import { FileEarmarkDiff } from './file-earmark-diff';
 import { FileEarmarkEaselFill } from './file-earmark-easel-fill';
 import { FileEarmarkEasel } from './file-earmark-easel';
+import { FileEarmarkExcelFill } from './file-earmark-excel-fill';
+import { FileEarmarkExcel } from './file-earmark-excel';
 import { FileEarmarkFill } from './file-earmark-fill';
 import { FileEarmarkFontFill } from './file-earmark-font-fill';
 import { FileEarmarkFont } from './file-earmark-font';
@@ -559,6 +578,8 @@ import { FileEarmarkPlusFill } from './file-earmark-plus-fill';
 import { FileEarmarkPlus } from './file-earmark-plus';
 import { FileEarmarkPostFill } from './file-earmark-post-fill';
 import { FileEarmarkPost } from './file-earmark-post';
+import { FileEarmarkPptFill } from './file-earmark-ppt-fill';
+import { FileEarmarkPpt } from './file-earmark-ppt';
 import { FileEarmarkRichtextFill } from './file-earmark-richtext-fill';
 import { FileEarmarkRichtext } from './file-earmark-richtext';
 import { FileEarmarkRuledFill } from './file-earmark-ruled-fill';
@@ -569,6 +590,8 @@ import { FileEarmarkSpreadsheetFill } from './file-earmark-spreadsheet-fill';
 import { FileEarmarkSpreadsheet } from './file-earmark-spreadsheet';
 import { FileEarmarkTextFill } from './file-earmark-text-fill';
 import { FileEarmarkText } from './file-earmark-text';
+import { FileEarmarkWordFill } from './file-earmark-word-fill';
+import { FileEarmarkWord } from './file-earmark-word';
 import { FileEarmarkXFill } from './file-earmark-x-fill';
 import { FileEarmarkX } from './file-earmark-x';
 import { FileEarmarkZipFill } from './file-earmark-zip-fill';
@@ -576,6 +599,8 @@ import { FileEarmarkZip } from './file-earmark-zip';
 import { FileEarmark } from './file-earmark';
 import { FileEaselFill } from './file-easel-fill';
 import { FileEasel } from './file-easel';
+import { FileExcelFill } from './file-excel-fill';
+import { FileExcel } from './file-excel';
 import { FileFill } from './file-fill';
 import { FileFontFill } from './file-font-fill';
 import { FileFont } from './file-font';
@@ -599,6 +624,8 @@ import { FilePlusFill } from './file-plus-fill';
 import { FilePlus } from './file-plus';
 import { FilePostFill } from './file-post-fill';
 import { FilePost } from './file-post';
+import { FilePptFill } from './file-ppt-fill';
+import { FilePpt } from './file-ppt';
 import { FileRichtextFill } from './file-richtext-fill';
 import { FileRichtext } from './file-richtext';
 import { FileRuledFill } from './file-ruled-fill';
@@ -609,6 +636,8 @@ import { FileSpreadsheetFill } from './file-spreadsheet-fill';
 import { FileSpreadsheet } from './file-spreadsheet';
 import { FileTextFill } from './file-text-fill';
 import { FileText } from './file-text';
+import { FileWordFill } from './file-word-fill';
+import { FileWord } from './file-word';
 import { FileXFill } from './file-x-fill';
 import { FileX } from './file-x';
 import { FileZipFill } from './file-zip-fill';
@@ -729,6 +758,8 @@ import { Intersect } from './intersect';
 import { JournalAlbum } from './journal-album';
 import { JournalArrowDown } from './journal-arrow-down';
 import { JournalArrowUp } from './journal-arrow-up';
+import { JournalBookmarkFill } from './journal-bookmark-fill';
+import { JournalBookmark } from './journal-bookmark';
 import { JournalCheck } from './journal-check';
 import { JournalCode } from './journal-code';
 import { JournalMedical } from './journal-medical';
@@ -1598,15 +1629,28 @@ export const allIcons = {
   Egg,
   EjectFill,
   Eject,
+  EmojiAngryFill,
   EmojiAngry,
+  EmojiDizzyFill,
   EmojiDizzy,
+  EmojiExpressionlessFill,
   EmojiExpressionless,
+  EmojiFrownFill,
   EmojiFrown,
+  EmojiHeartEyesFill,
+  EmojiHeartEyes,
+  EmojiLaughingFill,
   EmojiLaughing,
+  EmojiNeutralFill,
   EmojiNeutral,
+  EmojiSmileFill,
+  EmojiSmileUpsideDownFill,
   EmojiSmileUpsideDown,
   EmojiSmile,
+  EmojiSunglassesFill,
   EmojiSunglasses,
+  EmojiWinkFill,
+  EmojiWink,
   EnvelopeFill,
   EnvelopeOpenFill,
   EnvelopeOpen,
@@ -1632,6 +1676,8 @@ export const allIcons = {
   FileArrowDown,
   FileArrowUpFill,
   FileArrowUp,
+  FileBarGraphFill,
+  FileBarGraph,
   FileBinaryFill,
   FileBinary,
   FileBreakFill,
@@ -1646,6 +1692,8 @@ export const allIcons = {
   FileEarmarkArrowDown,
   FileEarmarkArrowUpFill,
   FileEarmarkArrowUp,
+  FileEarmarkBarGraphFill,
+  FileEarmarkBarGraph,
   FileEarmarkBinaryFill,
   FileEarmarkBinary,
   FileEarmarkBreakFill,
@@ -1658,6 +1706,8 @@ export const allIcons = {
   FileEarmarkDiff,
   FileEarmarkEaselFill,
   FileEarmarkEasel,
+  FileEarmarkExcelFill,
+  FileEarmarkExcel,
   FileEarmarkFill,
   FileEarmarkFontFill,
   FileEarmarkFont,
@@ -1681,6 +1731,8 @@ export const allIcons = {
   FileEarmarkPlus,
   FileEarmarkPostFill,
   FileEarmarkPost,
+  FileEarmarkPptFill,
+  FileEarmarkPpt,
   FileEarmarkRichtextFill,
   FileEarmarkRichtext,
   FileEarmarkRuledFill,
@@ -1691,6 +1743,8 @@ export const allIcons = {
   FileEarmarkSpreadsheet,
   FileEarmarkTextFill,
   FileEarmarkText,
+  FileEarmarkWordFill,
+  FileEarmarkWord,
   FileEarmarkXFill,
   FileEarmarkX,
   FileEarmarkZipFill,
@@ -1698,6 +1752,8 @@ export const allIcons = {
   FileEarmark,
   FileEaselFill,
   FileEasel,
+  FileExcelFill,
+  FileExcel,
   FileFill,
   FileFontFill,
   FileFont,
@@ -1721,6 +1777,8 @@ export const allIcons = {
   FilePlus,
   FilePostFill,
   FilePost,
+  FilePptFill,
+  FilePpt,
   FileRichtextFill,
   FileRichtext,
   FileRuledFill,
@@ -1731,6 +1789,8 @@ export const allIcons = {
   FileSpreadsheet,
   FileTextFill,
   FileText,
+  FileWordFill,
+  FileWord,
   FileXFill,
   FileX,
   FileZipFill,
@@ -1851,6 +1911,8 @@ export const allIcons = {
   JournalAlbum,
   JournalArrowDown,
   JournalArrowUp,
+  JournalBookmarkFill,
+  JournalBookmark,
   JournalCheck,
   JournalCode,
   JournalMedical,
