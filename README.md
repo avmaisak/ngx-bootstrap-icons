@@ -5,7 +5,7 @@
   <h3 align="center" style="color:#6610f2">ngx-bootstrap-icons</h3>
 </p>
 
-### This Angular module allows you to use the Bootstrap Icons in your angular application.
+### This Angular module allows you to use the Bootstrap Icons in your angular application without additional dependencies.
 <br />
 
 
