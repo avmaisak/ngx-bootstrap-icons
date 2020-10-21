@@ -24,3 +24,13 @@
 * 15.10.2020 - Updated to angular 10.1.6, Updated bootstrap to 4.5.3, updated demo
 * 19.10.2020 - updated: eslint-config-airbnb-typescript to 12.0.0,engines: node >= 12.19,npm >=6.14.8, small refactorings in generator script
 * 20.10.2020 - Fix some broken icons - Fixes #423: Update arrow-up-square-fil - Fixes #415: Properly name grip-horizontal and grip-vertical, make file-earmark variations consistent
+
+## v.1.2.0 (21.10.2020)
+
+* [demo] - Updated angular to 10.2.0
+* [demo] - Updated @types/node to 14.14.1
+* [icons] - Added Word, Excel, PowerPoint, and bar chart icons. Also adds two journal bookmark icons.
+* [icons] - Add two new eomjis, plus fill variations for all
+* [icons] - Fixes #437: make file-earmark variations consistent
+* [icons] - Fixes #423: Update arrow-up-square-fil
+* [icons] - Fixes #415: Properly name grip-horizontal and grip-vertical
