@@ -1,6 +1,6 @@
 {
   "name": "ngx-bootstrap-icons-demo",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "homepage": "https://avmaisak.github.io/ngx-bootstrap-icons/",
   "scripts": {
     "ng": "./node_modules/@angular/cli/bin/ng",
