@@ -36,4 +36,5 @@
 * [icons] - Fixes #415: Properly name grip-horizontal and grip-vertical
 
 ## v.1.2.2 (21.10.2020)
+
 * [icons] - Updated to v.1.1.0, fixed #42
