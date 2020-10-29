@@ -34,3 +34,6 @@
 * [icons] - Fixes #437: make file-earmark variations consistent
 * [icons] - Fixes #423: Update arrow-up-square-fil
 * [icons] - Fixes #415: Properly name grip-horizontal and grip-vertical
+
+## v.1.2.2 (21.10.2020)
+* [icons] - Updated to v.1.1.0, fixed #42
