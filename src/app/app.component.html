@@ -57,6 +57,7 @@
     <ng-container *ngFor="let item of items">
       <div class="col-3 p-1">
         <div class="p-4 border text-center icon-item"
+             [class.bg-secondary]="selectedColor === 'text-white-50'"
              style="min-height: 120px;">
           <!-- toggleShowCode -->
           <i-bs name="code-slash"
@@ -79,6 +80,7 @@
                 [class]="selectedColor"
                 width="2rem"
                 height="2rem"></i-bs>
+
           <b class="d-block mt-2">{{ item }}</b>
 
           <!-- code -->
