@@ -48,12 +48,12 @@ import { allIcons } from 'ngx-bootstrap-icons';
 
 _3.2 Import some icons_
 ```ts
-import { Alarm, AlarmFill, AlertCircle } from 'ngx-bootstrap-icons';
+import { Alarm, AlarmFill, AlignBottom } from 'ngx-bootstrap-icons';
 // Select some icons (use an object, not an array)
 const icons = {
   Alarm,
   AlarmFill,
-  AlertCircle
+  AlignBottom
 };
 ```
 
@@ -81,13 +81,13 @@ _4.1. Import Module (some icons)_
 
 ```ts
 import { NgxBootstrapIconsModule } from 'ngx-bootstrap-icons';
-import { Alarm, AlarmFill, AlertCircle } from 'ngx-bootstrap-icons';
+import { Alarm, AlarmFill, AlignBottom } from 'ngx-bootstrap-icons';
 
 // Select some icons (use an object, not an array)
 const icons = {
   Alarm,
   AlarmFill,
-  AlertCircle
+  AlignBottom
 };
 
 @NgModule({
