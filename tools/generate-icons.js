@@ -6,7 +6,7 @@ const uppercamelcase = require('uppercamelcase');
 // source original bootstrap icons
 const iconsSrcFolder = '../icons/icons';
 // enum output folder
-const enumDestFolder = 'projects/ngx-bootstrap-icons-lib/src/lib';
+const enumDestFolder = 'projects/ngx-bootstrap-icons-lib/src/lib/enums';
 // destination of generated icons
 const iconsDestFolder = 'projects/ngx-bootstrap-icons-lib/src/lib/icons';
 // template for icons
@@ -17,7 +17,8 @@ const allFile = `${iconsDestFolder}/all.ts`;
 const enumFile = `${enumDestFolder}/icon-names.enum.ts`;
 
 let exportAllString = `\nexport const allIcons = {\n`;
-let exportEnumString = `\nexport enum IconNamesEnum {\n`;
+let exportEnumString = `/** Enum with all icons. */`;
+exportEnumString += `\nexport enum IconNamesEnum {\n`;
 
 return Promise.resolve()
   .then(() => fs.emptyDirSync(iconsDestFolder))
@@ -30,6 +31,7 @@ return Promise.resolve()
       const fileContent = fs.readFileSync(`${iconsSrcFolder}/${filename}`, 'utf-8');
       const exportName = uppercamelcase(iconName);
 
+      exportEnumString += `  /** https://icons.getbootstrap.com/icons/${iconName} */\n`;
       exportEnumString += `  ${exportName} = '${iconName}',\n`;
 
       let output = componentTemplate

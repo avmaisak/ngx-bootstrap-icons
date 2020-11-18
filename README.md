@@ -103,7 +103,22 @@ const icons = {
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+/**
+
+Another way.
+--------------
+
+Import NgxBootstrapIconsModule.pick(icons) inside of the AppModule
+
+Import NgxBootstrapIconsModule (without the pick() method) inside of any FeatureModule where will be used.
+
+Now you can import icons in one place only (root module) and successfully use the component anywhere you want.
+
+**/
+
 ```
+
 
 _5. Use it in template_
 ```ts
@@ -112,7 +127,7 @@ _5. Use it in template_
 or
  _Optionally use our enums for autocomplete support_
 ```ts
-import {IconNamesEnum} from 'ngx-bootstrap-icons';
+import { IconNamesEnum } from 'ngx-bootstrap-icons';
 
 public IconNames = IconNamesEnum;
 
