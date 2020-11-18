@@ -1,3 +1,10 @@
+/**
+ * MusicNoteList.
+ *
+ * @link https://icons.getbootstrap.com/icons/music-note-list/
+ */
+
+/** eslint-disable max-len */
 export const MusicNoteList = `<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-music-note-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
   <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>

@@ -1,3 +1,10 @@
+/**
+ * SuitClubFill.
+ *
+ * @link https://icons.getbootstrap.com/icons/suit-club-fill/
+ */
+
+/** eslint-disable max-len */
 export const SuitClubFill = `<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-suit-club-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path d="M11.5 4.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
   <path d="M8 9a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0zm7 0a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
