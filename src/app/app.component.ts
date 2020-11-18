@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { clone } from 'lodash';
 import { ClipboardService } from 'ngx-clipboard';
-import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/public-api';
 import { icons } from './icons';
 
 @Component({
@@ -9,8 +8,6 @@ import { icons } from './icons';
   templateUrl: './app.component.html',
 })
 export class AppComponent implements OnInit {
-
-  public IconNames = IconNamesEnum;
 
   public items = icons;
 
