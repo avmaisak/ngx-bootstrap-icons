@@ -1,3 +1,10 @@
+/**
+ * SortAlphaUpAlt.
+ *
+ * @link https://icons.getbootstrap.com/icons/sort-alpha-up-alt/
+ */
+
+/** eslint-disable max-len */
 export const SortAlphaUpAlt = `<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-sort-alpha-up-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M4 14a.5.5 0 0 0 .5-.5v-11a.5.5 0 0 0-1 0v11a.5.5 0 0 0 .5.5z"/>
   <path fill-rule="evenodd" d="M6.354 4.854a.5.5 0 0 0 0-.708l-2-2a.5.5 0 0 0-.708 0l-2 2a.5.5 0 1 0 .708.708L4 3.207l1.646 1.647a.5.5 0 0 0 .708 0z"/>

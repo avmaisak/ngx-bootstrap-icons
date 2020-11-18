@@ -1,7 +1,9 @@
 const fs = require('fs-extra');
+const clc = require('cli-color');
+
 const uppercamelcase = require('uppercamelcase');
 
-// source oroginal bootstrap icons
+// source original bootstrap icons
 const iconsSrcFolder = '../icons/icons';
 // destination of generated icons
 const iconsDestFolder = 'projects/ngx-bootstrap-icons-lib/src/lib/icons';
@@ -26,12 +28,15 @@ return Promise.resolve()
 
       let output = componentTemplate
         .replace(/__EXPORT_NAME__/g, exportName)
-        .replace(/__PAYLOAD__/, fileContent);
+        .replace(/__PAYLOAD__/, fileContent)
+        .replace(/__EXPORT_ICON_PATH__/, iconName);
 
       fs.writeFileSync(`${iconsDestFolder}/${iconName}.ts`, output, 'utf-8');
       fs.appendFileSync(indexFile,`export { ${exportName} } from './${iconName}';\n`);
       fs.appendFileSync(allFile,`import { ${exportName} } from './${iconName}';\n`);
       exportAllString += `  ${exportName},\n`;
+
+      console.log(`icon ${ clc.green(exportName) } generated.`);
     })
 
     exportAllString += `};\n`;

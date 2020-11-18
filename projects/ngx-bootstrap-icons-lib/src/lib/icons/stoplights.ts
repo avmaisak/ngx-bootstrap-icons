@@ -1,3 +1,10 @@
+/**
+ * Stoplights.
+ *
+ * @link https://icons.getbootstrap.com/icons/stoplights/
+ */
+
+/** eslint-disable max-len */
 export const Stoplights = `<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-stoplights" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path d="M9.5 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0 4a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
   <path fill-rule="evenodd" d="M10 1H6a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM6 0a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H6z"/>

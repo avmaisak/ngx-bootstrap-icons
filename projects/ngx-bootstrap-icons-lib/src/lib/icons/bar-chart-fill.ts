@@ -1,3 +1,10 @@
+/**
+ * BarChartFill.
+ *
+ * @link https://icons.getbootstrap.com/icons/bar-chart-fill/
+ */
+
+/** eslint-disable max-len */
 export const BarChartFill = `<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bar-chart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <rect width="4" height="5" x="1" y="10" rx="1"/>
   <rect width="4" height="9" x="6" y="6" rx="1"/>

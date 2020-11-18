@@ -1,3 +1,10 @@
+/**
+ * Toggles2.
+ *
+ * @link https://icons.getbootstrap.com/icons/toggles2/
+ */
+
+/** eslint-disable max-len */
 export const Toggles2 = `<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-toggles2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M2 4a2 2 0 0 1 2-2h8a2 2 0 1 1 0 4H4a2 2 0 0 1-2-2zm2-1a1 1 0 0 0 0 2h8a1 1 0 1 0 0-2H4z"/>
   <path d="M14 4a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/>
