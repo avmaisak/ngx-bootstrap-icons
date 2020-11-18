@@ -1,6 +1,6 @@
 import { ModuleWithProviders, NgModule, Optional } from '@angular/core';
 
-import { NgxBootstrapIconsLibComponent } from './components/ngx-bootstrap-icons.component';
+import { NgxBootstrapIconsLibComponent } from './components/ngx-bootstrap-icons/ngx-bootstrap-icons.component';
 import { Icons } from './providers/icon.provider';
 
 @NgModule({

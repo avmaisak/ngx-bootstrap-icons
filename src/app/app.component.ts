@@ -8,6 +8,7 @@ import { icons } from './icons';
   templateUrl: './app.component.html',
 })
 export class AppComponent implements OnInit {
+
   public items = icons;
 
   public search: string;

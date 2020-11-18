@@ -109,6 +109,16 @@ _5. Use it in template_
 ```ts
 <i-bs name="alarm-fill"></i-bs>
 ```
+or
+ _Optionally use our enums for autocomplete support_
+```ts
+import {IconNamesEnum} from 'ngx-bootstrap-icons';
+
+public IconNames = IconNamesEnum;
+
+<i-bs [name]="IconNames.AlarmFill"></i-bs>
+```
+
 Also you can use width and height for icon (By default width and height are 1rem)
 ```ts
 <i-bs 
