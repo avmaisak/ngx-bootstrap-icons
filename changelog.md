@@ -39,3 +39,9 @@
 ## v.1.2.2 (21.10.2020)
 
 * [icons] - fixed #47
+
+## v.1.2.3 (18.11.2020)
+
+* [icons] - fixed #57 (Added enums for icons) (thank you, @tayambamwanza for contributing)
+* [icons] - fixed #65
+* [readme] - minor Readme impovements (thank you, @tayambamwanza for contributing)
