@@ -1,7 +1,7 @@
 import {
   ChangeDetectorRef, Component, ElementRef, Inject, Input, OnChanges, SimpleChanges,
 } from '@angular/core';
-import { IconNamesEnum } from '../../utils/icon-names.enum';
+import { IconNamesEnum } from '../../icon-names.enum';
 
 import { Icons } from '../../providers/icon.provider';
 import { uppercamelcase } from '../../utils/utils';
