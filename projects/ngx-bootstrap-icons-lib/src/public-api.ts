@@ -3,6 +3,6 @@
  */
 
 export * from './lib/components/ngx-bootstrap-icons/ngx-bootstrap-icons.component';
-export * from './lib/icon-names.enum';
-export * from './lib/ngx-bootstrap-icons.module';
+export * from './lib/enums/icon-names.enum';
 export * from './lib/icons';
+export * from './lib/ngx-bootstrap-icons.module';
