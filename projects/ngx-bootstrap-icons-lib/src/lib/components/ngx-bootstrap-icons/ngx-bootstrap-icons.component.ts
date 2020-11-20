@@ -1,5 +1,5 @@
 import {
-  ChangeDetectorRef, Component, ElementRef, Inject, Input, OnChanges, SimpleChanges
+  ChangeDetectorRef, Component, ElementRef, Inject, Input, OnChanges, SimpleChanges,
 } from '@angular/core';
 import { IconNamesEnum } from '../../enums/icon-names.enum';
 import { Icons } from '../../providers/icon.provider';
@@ -30,7 +30,11 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
     private icons: Icons,
   ) { }
 
-  /** OnChanges event. */
+  /**
+   * OnChanges event.
+   *
+   * @param changes
+   */
   ngOnChanges(changes: SimpleChanges) {
     // icons are provided as an array of objects because of "multi: true"
     const icons = Object.assign({}, ...(this.icons as any as object[]));

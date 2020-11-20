@@ -8,12 +8,13 @@ import { ClipboardModule } from 'ngx-clipboard';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+
 registerLocaleData(ru);
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
@@ -21,9 +22,9 @@ registerLocaleData(ru);
     CommonModule,
     AppRoutingModule,
     NgxBootstrapIconsModule.pick(allIcons),
-    ClipboardModule
+    ClipboardModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }

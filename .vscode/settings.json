@@ -5,7 +5,8 @@
   "editor.unfoldOnClickAfterEndOfLine": true,
   "editor.autoIndent": "none",
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.fixAll.eslint": true,
+    // "source.organizeImports": true
   },
   "editor.renderControlCharacters": true,
   "editor.renderIndentGuides": true,
@@ -14,5 +15,9 @@
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
   "editor.defaultFormatter": "vscode.configuration-editing",
-  "editor.detectIndentation": false
+  "editor.detectIndentation": false,
+  "eslint.validate": [{
+    "language": "typescript",
+    "autoFix": true
+  }]
 }

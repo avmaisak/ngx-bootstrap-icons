@@ -59,6 +59,7 @@ export class AppComponent implements OnInit {
   height="2rem">
 </i-bs>`.trim();
 
+  // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
   public btnCode = (icon: string) => this.selectedIcon && icon === this.selectedIcon && this.btnCode;
 
   public onShowCode(icon: string): void {
