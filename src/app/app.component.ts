@@ -1,23 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { clone } from 'lodash';
+import { IconNamesEnum } from 'ngx-bootstrap-icons';
 import { ClipboardService } from 'ngx-clipboard';
-import { icons } from './icons';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
 })
 export class AppComponent implements OnInit {
-
-  public items = icons;
+  public items: string[] = [];
 
   public search: string;
 
   public showCode = false;
 
   public selectedIcon: string;
-
-  public selectedColor: string;
 
   public colors: string[] = [
     'text-primary',
@@ -33,16 +29,20 @@ export class AppComponent implements OnInit {
     'text-white-50',
   ];
 
+  public selectedColor = this.colors[0];
+
   public showAlert = false;
 
-  constructor(private _clipboardService: ClipboardService) {
-    this.selectedColor = this.colors[0];
+  public allIcons = Object.values(IconNamesEnum);
+
+  constructor(private _clipboardService: ClipboardService) { }
+
+  public ngOnInit(): void {
+    this._getItems();
   }
 
-  public ngOnInit(): void { this._getItems(); }
-
   public onSearch(): void {
-    if (this.search) this.items = clone(icons).filter((x) => x.includes(this.search.trim()));
+    if (this.search) this.items = clone(this.allIcons).filter((x) => x.includes(this.search.trim()));
     if (!this.search) this._getItems();
   }
 
@@ -83,6 +83,6 @@ export class AppComponent implements OnInit {
   }
 
   private _getItems(): void {
-    this.items = clone(icons);
+    this.items = clone(this.allIcons);
   }
 }
