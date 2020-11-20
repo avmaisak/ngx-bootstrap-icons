@@ -38,7 +38,7 @@ jobs:
 
       # In this step, we run npm i to install the required packages and then run the Angular build command to create the build package.
       # In this example, I am using npm run build:prod as that’s the build command I’ve defined in my package.json.
-      - name: npm install and npm run build
+      - name: npm install and npm run build-lib-ci
         run: |
           npm i
-          npm run build:prod
+          npm run build-lib-ci
