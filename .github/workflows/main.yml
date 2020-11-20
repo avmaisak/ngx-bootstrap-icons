@@ -1,0 +1,44 @@
+# We want to trigger our workflow when someone pushes the code to our repo.
+on: push
+name: Build Angular
+# We are defining a job Build Angular which runs on ubuntu-latest.
+# Each job runs in a fresh instance of a virtual environment.
+# A job can contain one or more steps. We also define the NodeJS version we want to run.
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+        # This is the first step in our workflow.
+        # We will pull the source code from our repository using a GitHub Action called checkout.
+        # This action checks out your repository to $GITHUB_WORKSPACE, so that your workflow can access the contents of your repository.
+      - uses: actions/checkout@v1
+
+        # Since we need to install npm packages required for the project before building the app,
+        # we use a GitHub action called cache to cache the node modules.
+        # We configure this step to track our package-lock.json for any changes to npm packages
+        # and if there is no chance we use the modules from the cache.
+        # This will help us in speeding up the build process.
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+        # Here we use the GitHub action setup-node which sets up a Node environment for use in actions.
+        # We use the reference to the node version that we set when we define our OS.
+      - name: Node ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      # In this step, we run npm i to install the required packages and then run the Angular build command to create the build package.
+      # In this example, I am using npm run build:prod as that’s the build command I’ve defined in my package.json.
+      - name: npm install and npm run build-lib-ci
+        run: |
+          npm i
+          npm run build-lib-ci
