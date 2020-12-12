@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { clone } from 'lodash';
-import { IconNamesEnum } from 'ngx-bootstrap-icons';
+import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/lib/enums/icon-names.enum';
 import { ClipboardService } from 'ngx-clipboard';
 @Component({
   selector: 'app-root',
