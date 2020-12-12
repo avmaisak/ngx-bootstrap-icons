@@ -455,6 +455,9 @@ import { Dice5Fill } from './dice-5-fill';
 import { Dice5 } from './dice-5';
 import { Dice6Fill } from './dice-6-fill';
 import { Dice6 } from './dice-6';
+import { DiscFill } from './disc-fill';
+import { Disc } from './disc';
+import { Discord } from './discord';
 import { DisplayFill } from './display-fill';
 import { Display } from './display';
 import { DistributeHorizontal } from './distribute-horizontal';
@@ -519,6 +522,7 @@ import { EyeSlashFill } from './eye-slash-fill';
 import { EyeSlash } from './eye-slash';
 import { Eye } from './eye';
 import { Eyeglasses } from './eyeglasses';
+import { Facebook } from './facebook';
 import { FileArrowDownFill } from './file-arrow-down-fill';
 import { FileArrowDown } from './file-arrow-down';
 import { FileArrowUpFill } from './file-arrow-up-fill';
@@ -687,8 +691,10 @@ import { GeoFill } from './geo-fill';
 import { Geo } from './geo';
 import { GiftFill } from './gift-fill';
 import { Gift } from './gift';
+import { Github } from './github';
 import { Globe } from './globe';
 import { Globe2 } from './globe2';
+import { Google } from './google';
 import { GraphDown } from './graph-down';
 import { GraphUp } from './graph-up';
 import { Grid1x2Fill } from './grid-1x2-fill';
@@ -754,6 +760,7 @@ import { InfoSquare } from './info-square';
 import { Info } from './info';
 import { InputCursorText } from './input-cursor-text';
 import { InputCursor } from './input-cursor';
+import { Instagram } from './instagram';
 import { Intersect } from './intersect';
 import { JournalAlbum } from './journal-album';
 import { JournalArrowDown } from './journal-arrow-down';
@@ -804,6 +811,7 @@ import { LightningFill } from './lightning-fill';
 import { Lightning } from './lightning';
 import { Link45deg } from './link-45deg';
 import { Link } from './link';
+import { Linkedin } from './linkedin';
 import { ListCheck } from './list-check';
 import { ListNested } from './list-nested';
 import { ListOl } from './list-ol';
@@ -866,6 +874,10 @@ import { PatchPlusFll } from './patch-plus-fll';
 import { PatchPlus } from './patch-plus';
 import { PatchQuestionFll } from './patch-question-fll';
 import { PatchQuestion } from './patch-question';
+import { PauseBtnFill } from './pause-btn-fill';
+import { PauseBtn } from './pause-btn';
+import { PauseCircleFill } from './pause-circle-fill';
+import { PauseCircle } from './pause-circle';
 import { PauseFill } from './pause-fill';
 import { Pause } from './pause';
 import { PeaceFill } from './peace-fill';
@@ -906,6 +918,10 @@ import { PieChartFill } from './pie-chart-fill';
 import { PieChart } from './pie-chart';
 import { PipFill } from './pip-fill';
 import { Pip } from './pip';
+import { PlayBtnFill } from './play-btn-fill';
+import { PlayBtn } from './play-btn';
+import { PlayCircleFill } from './play-circle-fill';
+import { PlayCircle } from './play-circle';
 import { PlayFill } from './play-fill';
 import { Play } from './play';
 import { PlugFill } from './plug-fill';
@@ -936,6 +952,14 @@ import { Reception1 } from './reception-1';
 import { Reception2 } from './reception-2';
 import { Reception3 } from './reception-3';
 import { Reception4 } from './reception-4';
+import { RecordBtnFill } from './record-btn-fill';
+import { RecordBtn } from './record-btn';
+import { RecordCircleFill } from './record-circle-fill';
+import { RecordCircle } from './record-circle';
+import { RecordFill } from './record-fill';
+import { Record } from './record';
+import { Record2Fill } from './record2-fill';
+import { Record2 } from './record2';
 import { ReplyAllFill } from './reply-all-fill';
 import { ReplyAll } from './reply-all';
 import { ReplyFill } from './reply-fill';
@@ -979,14 +1003,31 @@ import { SignpostSplit } from './signpost-split';
 import { Signpost } from './signpost';
 import { SimFill } from './sim-fill';
 import { Sim } from './sim';
+import { SkipBackwardBtnFill } from './skip-backward-btn-fill';
+import { SkipBackwardBtn } from './skip-backward-btn';
+import { SkipBackwardCircleFill } from './skip-backward-circle-fill';
+import { SkipBackwardCircle } from './skip-backward-circle';
 import { SkipBackwardFill } from './skip-backward-fill';
 import { SkipBackward } from './skip-backward';
+import { SkipEndBtnFill } from './skip-end-btn-fill';
+import { SkipEndBtn } from './skip-end-btn';
+import { SkipEndCircleFill } from './skip-end-circle-fill';
+import { SkipEndCircle } from './skip-end-circle';
 import { SkipEndFill } from './skip-end-fill';
 import { SkipEnd } from './skip-end';
+import { SkipForwardBtnFill } from './skip-forward-btn-fill';
+import { SkipForwardBtn } from './skip-forward-btn';
+import { SkipForwardCircleFill } from './skip-forward-circle-fill';
+import { SkipForwardCircle } from './skip-forward-circle';
 import { SkipForwardFill } from './skip-forward-fill';
 import { SkipForward } from './skip-forward';
+import { SkipStartBtnFill } from './skip-start-btn-fill';
+import { SkipStartBtn } from './skip-start-btn';
+import { SkipStartCircleFill } from './skip-start-circle-fill';
+import { SkipStartCircle } from './skip-start-circle';
 import { SkipStartFill } from './skip-start-fill';
 import { SkipStart } from './skip-start';
+import { Slack } from './slack';
 import { SlashCircleFill } from './slash-circle-fill';
 import { SlashCircle } from './slash-circle';
 import { SlashSquareFill } from './slash-square-fill';
@@ -1020,6 +1061,10 @@ import { StickiesFill } from './stickies-fill';
 import { Stickies } from './stickies';
 import { StickyFill } from './sticky-fill';
 import { Sticky } from './sticky';
+import { StopBtnFill } from './stop-btn-fill';
+import { StopBtn } from './stop-btn';
+import { StopCircleFill } from './stop-circle-fill';
+import { StopCircle } from './stop-circle';
 import { StopFill } from './stop-fill';
 import { Stop } from './stop';
 import { StoplightsFill } from './stoplights-fill';
@@ -1097,6 +1142,8 @@ import { TruckFlatbed } from './truck-flatbed';
 import { Truck } from './truck';
 import { TvFill } from './tv-fill';
 import { Tv } from './tv';
+import { Twitch } from './twitch';
+import { Twitter } from './twitter';
 import { TypeBold } from './type-bold';
 import { TypeH1 } from './type-h1';
 import { TypeH2 } from './type-h2';
@@ -1118,6 +1165,8 @@ import { Upload } from './upload';
 import { VectorPen } from './vector-pen';
 import { ViewList } from './view-list';
 import { ViewStacked } from './view-stacked';
+import { VinylFill } from './vinyl-fill';
+import { Vinyl } from './vinyl';
 import { Voicemail } from './voicemail';
 import { VolumeDownFill } from './volume-down-fill';
 import { VolumeDown } from './volume-down';
@@ -1147,6 +1196,7 @@ import { XOctagon } from './x-octagon';
 import { XSquareFill } from './x-square-fill';
 import { XSquare } from './x-square';
 import { X } from './x';
+import { Youtube } from './youtube';
 import { ZoomIn } from './zoom-in';
 import { ZoomOut } from './zoom-out';
 
@@ -1608,6 +1658,9 @@ export const allIcons = {
   Dice5,
   Dice6Fill,
   Dice6,
+  DiscFill,
+  Disc,
+  Discord,
   DisplayFill,
   Display,
   DistributeHorizontal,
@@ -1672,6 +1725,7 @@ export const allIcons = {
   EyeSlash,
   Eye,
   Eyeglasses,
+  Facebook,
   FileArrowDownFill,
   FileArrowDown,
   FileArrowUpFill,
@@ -1840,8 +1894,10 @@ export const allIcons = {
   Geo,
   GiftFill,
   Gift,
+  Github,
   Globe,
   Globe2,
+  Google,
   GraphDown,
   GraphUp,
   Grid1x2Fill,
@@ -1907,6 +1963,7 @@ export const allIcons = {
   Info,
   InputCursorText,
   InputCursor,
+  Instagram,
   Intersect,
   JournalAlbum,
   JournalArrowDown,
@@ -1957,6 +2014,7 @@ export const allIcons = {
   Lightning,
   Link45deg,
   Link,
+  Linkedin,
   ListCheck,
   ListNested,
   ListOl,
@@ -2019,6 +2077,10 @@ export const allIcons = {
   PatchPlus,
   PatchQuestionFll,
   PatchQuestion,
+  PauseBtnFill,
+  PauseBtn,
+  PauseCircleFill,
+  PauseCircle,
   PauseFill,
   Pause,
   PeaceFill,
@@ -2059,6 +2121,10 @@ export const allIcons = {
   PieChart,
   PipFill,
   Pip,
+  PlayBtnFill,
+  PlayBtn,
+  PlayCircleFill,
+  PlayCircle,
   PlayFill,
   Play,
   PlugFill,
@@ -2089,6 +2155,14 @@ export const allIcons = {
   Reception2,
   Reception3,
   Reception4,
+  RecordBtnFill,
+  RecordBtn,
+  RecordCircleFill,
+  RecordCircle,
+  RecordFill,
+  Record,
+  Record2Fill,
+  Record2,
   ReplyAllFill,
   ReplyAll,
   ReplyFill,
@@ -2132,14 +2206,31 @@ export const allIcons = {
   Signpost,
   SimFill,
   Sim,
+  SkipBackwardBtnFill,
+  SkipBackwardBtn,
+  SkipBackwardCircleFill,
+  SkipBackwardCircle,
   SkipBackwardFill,
   SkipBackward,
+  SkipEndBtnFill,
+  SkipEndBtn,
+  SkipEndCircleFill,
+  SkipEndCircle,
   SkipEndFill,
   SkipEnd,
+  SkipForwardBtnFill,
+  SkipForwardBtn,
+  SkipForwardCircleFill,
+  SkipForwardCircle,
   SkipForwardFill,
   SkipForward,
+  SkipStartBtnFill,
+  SkipStartBtn,
+  SkipStartCircleFill,
+  SkipStartCircle,
   SkipStartFill,
   SkipStart,
+  Slack,
   SlashCircleFill,
   SlashCircle,
   SlashSquareFill,
@@ -2173,6 +2264,10 @@ export const allIcons = {
   Stickies,
   StickyFill,
   Sticky,
+  StopBtnFill,
+  StopBtn,
+  StopCircleFill,
+  StopCircle,
   StopFill,
   Stop,
   StoplightsFill,
@@ -2250,6 +2345,8 @@ export const allIcons = {
   Truck,
   TvFill,
   Tv,
+  Twitch,
+  Twitter,
   TypeBold,
   TypeH1,
   TypeH2,
@@ -2271,6 +2368,8 @@ export const allIcons = {
   VectorPen,
   ViewList,
   ViewStacked,
+  VinylFill,
+  Vinyl,
   Voicemail,
   VolumeDownFill,
   VolumeDown,
@@ -2300,6 +2399,7 @@ export const allIcons = {
   XSquareFill,
   XSquare,
   X,
+  Youtube,
   ZoomIn,
   ZoomOut,
 };

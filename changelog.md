@@ -45,3 +45,7 @@
 * [icons] - fixed #57 (Added enums for icons) (thank you, @tayambamwanza for contributing)
 * [icons] - fixed #65
 * [readme] - minor Readme impovements (thank you, @tayambamwanza for contributing)
+
+## v.1.2.4 (12.12.2020)
+
+* [icons] - fixed #121 (updated Bootstrap Icons to v1.2.0 )
