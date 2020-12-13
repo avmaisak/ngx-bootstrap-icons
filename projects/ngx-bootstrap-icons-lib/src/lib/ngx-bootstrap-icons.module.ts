@@ -8,11 +8,11 @@ import { Icons } from './providers/icon.provider';
   exports: [NgxBootstrapIconsLibComponent],
 })
 export class NgxBootstrapIconsModule {
-  constructor(@Optional() private icons: Icons) {
-    if (!this.icons) throw new Error('No icon provided. Make sure to use \'NgxBootstrapIconsModule.pick({ ... })\' when importing the module\n');
+  constructor(@Optional() private _icons: Icons) {
+    if (!this._icons) throw new Error('No icon provided. Make sure to use \'NgxBootstrapIconsModule.pick({ ... })\' when importing the module\n');
   }
 
-  static pick(icons: { [key: string]: string }): ModuleWithProviders<NgxBootstrapIconsModule> {
+  public static pick(icons: { [key: string]: string }): ModuleWithProviders<NgxBootstrapIconsModule> {
     return {
       ngModule: NgxBootstrapIconsModule,
       providers: [

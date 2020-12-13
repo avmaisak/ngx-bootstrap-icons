@@ -49,3 +49,9 @@
 ## v.1.2.4 (12.12.2020)
 
 * [icons] - fixed #121 (updated Bootstrap Icons to v1.2.0 )
+
+## v.1.3.0 (13.12.2020)
+
+* [icons] - updated Bootstrap Icons to v1.2.1
+* [icons] - fixed some linter errors
+* [icons] - breaking changes - all icons now camelCase
