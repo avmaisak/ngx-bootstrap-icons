@@ -1,2405 +1,2405 @@
 /** Enum with all icons. */
-export enum IconNamesEnum {
+export enum iconNamesEnum {
   /** https://icons.getbootstrap.com/icons/alarm-fill */
-  AlarmFill = 'alarm-fill',
+  alarmFill = 'alarm-fill',
   /** https://icons.getbootstrap.com/icons/alarm */
-  Alarm = 'alarm',
+  alarm = 'alarm',
   /** https://icons.getbootstrap.com/icons/align-bottom */
-  AlignBottom = 'align-bottom',
+  alignBottom = 'align-bottom',
   /** https://icons.getbootstrap.com/icons/align-center */
-  AlignCenter = 'align-center',
+  alignCenter = 'align-center',
   /** https://icons.getbootstrap.com/icons/align-end */
-  AlignEnd = 'align-end',
+  alignEnd = 'align-end',
   /** https://icons.getbootstrap.com/icons/align-middle */
-  AlignMiddle = 'align-middle',
+  alignMiddle = 'align-middle',
   /** https://icons.getbootstrap.com/icons/align-start */
-  AlignStart = 'align-start',
+  alignStart = 'align-start',
   /** https://icons.getbootstrap.com/icons/align-top */
-  AlignTop = 'align-top',
+  alignTop = 'align-top',
   /** https://icons.getbootstrap.com/icons/alt */
-  Alt = 'alt',
+  alt = 'alt',
   /** https://icons.getbootstrap.com/icons/app-indicator */
-  AppIndicator = 'app-indicator',
+  appIndicator = 'app-indicator',
   /** https://icons.getbootstrap.com/icons/app */
-  App = 'app',
+  app = 'app',
   /** https://icons.getbootstrap.com/icons/archive-fill */
-  ArchiveFill = 'archive-fill',
+  archiveFill = 'archive-fill',
   /** https://icons.getbootstrap.com/icons/archive */
-  Archive = 'archive',
+  archive = 'archive',
   /** https://icons.getbootstrap.com/icons/arrow-90deg-down */
-  Arrow90degDown = 'arrow-90deg-down',
+  arrow90DegDown = 'arrow-90deg-down',
   /** https://icons.getbootstrap.com/icons/arrow-90deg-left */
-  Arrow90degLeft = 'arrow-90deg-left',
+  arrow90DegLeft = 'arrow-90deg-left',
   /** https://icons.getbootstrap.com/icons/arrow-90deg-right */
-  Arrow90degRight = 'arrow-90deg-right',
+  arrow90DegRight = 'arrow-90deg-right',
   /** https://icons.getbootstrap.com/icons/arrow-90deg-up */
-  Arrow90degUp = 'arrow-90deg-up',
+  arrow90DegUp = 'arrow-90deg-up',
   /** https://icons.getbootstrap.com/icons/arrow-bar-down */
-  ArrowBarDown = 'arrow-bar-down',
+  arrowBarDown = 'arrow-bar-down',
   /** https://icons.getbootstrap.com/icons/arrow-bar-left */
-  ArrowBarLeft = 'arrow-bar-left',
+  arrowBarLeft = 'arrow-bar-left',
   /** https://icons.getbootstrap.com/icons/arrow-bar-right */
-  ArrowBarRight = 'arrow-bar-right',
+  arrowBarRight = 'arrow-bar-right',
   /** https://icons.getbootstrap.com/icons/arrow-bar-up */
-  ArrowBarUp = 'arrow-bar-up',
+  arrowBarUp = 'arrow-bar-up',
   /** https://icons.getbootstrap.com/icons/arrow-clockwise */
-  ArrowClockwise = 'arrow-clockwise',
+  arrowClockwise = 'arrow-clockwise',
   /** https://icons.getbootstrap.com/icons/arrow-counterclockwise */
-  ArrowCounterclockwise = 'arrow-counterclockwise',
+  arrowCounterclockwise = 'arrow-counterclockwise',
   /** https://icons.getbootstrap.com/icons/arrow-down-circle-fill */
-  ArrowDownCircleFill = 'arrow-down-circle-fill',
+  arrowDownCircleFill = 'arrow-down-circle-fill',
   /** https://icons.getbootstrap.com/icons/arrow-down-circle */
-  ArrowDownCircle = 'arrow-down-circle',
+  arrowDownCircle = 'arrow-down-circle',
   /** https://icons.getbootstrap.com/icons/arrow-down-left-circle-fill */
-  ArrowDownLeftCircleFill = 'arrow-down-left-circle-fill',
+  arrowDownLeftCircleFill = 'arrow-down-left-circle-fill',
   /** https://icons.getbootstrap.com/icons/arrow-down-left-circle */
-  ArrowDownLeftCircle = 'arrow-down-left-circle',
+  arrowDownLeftCircle = 'arrow-down-left-circle',
   /** https://icons.getbootstrap.com/icons/arrow-down-left-square-fill */
-  ArrowDownLeftSquareFill = 'arrow-down-left-square-fill',
+  arrowDownLeftSquareFill = 'arrow-down-left-square-fill',
   /** https://icons.getbootstrap.com/icons/arrow-down-left-square */
-  ArrowDownLeftSquare = 'arrow-down-left-square',
+  arrowDownLeftSquare = 'arrow-down-left-square',
   /** https://icons.getbootstrap.com/icons/arrow-down-left */
-  ArrowDownLeft = 'arrow-down-left',
+  arrowDownLeft = 'arrow-down-left',
   /** https://icons.getbootstrap.com/icons/arrow-down-right-circle-fill */
-  ArrowDownRightCircleFill = 'arrow-down-right-circle-fill',
+  arrowDownRightCircleFill = 'arrow-down-right-circle-fill',
   /** https://icons.getbootstrap.com/icons/arrow-down-right-circle */
-  ArrowDownRightCircle = 'arrow-down-right-circle',
+  arrowDownRightCircle = 'arrow-down-right-circle',
   /** https://icons.getbootstrap.com/icons/arrow-down-right-square-fill */
-  ArrowDownRightSquareFill = 'arrow-down-right-square-fill',
+  arrowDownRightSquareFill = 'arrow-down-right-square-fill',
   /** https://icons.getbootstrap.com/icons/arrow-down-right-square */
-  ArrowDownRightSquare = 'arrow-down-right-square',
+  arrowDownRightSquare = 'arrow-down-right-square',
   /** https://icons.getbootstrap.com/icons/arrow-down-right */
-  ArrowDownRight = 'arrow-down-right',
+  arrowDownRight = 'arrow-down-right',
   /** https://icons.getbootstrap.com/icons/arrow-down-short */
-  ArrowDownShort = 'arrow-down-short',
+  arrowDownShort = 'arrow-down-short',
   /** https://icons.getbootstrap.com/icons/arrow-down-square-fill */
-  ArrowDownSquareFill = 'arrow-down-square-fill',
+  arrowDownSquareFill = 'arrow-down-square-fill',
   /** https://icons.getbootstrap.com/icons/arrow-down-square */
-  ArrowDownSquare = 'arrow-down-square',
+  arrowDownSquare = 'arrow-down-square',
   /** https://icons.getbootstrap.com/icons/arrow-down-up */
-  ArrowDownUp = 'arrow-down-up',
+  arrowDownUp = 'arrow-down-up',
   /** https://icons.getbootstrap.com/icons/arrow-down */
-  ArrowDown = 'arrow-down',
+  arrowDown = 'arrow-down',
   /** https://icons.getbootstrap.com/icons/arrow-left-circle-fill */
-  ArrowLeftCircleFill = 'arrow-left-circle-fill',
+  arrowLeftCircleFill = 'arrow-left-circle-fill',
   /** https://icons.getbootstrap.com/icons/arrow-left-circle */
-  ArrowLeftCircle = 'arrow-left-circle',
+  arrowLeftCircle = 'arrow-left-circle',
   /** https://icons.getbootstrap.com/icons/arrow-left-right */
-  ArrowLeftRight = 'arrow-left-right',
+  arrowLeftRight = 'arrow-left-right',
   /** https://icons.getbootstrap.com/icons/arrow-left-short */
-  ArrowLeftShort = 'arrow-left-short',
+  arrowLeftShort = 'arrow-left-short',
   /** https://icons.getbootstrap.com/icons/arrow-left-square-fill */
-  ArrowLeftSquareFill = 'arrow-left-square-fill',
+  arrowLeftSquareFill = 'arrow-left-square-fill',
   /** https://icons.getbootstrap.com/icons/arrow-left-square */
-  ArrowLeftSquare = 'arrow-left-square',
+  arrowLeftSquare = 'arrow-left-square',
   /** https://icons.getbootstrap.com/icons/arrow-left */
-  ArrowLeft = 'arrow-left',
+  arrowLeft = 'arrow-left',
   /** https://icons.getbootstrap.com/icons/arrow-repeat */
-  ArrowRepeat = 'arrow-repeat',
+  arrowRepeat = 'arrow-repeat',
   /** https://icons.getbootstrap.com/icons/arrow-return-left */
-  ArrowReturnLeft = 'arrow-return-left',
+  arrowReturnLeft = 'arrow-return-left',
   /** https://icons.getbootstrap.com/icons/arrow-return-right */
-  ArrowReturnRight = 'arrow-return-right',
+  arrowReturnRight = 'arrow-return-right',
   /** https://icons.getbootstrap.com/icons/arrow-right-circle-fill */
-  ArrowRightCircleFill = 'arrow-right-circle-fill',
+  arrowRightCircleFill = 'arrow-right-circle-fill',
   /** https://icons.getbootstrap.com/icons/arrow-right-circle */
-  ArrowRightCircle = 'arrow-right-circle',
+  arrowRightCircle = 'arrow-right-circle',
   /** https://icons.getbootstrap.com/icons/arrow-right-short */
-  ArrowRightShort = 'arrow-right-short',
+  arrowRightShort = 'arrow-right-short',
   /** https://icons.getbootstrap.com/icons/arrow-right-square-fill */
-  ArrowRightSquareFill = 'arrow-right-square-fill',
+  arrowRightSquareFill = 'arrow-right-square-fill',
   /** https://icons.getbootstrap.com/icons/arrow-right-square */
-  ArrowRightSquare = 'arrow-right-square',
+  arrowRightSquare = 'arrow-right-square',
   /** https://icons.getbootstrap.com/icons/arrow-right */
-  ArrowRight = 'arrow-right',
+  arrowRight = 'arrow-right',
   /** https://icons.getbootstrap.com/icons/arrow-up-circle-fill */
-  ArrowUpCircleFill = 'arrow-up-circle-fill',
+  arrowUpCircleFill = 'arrow-up-circle-fill',
   /** https://icons.getbootstrap.com/icons/arrow-up-circle */
-  ArrowUpCircle = 'arrow-up-circle',
+  arrowUpCircle = 'arrow-up-circle',
   /** https://icons.getbootstrap.com/icons/arrow-up-left-circle-fill */
-  ArrowUpLeftCircleFill = 'arrow-up-left-circle-fill',
+  arrowUpLeftCircleFill = 'arrow-up-left-circle-fill',
   /** https://icons.getbootstrap.com/icons/arrow-up-left-circle */
-  ArrowUpLeftCircle = 'arrow-up-left-circle',
+  arrowUpLeftCircle = 'arrow-up-left-circle',
   /** https://icons.getbootstrap.com/icons/arrow-up-left-square-fill */
-  ArrowUpLeftSquareFill = 'arrow-up-left-square-fill',
+  arrowUpLeftSquareFill = 'arrow-up-left-square-fill',
   /** https://icons.getbootstrap.com/icons/arrow-up-left-square */
-  ArrowUpLeftSquare = 'arrow-up-left-square',
+  arrowUpLeftSquare = 'arrow-up-left-square',
   /** https://icons.getbootstrap.com/icons/arrow-up-left */
-  ArrowUpLeft = 'arrow-up-left',
+  arrowUpLeft = 'arrow-up-left',
   /** https://icons.getbootstrap.com/icons/arrow-up-right-circle-fill */
-  ArrowUpRightCircleFill = 'arrow-up-right-circle-fill',
+  arrowUpRightCircleFill = 'arrow-up-right-circle-fill',
   /** https://icons.getbootstrap.com/icons/arrow-up-right-circle */
-  ArrowUpRightCircle = 'arrow-up-right-circle',
+  arrowUpRightCircle = 'arrow-up-right-circle',
   /** https://icons.getbootstrap.com/icons/arrow-up-right-square-fill */
-  ArrowUpRightSquareFill = 'arrow-up-right-square-fill',
+  arrowUpRightSquareFill = 'arrow-up-right-square-fill',
   /** https://icons.getbootstrap.com/icons/arrow-up-right-square */
-  ArrowUpRightSquare = 'arrow-up-right-square',
+  arrowUpRightSquare = 'arrow-up-right-square',
   /** https://icons.getbootstrap.com/icons/arrow-up-right */
-  ArrowUpRight = 'arrow-up-right',
+  arrowUpRight = 'arrow-up-right',
   /** https://icons.getbootstrap.com/icons/arrow-up-short */
-  ArrowUpShort = 'arrow-up-short',
+  arrowUpShort = 'arrow-up-short',
   /** https://icons.getbootstrap.com/icons/arrow-up-square-fill */
-  ArrowUpSquareFill = 'arrow-up-square-fill',
+  arrowUpSquareFill = 'arrow-up-square-fill',
   /** https://icons.getbootstrap.com/icons/arrow-up-square */
-  ArrowUpSquare = 'arrow-up-square',
+  arrowUpSquare = 'arrow-up-square',
   /** https://icons.getbootstrap.com/icons/arrow-up */
-  ArrowUp = 'arrow-up',
+  arrowUp = 'arrow-up',
   /** https://icons.getbootstrap.com/icons/arrows-angle-contract */
-  ArrowsAngleContract = 'arrows-angle-contract',
+  arrowsAngleContract = 'arrows-angle-contract',
   /** https://icons.getbootstrap.com/icons/arrows-angle-expand */
-  ArrowsAngleExpand = 'arrows-angle-expand',
+  arrowsAngleExpand = 'arrows-angle-expand',
   /** https://icons.getbootstrap.com/icons/arrows-collapse */
-  ArrowsCollapse = 'arrows-collapse',
+  arrowsCollapse = 'arrows-collapse',
   /** https://icons.getbootstrap.com/icons/arrows-expand */
-  ArrowsExpand = 'arrows-expand',
+  arrowsExpand = 'arrows-expand',
   /** https://icons.getbootstrap.com/icons/arrows-fullscreen */
-  ArrowsFullscreen = 'arrows-fullscreen',
+  arrowsFullscreen = 'arrows-fullscreen',
   /** https://icons.getbootstrap.com/icons/arrows-move */
-  ArrowsMove = 'arrows-move',
+  arrowsMove = 'arrows-move',
   /** https://icons.getbootstrap.com/icons/aspect-ratio-fill */
-  AspectRatioFill = 'aspect-ratio-fill',
+  aspectRatioFill = 'aspect-ratio-fill',
   /** https://icons.getbootstrap.com/icons/aspect-ratio */
-  AspectRatio = 'aspect-ratio',
+  aspectRatio = 'aspect-ratio',
   /** https://icons.getbootstrap.com/icons/asterisk */
-  Asterisk = 'asterisk',
+  asterisk = 'asterisk',
   /** https://icons.getbootstrap.com/icons/at */
-  At = 'at',
+  at = 'at',
   /** https://icons.getbootstrap.com/icons/award-fill */
-  AwardFill = 'award-fill',
+  awardFill = 'award-fill',
   /** https://icons.getbootstrap.com/icons/award */
-  Award = 'award',
+  award = 'award',
   /** https://icons.getbootstrap.com/icons/back */
-  Back = 'back',
+  back = 'back',
   /** https://icons.getbootstrap.com/icons/backspace-fill */
-  BackspaceFill = 'backspace-fill',
+  backspaceFill = 'backspace-fill',
   /** https://icons.getbootstrap.com/icons/backspace-reverse-fill */
-  BackspaceReverseFill = 'backspace-reverse-fill',
+  backspaceReverseFill = 'backspace-reverse-fill',
   /** https://icons.getbootstrap.com/icons/backspace-reverse */
-  BackspaceReverse = 'backspace-reverse',
+  backspaceReverse = 'backspace-reverse',
   /** https://icons.getbootstrap.com/icons/backspace */
-  Backspace = 'backspace',
+  backspace = 'backspace',
   /** https://icons.getbootstrap.com/icons/badge-4k-fill */
-  Badge4kFill = 'badge-4k-fill',
+  badge4KFill = 'badge-4k-fill',
   /** https://icons.getbootstrap.com/icons/badge-4k */
-  Badge4k = 'badge-4k',
+  badge4K = 'badge-4k',
   /** https://icons.getbootstrap.com/icons/badge-8k-fill */
-  Badge8kFill = 'badge-8k-fill',
+  badge8KFill = 'badge-8k-fill',
   /** https://icons.getbootstrap.com/icons/badge-8k */
-  Badge8k = 'badge-8k',
+  badge8K = 'badge-8k',
   /** https://icons.getbootstrap.com/icons/badge-ad-fill */
-  BadgeAdFill = 'badge-ad-fill',
+  badgeAdFill = 'badge-ad-fill',
   /** https://icons.getbootstrap.com/icons/badge-ad */
-  BadgeAd = 'badge-ad',
+  badgeAd = 'badge-ad',
   /** https://icons.getbootstrap.com/icons/badge-cc-fill */
-  BadgeCcFill = 'badge-cc-fill',
+  badgeCcFill = 'badge-cc-fill',
   /** https://icons.getbootstrap.com/icons/badge-cc */
-  BadgeCc = 'badge-cc',
+  badgeCc = 'badge-cc',
   /** https://icons.getbootstrap.com/icons/badge-hd-fill */
-  BadgeHdFill = 'badge-hd-fill',
+  badgeHdFill = 'badge-hd-fill',
   /** https://icons.getbootstrap.com/icons/badge-hd */
-  BadgeHd = 'badge-hd',
+  badgeHd = 'badge-hd',
   /** https://icons.getbootstrap.com/icons/badge-tm-fill */
-  BadgeTmFill = 'badge-tm-fill',
+  badgeTmFill = 'badge-tm-fill',
   /** https://icons.getbootstrap.com/icons/badge-tm */
-  BadgeTm = 'badge-tm',
+  badgeTm = 'badge-tm',
   /** https://icons.getbootstrap.com/icons/badge-vo-fill */
-  BadgeVoFill = 'badge-vo-fill',
+  badgeVoFill = 'badge-vo-fill',
   /** https://icons.getbootstrap.com/icons/badge-vo */
-  BadgeVo = 'badge-vo',
+  badgeVo = 'badge-vo',
   /** https://icons.getbootstrap.com/icons/bag-check-fill */
-  BagCheckFill = 'bag-check-fill',
+  bagCheckFill = 'bag-check-fill',
   /** https://icons.getbootstrap.com/icons/bag-check */
-  BagCheck = 'bag-check',
+  bagCheck = 'bag-check',
   /** https://icons.getbootstrap.com/icons/bag-dash-fill */
-  BagDashFill = 'bag-dash-fill',
+  bagDashFill = 'bag-dash-fill',
   /** https://icons.getbootstrap.com/icons/bag-dash */
-  BagDash = 'bag-dash',
+  bagDash = 'bag-dash',
   /** https://icons.getbootstrap.com/icons/bag-fill */
-  BagFill = 'bag-fill',
+  bagFill = 'bag-fill',
   /** https://icons.getbootstrap.com/icons/bag-plus-fill */
-  BagPlusFill = 'bag-plus-fill',
+  bagPlusFill = 'bag-plus-fill',
   /** https://icons.getbootstrap.com/icons/bag-plus */
-  BagPlus = 'bag-plus',
+  bagPlus = 'bag-plus',
   /** https://icons.getbootstrap.com/icons/bag-x-fill */
-  BagXFill = 'bag-x-fill',
+  bagXFill = 'bag-x-fill',
   /** https://icons.getbootstrap.com/icons/bag-x */
-  BagX = 'bag-x',
+  bagX = 'bag-x',
   /** https://icons.getbootstrap.com/icons/bag */
-  Bag = 'bag',
+  bag = 'bag',
   /** https://icons.getbootstrap.com/icons/bar-chart-fill */
-  BarChartFill = 'bar-chart-fill',
+  barChartFill = 'bar-chart-fill',
   /** https://icons.getbootstrap.com/icons/bar-chart-line-fill */
-  BarChartLineFill = 'bar-chart-line-fill',
+  barChartLineFill = 'bar-chart-line-fill',
   /** https://icons.getbootstrap.com/icons/bar-chart-line */
-  BarChartLine = 'bar-chart-line',
+  barChartLine = 'bar-chart-line',
   /** https://icons.getbootstrap.com/icons/bar-chart-steps */
-  BarChartSteps = 'bar-chart-steps',
+  barChartSteps = 'bar-chart-steps',
   /** https://icons.getbootstrap.com/icons/bar-chart */
-  BarChart = 'bar-chart',
+  barChart = 'bar-chart',
   /** https://icons.getbootstrap.com/icons/basket-fill */
-  BasketFill = 'basket-fill',
+  basketFill = 'basket-fill',
   /** https://icons.getbootstrap.com/icons/basket */
-  Basket = 'basket',
+  basket = 'basket',
   /** https://icons.getbootstrap.com/icons/basket2-fill */
-  Basket2Fill = 'basket2-fill',
+  basket2Fill = 'basket2-fill',
   /** https://icons.getbootstrap.com/icons/basket2 */
-  Basket2 = 'basket2',
+  basket2 = 'basket2',
   /** https://icons.getbootstrap.com/icons/basket3-fill */
-  Basket3Fill = 'basket3-fill',
+  basket3Fill = 'basket3-fill',
   /** https://icons.getbootstrap.com/icons/basket3 */
-  Basket3 = 'basket3',
+  basket3 = 'basket3',
   /** https://icons.getbootstrap.com/icons/battery-charging */
-  BatteryCharging = 'battery-charging',
+  batteryCharging = 'battery-charging',
   /** https://icons.getbootstrap.com/icons/battery-full */
-  BatteryFull = 'battery-full',
+  batteryFull = 'battery-full',
   /** https://icons.getbootstrap.com/icons/battery-half */
-  BatteryHalf = 'battery-half',
+  batteryHalf = 'battery-half',
   /** https://icons.getbootstrap.com/icons/battery */
-  Battery = 'battery',
+  battery = 'battery',
   /** https://icons.getbootstrap.com/icons/bell-fill */
-  BellFill = 'bell-fill',
+  bellFill = 'bell-fill',
   /** https://icons.getbootstrap.com/icons/bell */
-  Bell = 'bell',
+  bell = 'bell',
   /** https://icons.getbootstrap.com/icons/bezier */
-  Bezier = 'bezier',
+  bezier = 'bezier',
   /** https://icons.getbootstrap.com/icons/bezier2 */
-  Bezier2 = 'bezier2',
+  bezier2 = 'bezier2',
   /** https://icons.getbootstrap.com/icons/bicycle */
-  Bicycle = 'bicycle',
+  bicycle = 'bicycle',
   /** https://icons.getbootstrap.com/icons/binoculars-fill */
-  BinocularsFill = 'binoculars-fill',
+  binocularsFill = 'binoculars-fill',
   /** https://icons.getbootstrap.com/icons/binoculars */
-  Binoculars = 'binoculars',
+  binoculars = 'binoculars',
   /** https://icons.getbootstrap.com/icons/blockquote-left */
-  BlockquoteLeft = 'blockquote-left',
+  blockquoteLeft = 'blockquote-left',
   /** https://icons.getbootstrap.com/icons/blockquote-right */
-  BlockquoteRight = 'blockquote-right',
+  blockquoteRight = 'blockquote-right',
   /** https://icons.getbootstrap.com/icons/book-fill */
-  BookFill = 'book-fill',
+  bookFill = 'book-fill',
   /** https://icons.getbootstrap.com/icons/book-half */
-  BookHalf = 'book-half',
+  bookHalf = 'book-half',
   /** https://icons.getbootstrap.com/icons/book */
-  Book = 'book',
+  book = 'book',
   /** https://icons.getbootstrap.com/icons/bookmark-check-fill */
-  BookmarkCheckFill = 'bookmark-check-fill',
+  bookmarkCheckFill = 'bookmark-check-fill',
   /** https://icons.getbootstrap.com/icons/bookmark-check */
-  BookmarkCheck = 'bookmark-check',
+  bookmarkCheck = 'bookmark-check',
   /** https://icons.getbootstrap.com/icons/bookmark-dash-fill */
-  BookmarkDashFill = 'bookmark-dash-fill',
+  bookmarkDashFill = 'bookmark-dash-fill',
   /** https://icons.getbootstrap.com/icons/bookmark-dash */
-  BookmarkDash = 'bookmark-dash',
+  bookmarkDash = 'bookmark-dash',
   /** https://icons.getbootstrap.com/icons/bookmark-fill */
-  BookmarkFill = 'bookmark-fill',
+  bookmarkFill = 'bookmark-fill',
   /** https://icons.getbootstrap.com/icons/bookmark-heart-fill */
-  BookmarkHeartFill = 'bookmark-heart-fill',
+  bookmarkHeartFill = 'bookmark-heart-fill',
   /** https://icons.getbootstrap.com/icons/bookmark-heart */
-  BookmarkHeart = 'bookmark-heart',
+  bookmarkHeart = 'bookmark-heart',
   /** https://icons.getbootstrap.com/icons/bookmark-plus-fill */
-  BookmarkPlusFill = 'bookmark-plus-fill',
+  bookmarkPlusFill = 'bookmark-plus-fill',
   /** https://icons.getbootstrap.com/icons/bookmark-plus */
-  BookmarkPlus = 'bookmark-plus',
+  bookmarkPlus = 'bookmark-plus',
   /** https://icons.getbootstrap.com/icons/bookmark-star-fill */
-  BookmarkStarFill = 'bookmark-star-fill',
+  bookmarkStarFill = 'bookmark-star-fill',
   /** https://icons.getbootstrap.com/icons/bookmark-star */
-  BookmarkStar = 'bookmark-star',
+  bookmarkStar = 'bookmark-star',
   /** https://icons.getbootstrap.com/icons/bookmark-x-fill */
-  BookmarkXFill = 'bookmark-x-fill',
+  bookmarkXFill = 'bookmark-x-fill',
   /** https://icons.getbootstrap.com/icons/bookmark-x */
-  BookmarkX = 'bookmark-x',
+  bookmarkX = 'bookmark-x',
   /** https://icons.getbootstrap.com/icons/bookmark */
-  Bookmark = 'bookmark',
+  bookmark = 'bookmark',
   /** https://icons.getbootstrap.com/icons/bookmarks-fill */
-  BookmarksFill = 'bookmarks-fill',
+  bookmarksFill = 'bookmarks-fill',
   /** https://icons.getbootstrap.com/icons/bookmarks */
-  Bookmarks = 'bookmarks',
+  bookmarks = 'bookmarks',
   /** https://icons.getbootstrap.com/icons/bookshelf */
-  Bookshelf = 'bookshelf',
+  bookshelf = 'bookshelf',
   /** https://icons.getbootstrap.com/icons/bootstrap-fill */
-  BootstrapFill = 'bootstrap-fill',
+  bootstrapFill = 'bootstrap-fill',
   /** https://icons.getbootstrap.com/icons/bootstrap-reboot */
-  BootstrapReboot = 'bootstrap-reboot',
+  bootstrapReboot = 'bootstrap-reboot',
   /** https://icons.getbootstrap.com/icons/bootstrap */
-  Bootstrap = 'bootstrap',
+  bootstrap = 'bootstrap',
   /** https://icons.getbootstrap.com/icons/border-style */
-  BorderStyle = 'border-style',
+  borderStyle = 'border-style',
   /** https://icons.getbootstrap.com/icons/border-width */
-  BorderWidth = 'border-width',
+  borderWidth = 'border-width',
   /** https://icons.getbootstrap.com/icons/bounding-box-circles */
-  BoundingBoxCircles = 'bounding-box-circles',
+  boundingBoxCircles = 'bounding-box-circles',
   /** https://icons.getbootstrap.com/icons/bounding-box */
-  BoundingBox = 'bounding-box',
+  boundingBox = 'bounding-box',
   /** https://icons.getbootstrap.com/icons/box-arrow-down-left */
-  BoxArrowDownLeft = 'box-arrow-down-left',
+  boxArrowDownLeft = 'box-arrow-down-left',
   /** https://icons.getbootstrap.com/icons/box-arrow-down-right */
-  BoxArrowDownRight = 'box-arrow-down-right',
+  boxArrowDownRight = 'box-arrow-down-right',
   /** https://icons.getbootstrap.com/icons/box-arrow-down */
-  BoxArrowDown = 'box-arrow-down',
+  boxArrowDown = 'box-arrow-down',
   /** https://icons.getbootstrap.com/icons/box-arrow-in-down-left */
-  BoxArrowInDownLeft = 'box-arrow-in-down-left',
+  boxArrowInDownLeft = 'box-arrow-in-down-left',
   /** https://icons.getbootstrap.com/icons/box-arrow-in-down-right */
-  BoxArrowInDownRight = 'box-arrow-in-down-right',
+  boxArrowInDownRight = 'box-arrow-in-down-right',
   /** https://icons.getbootstrap.com/icons/box-arrow-in-down */
-  BoxArrowInDown = 'box-arrow-in-down',
+  boxArrowInDown = 'box-arrow-in-down',
   /** https://icons.getbootstrap.com/icons/box-arrow-in-left */
-  BoxArrowInLeft = 'box-arrow-in-left',
+  boxArrowInLeft = 'box-arrow-in-left',
   /** https://icons.getbootstrap.com/icons/box-arrow-in-right */
-  BoxArrowInRight = 'box-arrow-in-right',
+  boxArrowInRight = 'box-arrow-in-right',
   /** https://icons.getbootstrap.com/icons/box-arrow-in-up-left */
-  BoxArrowInUpLeft = 'box-arrow-in-up-left',
+  boxArrowInUpLeft = 'box-arrow-in-up-left',
   /** https://icons.getbootstrap.com/icons/box-arrow-in-up-right */
-  BoxArrowInUpRight = 'box-arrow-in-up-right',
+  boxArrowInUpRight = 'box-arrow-in-up-right',
   /** https://icons.getbootstrap.com/icons/box-arrow-in-up */
-  BoxArrowInUp = 'box-arrow-in-up',
+  boxArrowInUp = 'box-arrow-in-up',
   /** https://icons.getbootstrap.com/icons/box-arrow-left */
-  BoxArrowLeft = 'box-arrow-left',
+  boxArrowLeft = 'box-arrow-left',
   /** https://icons.getbootstrap.com/icons/box-arrow-right */
-  BoxArrowRight = 'box-arrow-right',
+  boxArrowRight = 'box-arrow-right',
   /** https://icons.getbootstrap.com/icons/box-arrow-up-left */
-  BoxArrowUpLeft = 'box-arrow-up-left',
+  boxArrowUpLeft = 'box-arrow-up-left',
   /** https://icons.getbootstrap.com/icons/box-arrow-up-right */
-  BoxArrowUpRight = 'box-arrow-up-right',
+  boxArrowUpRight = 'box-arrow-up-right',
   /** https://icons.getbootstrap.com/icons/box-arrow-up */
-  BoxArrowUp = 'box-arrow-up',
+  boxArrowUp = 'box-arrow-up',
   /** https://icons.getbootstrap.com/icons/box-seam */
-  BoxSeam = 'box-seam',
+  boxSeam = 'box-seam',
   /** https://icons.getbootstrap.com/icons/box */
-  Box = 'box',
+  box = 'box',
   /** https://icons.getbootstrap.com/icons/braces */
-  Braces = 'braces',
+  braces = 'braces',
   /** https://icons.getbootstrap.com/icons/bricks */
-  Bricks = 'bricks',
+  bricks = 'bricks',
   /** https://icons.getbootstrap.com/icons/briefcase-fill */
-  BriefcaseFill = 'briefcase-fill',
+  briefcaseFill = 'briefcase-fill',
   /** https://icons.getbootstrap.com/icons/briefcase */
-  Briefcase = 'briefcase',
+  briefcase = 'briefcase',
   /** https://icons.getbootstrap.com/icons/brightness-alt-high-fill */
-  BrightnessAltHighFill = 'brightness-alt-high-fill',
+  brightnessAltHighFill = 'brightness-alt-high-fill',
   /** https://icons.getbootstrap.com/icons/brightness-alt-high */
-  BrightnessAltHigh = 'brightness-alt-high',
+  brightnessAltHigh = 'brightness-alt-high',
   /** https://icons.getbootstrap.com/icons/brightness-alt-low-fill */
-  BrightnessAltLowFill = 'brightness-alt-low-fill',
+  brightnessAltLowFill = 'brightness-alt-low-fill',
   /** https://icons.getbootstrap.com/icons/brightness-alt-low */
-  BrightnessAltLow = 'brightness-alt-low',
+  brightnessAltLow = 'brightness-alt-low',
   /** https://icons.getbootstrap.com/icons/brightness-high-fill */
-  BrightnessHighFill = 'brightness-high-fill',
+  brightnessHighFill = 'brightness-high-fill',
   /** https://icons.getbootstrap.com/icons/brightness-high */
-  BrightnessHigh = 'brightness-high',
+  brightnessHigh = 'brightness-high',
   /** https://icons.getbootstrap.com/icons/brightness-low-fill */
-  BrightnessLowFill = 'brightness-low-fill',
+  brightnessLowFill = 'brightness-low-fill',
   /** https://icons.getbootstrap.com/icons/brightness-low */
-  BrightnessLow = 'brightness-low',
+  brightnessLow = 'brightness-low',
   /** https://icons.getbootstrap.com/icons/broadcast-pin */
-  BroadcastPin = 'broadcast-pin',
+  broadcastPin = 'broadcast-pin',
   /** https://icons.getbootstrap.com/icons/broadcast */
-  Broadcast = 'broadcast',
+  broadcast = 'broadcast',
   /** https://icons.getbootstrap.com/icons/brush-fill */
-  BrushFill = 'brush-fill',
+  brushFill = 'brush-fill',
   /** https://icons.getbootstrap.com/icons/brush */
-  Brush = 'brush',
+  brush = 'brush',
   /** https://icons.getbootstrap.com/icons/bucket-fill */
-  BucketFill = 'bucket-fill',
+  bucketFill = 'bucket-fill',
   /** https://icons.getbootstrap.com/icons/bucket */
-  Bucket = 'bucket',
+  bucket = 'bucket',
   /** https://icons.getbootstrap.com/icons/bug-fill */
-  BugFill = 'bug-fill',
+  bugFill = 'bug-fill',
   /** https://icons.getbootstrap.com/icons/bug */
-  Bug = 'bug',
+  bug = 'bug',
   /** https://icons.getbootstrap.com/icons/building */
-  Building = 'building',
+  building = 'building',
   /** https://icons.getbootstrap.com/icons/bullseye */
-  Bullseye = 'bullseye',
+  bullseye = 'bullseye',
   /** https://icons.getbootstrap.com/icons/calculator-fill */
-  CalculatorFill = 'calculator-fill',
+  calculatorFill = 'calculator-fill',
   /** https://icons.getbootstrap.com/icons/calculator */
-  Calculator = 'calculator',
+  calculator = 'calculator',
   /** https://icons.getbootstrap.com/icons/calendar-check-fill */
-  CalendarCheckFill = 'calendar-check-fill',
+  calendarCheckFill = 'calendar-check-fill',
   /** https://icons.getbootstrap.com/icons/calendar-check */
-  CalendarCheck = 'calendar-check',
+  calendarCheck = 'calendar-check',
   /** https://icons.getbootstrap.com/icons/calendar-date-fill */
-  CalendarDateFill = 'calendar-date-fill',
+  calendarDateFill = 'calendar-date-fill',
   /** https://icons.getbootstrap.com/icons/calendar-date */
-  CalendarDate = 'calendar-date',
+  calendarDate = 'calendar-date',
   /** https://icons.getbootstrap.com/icons/calendar-day-fill */
-  CalendarDayFill = 'calendar-day-fill',
+  calendarDayFill = 'calendar-day-fill',
   /** https://icons.getbootstrap.com/icons/calendar-day */
-  CalendarDay = 'calendar-day',
+  calendarDay = 'calendar-day',
   /** https://icons.getbootstrap.com/icons/calendar-event-fill */
-  CalendarEventFill = 'calendar-event-fill',
+  calendarEventFill = 'calendar-event-fill',
   /** https://icons.getbootstrap.com/icons/calendar-event */
-  CalendarEvent = 'calendar-event',
+  calendarEvent = 'calendar-event',
   /** https://icons.getbootstrap.com/icons/calendar-fill */
-  CalendarFill = 'calendar-fill',
+  calendarFill = 'calendar-fill',
   /** https://icons.getbootstrap.com/icons/calendar-minus-fill */
-  CalendarMinusFill = 'calendar-minus-fill',
+  calendarMinusFill = 'calendar-minus-fill',
   /** https://icons.getbootstrap.com/icons/calendar-minus */
-  CalendarMinus = 'calendar-minus',
+  calendarMinus = 'calendar-minus',
   /** https://icons.getbootstrap.com/icons/calendar-month-fill */
-  CalendarMonthFill = 'calendar-month-fill',
+  calendarMonthFill = 'calendar-month-fill',
   /** https://icons.getbootstrap.com/icons/calendar-month */
-  CalendarMonth = 'calendar-month',
+  calendarMonth = 'calendar-month',
   /** https://icons.getbootstrap.com/icons/calendar-plus-fill */
-  CalendarPlusFill = 'calendar-plus-fill',
+  calendarPlusFill = 'calendar-plus-fill',
   /** https://icons.getbootstrap.com/icons/calendar-plus */
-  CalendarPlus = 'calendar-plus',
+  calendarPlus = 'calendar-plus',
   /** https://icons.getbootstrap.com/icons/calendar-range-fill */
-  CalendarRangeFill = 'calendar-range-fill',
+  calendarRangeFill = 'calendar-range-fill',
   /** https://icons.getbootstrap.com/icons/calendar-range */
-  CalendarRange = 'calendar-range',
+  calendarRange = 'calendar-range',
   /** https://icons.getbootstrap.com/icons/calendar-week-fill */
-  CalendarWeekFill = 'calendar-week-fill',
+  calendarWeekFill = 'calendar-week-fill',
   /** https://icons.getbootstrap.com/icons/calendar-week */
-  CalendarWeek = 'calendar-week',
+  calendarWeek = 'calendar-week',
   /** https://icons.getbootstrap.com/icons/calendar-x-fill */
-  CalendarXFill = 'calendar-x-fill',
+  calendarXFill = 'calendar-x-fill',
   /** https://icons.getbootstrap.com/icons/calendar-x */
-  CalendarX = 'calendar-x',
+  calendarX = 'calendar-x',
   /** https://icons.getbootstrap.com/icons/calendar */
-  Calendar = 'calendar',
+  calendar = 'calendar',
   /** https://icons.getbootstrap.com/icons/calendar2-check-fill */
-  Calendar2CheckFill = 'calendar2-check-fill',
+  calendar2CheckFill = 'calendar2-check-fill',
   /** https://icons.getbootstrap.com/icons/calendar2-check */
-  Calendar2Check = 'calendar2-check',
+  calendar2Check = 'calendar2-check',
   /** https://icons.getbootstrap.com/icons/calendar2-date-fill */
-  Calendar2DateFill = 'calendar2-date-fill',
+  calendar2DateFill = 'calendar2-date-fill',
   /** https://icons.getbootstrap.com/icons/calendar2-date */
-  Calendar2Date = 'calendar2-date',
+  calendar2Date = 'calendar2-date',
   /** https://icons.getbootstrap.com/icons/calendar2-day-fill */
-  Calendar2DayFill = 'calendar2-day-fill',
+  calendar2DayFill = 'calendar2-day-fill',
   /** https://icons.getbootstrap.com/icons/calendar2-day */
-  Calendar2Day = 'calendar2-day',
+  calendar2Day = 'calendar2-day',
   /** https://icons.getbootstrap.com/icons/calendar2-event-fill */
-  Calendar2EventFill = 'calendar2-event-fill',
+  calendar2EventFill = 'calendar2-event-fill',
   /** https://icons.getbootstrap.com/icons/calendar2-event */
-  Calendar2Event = 'calendar2-event',
+  calendar2Event = 'calendar2-event',
   /** https://icons.getbootstrap.com/icons/calendar2-fill */
-  Calendar2Fill = 'calendar2-fill',
+  calendar2Fill = 'calendar2-fill',
   /** https://icons.getbootstrap.com/icons/calendar2-minus-fill */
-  Calendar2MinusFill = 'calendar2-minus-fill',
+  calendar2MinusFill = 'calendar2-minus-fill',
   /** https://icons.getbootstrap.com/icons/calendar2-minus */
-  Calendar2Minus = 'calendar2-minus',
+  calendar2Minus = 'calendar2-minus',
   /** https://icons.getbootstrap.com/icons/calendar2-month-fill */
-  Calendar2MonthFill = 'calendar2-month-fill',
+  calendar2MonthFill = 'calendar2-month-fill',
   /** https://icons.getbootstrap.com/icons/calendar2-month */
-  Calendar2Month = 'calendar2-month',
+  calendar2Month = 'calendar2-month',
   /** https://icons.getbootstrap.com/icons/calendar2-plus-fill */
-  Calendar2PlusFill = 'calendar2-plus-fill',
+  calendar2PlusFill = 'calendar2-plus-fill',
   /** https://icons.getbootstrap.com/icons/calendar2-plus */
-  Calendar2Plus = 'calendar2-plus',
+  calendar2Plus = 'calendar2-plus',
   /** https://icons.getbootstrap.com/icons/calendar2-range-fill */
-  Calendar2RangeFill = 'calendar2-range-fill',
+  calendar2RangeFill = 'calendar2-range-fill',
   /** https://icons.getbootstrap.com/icons/calendar2-range */
-  Calendar2Range = 'calendar2-range',
+  calendar2Range = 'calendar2-range',
   /** https://icons.getbootstrap.com/icons/calendar2-week-fill */
-  Calendar2WeekFill = 'calendar2-week-fill',
+  calendar2WeekFill = 'calendar2-week-fill',
   /** https://icons.getbootstrap.com/icons/calendar2-week */
-  Calendar2Week = 'calendar2-week',
+  calendar2Week = 'calendar2-week',
   /** https://icons.getbootstrap.com/icons/calendar2-x-fill */
-  Calendar2XFill = 'calendar2-x-fill',
+  calendar2XFill = 'calendar2-x-fill',
   /** https://icons.getbootstrap.com/icons/calendar2-x */
-  Calendar2X = 'calendar2-x',
+  calendar2X = 'calendar2-x',
   /** https://icons.getbootstrap.com/icons/calendar2 */
-  Calendar2 = 'calendar2',
+  calendar2 = 'calendar2',
   /** https://icons.getbootstrap.com/icons/calendar3-event-fill */
-  Calendar3EventFill = 'calendar3-event-fill',
+  calendar3EventFill = 'calendar3-event-fill',
   /** https://icons.getbootstrap.com/icons/calendar3-event */
-  Calendar3Event = 'calendar3-event',
+  calendar3Event = 'calendar3-event',
   /** https://icons.getbootstrap.com/icons/calendar3-fill */
-  Calendar3Fill = 'calendar3-fill',
+  calendar3Fill = 'calendar3-fill',
   /** https://icons.getbootstrap.com/icons/calendar3-range-fill */
-  Calendar3RangeFill = 'calendar3-range-fill',
+  calendar3RangeFill = 'calendar3-range-fill',
   /** https://icons.getbootstrap.com/icons/calendar3-range */
-  Calendar3Range = 'calendar3-range',
+  calendar3Range = 'calendar3-range',
   /** https://icons.getbootstrap.com/icons/calendar3-week-fill */
-  Calendar3WeekFill = 'calendar3-week-fill',
+  calendar3WeekFill = 'calendar3-week-fill',
   /** https://icons.getbootstrap.com/icons/calendar3-week */
-  Calendar3Week = 'calendar3-week',
+  calendar3Week = 'calendar3-week',
   /** https://icons.getbootstrap.com/icons/calendar3 */
-  Calendar3 = 'calendar3',
+  calendar3 = 'calendar3',
   /** https://icons.getbootstrap.com/icons/calendar4-event */
-  Calendar4Event = 'calendar4-event',
+  calendar4Event = 'calendar4-event',
   /** https://icons.getbootstrap.com/icons/calendar4-range */
-  Calendar4Range = 'calendar4-range',
+  calendar4Range = 'calendar4-range',
   /** https://icons.getbootstrap.com/icons/calendar4-week */
-  Calendar4Week = 'calendar4-week',
+  calendar4Week = 'calendar4-week',
   /** https://icons.getbootstrap.com/icons/calendar4 */
-  Calendar4 = 'calendar4',
+  calendar4 = 'calendar4',
   /** https://icons.getbootstrap.com/icons/camera-fill */
-  CameraFill = 'camera-fill',
+  cameraFill = 'camera-fill',
   /** https://icons.getbootstrap.com/icons/camera-reels-fill */
-  CameraReelsFill = 'camera-reels-fill',
+  cameraReelsFill = 'camera-reels-fill',
   /** https://icons.getbootstrap.com/icons/camera-reels */
-  CameraReels = 'camera-reels',
+  cameraReels = 'camera-reels',
   /** https://icons.getbootstrap.com/icons/camera-video-fill */
-  CameraVideoFill = 'camera-video-fill',
+  cameraVideoFill = 'camera-video-fill',
   /** https://icons.getbootstrap.com/icons/camera-video-off-fill */
-  CameraVideoOffFill = 'camera-video-off-fill',
+  cameraVideoOffFill = 'camera-video-off-fill',
   /** https://icons.getbootstrap.com/icons/camera-video-off */
-  CameraVideoOff = 'camera-video-off',
+  cameraVideoOff = 'camera-video-off',
   /** https://icons.getbootstrap.com/icons/camera-video */
-  CameraVideo = 'camera-video',
+  cameraVideo = 'camera-video',
   /** https://icons.getbootstrap.com/icons/camera */
-  Camera = 'camera',
+  camera = 'camera',
   /** https://icons.getbootstrap.com/icons/camera2 */
-  Camera2 = 'camera2',
+  camera2 = 'camera2',
   /** https://icons.getbootstrap.com/icons/capslock-fill */
-  CapslockFill = 'capslock-fill',
+  capslockFill = 'capslock-fill',
   /** https://icons.getbootstrap.com/icons/capslock */
-  Capslock = 'capslock',
+  capslock = 'capslock',
   /** https://icons.getbootstrap.com/icons/card-checklist */
-  CardChecklist = 'card-checklist',
+  cardChecklist = 'card-checklist',
   /** https://icons.getbootstrap.com/icons/card-heading */
-  CardHeading = 'card-heading',
+  cardHeading = 'card-heading',
   /** https://icons.getbootstrap.com/icons/card-image */
-  CardImage = 'card-image',
+  cardImage = 'card-image',
   /** https://icons.getbootstrap.com/icons/card-list */
-  CardList = 'card-list',
+  cardList = 'card-list',
   /** https://icons.getbootstrap.com/icons/card-text */
-  CardText = 'card-text',
+  cardText = 'card-text',
   /** https://icons.getbootstrap.com/icons/caret-down-fill */
-  CaretDownFill = 'caret-down-fill',
+  caretDownFill = 'caret-down-fill',
   /** https://icons.getbootstrap.com/icons/caret-down-square-fill */
-  CaretDownSquareFill = 'caret-down-square-fill',
+  caretDownSquareFill = 'caret-down-square-fill',
   /** https://icons.getbootstrap.com/icons/caret-down-square */
-  CaretDownSquare = 'caret-down-square',
+  caretDownSquare = 'caret-down-square',
   /** https://icons.getbootstrap.com/icons/caret-down */
-  CaretDown = 'caret-down',
+  caretDown = 'caret-down',
   /** https://icons.getbootstrap.com/icons/caret-left-fill */
-  CaretLeftFill = 'caret-left-fill',
+  caretLeftFill = 'caret-left-fill',
   /** https://icons.getbootstrap.com/icons/caret-left-square-fill */
-  CaretLeftSquareFill = 'caret-left-square-fill',
+  caretLeftSquareFill = 'caret-left-square-fill',
   /** https://icons.getbootstrap.com/icons/caret-left-square */
-  CaretLeftSquare = 'caret-left-square',
+  caretLeftSquare = 'caret-left-square',
   /** https://icons.getbootstrap.com/icons/caret-left */
-  CaretLeft = 'caret-left',
+  caretLeft = 'caret-left',
   /** https://icons.getbootstrap.com/icons/caret-right-fill */
-  CaretRightFill = 'caret-right-fill',
+  caretRightFill = 'caret-right-fill',
   /** https://icons.getbootstrap.com/icons/caret-right-square-fill */
-  CaretRightSquareFill = 'caret-right-square-fill',
+  caretRightSquareFill = 'caret-right-square-fill',
   /** https://icons.getbootstrap.com/icons/caret-right-square */
-  CaretRightSquare = 'caret-right-square',
+  caretRightSquare = 'caret-right-square',
   /** https://icons.getbootstrap.com/icons/caret-right */
-  CaretRight = 'caret-right',
+  caretRight = 'caret-right',
   /** https://icons.getbootstrap.com/icons/caret-up-fill */
-  CaretUpFill = 'caret-up-fill',
+  caretUpFill = 'caret-up-fill',
   /** https://icons.getbootstrap.com/icons/caret-up-square-fill */
-  CaretUpSquareFill = 'caret-up-square-fill',
+  caretUpSquareFill = 'caret-up-square-fill',
   /** https://icons.getbootstrap.com/icons/caret-up-square */
-  CaretUpSquare = 'caret-up-square',
+  caretUpSquare = 'caret-up-square',
   /** https://icons.getbootstrap.com/icons/caret-up */
-  CaretUp = 'caret-up',
+  caretUp = 'caret-up',
   /** https://icons.getbootstrap.com/icons/cart-check-fill */
-  CartCheckFill = 'cart-check-fill',
+  cartCheckFill = 'cart-check-fill',
   /** https://icons.getbootstrap.com/icons/cart-check */
-  CartCheck = 'cart-check',
+  cartCheck = 'cart-check',
   /** https://icons.getbootstrap.com/icons/cart-dash-fill */
-  CartDashFill = 'cart-dash-fill',
+  cartDashFill = 'cart-dash-fill',
   /** https://icons.getbootstrap.com/icons/cart-dash */
-  CartDash = 'cart-dash',
+  cartDash = 'cart-dash',
   /** https://icons.getbootstrap.com/icons/cart-fill */
-  CartFill = 'cart-fill',
+  cartFill = 'cart-fill',
   /** https://icons.getbootstrap.com/icons/cart-plus-fill */
-  CartPlusFill = 'cart-plus-fill',
+  cartPlusFill = 'cart-plus-fill',
   /** https://icons.getbootstrap.com/icons/cart-plus */
-  CartPlus = 'cart-plus',
+  cartPlus = 'cart-plus',
   /** https://icons.getbootstrap.com/icons/cart-x-fill */
-  CartXFill = 'cart-x-fill',
+  cartXFill = 'cart-x-fill',
   /** https://icons.getbootstrap.com/icons/cart-x */
-  CartX = 'cart-x',
+  cartX = 'cart-x',
   /** https://icons.getbootstrap.com/icons/cart */
-  Cart = 'cart',
+  cart = 'cart',
   /** https://icons.getbootstrap.com/icons/cart2 */
-  Cart2 = 'cart2',
+  cart2 = 'cart2',
   /** https://icons.getbootstrap.com/icons/cart3 */
-  Cart3 = 'cart3',
+  cart3 = 'cart3',
   /** https://icons.getbootstrap.com/icons/cart4 */
-  Cart4 = 'cart4',
+  cart4 = 'cart4',
   /** https://icons.getbootstrap.com/icons/cash-stack */
-  CashStack = 'cash-stack',
+  cashStack = 'cash-stack',
   /** https://icons.getbootstrap.com/icons/cash */
-  Cash = 'cash',
+  cash = 'cash',
   /** https://icons.getbootstrap.com/icons/cast */
-  Cast = 'cast',
+  cast = 'cast',
   /** https://icons.getbootstrap.com/icons/chat-dots-fill */
-  ChatDotsFill = 'chat-dots-fill',
+  chatDotsFill = 'chat-dots-fill',
   /** https://icons.getbootstrap.com/icons/chat-dots */
-  ChatDots = 'chat-dots',
+  chatDots = 'chat-dots',
   /** https://icons.getbootstrap.com/icons/chat-fill */
-  ChatFill = 'chat-fill',
+  chatFill = 'chat-fill',
   /** https://icons.getbootstrap.com/icons/chat-left-dots-fill */
-  ChatLeftDotsFill = 'chat-left-dots-fill',
+  chatLeftDotsFill = 'chat-left-dots-fill',
   /** https://icons.getbootstrap.com/icons/chat-left-dots */
-  ChatLeftDots = 'chat-left-dots',
+  chatLeftDots = 'chat-left-dots',
   /** https://icons.getbootstrap.com/icons/chat-left-fill */
-  ChatLeftFill = 'chat-left-fill',
+  chatLeftFill = 'chat-left-fill',
   /** https://icons.getbootstrap.com/icons/chat-left-quote-fill */
-  ChatLeftQuoteFill = 'chat-left-quote-fill',
+  chatLeftQuoteFill = 'chat-left-quote-fill',
   /** https://icons.getbootstrap.com/icons/chat-left-quote */
-  ChatLeftQuote = 'chat-left-quote',
+  chatLeftQuote = 'chat-left-quote',
   /** https://icons.getbootstrap.com/icons/chat-left-text-fill */
-  ChatLeftTextFill = 'chat-left-text-fill',
+  chatLeftTextFill = 'chat-left-text-fill',
   /** https://icons.getbootstrap.com/icons/chat-left-text */
-  ChatLeftText = 'chat-left-text',
+  chatLeftText = 'chat-left-text',
   /** https://icons.getbootstrap.com/icons/chat-left */
-  ChatLeft = 'chat-left',
+  chatLeft = 'chat-left',
   /** https://icons.getbootstrap.com/icons/chat-quote-fill */
-  ChatQuoteFill = 'chat-quote-fill',
+  chatQuoteFill = 'chat-quote-fill',
   /** https://icons.getbootstrap.com/icons/chat-quote */
-  ChatQuote = 'chat-quote',
+  chatQuote = 'chat-quote',
   /** https://icons.getbootstrap.com/icons/chat-right-dots-fill */
-  ChatRightDotsFill = 'chat-right-dots-fill',
+  chatRightDotsFill = 'chat-right-dots-fill',
   /** https://icons.getbootstrap.com/icons/chat-right-dots */
-  ChatRightDots = 'chat-right-dots',
+  chatRightDots = 'chat-right-dots',
   /** https://icons.getbootstrap.com/icons/chat-right-fill */
-  ChatRightFill = 'chat-right-fill',
+  chatRightFill = 'chat-right-fill',
   /** https://icons.getbootstrap.com/icons/chat-right-quote-fill */
-  ChatRightQuoteFill = 'chat-right-quote-fill',
+  chatRightQuoteFill = 'chat-right-quote-fill',
   /** https://icons.getbootstrap.com/icons/chat-right-quote */
-  ChatRightQuote = 'chat-right-quote',
+  chatRightQuote = 'chat-right-quote',
   /** https://icons.getbootstrap.com/icons/chat-right-text-fill */
-  ChatRightTextFill = 'chat-right-text-fill',
+  chatRightTextFill = 'chat-right-text-fill',
   /** https://icons.getbootstrap.com/icons/chat-right-text */
-  ChatRightText = 'chat-right-text',
+  chatRightText = 'chat-right-text',
   /** https://icons.getbootstrap.com/icons/chat-right */
-  ChatRight = 'chat-right',
+  chatRight = 'chat-right',
   /** https://icons.getbootstrap.com/icons/chat-square-dots-fill */
-  ChatSquareDotsFill = 'chat-square-dots-fill',
+  chatSquareDotsFill = 'chat-square-dots-fill',
   /** https://icons.getbootstrap.com/icons/chat-square-dots */
-  ChatSquareDots = 'chat-square-dots',
+  chatSquareDots = 'chat-square-dots',
   /** https://icons.getbootstrap.com/icons/chat-square-fill */
-  ChatSquareFill = 'chat-square-fill',
+  chatSquareFill = 'chat-square-fill',
   /** https://icons.getbootstrap.com/icons/chat-square-quote-fill */
-  ChatSquareQuoteFill = 'chat-square-quote-fill',
+  chatSquareQuoteFill = 'chat-square-quote-fill',
   /** https://icons.getbootstrap.com/icons/chat-square-quote */
-  ChatSquareQuote = 'chat-square-quote',
+  chatSquareQuote = 'chat-square-quote',
   /** https://icons.getbootstrap.com/icons/chat-square-text-fill */
-  ChatSquareTextFill = 'chat-square-text-fill',
+  chatSquareTextFill = 'chat-square-text-fill',
   /** https://icons.getbootstrap.com/icons/chat-square-text */
-  ChatSquareText = 'chat-square-text',
+  chatSquareText = 'chat-square-text',
   /** https://icons.getbootstrap.com/icons/chat-square */
-  ChatSquare = 'chat-square',
+  chatSquare = 'chat-square',
   /** https://icons.getbootstrap.com/icons/chat-text-fill */
-  ChatTextFill = 'chat-text-fill',
+  chatTextFill = 'chat-text-fill',
   /** https://icons.getbootstrap.com/icons/chat-text */
-  ChatText = 'chat-text',
+  chatText = 'chat-text',
   /** https://icons.getbootstrap.com/icons/chat */
-  Chat = 'chat',
+  chat = 'chat',
   /** https://icons.getbootstrap.com/icons/check-all */
-  CheckAll = 'check-all',
+  checkAll = 'check-all',
   /** https://icons.getbootstrap.com/icons/check-circle-fill */
-  CheckCircleFill = 'check-circle-fill',
+  checkCircleFill = 'check-circle-fill',
   /** https://icons.getbootstrap.com/icons/check-circle */
-  CheckCircle = 'check-circle',
+  checkCircle = 'check-circle',
   /** https://icons.getbootstrap.com/icons/check-square-fill */
-  CheckSquareFill = 'check-square-fill',
+  checkSquareFill = 'check-square-fill',
   /** https://icons.getbootstrap.com/icons/check-square */
-  CheckSquare = 'check-square',
+  checkSquare = 'check-square',
   /** https://icons.getbootstrap.com/icons/check */
-  Check = 'check',
+  check = 'check',
   /** https://icons.getbootstrap.com/icons/check2-all */
-  Check2All = 'check2-all',
+  check2All = 'check2-all',
   /** https://icons.getbootstrap.com/icons/check2-circle */
-  Check2Circle = 'check2-circle',
+  check2Circle = 'check2-circle',
   /** https://icons.getbootstrap.com/icons/check2-square */
-  Check2Square = 'check2-square',
+  check2Square = 'check2-square',
   /** https://icons.getbootstrap.com/icons/check2 */
-  Check2 = 'check2',
+  check2 = 'check2',
   /** https://icons.getbootstrap.com/icons/chevron-bar-contract */
-  ChevronBarContract = 'chevron-bar-contract',
+  chevronBarContract = 'chevron-bar-contract',
   /** https://icons.getbootstrap.com/icons/chevron-bar-down */
-  ChevronBarDown = 'chevron-bar-down',
+  chevronBarDown = 'chevron-bar-down',
   /** https://icons.getbootstrap.com/icons/chevron-bar-expand */
-  ChevronBarExpand = 'chevron-bar-expand',
+  chevronBarExpand = 'chevron-bar-expand',
   /** https://icons.getbootstrap.com/icons/chevron-bar-left */
-  ChevronBarLeft = 'chevron-bar-left',
+  chevronBarLeft = 'chevron-bar-left',
   /** https://icons.getbootstrap.com/icons/chevron-bar-right */
-  ChevronBarRight = 'chevron-bar-right',
+  chevronBarRight = 'chevron-bar-right',
   /** https://icons.getbootstrap.com/icons/chevron-bar-up */
-  ChevronBarUp = 'chevron-bar-up',
+  chevronBarUp = 'chevron-bar-up',
   /** https://icons.getbootstrap.com/icons/chevron-compact-down */
-  ChevronCompactDown = 'chevron-compact-down',
+  chevronCompactDown = 'chevron-compact-down',
   /** https://icons.getbootstrap.com/icons/chevron-compact-left */
-  ChevronCompactLeft = 'chevron-compact-left',
+  chevronCompactLeft = 'chevron-compact-left',
   /** https://icons.getbootstrap.com/icons/chevron-compact-right */
-  ChevronCompactRight = 'chevron-compact-right',
+  chevronCompactRight = 'chevron-compact-right',
   /** https://icons.getbootstrap.com/icons/chevron-compact-up */
-  ChevronCompactUp = 'chevron-compact-up',
+  chevronCompactUp = 'chevron-compact-up',
   /** https://icons.getbootstrap.com/icons/chevron-contract */
-  ChevronContract = 'chevron-contract',
+  chevronContract = 'chevron-contract',
   /** https://icons.getbootstrap.com/icons/chevron-double-down */
-  ChevronDoubleDown = 'chevron-double-down',
+  chevronDoubleDown = 'chevron-double-down',
   /** https://icons.getbootstrap.com/icons/chevron-double-left */
-  ChevronDoubleLeft = 'chevron-double-left',
+  chevronDoubleLeft = 'chevron-double-left',
   /** https://icons.getbootstrap.com/icons/chevron-double-right */
-  ChevronDoubleRight = 'chevron-double-right',
+  chevronDoubleRight = 'chevron-double-right',
   /** https://icons.getbootstrap.com/icons/chevron-double-up */
-  ChevronDoubleUp = 'chevron-double-up',
+  chevronDoubleUp = 'chevron-double-up',
   /** https://icons.getbootstrap.com/icons/chevron-down */
-  ChevronDown = 'chevron-down',
+  chevronDown = 'chevron-down',
   /** https://icons.getbootstrap.com/icons/chevron-expand */
-  ChevronExpand = 'chevron-expand',
+  chevronExpand = 'chevron-expand',
   /** https://icons.getbootstrap.com/icons/chevron-left */
-  ChevronLeft = 'chevron-left',
+  chevronLeft = 'chevron-left',
   /** https://icons.getbootstrap.com/icons/chevron-right */
-  ChevronRight = 'chevron-right',
+  chevronRight = 'chevron-right',
   /** https://icons.getbootstrap.com/icons/chevron-up */
-  ChevronUp = 'chevron-up',
+  chevronUp = 'chevron-up',
   /** https://icons.getbootstrap.com/icons/circle-fill */
-  CircleFill = 'circle-fill',
+  circleFill = 'circle-fill',
   /** https://icons.getbootstrap.com/icons/circle-half */
-  CircleHalf = 'circle-half',
+  circleHalf = 'circle-half',
   /** https://icons.getbootstrap.com/icons/circle-square */
-  CircleSquare = 'circle-square',
+  circleSquare = 'circle-square',
   /** https://icons.getbootstrap.com/icons/circle */
-  Circle = 'circle',
+  circle = 'circle',
   /** https://icons.getbootstrap.com/icons/clipboard-check */
-  ClipboardCheck = 'clipboard-check',
+  clipboardCheck = 'clipboard-check',
   /** https://icons.getbootstrap.com/icons/clipboard-data */
-  ClipboardData = 'clipboard-data',
+  clipboardData = 'clipboard-data',
   /** https://icons.getbootstrap.com/icons/clipboard-minus */
-  ClipboardMinus = 'clipboard-minus',
+  clipboardMinus = 'clipboard-minus',
   /** https://icons.getbootstrap.com/icons/clipboard-plus */
-  ClipboardPlus = 'clipboard-plus',
+  clipboardPlus = 'clipboard-plus',
   /** https://icons.getbootstrap.com/icons/clipboard-x */
-  ClipboardX = 'clipboard-x',
+  clipboardX = 'clipboard-x',
   /** https://icons.getbootstrap.com/icons/clipboard */
-  Clipboard = 'clipboard',
+  clipboard = 'clipboard',
   /** https://icons.getbootstrap.com/icons/clock-fill */
-  ClockFill = 'clock-fill',
+  clockFill = 'clock-fill',
   /** https://icons.getbootstrap.com/icons/clock-history */
-  ClockHistory = 'clock-history',
+  clockHistory = 'clock-history',
   /** https://icons.getbootstrap.com/icons/clock */
-  Clock = 'clock',
+  clock = 'clock',
   /** https://icons.getbootstrap.com/icons/cloud-arrow-down-fill */
-  CloudArrowDownFill = 'cloud-arrow-down-fill',
+  cloudArrowDownFill = 'cloud-arrow-down-fill',
   /** https://icons.getbootstrap.com/icons/cloud-arrow-down */
-  CloudArrowDown = 'cloud-arrow-down',
+  cloudArrowDown = 'cloud-arrow-down',
   /** https://icons.getbootstrap.com/icons/cloud-arrow-up-fill */
-  CloudArrowUpFill = 'cloud-arrow-up-fill',
+  cloudArrowUpFill = 'cloud-arrow-up-fill',
   /** https://icons.getbootstrap.com/icons/cloud-arrow-up */
-  CloudArrowUp = 'cloud-arrow-up',
+  cloudArrowUp = 'cloud-arrow-up',
   /** https://icons.getbootstrap.com/icons/cloud-check-fill */
-  CloudCheckFill = 'cloud-check-fill',
+  cloudCheckFill = 'cloud-check-fill',
   /** https://icons.getbootstrap.com/icons/cloud-check */
-  CloudCheck = 'cloud-check',
+  cloudCheck = 'cloud-check',
   /** https://icons.getbootstrap.com/icons/cloud-download-fill */
-  CloudDownloadFill = 'cloud-download-fill',
+  cloudDownloadFill = 'cloud-download-fill',
   /** https://icons.getbootstrap.com/icons/cloud-download */
-  CloudDownload = 'cloud-download',
+  cloudDownload = 'cloud-download',
   /** https://icons.getbootstrap.com/icons/cloud-fill */
-  CloudFill = 'cloud-fill',
+  cloudFill = 'cloud-fill',
   /** https://icons.getbootstrap.com/icons/cloud-minus-fill */
-  CloudMinusFill = 'cloud-minus-fill',
+  cloudMinusFill = 'cloud-minus-fill',
   /** https://icons.getbootstrap.com/icons/cloud-minus */
-  CloudMinus = 'cloud-minus',
+  cloudMinus = 'cloud-minus',
   /** https://icons.getbootstrap.com/icons/cloud-plus-fill */
-  CloudPlusFill = 'cloud-plus-fill',
+  cloudPlusFill = 'cloud-plus-fill',
   /** https://icons.getbootstrap.com/icons/cloud-plus */
-  CloudPlus = 'cloud-plus',
+  cloudPlus = 'cloud-plus',
   /** https://icons.getbootstrap.com/icons/cloud-slash-fill */
-  CloudSlashFill = 'cloud-slash-fill',
+  cloudSlashFill = 'cloud-slash-fill',
   /** https://icons.getbootstrap.com/icons/cloud-slash */
-  CloudSlash = 'cloud-slash',
+  cloudSlash = 'cloud-slash',
   /** https://icons.getbootstrap.com/icons/cloud-upload-fill */
-  CloudUploadFill = 'cloud-upload-fill',
+  cloudUploadFill = 'cloud-upload-fill',
   /** https://icons.getbootstrap.com/icons/cloud-upload */
-  CloudUpload = 'cloud-upload',
+  cloudUpload = 'cloud-upload',
   /** https://icons.getbootstrap.com/icons/cloud */
-  Cloud = 'cloud',
+  cloud = 'cloud',
   /** https://icons.getbootstrap.com/icons/code-slash */
-  CodeSlash = 'code-slash',
+  codeSlash = 'code-slash',
   /** https://icons.getbootstrap.com/icons/code-square */
-  CodeSquare = 'code-square',
+  codeSquare = 'code-square',
   /** https://icons.getbootstrap.com/icons/code */
-  Code = 'code',
+  code = 'code',
   /** https://icons.getbootstrap.com/icons/collection-fill */
-  CollectionFill = 'collection-fill',
+  collectionFill = 'collection-fill',
   /** https://icons.getbootstrap.com/icons/collection-play-fill */
-  CollectionPlayFill = 'collection-play-fill',
+  collectionPlayFill = 'collection-play-fill',
   /** https://icons.getbootstrap.com/icons/collection-play */
-  CollectionPlay = 'collection-play',
+  collectionPlay = 'collection-play',
   /** https://icons.getbootstrap.com/icons/collection */
-  Collection = 'collection',
+  collection = 'collection',
   /** https://icons.getbootstrap.com/icons/columns-gap */
-  ColumnsGap = 'columns-gap',
+  columnsGap = 'columns-gap',
   /** https://icons.getbootstrap.com/icons/columns */
-  Columns = 'columns',
+  columns = 'columns',
   /** https://icons.getbootstrap.com/icons/command */
-  Command = 'command',
+  command = 'command',
   /** https://icons.getbootstrap.com/icons/compass-fill */
-  CompassFill = 'compass-fill',
+  compassFill = 'compass-fill',
   /** https://icons.getbootstrap.com/icons/compass */
-  Compass = 'compass',
+  compass = 'compass',
   /** https://icons.getbootstrap.com/icons/cone-striped */
-  ConeStriped = 'cone-striped',
+  coneStriped = 'cone-striped',
   /** https://icons.getbootstrap.com/icons/cone */
-  Cone = 'cone',
+  cone = 'cone',
   /** https://icons.getbootstrap.com/icons/controller */
-  Controller = 'controller',
+  controller = 'controller',
   /** https://icons.getbootstrap.com/icons/cpu-fill */
-  CpuFill = 'cpu-fill',
+  cpuFill = 'cpu-fill',
   /** https://icons.getbootstrap.com/icons/cpu */
-  Cpu = 'cpu',
+  cpu = 'cpu',
   /** https://icons.getbootstrap.com/icons/credit-card-2-back-fill */
-  CreditCard2BackFill = 'credit-card-2-back-fill',
+  creditCard2BackFill = 'credit-card-2-back-fill',
   /** https://icons.getbootstrap.com/icons/credit-card-2-back */
-  CreditCard2Back = 'credit-card-2-back',
+  creditCard2Back = 'credit-card-2-back',
   /** https://icons.getbootstrap.com/icons/credit-card-2-front-fill */
-  CreditCard2FrontFill = 'credit-card-2-front-fill',
+  creditCard2FrontFill = 'credit-card-2-front-fill',
   /** https://icons.getbootstrap.com/icons/credit-card-2-front */
-  CreditCard2Front = 'credit-card-2-front',
+  creditCard2Front = 'credit-card-2-front',
   /** https://icons.getbootstrap.com/icons/credit-card-fill */
-  CreditCardFill = 'credit-card-fill',
+  creditCardFill = 'credit-card-fill',
   /** https://icons.getbootstrap.com/icons/credit-card */
-  CreditCard = 'credit-card',
+  creditCard = 'credit-card',
   /** https://icons.getbootstrap.com/icons/crop */
-  Crop = 'crop',
+  crop = 'crop',
   /** https://icons.getbootstrap.com/icons/cup-fill */
-  CupFill = 'cup-fill',
+  cupFill = 'cup-fill',
   /** https://icons.getbootstrap.com/icons/cup-straw */
-  CupStraw = 'cup-straw',
+  cupStraw = 'cup-straw',
   /** https://icons.getbootstrap.com/icons/cup */
-  Cup = 'cup',
+  cup = 'cup',
   /** https://icons.getbootstrap.com/icons/cursor-fill */
-  CursorFill = 'cursor-fill',
+  cursorFill = 'cursor-fill',
   /** https://icons.getbootstrap.com/icons/cursor-text */
-  CursorText = 'cursor-text',
+  cursorText = 'cursor-text',
   /** https://icons.getbootstrap.com/icons/cursor */
-  Cursor = 'cursor',
+  cursor = 'cursor',
   /** https://icons.getbootstrap.com/icons/dash-circle-fill */
-  DashCircleFill = 'dash-circle-fill',
+  dashCircleFill = 'dash-circle-fill',
   /** https://icons.getbootstrap.com/icons/dash-circle */
-  DashCircle = 'dash-circle',
+  dashCircle = 'dash-circle',
   /** https://icons.getbootstrap.com/icons/dash-square-fill */
-  DashSquareFill = 'dash-square-fill',
+  dashSquareFill = 'dash-square-fill',
   /** https://icons.getbootstrap.com/icons/dash-square */
-  DashSquare = 'dash-square',
+  dashSquare = 'dash-square',
   /** https://icons.getbootstrap.com/icons/dash */
-  Dash = 'dash',
+  dash = 'dash',
   /** https://icons.getbootstrap.com/icons/diagram-2-fill */
-  Diagram2Fill = 'diagram-2-fill',
+  diagram2Fill = 'diagram-2-fill',
   /** https://icons.getbootstrap.com/icons/diagram-2 */
-  Diagram2 = 'diagram-2',
+  diagram2 = 'diagram-2',
   /** https://icons.getbootstrap.com/icons/diagram-3-fill */
-  Diagram3Fill = 'diagram-3-fill',
+  diagram3Fill = 'diagram-3-fill',
   /** https://icons.getbootstrap.com/icons/diagram-3 */
-  Diagram3 = 'diagram-3',
+  diagram3 = 'diagram-3',
   /** https://icons.getbootstrap.com/icons/diamond-fill */
-  DiamondFill = 'diamond-fill',
+  diamondFill = 'diamond-fill',
   /** https://icons.getbootstrap.com/icons/diamond-half */
-  DiamondHalf = 'diamond-half',
+  diamondHalf = 'diamond-half',
   /** https://icons.getbootstrap.com/icons/diamond */
-  Diamond = 'diamond',
+  diamond = 'diamond',
   /** https://icons.getbootstrap.com/icons/dice-1-fill */
-  Dice1Fill = 'dice-1-fill',
+  dice1Fill = 'dice-1-fill',
   /** https://icons.getbootstrap.com/icons/dice-1 */
-  Dice1 = 'dice-1',
+  dice1 = 'dice-1',
   /** https://icons.getbootstrap.com/icons/dice-2-fill */
-  Dice2Fill = 'dice-2-fill',
+  dice2Fill = 'dice-2-fill',
   /** https://icons.getbootstrap.com/icons/dice-2 */
-  Dice2 = 'dice-2',
+  dice2 = 'dice-2',
   /** https://icons.getbootstrap.com/icons/dice-3-fill */
-  Dice3Fill = 'dice-3-fill',
+  dice3Fill = 'dice-3-fill',
   /** https://icons.getbootstrap.com/icons/dice-3 */
-  Dice3 = 'dice-3',
+  dice3 = 'dice-3',
   /** https://icons.getbootstrap.com/icons/dice-4-fill */
-  Dice4Fill = 'dice-4-fill',
+  dice4Fill = 'dice-4-fill',
   /** https://icons.getbootstrap.com/icons/dice-4 */
-  Dice4 = 'dice-4',
+  dice4 = 'dice-4',
   /** https://icons.getbootstrap.com/icons/dice-5-fill */
-  Dice5Fill = 'dice-5-fill',
+  dice5Fill = 'dice-5-fill',
   /** https://icons.getbootstrap.com/icons/dice-5 */
-  Dice5 = 'dice-5',
+  dice5 = 'dice-5',
   /** https://icons.getbootstrap.com/icons/dice-6-fill */
-  Dice6Fill = 'dice-6-fill',
+  dice6Fill = 'dice-6-fill',
   /** https://icons.getbootstrap.com/icons/dice-6 */
-  Dice6 = 'dice-6',
+  dice6 = 'dice-6',
   /** https://icons.getbootstrap.com/icons/disc-fill */
-  DiscFill = 'disc-fill',
+  discFill = 'disc-fill',
   /** https://icons.getbootstrap.com/icons/disc */
-  Disc = 'disc',
+  disc = 'disc',
   /** https://icons.getbootstrap.com/icons/discord */
-  Discord = 'discord',
+  discord = 'discord',
   /** https://icons.getbootstrap.com/icons/display-fill */
-  DisplayFill = 'display-fill',
+  displayFill = 'display-fill',
   /** https://icons.getbootstrap.com/icons/display */
-  Display = 'display',
+  display = 'display',
   /** https://icons.getbootstrap.com/icons/distribute-horizontal */
-  DistributeHorizontal = 'distribute-horizontal',
+  distributeHorizontal = 'distribute-horizontal',
   /** https://icons.getbootstrap.com/icons/distribute-vertical */
-  DistributeVertical = 'distribute-vertical',
+  distributeVertical = 'distribute-vertical',
   /** https://icons.getbootstrap.com/icons/door-closed-fill */
-  DoorClosedFill = 'door-closed-fill',
+  doorClosedFill = 'door-closed-fill',
   /** https://icons.getbootstrap.com/icons/door-closed */
-  DoorClosed = 'door-closed',
+  doorClosed = 'door-closed',
   /** https://icons.getbootstrap.com/icons/door-open-fill */
-  DoorOpenFill = 'door-open-fill',
+  doorOpenFill = 'door-open-fill',
   /** https://icons.getbootstrap.com/icons/door-open */
-  DoorOpen = 'door-open',
+  doorOpen = 'door-open',
   /** https://icons.getbootstrap.com/icons/dot */
-  Dot = 'dot',
+  dot = 'dot',
   /** https://icons.getbootstrap.com/icons/download */
-  Download = 'download',
+  download = 'download',
   /** https://icons.getbootstrap.com/icons/droplet-fill */
-  DropletFill = 'droplet-fill',
+  dropletFill = 'droplet-fill',
   /** https://icons.getbootstrap.com/icons/droplet-half */
-  DropletHalf = 'droplet-half',
+  dropletHalf = 'droplet-half',
   /** https://icons.getbootstrap.com/icons/droplet */
-  Droplet = 'droplet',
+  droplet = 'droplet',
   /** https://icons.getbootstrap.com/icons/earbuds */
-  Earbuds = 'earbuds',
+  earbuds = 'earbuds',
   /** https://icons.getbootstrap.com/icons/easel-fill */
-  EaselFill = 'easel-fill',
+  easelFill = 'easel-fill',
   /** https://icons.getbootstrap.com/icons/easel */
-  Easel = 'easel',
+  easel = 'easel',
   /** https://icons.getbootstrap.com/icons/egg-fill */
-  EggFill = 'egg-fill',
+  eggFill = 'egg-fill',
   /** https://icons.getbootstrap.com/icons/egg-fried */
-  EggFried = 'egg-fried',
+  eggFried = 'egg-fried',
   /** https://icons.getbootstrap.com/icons/egg */
-  Egg = 'egg',
+  egg = 'egg',
   /** https://icons.getbootstrap.com/icons/eject-fill */
-  EjectFill = 'eject-fill',
+  ejectFill = 'eject-fill',
   /** https://icons.getbootstrap.com/icons/eject */
-  Eject = 'eject',
+  eject = 'eject',
   /** https://icons.getbootstrap.com/icons/emoji-angry-fill */
-  EmojiAngryFill = 'emoji-angry-fill',
+  emojiAngryFill = 'emoji-angry-fill',
   /** https://icons.getbootstrap.com/icons/emoji-angry */
-  EmojiAngry = 'emoji-angry',
+  emojiAngry = 'emoji-angry',
   /** https://icons.getbootstrap.com/icons/emoji-dizzy-fill */
-  EmojiDizzyFill = 'emoji-dizzy-fill',
+  emojiDizzyFill = 'emoji-dizzy-fill',
   /** https://icons.getbootstrap.com/icons/emoji-dizzy */
-  EmojiDizzy = 'emoji-dizzy',
+  emojiDizzy = 'emoji-dizzy',
   /** https://icons.getbootstrap.com/icons/emoji-expressionless-fill */
-  EmojiExpressionlessFill = 'emoji-expressionless-fill',
+  emojiExpressionlessFill = 'emoji-expressionless-fill',
   /** https://icons.getbootstrap.com/icons/emoji-expressionless */
-  EmojiExpressionless = 'emoji-expressionless',
+  emojiExpressionless = 'emoji-expressionless',
   /** https://icons.getbootstrap.com/icons/emoji-frown-fill */
-  EmojiFrownFill = 'emoji-frown-fill',
+  emojiFrownFill = 'emoji-frown-fill',
   /** https://icons.getbootstrap.com/icons/emoji-frown */
-  EmojiFrown = 'emoji-frown',
+  emojiFrown = 'emoji-frown',
   /** https://icons.getbootstrap.com/icons/emoji-heart-eyes-fill */
-  EmojiHeartEyesFill = 'emoji-heart-eyes-fill',
+  emojiHeartEyesFill = 'emoji-heart-eyes-fill',
   /** https://icons.getbootstrap.com/icons/emoji-heart-eyes */
-  EmojiHeartEyes = 'emoji-heart-eyes',
+  emojiHeartEyes = 'emoji-heart-eyes',
   /** https://icons.getbootstrap.com/icons/emoji-laughing-fill */
-  EmojiLaughingFill = 'emoji-laughing-fill',
+  emojiLaughingFill = 'emoji-laughing-fill',
   /** https://icons.getbootstrap.com/icons/emoji-laughing */
-  EmojiLaughing = 'emoji-laughing',
+  emojiLaughing = 'emoji-laughing',
   /** https://icons.getbootstrap.com/icons/emoji-neutral-fill */
-  EmojiNeutralFill = 'emoji-neutral-fill',
+  emojiNeutralFill = 'emoji-neutral-fill',
   /** https://icons.getbootstrap.com/icons/emoji-neutral */
-  EmojiNeutral = 'emoji-neutral',
+  emojiNeutral = 'emoji-neutral',
   /** https://icons.getbootstrap.com/icons/emoji-smile-fill */
-  EmojiSmileFill = 'emoji-smile-fill',
+  emojiSmileFill = 'emoji-smile-fill',
   /** https://icons.getbootstrap.com/icons/emoji-smile-upside-down-fill */
-  EmojiSmileUpsideDownFill = 'emoji-smile-upside-down-fill',
+  emojiSmileUpsideDownFill = 'emoji-smile-upside-down-fill',
   /** https://icons.getbootstrap.com/icons/emoji-smile-upside-down */
-  EmojiSmileUpsideDown = 'emoji-smile-upside-down',
+  emojiSmileUpsideDown = 'emoji-smile-upside-down',
   /** https://icons.getbootstrap.com/icons/emoji-smile */
-  EmojiSmile = 'emoji-smile',
+  emojiSmile = 'emoji-smile',
   /** https://icons.getbootstrap.com/icons/emoji-sunglasses-fill */
-  EmojiSunglassesFill = 'emoji-sunglasses-fill',
+  emojiSunglassesFill = 'emoji-sunglasses-fill',
   /** https://icons.getbootstrap.com/icons/emoji-sunglasses */
-  EmojiSunglasses = 'emoji-sunglasses',
+  emojiSunglasses = 'emoji-sunglasses',
   /** https://icons.getbootstrap.com/icons/emoji-wink-fill */
-  EmojiWinkFill = 'emoji-wink-fill',
+  emojiWinkFill = 'emoji-wink-fill',
   /** https://icons.getbootstrap.com/icons/emoji-wink */
-  EmojiWink = 'emoji-wink',
+  emojiWink = 'emoji-wink',
   /** https://icons.getbootstrap.com/icons/envelope-fill */
-  EnvelopeFill = 'envelope-fill',
+  envelopeFill = 'envelope-fill',
   /** https://icons.getbootstrap.com/icons/envelope-open-fill */
-  EnvelopeOpenFill = 'envelope-open-fill',
+  envelopeOpenFill = 'envelope-open-fill',
   /** https://icons.getbootstrap.com/icons/envelope-open */
-  EnvelopeOpen = 'envelope-open',
+  envelopeOpen = 'envelope-open',
   /** https://icons.getbootstrap.com/icons/envelope */
-  Envelope = 'envelope',
+  envelope = 'envelope',
   /** https://icons.getbootstrap.com/icons/exclamation-circle-fill */
-  ExclamationCircleFill = 'exclamation-circle-fill',
+  exclamationCircleFill = 'exclamation-circle-fill',
   /** https://icons.getbootstrap.com/icons/exclamation-circle */
-  ExclamationCircle = 'exclamation-circle',
+  exclamationCircle = 'exclamation-circle',
   /** https://icons.getbootstrap.com/icons/exclamation-diamond-fill */
-  ExclamationDiamondFill = 'exclamation-diamond-fill',
+  exclamationDiamondFill = 'exclamation-diamond-fill',
   /** https://icons.getbootstrap.com/icons/exclamation-diamond */
-  ExclamationDiamond = 'exclamation-diamond',
+  exclamationDiamond = 'exclamation-diamond',
   /** https://icons.getbootstrap.com/icons/exclamation-octagon-fill */
-  ExclamationOctagonFill = 'exclamation-octagon-fill',
+  exclamationOctagonFill = 'exclamation-octagon-fill',
   /** https://icons.getbootstrap.com/icons/exclamation-octagon */
-  ExclamationOctagon = 'exclamation-octagon',
+  exclamationOctagon = 'exclamation-octagon',
   /** https://icons.getbootstrap.com/icons/exclamation-square-fill */
-  ExclamationSquareFill = 'exclamation-square-fill',
+  exclamationSquareFill = 'exclamation-square-fill',
   /** https://icons.getbootstrap.com/icons/exclamation-square */
-  ExclamationSquare = 'exclamation-square',
+  exclamationSquare = 'exclamation-square',
   /** https://icons.getbootstrap.com/icons/exclamation-triangle-fill */
-  ExclamationTriangleFill = 'exclamation-triangle-fill',
+  exclamationTriangleFill = 'exclamation-triangle-fill',
   /** https://icons.getbootstrap.com/icons/exclamation-triangle */
-  ExclamationTriangle = 'exclamation-triangle',
+  exclamationTriangle = 'exclamation-triangle',
   /** https://icons.getbootstrap.com/icons/exclamation */
-  Exclamation = 'exclamation',
+  exclamation = 'exclamation',
   /** https://icons.getbootstrap.com/icons/exclude */
-  Exclude = 'exclude',
+  exclude = 'exclude',
   /** https://icons.getbootstrap.com/icons/eye-fill */
-  EyeFill = 'eye-fill',
+  eyeFill = 'eye-fill',
   /** https://icons.getbootstrap.com/icons/eye-slash-fill */
-  EyeSlashFill = 'eye-slash-fill',
+  eyeSlashFill = 'eye-slash-fill',
   /** https://icons.getbootstrap.com/icons/eye-slash */
-  EyeSlash = 'eye-slash',
+  eyeSlash = 'eye-slash',
   /** https://icons.getbootstrap.com/icons/eye */
-  Eye = 'eye',
+  eye = 'eye',
   /** https://icons.getbootstrap.com/icons/eyeglasses */
-  Eyeglasses = 'eyeglasses',
+  eyeglasses = 'eyeglasses',
   /** https://icons.getbootstrap.com/icons/facebook */
-  Facebook = 'facebook',
+  facebook = 'facebook',
   /** https://icons.getbootstrap.com/icons/file-arrow-down-fill */
-  FileArrowDownFill = 'file-arrow-down-fill',
+  fileArrowDownFill = 'file-arrow-down-fill',
   /** https://icons.getbootstrap.com/icons/file-arrow-down */
-  FileArrowDown = 'file-arrow-down',
+  fileArrowDown = 'file-arrow-down',
   /** https://icons.getbootstrap.com/icons/file-arrow-up-fill */
-  FileArrowUpFill = 'file-arrow-up-fill',
+  fileArrowUpFill = 'file-arrow-up-fill',
   /** https://icons.getbootstrap.com/icons/file-arrow-up */
-  FileArrowUp = 'file-arrow-up',
+  fileArrowUp = 'file-arrow-up',
   /** https://icons.getbootstrap.com/icons/file-bar-graph-fill */
-  FileBarGraphFill = 'file-bar-graph-fill',
+  fileBarGraphFill = 'file-bar-graph-fill',
   /** https://icons.getbootstrap.com/icons/file-bar-graph */
-  FileBarGraph = 'file-bar-graph',
+  fileBarGraph = 'file-bar-graph',
   /** https://icons.getbootstrap.com/icons/file-binary-fill */
-  FileBinaryFill = 'file-binary-fill',
+  fileBinaryFill = 'file-binary-fill',
   /** https://icons.getbootstrap.com/icons/file-binary */
-  FileBinary = 'file-binary',
+  fileBinary = 'file-binary',
   /** https://icons.getbootstrap.com/icons/file-break-fill */
-  FileBreakFill = 'file-break-fill',
+  fileBreakFill = 'file-break-fill',
   /** https://icons.getbootstrap.com/icons/file-break */
-  FileBreak = 'file-break',
+  fileBreak = 'file-break',
   /** https://icons.getbootstrap.com/icons/file-check-fill */
-  FileCheckFill = 'file-check-fill',
+  fileCheckFill = 'file-check-fill',
   /** https://icons.getbootstrap.com/icons/file-check */
-  FileCheck = 'file-check',
+  fileCheck = 'file-check',
   /** https://icons.getbootstrap.com/icons/file-code-fill */
-  FileCodeFill = 'file-code-fill',
+  fileCodeFill = 'file-code-fill',
   /** https://icons.getbootstrap.com/icons/file-code */
-  FileCode = 'file-code',
+  fileCode = 'file-code',
   /** https://icons.getbootstrap.com/icons/file-diff-fill */
-  FileDiffFill = 'file-diff-fill',
+  fileDiffFill = 'file-diff-fill',
   /** https://icons.getbootstrap.com/icons/file-diff */
-  FileDiff = 'file-diff',
+  fileDiff = 'file-diff',
   /** https://icons.getbootstrap.com/icons/file-earmark-arrow-down-fill */
-  FileEarmarkArrowDownFill = 'file-earmark-arrow-down-fill',
+  fileEarmarkArrowDownFill = 'file-earmark-arrow-down-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-arrow-down */
-  FileEarmarkArrowDown = 'file-earmark-arrow-down',
+  fileEarmarkArrowDown = 'file-earmark-arrow-down',
   /** https://icons.getbootstrap.com/icons/file-earmark-arrow-up-fill */
-  FileEarmarkArrowUpFill = 'file-earmark-arrow-up-fill',
+  fileEarmarkArrowUpFill = 'file-earmark-arrow-up-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-arrow-up */
-  FileEarmarkArrowUp = 'file-earmark-arrow-up',
+  fileEarmarkArrowUp = 'file-earmark-arrow-up',
   /** https://icons.getbootstrap.com/icons/file-earmark-bar-graph-fill */
-  FileEarmarkBarGraphFill = 'file-earmark-bar-graph-fill',
+  fileEarmarkBarGraphFill = 'file-earmark-bar-graph-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-bar-graph */
-  FileEarmarkBarGraph = 'file-earmark-bar-graph',
+  fileEarmarkBarGraph = 'file-earmark-bar-graph',
   /** https://icons.getbootstrap.com/icons/file-earmark-binary-fill */
-  FileEarmarkBinaryFill = 'file-earmark-binary-fill',
+  fileEarmarkBinaryFill = 'file-earmark-binary-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-binary */
-  FileEarmarkBinary = 'file-earmark-binary',
+  fileEarmarkBinary = 'file-earmark-binary',
   /** https://icons.getbootstrap.com/icons/file-earmark-break-fill */
-  FileEarmarkBreakFill = 'file-earmark-break-fill',
+  fileEarmarkBreakFill = 'file-earmark-break-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-break */
-  FileEarmarkBreak = 'file-earmark-break',
+  fileEarmarkBreak = 'file-earmark-break',
   /** https://icons.getbootstrap.com/icons/file-earmark-check-fill */
-  FileEarmarkCheckFill = 'file-earmark-check-fill',
+  fileEarmarkCheckFill = 'file-earmark-check-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-check */
-  FileEarmarkCheck = 'file-earmark-check',
+  fileEarmarkCheck = 'file-earmark-check',
   /** https://icons.getbootstrap.com/icons/file-earmark-code-fill */
-  FileEarmarkCodeFill = 'file-earmark-code-fill',
+  fileEarmarkCodeFill = 'file-earmark-code-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-code */
-  FileEarmarkCode = 'file-earmark-code',
+  fileEarmarkCode = 'file-earmark-code',
   /** https://icons.getbootstrap.com/icons/file-earmark-diff-fill */
-  FileEarmarkDiffFill = 'file-earmark-diff-fill',
+  fileEarmarkDiffFill = 'file-earmark-diff-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-diff */
-  FileEarmarkDiff = 'file-earmark-diff',
+  fileEarmarkDiff = 'file-earmark-diff',
   /** https://icons.getbootstrap.com/icons/file-earmark-easel-fill */
-  FileEarmarkEaselFill = 'file-earmark-easel-fill',
+  fileEarmarkEaselFill = 'file-earmark-easel-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-easel */
-  FileEarmarkEasel = 'file-earmark-easel',
+  fileEarmarkEasel = 'file-earmark-easel',
   /** https://icons.getbootstrap.com/icons/file-earmark-excel-fill */
-  FileEarmarkExcelFill = 'file-earmark-excel-fill',
+  fileEarmarkExcelFill = 'file-earmark-excel-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-excel */
-  FileEarmarkExcel = 'file-earmark-excel',
+  fileEarmarkExcel = 'file-earmark-excel',
   /** https://icons.getbootstrap.com/icons/file-earmark-fill */
-  FileEarmarkFill = 'file-earmark-fill',
+  fileEarmarkFill = 'file-earmark-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-font-fill */
-  FileEarmarkFontFill = 'file-earmark-font-fill',
+  fileEarmarkFontFill = 'file-earmark-font-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-font */
-  FileEarmarkFont = 'file-earmark-font',
+  fileEarmarkFont = 'file-earmark-font',
   /** https://icons.getbootstrap.com/icons/file-earmark-image-fill */
-  FileEarmarkImageFill = 'file-earmark-image-fill',
+  fileEarmarkImageFill = 'file-earmark-image-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-image */
-  FileEarmarkImage = 'file-earmark-image',
+  fileEarmarkImage = 'file-earmark-image',
   /** https://icons.getbootstrap.com/icons/file-earmark-lock-fill */
-  FileEarmarkLockFill = 'file-earmark-lock-fill',
+  fileEarmarkLockFill = 'file-earmark-lock-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-lock */
-  FileEarmarkLock = 'file-earmark-lock',
+  fileEarmarkLock = 'file-earmark-lock',
   /** https://icons.getbootstrap.com/icons/file-earmark-lock2-fill */
-  FileEarmarkLock2Fill = 'file-earmark-lock2-fill',
+  fileEarmarkLock2Fill = 'file-earmark-lock2-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-lock2 */
-  FileEarmarkLock2 = 'file-earmark-lock2',
+  fileEarmarkLock2 = 'file-earmark-lock2',
   /** https://icons.getbootstrap.com/icons/file-earmark-medical-fill */
-  FileEarmarkMedicalFill = 'file-earmark-medical-fill',
+  fileEarmarkMedicalFill = 'file-earmark-medical-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-medical */
-  FileEarmarkMedical = 'file-earmark-medical',
+  fileEarmarkMedical = 'file-earmark-medical',
   /** https://icons.getbootstrap.com/icons/file-earmark-minus-fill */
-  FileEarmarkMinusFill = 'file-earmark-minus-fill',
+  fileEarmarkMinusFill = 'file-earmark-minus-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-minus */
-  FileEarmarkMinus = 'file-earmark-minus',
+  fileEarmarkMinus = 'file-earmark-minus',
   /** https://icons.getbootstrap.com/icons/file-earmark-music-fill */
-  FileEarmarkMusicFill = 'file-earmark-music-fill',
+  fileEarmarkMusicFill = 'file-earmark-music-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-music */
-  FileEarmarkMusic = 'file-earmark-music',
+  fileEarmarkMusic = 'file-earmark-music',
   /** https://icons.getbootstrap.com/icons/file-earmark-person-fill */
-  FileEarmarkPersonFill = 'file-earmark-person-fill',
+  fileEarmarkPersonFill = 'file-earmark-person-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-person */
-  FileEarmarkPerson = 'file-earmark-person',
+  fileEarmarkPerson = 'file-earmark-person',
   /** https://icons.getbootstrap.com/icons/file-earmark-play-fill */
-  FileEarmarkPlayFill = 'file-earmark-play-fill',
+  fileEarmarkPlayFill = 'file-earmark-play-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-play */
-  FileEarmarkPlay = 'file-earmark-play',
+  fileEarmarkPlay = 'file-earmark-play',
   /** https://icons.getbootstrap.com/icons/file-earmark-plus-fill */
-  FileEarmarkPlusFill = 'file-earmark-plus-fill',
+  fileEarmarkPlusFill = 'file-earmark-plus-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-plus */
-  FileEarmarkPlus = 'file-earmark-plus',
+  fileEarmarkPlus = 'file-earmark-plus',
   /** https://icons.getbootstrap.com/icons/file-earmark-post-fill */
-  FileEarmarkPostFill = 'file-earmark-post-fill',
+  fileEarmarkPostFill = 'file-earmark-post-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-post */
-  FileEarmarkPost = 'file-earmark-post',
+  fileEarmarkPost = 'file-earmark-post',
   /** https://icons.getbootstrap.com/icons/file-earmark-ppt-fill */
-  FileEarmarkPptFill = 'file-earmark-ppt-fill',
+  fileEarmarkPptFill = 'file-earmark-ppt-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-ppt */
-  FileEarmarkPpt = 'file-earmark-ppt',
+  fileEarmarkPpt = 'file-earmark-ppt',
   /** https://icons.getbootstrap.com/icons/file-earmark-richtext-fill */
-  FileEarmarkRichtextFill = 'file-earmark-richtext-fill',
+  fileEarmarkRichtextFill = 'file-earmark-richtext-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-richtext */
-  FileEarmarkRichtext = 'file-earmark-richtext',
+  fileEarmarkRichtext = 'file-earmark-richtext',
   /** https://icons.getbootstrap.com/icons/file-earmark-ruled-fill */
-  FileEarmarkRuledFill = 'file-earmark-ruled-fill',
+  fileEarmarkRuledFill = 'file-earmark-ruled-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-ruled */
-  FileEarmarkRuled = 'file-earmark-ruled',
+  fileEarmarkRuled = 'file-earmark-ruled',
   /** https://icons.getbootstrap.com/icons/file-earmark-slides-fill */
-  FileEarmarkSlidesFill = 'file-earmark-slides-fill',
+  fileEarmarkSlidesFill = 'file-earmark-slides-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-slides */
-  FileEarmarkSlides = 'file-earmark-slides',
+  fileEarmarkSlides = 'file-earmark-slides',
   /** https://icons.getbootstrap.com/icons/file-earmark-spreadsheet-fill */
-  FileEarmarkSpreadsheetFill = 'file-earmark-spreadsheet-fill',
+  fileEarmarkSpreadsheetFill = 'file-earmark-spreadsheet-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-spreadsheet */
-  FileEarmarkSpreadsheet = 'file-earmark-spreadsheet',
+  fileEarmarkSpreadsheet = 'file-earmark-spreadsheet',
   /** https://icons.getbootstrap.com/icons/file-earmark-text-fill */
-  FileEarmarkTextFill = 'file-earmark-text-fill',
+  fileEarmarkTextFill = 'file-earmark-text-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-text */
-  FileEarmarkText = 'file-earmark-text',
+  fileEarmarkText = 'file-earmark-text',
   /** https://icons.getbootstrap.com/icons/file-earmark-word-fill */
-  FileEarmarkWordFill = 'file-earmark-word-fill',
+  fileEarmarkWordFill = 'file-earmark-word-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-word */
-  FileEarmarkWord = 'file-earmark-word',
+  fileEarmarkWord = 'file-earmark-word',
   /** https://icons.getbootstrap.com/icons/file-earmark-x-fill */
-  FileEarmarkXFill = 'file-earmark-x-fill',
+  fileEarmarkXFill = 'file-earmark-x-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-x */
-  FileEarmarkX = 'file-earmark-x',
+  fileEarmarkX = 'file-earmark-x',
   /** https://icons.getbootstrap.com/icons/file-earmark-zip-fill */
-  FileEarmarkZipFill = 'file-earmark-zip-fill',
+  fileEarmarkZipFill = 'file-earmark-zip-fill',
   /** https://icons.getbootstrap.com/icons/file-earmark-zip */
-  FileEarmarkZip = 'file-earmark-zip',
+  fileEarmarkZip = 'file-earmark-zip',
   /** https://icons.getbootstrap.com/icons/file-earmark */
-  FileEarmark = 'file-earmark',
+  fileEarmark = 'file-earmark',
   /** https://icons.getbootstrap.com/icons/file-easel-fill */
-  FileEaselFill = 'file-easel-fill',
+  fileEaselFill = 'file-easel-fill',
   /** https://icons.getbootstrap.com/icons/file-easel */
-  FileEasel = 'file-easel',
+  fileEasel = 'file-easel',
   /** https://icons.getbootstrap.com/icons/file-excel-fill */
-  FileExcelFill = 'file-excel-fill',
+  fileExcelFill = 'file-excel-fill',
   /** https://icons.getbootstrap.com/icons/file-excel */
-  FileExcel = 'file-excel',
+  fileExcel = 'file-excel',
   /** https://icons.getbootstrap.com/icons/file-fill */
-  FileFill = 'file-fill',
+  fileFill = 'file-fill',
   /** https://icons.getbootstrap.com/icons/file-font-fill */
-  FileFontFill = 'file-font-fill',
+  fileFontFill = 'file-font-fill',
   /** https://icons.getbootstrap.com/icons/file-font */
-  FileFont = 'file-font',
+  fileFont = 'file-font',
   /** https://icons.getbootstrap.com/icons/file-image-fill */
-  FileImageFill = 'file-image-fill',
+  fileImageFill = 'file-image-fill',
   /** https://icons.getbootstrap.com/icons/file-image */
-  FileImage = 'file-image',
+  fileImage = 'file-image',
   /** https://icons.getbootstrap.com/icons/file-lock-fill */
-  FileLockFill = 'file-lock-fill',
+  fileLockFill = 'file-lock-fill',
   /** https://icons.getbootstrap.com/icons/file-lock */
-  FileLock = 'file-lock',
+  fileLock = 'file-lock',
   /** https://icons.getbootstrap.com/icons/file-lock2-fill */
-  FileLock2Fill = 'file-lock2-fill',
+  fileLock2Fill = 'file-lock2-fill',
   /** https://icons.getbootstrap.com/icons/file-lock2 */
-  FileLock2 = 'file-lock2',
+  fileLock2 = 'file-lock2',
   /** https://icons.getbootstrap.com/icons/file-medical-fill */
-  FileMedicalFill = 'file-medical-fill',
+  fileMedicalFill = 'file-medical-fill',
   /** https://icons.getbootstrap.com/icons/file-medical */
-  FileMedical = 'file-medical',
+  fileMedical = 'file-medical',
   /** https://icons.getbootstrap.com/icons/file-minus-fill */
-  FileMinusFill = 'file-minus-fill',
+  fileMinusFill = 'file-minus-fill',
   /** https://icons.getbootstrap.com/icons/file-minus */
-  FileMinus = 'file-minus',
+  fileMinus = 'file-minus',
   /** https://icons.getbootstrap.com/icons/file-music-fill */
-  FileMusicFill = 'file-music-fill',
+  fileMusicFill = 'file-music-fill',
   /** https://icons.getbootstrap.com/icons/file-music */
-  FileMusic = 'file-music',
+  fileMusic = 'file-music',
   /** https://icons.getbootstrap.com/icons/file-person-fill */
-  FilePersonFill = 'file-person-fill',
+  filePersonFill = 'file-person-fill',
   /** https://icons.getbootstrap.com/icons/file-person */
-  FilePerson = 'file-person',
+  filePerson = 'file-person',
   /** https://icons.getbootstrap.com/icons/file-play-fill */
-  FilePlayFill = 'file-play-fill',
+  filePlayFill = 'file-play-fill',
   /** https://icons.getbootstrap.com/icons/file-play */
-  FilePlay = 'file-play',
+  filePlay = 'file-play',
   /** https://icons.getbootstrap.com/icons/file-plus-fill */
-  FilePlusFill = 'file-plus-fill',
+  filePlusFill = 'file-plus-fill',
   /** https://icons.getbootstrap.com/icons/file-plus */
-  FilePlus = 'file-plus',
+  filePlus = 'file-plus',
   /** https://icons.getbootstrap.com/icons/file-post-fill */
-  FilePostFill = 'file-post-fill',
+  filePostFill = 'file-post-fill',
   /** https://icons.getbootstrap.com/icons/file-post */
-  FilePost = 'file-post',
+  filePost = 'file-post',
   /** https://icons.getbootstrap.com/icons/file-ppt-fill */
-  FilePptFill = 'file-ppt-fill',
+  filePptFill = 'file-ppt-fill',
   /** https://icons.getbootstrap.com/icons/file-ppt */
-  FilePpt = 'file-ppt',
+  filePpt = 'file-ppt',
   /** https://icons.getbootstrap.com/icons/file-richtext-fill */
-  FileRichtextFill = 'file-richtext-fill',
+  fileRichtextFill = 'file-richtext-fill',
   /** https://icons.getbootstrap.com/icons/file-richtext */
-  FileRichtext = 'file-richtext',
+  fileRichtext = 'file-richtext',
   /** https://icons.getbootstrap.com/icons/file-ruled-fill */
-  FileRuledFill = 'file-ruled-fill',
+  fileRuledFill = 'file-ruled-fill',
   /** https://icons.getbootstrap.com/icons/file-ruled */
-  FileRuled = 'file-ruled',
+  fileRuled = 'file-ruled',
   /** https://icons.getbootstrap.com/icons/file-slides-fill */
-  FileSlidesFill = 'file-slides-fill',
+  fileSlidesFill = 'file-slides-fill',
   /** https://icons.getbootstrap.com/icons/file-slides */
-  FileSlides = 'file-slides',
+  fileSlides = 'file-slides',
   /** https://icons.getbootstrap.com/icons/file-spreadsheet-fill */
-  FileSpreadsheetFill = 'file-spreadsheet-fill',
+  fileSpreadsheetFill = 'file-spreadsheet-fill',
   /** https://icons.getbootstrap.com/icons/file-spreadsheet */
-  FileSpreadsheet = 'file-spreadsheet',
+  fileSpreadsheet = 'file-spreadsheet',
   /** https://icons.getbootstrap.com/icons/file-text-fill */
-  FileTextFill = 'file-text-fill',
+  fileTextFill = 'file-text-fill',
   /** https://icons.getbootstrap.com/icons/file-text */
-  FileText = 'file-text',
+  fileText = 'file-text',
   /** https://icons.getbootstrap.com/icons/file-word-fill */
-  FileWordFill = 'file-word-fill',
+  fileWordFill = 'file-word-fill',
   /** https://icons.getbootstrap.com/icons/file-word */
-  FileWord = 'file-word',
+  fileWord = 'file-word',
   /** https://icons.getbootstrap.com/icons/file-x-fill */
-  FileXFill = 'file-x-fill',
+  fileXFill = 'file-x-fill',
   /** https://icons.getbootstrap.com/icons/file-x */
-  FileX = 'file-x',
+  fileX = 'file-x',
   /** https://icons.getbootstrap.com/icons/file-zip-fill */
-  FileZipFill = 'file-zip-fill',
+  fileZipFill = 'file-zip-fill',
   /** https://icons.getbootstrap.com/icons/file-zip */
-  FileZip = 'file-zip',
+  fileZip = 'file-zip',
   /** https://icons.getbootstrap.com/icons/file */
-  File = 'file',
+  file = 'file',
   /** https://icons.getbootstrap.com/icons/files-alt */
-  FilesAlt = 'files-alt',
+  filesAlt = 'files-alt',
   /** https://icons.getbootstrap.com/icons/files */
-  Files = 'files',
+  files = 'files',
   /** https://icons.getbootstrap.com/icons/film */
-  Film = 'film',
+  film = 'film',
   /** https://icons.getbootstrap.com/icons/filter-circle-fill */
-  FilterCircleFill = 'filter-circle-fill',
+  filterCircleFill = 'filter-circle-fill',
   /** https://icons.getbootstrap.com/icons/filter-circle */
-  FilterCircle = 'filter-circle',
+  filterCircle = 'filter-circle',
   /** https://icons.getbootstrap.com/icons/filter-left */
-  FilterLeft = 'filter-left',
+  filterLeft = 'filter-left',
   /** https://icons.getbootstrap.com/icons/filter-right */
-  FilterRight = 'filter-right',
+  filterRight = 'filter-right',
   /** https://icons.getbootstrap.com/icons/filter-square-fill */
-  FilterSquareFill = 'filter-square-fill',
+  filterSquareFill = 'filter-square-fill',
   /** https://icons.getbootstrap.com/icons/filter-square */
-  FilterSquare = 'filter-square',
+  filterSquare = 'filter-square',
   /** https://icons.getbootstrap.com/icons/filter */
-  Filter = 'filter',
+  filter = 'filter',
   /** https://icons.getbootstrap.com/icons/flag-fill */
-  FlagFill = 'flag-fill',
+  flagFill = 'flag-fill',
   /** https://icons.getbootstrap.com/icons/flag */
-  Flag = 'flag',
+  flag = 'flag',
   /** https://icons.getbootstrap.com/icons/flower1 */
-  Flower1 = 'flower1',
+  flower1 = 'flower1',
   /** https://icons.getbootstrap.com/icons/flower2 */
-  Flower2 = 'flower2',
+  flower2 = 'flower2',
   /** https://icons.getbootstrap.com/icons/flower3 */
-  Flower3 = 'flower3',
+  flower3 = 'flower3',
   /** https://icons.getbootstrap.com/icons/folder-check */
-  FolderCheck = 'folder-check',
+  folderCheck = 'folder-check',
   /** https://icons.getbootstrap.com/icons/folder-fill */
-  FolderFill = 'folder-fill',
+  folderFill = 'folder-fill',
   /** https://icons.getbootstrap.com/icons/folder-minus */
-  FolderMinus = 'folder-minus',
+  folderMinus = 'folder-minus',
   /** https://icons.getbootstrap.com/icons/folder-plus */
-  FolderPlus = 'folder-plus',
+  folderPlus = 'folder-plus',
   /** https://icons.getbootstrap.com/icons/folder-symlink-fill */
-  FolderSymlinkFill = 'folder-symlink-fill',
+  folderSymlinkFill = 'folder-symlink-fill',
   /** https://icons.getbootstrap.com/icons/folder-symlink */
-  FolderSymlink = 'folder-symlink',
+  folderSymlink = 'folder-symlink',
   /** https://icons.getbootstrap.com/icons/folder-x */
-  FolderX = 'folder-x',
+  folderX = 'folder-x',
   /** https://icons.getbootstrap.com/icons/folder */
-  Folder = 'folder',
+  folder = 'folder',
   /** https://icons.getbootstrap.com/icons/folder2-open */
-  Folder2Open = 'folder2-open',
+  folder2Open = 'folder2-open',
   /** https://icons.getbootstrap.com/icons/folder2 */
-  Folder2 = 'folder2',
+  folder2 = 'folder2',
   /** https://icons.getbootstrap.com/icons/fonts */
-  Fonts = 'fonts',
+  fonts = 'fonts',
   /** https://icons.getbootstrap.com/icons/forward-fill */
-  ForwardFill = 'forward-fill',
+  forwardFill = 'forward-fill',
   /** https://icons.getbootstrap.com/icons/forward */
-  Forward = 'forward',
+  forward = 'forward',
   /** https://icons.getbootstrap.com/icons/front */
-  Front = 'front',
+  front = 'front',
   /** https://icons.getbootstrap.com/icons/fullscreen-exit */
-  FullscreenExit = 'fullscreen-exit',
+  fullscreenExit = 'fullscreen-exit',
   /** https://icons.getbootstrap.com/icons/fullscreen */
-  Fullscreen = 'fullscreen',
+  fullscreen = 'fullscreen',
   /** https://icons.getbootstrap.com/icons/funnel-fill */
-  FunnelFill = 'funnel-fill',
+  funnelFill = 'funnel-fill',
   /** https://icons.getbootstrap.com/icons/funnel */
-  Funnel = 'funnel',
+  funnel = 'funnel',
   /** https://icons.getbootstrap.com/icons/gear-fill */
-  GearFill = 'gear-fill',
+  gearFill = 'gear-fill',
   /** https://icons.getbootstrap.com/icons/gear-wide-connected */
-  GearWideConnected = 'gear-wide-connected',
+  gearWideConnected = 'gear-wide-connected',
   /** https://icons.getbootstrap.com/icons/gear-wide */
-  GearWide = 'gear-wide',
+  gearWide = 'gear-wide',
   /** https://icons.getbootstrap.com/icons/gear */
-  Gear = 'gear',
+  gear = 'gear',
   /** https://icons.getbootstrap.com/icons/gem */
-  Gem = 'gem',
+  gem = 'gem',
   /** https://icons.getbootstrap.com/icons/geo-alt-fill */
-  GeoAltFill = 'geo-alt-fill',
+  geoAltFill = 'geo-alt-fill',
   /** https://icons.getbootstrap.com/icons/geo-alt */
-  GeoAlt = 'geo-alt',
+  geoAlt = 'geo-alt',
   /** https://icons.getbootstrap.com/icons/geo-fill */
-  GeoFill = 'geo-fill',
+  geoFill = 'geo-fill',
   /** https://icons.getbootstrap.com/icons/geo */
-  Geo = 'geo',
+  geo = 'geo',
   /** https://icons.getbootstrap.com/icons/gift-fill */
-  GiftFill = 'gift-fill',
+  giftFill = 'gift-fill',
   /** https://icons.getbootstrap.com/icons/gift */
-  Gift = 'gift',
+  gift = 'gift',
   /** https://icons.getbootstrap.com/icons/github */
-  Github = 'github',
+  github = 'github',
   /** https://icons.getbootstrap.com/icons/globe */
-  Globe = 'globe',
+  globe = 'globe',
   /** https://icons.getbootstrap.com/icons/globe2 */
-  Globe2 = 'globe2',
+  globe2 = 'globe2',
   /** https://icons.getbootstrap.com/icons/google */
-  Google = 'google',
+  google = 'google',
   /** https://icons.getbootstrap.com/icons/graph-down */
-  GraphDown = 'graph-down',
+  graphDown = 'graph-down',
   /** https://icons.getbootstrap.com/icons/graph-up */
-  GraphUp = 'graph-up',
+  graphUp = 'graph-up',
   /** https://icons.getbootstrap.com/icons/grid-1x2-fill */
-  Grid1x2Fill = 'grid-1x2-fill',
+  grid1X2Fill = 'grid-1x2-fill',
   /** https://icons.getbootstrap.com/icons/grid-1x2 */
-  Grid1x2 = 'grid-1x2',
+  grid1X2 = 'grid-1x2',
   /** https://icons.getbootstrap.com/icons/grid-3x2-gap-fill */
-  Grid3x2GapFill = 'grid-3x2-gap-fill',
+  grid3X2GapFill = 'grid-3x2-gap-fill',
   /** https://icons.getbootstrap.com/icons/grid-3x2-gap */
-  Grid3x2Gap = 'grid-3x2-gap',
+  grid3X2Gap = 'grid-3x2-gap',
   /** https://icons.getbootstrap.com/icons/grid-3x2 */
-  Grid3x2 = 'grid-3x2',
+  grid3X2 = 'grid-3x2',
   /** https://icons.getbootstrap.com/icons/grid-3x3-gap-fill */
-  Grid3x3GapFill = 'grid-3x3-gap-fill',
+  grid3X3GapFill = 'grid-3x3-gap-fill',
   /** https://icons.getbootstrap.com/icons/grid-3x3-gap */
-  Grid3x3Gap = 'grid-3x3-gap',
+  grid3X3Gap = 'grid-3x3-gap',
   /** https://icons.getbootstrap.com/icons/grid-3x3 */
-  Grid3x3 = 'grid-3x3',
+  grid3X3 = 'grid-3x3',
   /** https://icons.getbootstrap.com/icons/grid-fill */
-  GridFill = 'grid-fill',
+  gridFill = 'grid-fill',
   /** https://icons.getbootstrap.com/icons/grid */
-  Grid = 'grid',
+  grid = 'grid',
   /** https://icons.getbootstrap.com/icons/grip-horizontal */
-  GripHorizontal = 'grip-horizontal',
+  gripHorizontal = 'grip-horizontal',
   /** https://icons.getbootstrap.com/icons/grip-vertical */
-  GripVertical = 'grip-vertical',
+  gripVertical = 'grip-vertical',
   /** https://icons.getbootstrap.com/icons/hammer */
-  Hammer = 'hammer',
+  hammer = 'hammer',
   /** https://icons.getbootstrap.com/icons/hand-index-thumb */
-  HandIndexThumb = 'hand-index-thumb',
+  handIndexThumb = 'hand-index-thumb',
   /** https://icons.getbootstrap.com/icons/hand-index */
-  HandIndex = 'hand-index',
+  handIndex = 'hand-index',
   /** https://icons.getbootstrap.com/icons/hand-thumbs-down */
-  HandThumbsDown = 'hand-thumbs-down',
+  handThumbsDown = 'hand-thumbs-down',
   /** https://icons.getbootstrap.com/icons/hand-thumbs-up */
-  HandThumbsUp = 'hand-thumbs-up',
+  handThumbsUp = 'hand-thumbs-up',
   /** https://icons.getbootstrap.com/icons/handbag-fill */
-  HandbagFill = 'handbag-fill',
+  handbagFill = 'handbag-fill',
   /** https://icons.getbootstrap.com/icons/handbag */
-  Handbag = 'handbag',
+  handbag = 'handbag',
   /** https://icons.getbootstrap.com/icons/hash */
-  Hash = 'hash',
+  hash = 'hash',
   /** https://icons.getbootstrap.com/icons/hdd-fill */
-  HddFill = 'hdd-fill',
+  hddFill = 'hdd-fill',
   /** https://icons.getbootstrap.com/icons/hdd-network-fill */
-  HddNetworkFill = 'hdd-network-fill',
+  hddNetworkFill = 'hdd-network-fill',
   /** https://icons.getbootstrap.com/icons/hdd-network */
-  HddNetwork = 'hdd-network',
+  hddNetwork = 'hdd-network',
   /** https://icons.getbootstrap.com/icons/hdd-rack-fill */
-  HddRackFill = 'hdd-rack-fill',
+  hddRackFill = 'hdd-rack-fill',
   /** https://icons.getbootstrap.com/icons/hdd-rack */
-  HddRack = 'hdd-rack',
+  hddRack = 'hdd-rack',
   /** https://icons.getbootstrap.com/icons/hdd-stack-fill */
-  HddStackFill = 'hdd-stack-fill',
+  hddStackFill = 'hdd-stack-fill',
   /** https://icons.getbootstrap.com/icons/hdd-stack */
-  HddStack = 'hdd-stack',
+  hddStack = 'hdd-stack',
   /** https://icons.getbootstrap.com/icons/hdd */
-  Hdd = 'hdd',
+  hdd = 'hdd',
   /** https://icons.getbootstrap.com/icons/headphones */
-  Headphones = 'headphones',
+  headphones = 'headphones',
   /** https://icons.getbootstrap.com/icons/headset */
-  Headset = 'headset',
+  headset = 'headset',
   /** https://icons.getbootstrap.com/icons/heart-fill */
-  HeartFill = 'heart-fill',
+  heartFill = 'heart-fill',
   /** https://icons.getbootstrap.com/icons/heart-half */
-  HeartHalf = 'heart-half',
+  heartHalf = 'heart-half',
   /** https://icons.getbootstrap.com/icons/heart */
-  Heart = 'heart',
+  heart = 'heart',
   /** https://icons.getbootstrap.com/icons/heptagon-fill */
-  HeptagonFill = 'heptagon-fill',
+  heptagonFill = 'heptagon-fill',
   /** https://icons.getbootstrap.com/icons/heptagon-half */
-  HeptagonHalf = 'heptagon-half',
+  heptagonHalf = 'heptagon-half',
   /** https://icons.getbootstrap.com/icons/heptagon */
-  Heptagon = 'heptagon',
+  heptagon = 'heptagon',
   /** https://icons.getbootstrap.com/icons/hexagon-fill */
-  HexagonFill = 'hexagon-fill',
+  hexagonFill = 'hexagon-fill',
   /** https://icons.getbootstrap.com/icons/hexagon-half */
-  HexagonHalf = 'hexagon-half',
+  hexagonHalf = 'hexagon-half',
   /** https://icons.getbootstrap.com/icons/hexagon */
-  Hexagon = 'hexagon',
+  hexagon = 'hexagon',
   /** https://icons.getbootstrap.com/icons/hourglass-bottom */
-  HourglassBottom = 'hourglass-bottom',
+  hourglassBottom = 'hourglass-bottom',
   /** https://icons.getbootstrap.com/icons/hourglass-split */
-  HourglassSplit = 'hourglass-split',
+  hourglassSplit = 'hourglass-split',
   /** https://icons.getbootstrap.com/icons/hourglass-top */
-  HourglassTop = 'hourglass-top',
+  hourglassTop = 'hourglass-top',
   /** https://icons.getbootstrap.com/icons/hourglass */
-  Hourglass = 'hourglass',
+  hourglass = 'hourglass',
   /** https://icons.getbootstrap.com/icons/house-door-fill */
-  HouseDoorFill = 'house-door-fill',
+  houseDoorFill = 'house-door-fill',
   /** https://icons.getbootstrap.com/icons/house-door */
-  HouseDoor = 'house-door',
+  houseDoor = 'house-door',
   /** https://icons.getbootstrap.com/icons/house-fill */
-  HouseFill = 'house-fill',
+  houseFill = 'house-fill',
   /** https://icons.getbootstrap.com/icons/house */
-  House = 'house',
+  house = 'house',
   /** https://icons.getbootstrap.com/icons/hr */
-  Hr = 'hr',
+  hr = 'hr',
   /** https://icons.getbootstrap.com/icons/image-alt */
-  ImageAlt = 'image-alt',
+  imageAlt = 'image-alt',
   /** https://icons.getbootstrap.com/icons/image-fill */
-  ImageFill = 'image-fill',
+  imageFill = 'image-fill',
   /** https://icons.getbootstrap.com/icons/image */
-  Image = 'image',
+  image = 'image',
   /** https://icons.getbootstrap.com/icons/images */
-  Images = 'images',
+  images = 'images',
   /** https://icons.getbootstrap.com/icons/inbox-fill */
-  InboxFill = 'inbox-fill',
+  inboxFill = 'inbox-fill',
   /** https://icons.getbootstrap.com/icons/inbox */
-  Inbox = 'inbox',
+  inbox = 'inbox',
   /** https://icons.getbootstrap.com/icons/inboxes-fill */
-  InboxesFill = 'inboxes-fill',
+  inboxesFill = 'inboxes-fill',
   /** https://icons.getbootstrap.com/icons/inboxes */
-  Inboxes = 'inboxes',
+  inboxes = 'inboxes',
   /** https://icons.getbootstrap.com/icons/info-circle-fill */
-  InfoCircleFill = 'info-circle-fill',
+  infoCircleFill = 'info-circle-fill',
   /** https://icons.getbootstrap.com/icons/info-circle */
-  InfoCircle = 'info-circle',
+  infoCircle = 'info-circle',
   /** https://icons.getbootstrap.com/icons/info-square-fill */
-  InfoSquareFill = 'info-square-fill',
+  infoSquareFill = 'info-square-fill',
   /** https://icons.getbootstrap.com/icons/info-square */
-  InfoSquare = 'info-square',
+  infoSquare = 'info-square',
   /** https://icons.getbootstrap.com/icons/info */
-  Info = 'info',
+  info = 'info',
   /** https://icons.getbootstrap.com/icons/input-cursor-text */
-  InputCursorText = 'input-cursor-text',
+  inputCursorText = 'input-cursor-text',
   /** https://icons.getbootstrap.com/icons/input-cursor */
-  InputCursor = 'input-cursor',
+  inputCursor = 'input-cursor',
   /** https://icons.getbootstrap.com/icons/instagram */
-  Instagram = 'instagram',
+  instagram = 'instagram',
   /** https://icons.getbootstrap.com/icons/intersect */
-  Intersect = 'intersect',
+  intersect = 'intersect',
   /** https://icons.getbootstrap.com/icons/journal-album */
-  JournalAlbum = 'journal-album',
+  journalAlbum = 'journal-album',
   /** https://icons.getbootstrap.com/icons/journal-arrow-down */
-  JournalArrowDown = 'journal-arrow-down',
+  journalArrowDown = 'journal-arrow-down',
   /** https://icons.getbootstrap.com/icons/journal-arrow-up */
-  JournalArrowUp = 'journal-arrow-up',
+  journalArrowUp = 'journal-arrow-up',
   /** https://icons.getbootstrap.com/icons/journal-bookmark-fill */
-  JournalBookmarkFill = 'journal-bookmark-fill',
+  journalBookmarkFill = 'journal-bookmark-fill',
   /** https://icons.getbootstrap.com/icons/journal-bookmark */
-  JournalBookmark = 'journal-bookmark',
+  journalBookmark = 'journal-bookmark',
   /** https://icons.getbootstrap.com/icons/journal-check */
-  JournalCheck = 'journal-check',
+  journalCheck = 'journal-check',
   /** https://icons.getbootstrap.com/icons/journal-code */
-  JournalCode = 'journal-code',
+  journalCode = 'journal-code',
   /** https://icons.getbootstrap.com/icons/journal-medical */
-  JournalMedical = 'journal-medical',
+  journalMedical = 'journal-medical',
   /** https://icons.getbootstrap.com/icons/journal-minus */
-  JournalMinus = 'journal-minus',
+  journalMinus = 'journal-minus',
   /** https://icons.getbootstrap.com/icons/journal-plus */
-  JournalPlus = 'journal-plus',
+  journalPlus = 'journal-plus',
   /** https://icons.getbootstrap.com/icons/journal-richtext */
-  JournalRichtext = 'journal-richtext',
+  journalRichtext = 'journal-richtext',
   /** https://icons.getbootstrap.com/icons/journal-text */
-  JournalText = 'journal-text',
+  journalText = 'journal-text',
   /** https://icons.getbootstrap.com/icons/journal-x */
-  JournalX = 'journal-x',
+  journalX = 'journal-x',
   /** https://icons.getbootstrap.com/icons/journal */
-  Journal = 'journal',
+  journal = 'journal',
   /** https://icons.getbootstrap.com/icons/journals */
-  Journals = 'journals',
+  journals = 'journals',
   /** https://icons.getbootstrap.com/icons/joystick */
-  Joystick = 'joystick',
+  joystick = 'joystick',
   /** https://icons.getbootstrap.com/icons/justify-left */
-  JustifyLeft = 'justify-left',
+  justifyLeft = 'justify-left',
   /** https://icons.getbootstrap.com/icons/justify-right */
-  JustifyRight = 'justify-right',
+  justifyRight = 'justify-right',
   /** https://icons.getbootstrap.com/icons/justify */
-  Justify = 'justify',
+  justify = 'justify',
   /** https://icons.getbootstrap.com/icons/kanban-fill */
-  KanbanFill = 'kanban-fill',
+  kanbanFill = 'kanban-fill',
   /** https://icons.getbootstrap.com/icons/kanban */
-  Kanban = 'kanban',
+  kanban = 'kanban',
   /** https://icons.getbootstrap.com/icons/key-fill */
-  KeyFill = 'key-fill',
+  keyFill = 'key-fill',
   /** https://icons.getbootstrap.com/icons/key */
-  Key = 'key',
+  key = 'key',
   /** https://icons.getbootstrap.com/icons/keyboard-fill */
-  KeyboardFill = 'keyboard-fill',
+  keyboardFill = 'keyboard-fill',
   /** https://icons.getbootstrap.com/icons/keyboard */
-  Keyboard = 'keyboard',
+  keyboard = 'keyboard',
   /** https://icons.getbootstrap.com/icons/ladder */
-  Ladder = 'ladder',
+  ladder = 'ladder',
   /** https://icons.getbootstrap.com/icons/lamp-fill */
-  LampFill = 'lamp-fill',
+  lampFill = 'lamp-fill',
   /** https://icons.getbootstrap.com/icons/lamp */
-  Lamp = 'lamp',
+  lamp = 'lamp',
   /** https://icons.getbootstrap.com/icons/laptop-fill */
-  LaptopFill = 'laptop-fill',
+  laptopFill = 'laptop-fill',
   /** https://icons.getbootstrap.com/icons/laptop */
-  Laptop = 'laptop',
+  laptop = 'laptop',
   /** https://icons.getbootstrap.com/icons/layers-fill */
-  LayersFill = 'layers-fill',
+  layersFill = 'layers-fill',
   /** https://icons.getbootstrap.com/icons/layers-half */
-  LayersHalf = 'layers-half',
+  layersHalf = 'layers-half',
   /** https://icons.getbootstrap.com/icons/layers */
-  Layers = 'layers',
+  layers = 'layers',
   /** https://icons.getbootstrap.com/icons/layout-sidebar-inset-reverse */
-  LayoutSidebarInsetReverse = 'layout-sidebar-inset-reverse',
+  layoutSidebarInsetReverse = 'layout-sidebar-inset-reverse',
   /** https://icons.getbootstrap.com/icons/layout-sidebar-inset */
-  LayoutSidebarInset = 'layout-sidebar-inset',
+  layoutSidebarInset = 'layout-sidebar-inset',
   /** https://icons.getbootstrap.com/icons/layout-sidebar-reverse */
-  LayoutSidebarReverse = 'layout-sidebar-reverse',
+  layoutSidebarReverse = 'layout-sidebar-reverse',
   /** https://icons.getbootstrap.com/icons/layout-sidebar */
-  LayoutSidebar = 'layout-sidebar',
+  layoutSidebar = 'layout-sidebar',
   /** https://icons.getbootstrap.com/icons/layout-split */
-  LayoutSplit = 'layout-split',
+  layoutSplit = 'layout-split',
   /** https://icons.getbootstrap.com/icons/layout-text-sidebar-reverse */
-  LayoutTextSidebarReverse = 'layout-text-sidebar-reverse',
+  layoutTextSidebarReverse = 'layout-text-sidebar-reverse',
   /** https://icons.getbootstrap.com/icons/layout-text-sidebar */
-  LayoutTextSidebar = 'layout-text-sidebar',
+  layoutTextSidebar = 'layout-text-sidebar',
   /** https://icons.getbootstrap.com/icons/layout-text-window-reverse */
-  LayoutTextWindowReverse = 'layout-text-window-reverse',
+  layoutTextWindowReverse = 'layout-text-window-reverse',
   /** https://icons.getbootstrap.com/icons/layout-text-window */
-  LayoutTextWindow = 'layout-text-window',
+  layoutTextWindow = 'layout-text-window',
   /** https://icons.getbootstrap.com/icons/layout-three-columns */
-  LayoutThreeColumns = 'layout-three-columns',
+  layoutThreeColumns = 'layout-three-columns',
   /** https://icons.getbootstrap.com/icons/layout-wtf */
-  LayoutWtf = 'layout-wtf',
+  layoutWtf = 'layout-wtf',
   /** https://icons.getbootstrap.com/icons/life-preserver */
-  LifePreserver = 'life-preserver',
+  lifePreserver = 'life-preserver',
   /** https://icons.getbootstrap.com/icons/lightning-fill */
-  LightningFill = 'lightning-fill',
+  lightningFill = 'lightning-fill',
   /** https://icons.getbootstrap.com/icons/lightning */
-  Lightning = 'lightning',
+  lightning = 'lightning',
   /** https://icons.getbootstrap.com/icons/link-45deg */
-  Link45deg = 'link-45deg',
+  link45Deg = 'link-45deg',
   /** https://icons.getbootstrap.com/icons/link */
-  Link = 'link',
+  link = 'link',
   /** https://icons.getbootstrap.com/icons/linkedin */
-  Linkedin = 'linkedin',
+  linkedin = 'linkedin',
   /** https://icons.getbootstrap.com/icons/list-check */
-  ListCheck = 'list-check',
+  listCheck = 'list-check',
   /** https://icons.getbootstrap.com/icons/list-nested */
-  ListNested = 'list-nested',
+  listNested = 'list-nested',
   /** https://icons.getbootstrap.com/icons/list-ol */
-  ListOl = 'list-ol',
+  listOl = 'list-ol',
   /** https://icons.getbootstrap.com/icons/list-stars */
-  ListStars = 'list-stars',
+  listStars = 'list-stars',
   /** https://icons.getbootstrap.com/icons/list-task */
-  ListTask = 'list-task',
+  listTask = 'list-task',
   /** https://icons.getbootstrap.com/icons/list-ul */
-  ListUl = 'list-ul',
+  listUl = 'list-ul',
   /** https://icons.getbootstrap.com/icons/list */
-  List = 'list',
+  list = 'list',
   /** https://icons.getbootstrap.com/icons/lock-fill */
-  LockFill = 'lock-fill',
+  lockFill = 'lock-fill',
   /** https://icons.getbootstrap.com/icons/lock */
-  Lock = 'lock',
+  lock = 'lock',
   /** https://icons.getbootstrap.com/icons/mailbox */
-  Mailbox = 'mailbox',
+  mailbox = 'mailbox',
   /** https://icons.getbootstrap.com/icons/mailbox2 */
-  Mailbox2 = 'mailbox2',
+  mailbox2 = 'mailbox2',
   /** https://icons.getbootstrap.com/icons/map-fill */
-  MapFill = 'map-fill',
+  mapFill = 'map-fill',
   /** https://icons.getbootstrap.com/icons/map */
-  Map = 'map',
+  map = 'map',
   /** https://icons.getbootstrap.com/icons/markdown-fill */
-  MarkdownFill = 'markdown-fill',
+  markdownFill = 'markdown-fill',
   /** https://icons.getbootstrap.com/icons/markdown */
-  Markdown = 'markdown',
+  markdown = 'markdown',
   /** https://icons.getbootstrap.com/icons/menu-app-fill */
-  MenuAppFill = 'menu-app-fill',
+  menuAppFill = 'menu-app-fill',
   /** https://icons.getbootstrap.com/icons/menu-app */
-  MenuApp = 'menu-app',
+  menuApp = 'menu-app',
   /** https://icons.getbootstrap.com/icons/menu-button-fill */
-  MenuButtonFill = 'menu-button-fill',
+  menuButtonFill = 'menu-button-fill',
   /** https://icons.getbootstrap.com/icons/menu-button-wide-fill */
-  MenuButtonWideFill = 'menu-button-wide-fill',
+  menuButtonWideFill = 'menu-button-wide-fill',
   /** https://icons.getbootstrap.com/icons/menu-button-wide */
-  MenuButtonWide = 'menu-button-wide',
+  menuButtonWide = 'menu-button-wide',
   /** https://icons.getbootstrap.com/icons/menu-button */
-  MenuButton = 'menu-button',
+  menuButton = 'menu-button',
   /** https://icons.getbootstrap.com/icons/menu-down */
-  MenuDown = 'menu-down',
+  menuDown = 'menu-down',
   /** https://icons.getbootstrap.com/icons/menu-up */
-  MenuUp = 'menu-up',
+  menuUp = 'menu-up',
   /** https://icons.getbootstrap.com/icons/mic-fill */
-  MicFill = 'mic-fill',
+  micFill = 'mic-fill',
   /** https://icons.getbootstrap.com/icons/mic-mute-fill */
-  MicMuteFill = 'mic-mute-fill',
+  micMuteFill = 'mic-mute-fill',
   /** https://icons.getbootstrap.com/icons/mic-mute */
-  MicMute = 'mic-mute',
+  micMute = 'mic-mute',
   /** https://icons.getbootstrap.com/icons/mic */
-  Mic = 'mic',
+  mic = 'mic',
   /** https://icons.getbootstrap.com/icons/minecart-loaded */
-  MinecartLoaded = 'minecart-loaded',
+  minecartLoaded = 'minecart-loaded',
   /** https://icons.getbootstrap.com/icons/minecart */
-  Minecart = 'minecart',
+  minecart = 'minecart',
   /** https://icons.getbootstrap.com/icons/moon */
-  Moon = 'moon',
+  moon = 'moon',
   /** https://icons.getbootstrap.com/icons/mouse */
-  Mouse = 'mouse',
+  mouse = 'mouse',
   /** https://icons.getbootstrap.com/icons/mouse2 */
-  Mouse2 = 'mouse2',
+  mouse2 = 'mouse2',
   /** https://icons.getbootstrap.com/icons/mouse3 */
-  Mouse3 = 'mouse3',
+  mouse3 = 'mouse3',
   /** https://icons.getbootstrap.com/icons/music-note-beamed */
-  MusicNoteBeamed = 'music-note-beamed',
+  musicNoteBeamed = 'music-note-beamed',
   /** https://icons.getbootstrap.com/icons/music-note-list */
-  MusicNoteList = 'music-note-list',
+  musicNoteList = 'music-note-list',
   /** https://icons.getbootstrap.com/icons/music-note */
-  MusicNote = 'music-note',
+  musicNote = 'music-note',
   /** https://icons.getbootstrap.com/icons/music-player-fill */
-  MusicPlayerFill = 'music-player-fill',
+  musicPlayerFill = 'music-player-fill',
   /** https://icons.getbootstrap.com/icons/music-player */
-  MusicPlayer = 'music-player',
+  musicPlayer = 'music-player',
   /** https://icons.getbootstrap.com/icons/newspaper */
-  Newspaper = 'newspaper',
+  newspaper = 'newspaper',
   /** https://icons.getbootstrap.com/icons/node-minus-fill */
-  NodeMinusFill = 'node-minus-fill',
+  nodeMinusFill = 'node-minus-fill',
   /** https://icons.getbootstrap.com/icons/node-minus */
-  NodeMinus = 'node-minus',
+  nodeMinus = 'node-minus',
   /** https://icons.getbootstrap.com/icons/node-plus-fill */
-  NodePlusFill = 'node-plus-fill',
+  nodePlusFill = 'node-plus-fill',
   /** https://icons.getbootstrap.com/icons/node-plus */
-  NodePlus = 'node-plus',
+  nodePlus = 'node-plus',
   /** https://icons.getbootstrap.com/icons/nut-fill */
-  NutFill = 'nut-fill',
+  nutFill = 'nut-fill',
   /** https://icons.getbootstrap.com/icons/nut */
-  Nut = 'nut',
+  nut = 'nut',
   /** https://icons.getbootstrap.com/icons/octagon-fill */
-  OctagonFill = 'octagon-fill',
+  octagonFill = 'octagon-fill',
   /** https://icons.getbootstrap.com/icons/octagon-half */
-  OctagonHalf = 'octagon-half',
+  octagonHalf = 'octagon-half',
   /** https://icons.getbootstrap.com/icons/octagon */
-  Octagon = 'octagon',
+  octagon = 'octagon',
   /** https://icons.getbootstrap.com/icons/option */
-  Option = 'option',
+  option = 'option',
   /** https://icons.getbootstrap.com/icons/outlet */
-  Outlet = 'outlet',
+  outlet = 'outlet',
   /** https://icons.getbootstrap.com/icons/paperclip */
-  Paperclip = 'paperclip',
+  paperclip = 'paperclip',
   /** https://icons.getbootstrap.com/icons/paragraph */
-  Paragraph = 'paragraph',
+  paragraph = 'paragraph',
   /** https://icons.getbootstrap.com/icons/patch-check-fll */
-  PatchCheckFll = 'patch-check-fll',
+  patchCheckFll = 'patch-check-fll',
   /** https://icons.getbootstrap.com/icons/patch-check */
-  PatchCheck = 'patch-check',
+  patchCheck = 'patch-check',
   /** https://icons.getbootstrap.com/icons/patch-exclamation-fll */
-  PatchExclamationFll = 'patch-exclamation-fll',
+  patchExclamationFll = 'patch-exclamation-fll',
   /** https://icons.getbootstrap.com/icons/patch-exclamation */
-  PatchExclamation = 'patch-exclamation',
+  patchExclamation = 'patch-exclamation',
   /** https://icons.getbootstrap.com/icons/patch-minus-fll */
-  PatchMinusFll = 'patch-minus-fll',
+  patchMinusFll = 'patch-minus-fll',
   /** https://icons.getbootstrap.com/icons/patch-minus */
-  PatchMinus = 'patch-minus',
+  patchMinus = 'patch-minus',
   /** https://icons.getbootstrap.com/icons/patch-plus-fll */
-  PatchPlusFll = 'patch-plus-fll',
+  patchPlusFll = 'patch-plus-fll',
   /** https://icons.getbootstrap.com/icons/patch-plus */
-  PatchPlus = 'patch-plus',
+  patchPlus = 'patch-plus',
   /** https://icons.getbootstrap.com/icons/patch-question-fll */
-  PatchQuestionFll = 'patch-question-fll',
+  patchQuestionFll = 'patch-question-fll',
   /** https://icons.getbootstrap.com/icons/patch-question */
-  PatchQuestion = 'patch-question',
+  patchQuestion = 'patch-question',
   /** https://icons.getbootstrap.com/icons/pause-btn-fill */
-  PauseBtnFill = 'pause-btn-fill',
+  pauseBtnFill = 'pause-btn-fill',
   /** https://icons.getbootstrap.com/icons/pause-btn */
-  PauseBtn = 'pause-btn',
+  pauseBtn = 'pause-btn',
   /** https://icons.getbootstrap.com/icons/pause-circle-fill */
-  PauseCircleFill = 'pause-circle-fill',
+  pauseCircleFill = 'pause-circle-fill',
   /** https://icons.getbootstrap.com/icons/pause-circle */
-  PauseCircle = 'pause-circle',
+  pauseCircle = 'pause-circle',
   /** https://icons.getbootstrap.com/icons/pause-fill */
-  PauseFill = 'pause-fill',
+  pauseFill = 'pause-fill',
   /** https://icons.getbootstrap.com/icons/pause */
-  Pause = 'pause',
+  pause = 'pause',
   /** https://icons.getbootstrap.com/icons/peace-fill */
-  PeaceFill = 'peace-fill',
+  peaceFill = 'peace-fill',
   /** https://icons.getbootstrap.com/icons/peace */
-  Peace = 'peace',
+  peace = 'peace',
   /** https://icons.getbootstrap.com/icons/pen-fill */
-  PenFill = 'pen-fill',
+  penFill = 'pen-fill',
   /** https://icons.getbootstrap.com/icons/pen */
-  Pen = 'pen',
+  pen = 'pen',
   /** https://icons.getbootstrap.com/icons/pencil-fill */
-  PencilFill = 'pencil-fill',
+  pencilFill = 'pencil-fill',
   /** https://icons.getbootstrap.com/icons/pencil-square */
-  PencilSquare = 'pencil-square',
+  pencilSquare = 'pencil-square',
   /** https://icons.getbootstrap.com/icons/pencil */
-  Pencil = 'pencil',
+  pencil = 'pencil',
   /** https://icons.getbootstrap.com/icons/pentagon-fill */
-  PentagonFill = 'pentagon-fill',
+  pentagonFill = 'pentagon-fill',
   /** https://icons.getbootstrap.com/icons/pentagon-half */
-  PentagonHalf = 'pentagon-half',
+  pentagonHalf = 'pentagon-half',
   /** https://icons.getbootstrap.com/icons/pentagon */
-  Pentagon = 'pentagon',
+  pentagon = 'pentagon',
   /** https://icons.getbootstrap.com/icons/people-fill */
-  PeopleFill = 'people-fill',
+  peopleFill = 'people-fill',
   /** https://icons.getbootstrap.com/icons/people */
-  People = 'people',
+  people = 'people',
   /** https://icons.getbootstrap.com/icons/percent */
-  Percent = 'percent',
+  percent = 'percent',
   /** https://icons.getbootstrap.com/icons/person-badge-fill */
-  PersonBadgeFill = 'person-badge-fill',
+  personBadgeFill = 'person-badge-fill',
   /** https://icons.getbootstrap.com/icons/person-badge */
-  PersonBadge = 'person-badge',
+  personBadge = 'person-badge',
   /** https://icons.getbootstrap.com/icons/person-bounding-box */
-  PersonBoundingBox = 'person-bounding-box',
+  personBoundingBox = 'person-bounding-box',
   /** https://icons.getbootstrap.com/icons/person-check-fill */
-  PersonCheckFill = 'person-check-fill',
+  personCheckFill = 'person-check-fill',
   /** https://icons.getbootstrap.com/icons/person-check */
-  PersonCheck = 'person-check',
+  personCheck = 'person-check',
   /** https://icons.getbootstrap.com/icons/person-circle */
-  PersonCircle = 'person-circle',
+  personCircle = 'person-circle',
   /** https://icons.getbootstrap.com/icons/person-dash-fill */
-  PersonDashFill = 'person-dash-fill',
+  personDashFill = 'person-dash-fill',
   /** https://icons.getbootstrap.com/icons/person-dash */
-  PersonDash = 'person-dash',
+  personDash = 'person-dash',
   /** https://icons.getbootstrap.com/icons/person-fill */
-  PersonFill = 'person-fill',
+  personFill = 'person-fill',
   /** https://icons.getbootstrap.com/icons/person-lines-fill */
-  PersonLinesFill = 'person-lines-fill',
+  personLinesFill = 'person-lines-fill',
   /** https://icons.getbootstrap.com/icons/person-plus-fill */
-  PersonPlusFill = 'person-plus-fill',
+  personPlusFill = 'person-plus-fill',
   /** https://icons.getbootstrap.com/icons/person-plus */
-  PersonPlus = 'person-plus',
+  personPlus = 'person-plus',
   /** https://icons.getbootstrap.com/icons/person-square */
-  PersonSquare = 'person-square',
+  personSquare = 'person-square',
   /** https://icons.getbootstrap.com/icons/person-x-fill */
-  PersonXFill = 'person-x-fill',
+  personXFill = 'person-x-fill',
   /** https://icons.getbootstrap.com/icons/person-x */
-  PersonX = 'person-x',
+  personX = 'person-x',
   /** https://icons.getbootstrap.com/icons/person */
-  Person = 'person',
+  person = 'person',
   /** https://icons.getbootstrap.com/icons/phone-fill */
-  PhoneFill = 'phone-fill',
+  phoneFill = 'phone-fill',
   /** https://icons.getbootstrap.com/icons/phone-landscape-fill */
-  PhoneLandscapeFill = 'phone-landscape-fill',
+  phoneLandscapeFill = 'phone-landscape-fill',
   /** https://icons.getbootstrap.com/icons/phone-landscape */
-  PhoneLandscape = 'phone-landscape',
+  phoneLandscape = 'phone-landscape',
   /** https://icons.getbootstrap.com/icons/phone-vibrate */
-  PhoneVibrate = 'phone-vibrate',
+  phoneVibrate = 'phone-vibrate',
   /** https://icons.getbootstrap.com/icons/phone */
-  Phone = 'phone',
+  phone = 'phone',
   /** https://icons.getbootstrap.com/icons/pie-chart-fill */
-  PieChartFill = 'pie-chart-fill',
+  pieChartFill = 'pie-chart-fill',
   /** https://icons.getbootstrap.com/icons/pie-chart */
-  PieChart = 'pie-chart',
+  pieChart = 'pie-chart',
   /** https://icons.getbootstrap.com/icons/pip-fill */
-  PipFill = 'pip-fill',
+  pipFill = 'pip-fill',
   /** https://icons.getbootstrap.com/icons/pip */
-  Pip = 'pip',
+  pip = 'pip',
   /** https://icons.getbootstrap.com/icons/play-btn-fill */
-  PlayBtnFill = 'play-btn-fill',
+  playBtnFill = 'play-btn-fill',
   /** https://icons.getbootstrap.com/icons/play-btn */
-  PlayBtn = 'play-btn',
+  playBtn = 'play-btn',
   /** https://icons.getbootstrap.com/icons/play-circle-fill */
-  PlayCircleFill = 'play-circle-fill',
+  playCircleFill = 'play-circle-fill',
   /** https://icons.getbootstrap.com/icons/play-circle */
-  PlayCircle = 'play-circle',
+  playCircle = 'play-circle',
   /** https://icons.getbootstrap.com/icons/play-fill */
-  PlayFill = 'play-fill',
+  playFill = 'play-fill',
   /** https://icons.getbootstrap.com/icons/play */
-  Play = 'play',
+  play = 'play',
   /** https://icons.getbootstrap.com/icons/plug-fill */
-  PlugFill = 'plug-fill',
+  plugFill = 'plug-fill',
   /** https://icons.getbootstrap.com/icons/plug */
-  Plug = 'plug',
+  plug = 'plug',
   /** https://icons.getbootstrap.com/icons/plus-circle-fill */
-  PlusCircleFill = 'plus-circle-fill',
+  plusCircleFill = 'plus-circle-fill',
   /** https://icons.getbootstrap.com/icons/plus-circle */
-  PlusCircle = 'plus-circle',
+  plusCircle = 'plus-circle',
   /** https://icons.getbootstrap.com/icons/plus-square-fill */
-  PlusSquareFill = 'plus-square-fill',
+  plusSquareFill = 'plus-square-fill',
   /** https://icons.getbootstrap.com/icons/plus-square */
-  PlusSquare = 'plus-square',
+  plusSquare = 'plus-square',
   /** https://icons.getbootstrap.com/icons/plus */
-  Plus = 'plus',
+  plus = 'plus',
   /** https://icons.getbootstrap.com/icons/power */
-  Power = 'power',
+  power = 'power',
   /** https://icons.getbootstrap.com/icons/printer-fill */
-  PrinterFill = 'printer-fill',
+  printerFill = 'printer-fill',
   /** https://icons.getbootstrap.com/icons/printer */
-  Printer = 'printer',
+  printer = 'printer',
   /** https://icons.getbootstrap.com/icons/puzzle-fill */
-  PuzzleFill = 'puzzle-fill',
+  puzzleFill = 'puzzle-fill',
   /** https://icons.getbootstrap.com/icons/puzzle */
-  Puzzle = 'puzzle',
+  puzzle = 'puzzle',
   /** https://icons.getbootstrap.com/icons/question-circle-fill */
-  QuestionCircleFill = 'question-circle-fill',
+  questionCircleFill = 'question-circle-fill',
   /** https://icons.getbootstrap.com/icons/question-circle */
-  QuestionCircle = 'question-circle',
+  questionCircle = 'question-circle',
   /** https://icons.getbootstrap.com/icons/question-diamond-fill */
-  QuestionDiamondFill = 'question-diamond-fill',
+  questionDiamondFill = 'question-diamond-fill',
   /** https://icons.getbootstrap.com/icons/question-diamond */
-  QuestionDiamond = 'question-diamond',
+  questionDiamond = 'question-diamond',
   /** https://icons.getbootstrap.com/icons/question-octagon-fill */
-  QuestionOctagonFill = 'question-octagon-fill',
+  questionOctagonFill = 'question-octagon-fill',
   /** https://icons.getbootstrap.com/icons/question-octagon */
-  QuestionOctagon = 'question-octagon',
+  questionOctagon = 'question-octagon',
   /** https://icons.getbootstrap.com/icons/question-square-fill */
-  QuestionSquareFill = 'question-square-fill',
+  questionSquareFill = 'question-square-fill',
   /** https://icons.getbootstrap.com/icons/question-square */
-  QuestionSquare = 'question-square',
+  questionSquare = 'question-square',
   /** https://icons.getbootstrap.com/icons/question */
-  Question = 'question',
+  question = 'question',
   /** https://icons.getbootstrap.com/icons/receipt-cutoff */
-  ReceiptCutoff = 'receipt-cutoff',
+  receiptCutoff = 'receipt-cutoff',
   /** https://icons.getbootstrap.com/icons/receipt */
-  Receipt = 'receipt',
+  receipt = 'receipt',
   /** https://icons.getbootstrap.com/icons/reception-0 */
-  Reception0 = 'reception-0',
+  reception0 = 'reception-0',
   /** https://icons.getbootstrap.com/icons/reception-1 */
-  Reception1 = 'reception-1',
+  reception1 = 'reception-1',
   /** https://icons.getbootstrap.com/icons/reception-2 */
-  Reception2 = 'reception-2',
+  reception2 = 'reception-2',
   /** https://icons.getbootstrap.com/icons/reception-3 */
-  Reception3 = 'reception-3',
+  reception3 = 'reception-3',
   /** https://icons.getbootstrap.com/icons/reception-4 */
-  Reception4 = 'reception-4',
+  reception4 = 'reception-4',
   /** https://icons.getbootstrap.com/icons/record-btn-fill */
-  RecordBtnFill = 'record-btn-fill',
+  recordBtnFill = 'record-btn-fill',
   /** https://icons.getbootstrap.com/icons/record-btn */
-  RecordBtn = 'record-btn',
+  recordBtn = 'record-btn',
   /** https://icons.getbootstrap.com/icons/record-circle-fill */
-  RecordCircleFill = 'record-circle-fill',
+  recordCircleFill = 'record-circle-fill',
   /** https://icons.getbootstrap.com/icons/record-circle */
-  RecordCircle = 'record-circle',
+  recordCircle = 'record-circle',
   /** https://icons.getbootstrap.com/icons/record-fill */
-  RecordFill = 'record-fill',
+  recordFill = 'record-fill',
   /** https://icons.getbootstrap.com/icons/record */
-  Record = 'record',
+  record = 'record',
   /** https://icons.getbootstrap.com/icons/record2-fill */
-  Record2Fill = 'record2-fill',
+  record2Fill = 'record2-fill',
   /** https://icons.getbootstrap.com/icons/record2 */
-  Record2 = 'record2',
+  record2 = 'record2',
   /** https://icons.getbootstrap.com/icons/reply-all-fill */
-  ReplyAllFill = 'reply-all-fill',
+  replyAllFill = 'reply-all-fill',
   /** https://icons.getbootstrap.com/icons/reply-all */
-  ReplyAll = 'reply-all',
+  replyAll = 'reply-all',
   /** https://icons.getbootstrap.com/icons/reply-fill */
-  ReplyFill = 'reply-fill',
+  replyFill = 'reply-fill',
   /** https://icons.getbootstrap.com/icons/reply */
-  Reply = 'reply',
+  reply = 'reply',
   /** https://icons.getbootstrap.com/icons/rss-fill */
-  RssFill = 'rss-fill',
+  rssFill = 'rss-fill',
   /** https://icons.getbootstrap.com/icons/rss */
-  Rss = 'rss',
+  rss = 'rss',
   /** https://icons.getbootstrap.com/icons/scissors */
-  Scissors = 'scissors',
+  scissors = 'scissors',
   /** https://icons.getbootstrap.com/icons/screwdriver */
-  Screwdriver = 'screwdriver',
+  screwdriver = 'screwdriver',
   /** https://icons.getbootstrap.com/icons/search */
-  Search = 'search',
+  search = 'search',
   /** https://icons.getbootstrap.com/icons/segmented-nav */
-  SegmentedNav = 'segmented-nav',
+  segmentedNav = 'segmented-nav',
   /** https://icons.getbootstrap.com/icons/server */
-  Server = 'server',
+  server = 'server',
   /** https://icons.getbootstrap.com/icons/share-fill */
-  ShareFill = 'share-fill',
+  shareFill = 'share-fill',
   /** https://icons.getbootstrap.com/icons/share */
-  Share = 'share',
+  share = 'share',
   /** https://icons.getbootstrap.com/icons/shield-check */
-  ShieldCheck = 'shield-check',
+  shieldCheck = 'shield-check',
   /** https://icons.getbootstrap.com/icons/shield-exclamation */
-  ShieldExclamation = 'shield-exclamation',
+  shieldExclamation = 'shield-exclamation',
   /** https://icons.getbootstrap.com/icons/shield-fill-check */
-  ShieldFillCheck = 'shield-fill-check',
+  shieldFillCheck = 'shield-fill-check',
   /** https://icons.getbootstrap.com/icons/shield-fill-exclamation */
-  ShieldFillExclamation = 'shield-fill-exclamation',
+  shieldFillExclamation = 'shield-fill-exclamation',
   /** https://icons.getbootstrap.com/icons/shield-fill-minus */
-  ShieldFillMinus = 'shield-fill-minus',
+  shieldFillMinus = 'shield-fill-minus',
   /** https://icons.getbootstrap.com/icons/shield-fill-plus */
-  ShieldFillPlus = 'shield-fill-plus',
+  shieldFillPlus = 'shield-fill-plus',
   /** https://icons.getbootstrap.com/icons/shield-fill-x */
-  ShieldFillX = 'shield-fill-x',
+  shieldFillX = 'shield-fill-x',
   /** https://icons.getbootstrap.com/icons/shield-fill */
-  ShieldFill = 'shield-fill',
+  shieldFill = 'shield-fill',
   /** https://icons.getbootstrap.com/icons/shield-lock-fill */
-  ShieldLockFill = 'shield-lock-fill',
+  shieldLockFill = 'shield-lock-fill',
   /** https://icons.getbootstrap.com/icons/shield-lock */
-  ShieldLock = 'shield-lock',
+  shieldLock = 'shield-lock',
   /** https://icons.getbootstrap.com/icons/shield-minus */
-  ShieldMinus = 'shield-minus',
+  shieldMinus = 'shield-minus',
   /** https://icons.getbootstrap.com/icons/shield-plus */
-  ShieldPlus = 'shield-plus',
+  shieldPlus = 'shield-plus',
   /** https://icons.getbootstrap.com/icons/shield-shaded */
-  ShieldShaded = 'shield-shaded',
+  shieldShaded = 'shield-shaded',
   /** https://icons.getbootstrap.com/icons/shield-slash-fill */
-  ShieldSlashFill = 'shield-slash-fill',
+  shieldSlashFill = 'shield-slash-fill',
   /** https://icons.getbootstrap.com/icons/shield-slash */
-  ShieldSlash = 'shield-slash',
+  shieldSlash = 'shield-slash',
   /** https://icons.getbootstrap.com/icons/shield-x */
-  ShieldX = 'shield-x',
+  shieldX = 'shield-x',
   /** https://icons.getbootstrap.com/icons/shield */
-  Shield = 'shield',
+  shield = 'shield',
   /** https://icons.getbootstrap.com/icons/shift-fill */
-  ShiftFill = 'shift-fill',
+  shiftFill = 'shift-fill',
   /** https://icons.getbootstrap.com/icons/shift */
-  Shift = 'shift',
+  shift = 'shift',
   /** https://icons.getbootstrap.com/icons/shop-window */
-  ShopWindow = 'shop-window',
+  shopWindow = 'shop-window',
   /** https://icons.getbootstrap.com/icons/shop */
-  Shop = 'shop',
+  shop = 'shop',
   /** https://icons.getbootstrap.com/icons/shuffle */
-  Shuffle = 'shuffle',
+  shuffle = 'shuffle',
   /** https://icons.getbootstrap.com/icons/signpost-2-fill */
-  Signpost2Fill = 'signpost-2-fill',
+  signpost2Fill = 'signpost-2-fill',
   /** https://icons.getbootstrap.com/icons/signpost-2 */
-  Signpost2 = 'signpost-2',
+  signpost2 = 'signpost-2',
   /** https://icons.getbootstrap.com/icons/signpost-fill */
-  SignpostFill = 'signpost-fill',
+  signpostFill = 'signpost-fill',
   /** https://icons.getbootstrap.com/icons/signpost-split-fill */
-  SignpostSplitFill = 'signpost-split-fill',
+  signpostSplitFill = 'signpost-split-fill',
   /** https://icons.getbootstrap.com/icons/signpost-split */
-  SignpostSplit = 'signpost-split',
+  signpostSplit = 'signpost-split',
   /** https://icons.getbootstrap.com/icons/signpost */
-  Signpost = 'signpost',
+  signpost = 'signpost',
   /** https://icons.getbootstrap.com/icons/sim-fill */
-  SimFill = 'sim-fill',
+  simFill = 'sim-fill',
   /** https://icons.getbootstrap.com/icons/sim */
-  Sim = 'sim',
+  sim = 'sim',
   /** https://icons.getbootstrap.com/icons/skip-backward-btn-fill */
-  SkipBackwardBtnFill = 'skip-backward-btn-fill',
+  skipBackwardBtnFill = 'skip-backward-btn-fill',
   /** https://icons.getbootstrap.com/icons/skip-backward-btn */
-  SkipBackwardBtn = 'skip-backward-btn',
+  skipBackwardBtn = 'skip-backward-btn',
   /** https://icons.getbootstrap.com/icons/skip-backward-circle-fill */
-  SkipBackwardCircleFill = 'skip-backward-circle-fill',
+  skipBackwardCircleFill = 'skip-backward-circle-fill',
   /** https://icons.getbootstrap.com/icons/skip-backward-circle */
-  SkipBackwardCircle = 'skip-backward-circle',
+  skipBackwardCircle = 'skip-backward-circle',
   /** https://icons.getbootstrap.com/icons/skip-backward-fill */
-  SkipBackwardFill = 'skip-backward-fill',
+  skipBackwardFill = 'skip-backward-fill',
   /** https://icons.getbootstrap.com/icons/skip-backward */
-  SkipBackward = 'skip-backward',
+  skipBackward = 'skip-backward',
   /** https://icons.getbootstrap.com/icons/skip-end-btn-fill */
-  SkipEndBtnFill = 'skip-end-btn-fill',
+  skipEndBtnFill = 'skip-end-btn-fill',
   /** https://icons.getbootstrap.com/icons/skip-end-btn */
-  SkipEndBtn = 'skip-end-btn',
+  skipEndBtn = 'skip-end-btn',
   /** https://icons.getbootstrap.com/icons/skip-end-circle-fill */
-  SkipEndCircleFill = 'skip-end-circle-fill',
+  skipEndCircleFill = 'skip-end-circle-fill',
   /** https://icons.getbootstrap.com/icons/skip-end-circle */
-  SkipEndCircle = 'skip-end-circle',
+  skipEndCircle = 'skip-end-circle',
   /** https://icons.getbootstrap.com/icons/skip-end-fill */
-  SkipEndFill = 'skip-end-fill',
+  skipEndFill = 'skip-end-fill',
   /** https://icons.getbootstrap.com/icons/skip-end */
-  SkipEnd = 'skip-end',
+  skipEnd = 'skip-end',
   /** https://icons.getbootstrap.com/icons/skip-forward-btn-fill */
-  SkipForwardBtnFill = 'skip-forward-btn-fill',
+  skipForwardBtnFill = 'skip-forward-btn-fill',
   /** https://icons.getbootstrap.com/icons/skip-forward-btn */
-  SkipForwardBtn = 'skip-forward-btn',
+  skipForwardBtn = 'skip-forward-btn',
   /** https://icons.getbootstrap.com/icons/skip-forward-circle-fill */
-  SkipForwardCircleFill = 'skip-forward-circle-fill',
+  skipForwardCircleFill = 'skip-forward-circle-fill',
   /** https://icons.getbootstrap.com/icons/skip-forward-circle */
-  SkipForwardCircle = 'skip-forward-circle',
+  skipForwardCircle = 'skip-forward-circle',
   /** https://icons.getbootstrap.com/icons/skip-forward-fill */
-  SkipForwardFill = 'skip-forward-fill',
+  skipForwardFill = 'skip-forward-fill',
   /** https://icons.getbootstrap.com/icons/skip-forward */
-  SkipForward = 'skip-forward',
+  skipForward = 'skip-forward',
   /** https://icons.getbootstrap.com/icons/skip-start-btn-fill */
-  SkipStartBtnFill = 'skip-start-btn-fill',
+  skipStartBtnFill = 'skip-start-btn-fill',
   /** https://icons.getbootstrap.com/icons/skip-start-btn */
-  SkipStartBtn = 'skip-start-btn',
+  skipStartBtn = 'skip-start-btn',
   /** https://icons.getbootstrap.com/icons/skip-start-circle-fill */
-  SkipStartCircleFill = 'skip-start-circle-fill',
+  skipStartCircleFill = 'skip-start-circle-fill',
   /** https://icons.getbootstrap.com/icons/skip-start-circle */
-  SkipStartCircle = 'skip-start-circle',
+  skipStartCircle = 'skip-start-circle',
   /** https://icons.getbootstrap.com/icons/skip-start-fill */
-  SkipStartFill = 'skip-start-fill',
+  skipStartFill = 'skip-start-fill',
   /** https://icons.getbootstrap.com/icons/skip-start */
-  SkipStart = 'skip-start',
+  skipStart = 'skip-start',
   /** https://icons.getbootstrap.com/icons/slack */
-  Slack = 'slack',
+  slack = 'slack',
   /** https://icons.getbootstrap.com/icons/slash-circle-fill */
-  SlashCircleFill = 'slash-circle-fill',
+  slashCircleFill = 'slash-circle-fill',
   /** https://icons.getbootstrap.com/icons/slash-circle */
-  SlashCircle = 'slash-circle',
+  slashCircle = 'slash-circle',
   /** https://icons.getbootstrap.com/icons/slash-square-fill */
-  SlashSquareFill = 'slash-square-fill',
+  slashSquareFill = 'slash-square-fill',
   /** https://icons.getbootstrap.com/icons/slash-square */
-  SlashSquare = 'slash-square',
+  slashSquare = 'slash-square',
   /** https://icons.getbootstrap.com/icons/slash */
-  Slash = 'slash',
+  slash = 'slash',
   /** https://icons.getbootstrap.com/icons/sliders */
-  Sliders = 'sliders',
+  sliders = 'sliders',
   /** https://icons.getbootstrap.com/icons/smartwatch */
-  Smartwatch = 'smartwatch',
+  smartwatch = 'smartwatch',
   /** https://icons.getbootstrap.com/icons/sort-alpha-down-alt */
-  SortAlphaDownAlt = 'sort-alpha-down-alt',
+  sortAlphaDownAlt = 'sort-alpha-down-alt',
   /** https://icons.getbootstrap.com/icons/sort-alpha-down */
-  SortAlphaDown = 'sort-alpha-down',
+  sortAlphaDown = 'sort-alpha-down',
   /** https://icons.getbootstrap.com/icons/sort-alpha-up-alt */
-  SortAlphaUpAlt = 'sort-alpha-up-alt',
+  sortAlphaUpAlt = 'sort-alpha-up-alt',
   /** https://icons.getbootstrap.com/icons/sort-alpha-up */
-  SortAlphaUp = 'sort-alpha-up',
+  sortAlphaUp = 'sort-alpha-up',
   /** https://icons.getbootstrap.com/icons/sort-down-alt */
-  SortDownAlt = 'sort-down-alt',
+  sortDownAlt = 'sort-down-alt',
   /** https://icons.getbootstrap.com/icons/sort-down */
-  SortDown = 'sort-down',
+  sortDown = 'sort-down',
   /** https://icons.getbootstrap.com/icons/sort-numeric-down-alt */
-  SortNumericDownAlt = 'sort-numeric-down-alt',
+  sortNumericDownAlt = 'sort-numeric-down-alt',
   /** https://icons.getbootstrap.com/icons/sort-numeric-down */
-  SortNumericDown = 'sort-numeric-down',
+  sortNumericDown = 'sort-numeric-down',
   /** https://icons.getbootstrap.com/icons/sort-numeric-up-alt */
-  SortNumericUpAlt = 'sort-numeric-up-alt',
+  sortNumericUpAlt = 'sort-numeric-up-alt',
   /** https://icons.getbootstrap.com/icons/sort-numeric-up */
-  SortNumericUp = 'sort-numeric-up',
+  sortNumericUp = 'sort-numeric-up',
   /** https://icons.getbootstrap.com/icons/sort-up-alt */
-  SortUpAlt = 'sort-up-alt',
+  sortUpAlt = 'sort-up-alt',
   /** https://icons.getbootstrap.com/icons/sort-up */
-  SortUp = 'sort-up',
+  sortUp = 'sort-up',
   /** https://icons.getbootstrap.com/icons/soundwave */
-  Soundwave = 'soundwave',
+  soundwave = 'soundwave',
   /** https://icons.getbootstrap.com/icons/speaker-fill */
-  SpeakerFill = 'speaker-fill',
+  speakerFill = 'speaker-fill',
   /** https://icons.getbootstrap.com/icons/speaker */
-  Speaker = 'speaker',
+  speaker = 'speaker',
   /** https://icons.getbootstrap.com/icons/spellcheck */
-  Spellcheck = 'spellcheck',
+  spellcheck = 'spellcheck',
   /** https://icons.getbootstrap.com/icons/square-fill */
-  SquareFill = 'square-fill',
+  squareFill = 'square-fill',
   /** https://icons.getbootstrap.com/icons/square-half */
-  SquareHalf = 'square-half',
+  squareHalf = 'square-half',
   /** https://icons.getbootstrap.com/icons/square */
-  Square = 'square',
+  square = 'square',
   /** https://icons.getbootstrap.com/icons/star-fill */
-  StarFill = 'star-fill',
+  starFill = 'star-fill',
   /** https://icons.getbootstrap.com/icons/star-half */
-  StarHalf = 'star-half',
+  starHalf = 'star-half',
   /** https://icons.getbootstrap.com/icons/star */
-  Star = 'star',
+  star = 'star',
   /** https://icons.getbootstrap.com/icons/stickies-fill */
-  StickiesFill = 'stickies-fill',
+  stickiesFill = 'stickies-fill',
   /** https://icons.getbootstrap.com/icons/stickies */
-  Stickies = 'stickies',
+  stickies = 'stickies',
   /** https://icons.getbootstrap.com/icons/sticky-fill */
-  StickyFill = 'sticky-fill',
+  stickyFill = 'sticky-fill',
   /** https://icons.getbootstrap.com/icons/sticky */
-  Sticky = 'sticky',
+  sticky = 'sticky',
   /** https://icons.getbootstrap.com/icons/stop-btn-fill */
-  StopBtnFill = 'stop-btn-fill',
+  stopBtnFill = 'stop-btn-fill',
   /** https://icons.getbootstrap.com/icons/stop-btn */
-  StopBtn = 'stop-btn',
+  stopBtn = 'stop-btn',
   /** https://icons.getbootstrap.com/icons/stop-circle-fill */
-  StopCircleFill = 'stop-circle-fill',
+  stopCircleFill = 'stop-circle-fill',
   /** https://icons.getbootstrap.com/icons/stop-circle */
-  StopCircle = 'stop-circle',
+  stopCircle = 'stop-circle',
   /** https://icons.getbootstrap.com/icons/stop-fill */
-  StopFill = 'stop-fill',
+  stopFill = 'stop-fill',
   /** https://icons.getbootstrap.com/icons/stop */
-  Stop = 'stop',
+  stop = 'stop',
   /** https://icons.getbootstrap.com/icons/stoplights-fill */
-  StoplightsFill = 'stoplights-fill',
+  stoplightsFill = 'stoplights-fill',
   /** https://icons.getbootstrap.com/icons/stoplights */
-  Stoplights = 'stoplights',
+  stoplights = 'stoplights',
   /** https://icons.getbootstrap.com/icons/stopwatch-fill */
-  StopwatchFill = 'stopwatch-fill',
+  stopwatchFill = 'stopwatch-fill',
   /** https://icons.getbootstrap.com/icons/stopwatch */
-  Stopwatch = 'stopwatch',
+  stopwatch = 'stopwatch',
   /** https://icons.getbootstrap.com/icons/subtract */
-  Subtract = 'subtract',
+  subtract = 'subtract',
   /** https://icons.getbootstrap.com/icons/suit-club-fill */
-  SuitClubFill = 'suit-club-fill',
+  suitClubFill = 'suit-club-fill',
   /** https://icons.getbootstrap.com/icons/suit-club */
-  SuitClub = 'suit-club',
+  suitClub = 'suit-club',
   /** https://icons.getbootstrap.com/icons/suit-diamond-fill */
-  SuitDiamondFill = 'suit-diamond-fill',
+  suitDiamondFill = 'suit-diamond-fill',
   /** https://icons.getbootstrap.com/icons/suit-diamond */
-  SuitDiamond = 'suit-diamond',
+  suitDiamond = 'suit-diamond',
   /** https://icons.getbootstrap.com/icons/suit-heart-fill */
-  SuitHeartFill = 'suit-heart-fill',
+  suitHeartFill = 'suit-heart-fill',
   /** https://icons.getbootstrap.com/icons/suit-heart */
-  SuitHeart = 'suit-heart',
+  suitHeart = 'suit-heart',
   /** https://icons.getbootstrap.com/icons/suit-spade-fill */
-  SuitSpadeFill = 'suit-spade-fill',
+  suitSpadeFill = 'suit-spade-fill',
   /** https://icons.getbootstrap.com/icons/suit-spade */
-  SuitSpade = 'suit-spade',
+  suitSpade = 'suit-spade',
   /** https://icons.getbootstrap.com/icons/sun */
-  Sun = 'sun',
+  sun = 'sun',
   /** https://icons.getbootstrap.com/icons/sunglasses */
-  Sunglasses = 'sunglasses',
+  sunglasses = 'sunglasses',
   /** https://icons.getbootstrap.com/icons/table */
-  Table = 'table',
+  table = 'table',
   /** https://icons.getbootstrap.com/icons/tablet-fill */
-  TabletFill = 'tablet-fill',
+  tabletFill = 'tablet-fill',
   /** https://icons.getbootstrap.com/icons/tablet-landscape-fill */
-  TabletLandscapeFill = 'tablet-landscape-fill',
+  tabletLandscapeFill = 'tablet-landscape-fill',
   /** https://icons.getbootstrap.com/icons/tablet-landscape */
-  TabletLandscape = 'tablet-landscape',
+  tabletLandscape = 'tablet-landscape',
   /** https://icons.getbootstrap.com/icons/tablet */
-  Tablet = 'tablet',
+  tablet = 'tablet',
   /** https://icons.getbootstrap.com/icons/tag-fill */
-  TagFill = 'tag-fill',
+  tagFill = 'tag-fill',
   /** https://icons.getbootstrap.com/icons/tag */
-  Tag = 'tag',
+  tag = 'tag',
   /** https://icons.getbootstrap.com/icons/tags-fill */
-  TagsFill = 'tags-fill',
+  tagsFill = 'tags-fill',
   /** https://icons.getbootstrap.com/icons/tags */
-  Tags = 'tags',
+  tags = 'tags',
   /** https://icons.getbootstrap.com/icons/telephone-fill */
-  TelephoneFill = 'telephone-fill',
+  telephoneFill = 'telephone-fill',
   /** https://icons.getbootstrap.com/icons/telephone-forward-fill */
-  TelephoneForwardFill = 'telephone-forward-fill',
+  telephoneForwardFill = 'telephone-forward-fill',
   /** https://icons.getbootstrap.com/icons/telephone-forward */
-  TelephoneForward = 'telephone-forward',
+  telephoneForward = 'telephone-forward',
   /** https://icons.getbootstrap.com/icons/telephone-inbound-fill */
-  TelephoneInboundFill = 'telephone-inbound-fill',
+  telephoneInboundFill = 'telephone-inbound-fill',
   /** https://icons.getbootstrap.com/icons/telephone-inbound */
-  TelephoneInbound = 'telephone-inbound',
+  telephoneInbound = 'telephone-inbound',
   /** https://icons.getbootstrap.com/icons/telephone-minus-fill */
-  TelephoneMinusFill = 'telephone-minus-fill',
+  telephoneMinusFill = 'telephone-minus-fill',
   /** https://icons.getbootstrap.com/icons/telephone-minus */
-  TelephoneMinus = 'telephone-minus',
+  telephoneMinus = 'telephone-minus',
   /** https://icons.getbootstrap.com/icons/telephone-outbound-fill */
-  TelephoneOutboundFill = 'telephone-outbound-fill',
+  telephoneOutboundFill = 'telephone-outbound-fill',
   /** https://icons.getbootstrap.com/icons/telephone-outbound */
-  TelephoneOutbound = 'telephone-outbound',
+  telephoneOutbound = 'telephone-outbound',
   /** https://icons.getbootstrap.com/icons/telephone-plus-fill */
-  TelephonePlusFill = 'telephone-plus-fill',
+  telephonePlusFill = 'telephone-plus-fill',
   /** https://icons.getbootstrap.com/icons/telephone-plus */
-  TelephonePlus = 'telephone-plus',
+  telephonePlus = 'telephone-plus',
   /** https://icons.getbootstrap.com/icons/telephone-x-fill */
-  TelephoneXFill = 'telephone-x-fill',
+  telephoneXFill = 'telephone-x-fill',
   /** https://icons.getbootstrap.com/icons/telephone-x */
-  TelephoneX = 'telephone-x',
+  telephoneX = 'telephone-x',
   /** https://icons.getbootstrap.com/icons/telephone */
-  Telephone = 'telephone',
+  telephone = 'telephone',
   /** https://icons.getbootstrap.com/icons/terminal-fill */
-  TerminalFill = 'terminal-fill',
+  terminalFill = 'terminal-fill',
   /** https://icons.getbootstrap.com/icons/terminal */
-  Terminal = 'terminal',
+  terminal = 'terminal',
   /** https://icons.getbootstrap.com/icons/text-center */
-  TextCenter = 'text-center',
+  textCenter = 'text-center',
   /** https://icons.getbootstrap.com/icons/text-indent-left */
-  TextIndentLeft = 'text-indent-left',
+  textIndentLeft = 'text-indent-left',
   /** https://icons.getbootstrap.com/icons/text-indent-right */
-  TextIndentRight = 'text-indent-right',
+  textIndentRight = 'text-indent-right',
   /** https://icons.getbootstrap.com/icons/text-left */
-  TextLeft = 'text-left',
+  textLeft = 'text-left',
   /** https://icons.getbootstrap.com/icons/text-paragraph */
-  TextParagraph = 'text-paragraph',
+  textParagraph = 'text-paragraph',
   /** https://icons.getbootstrap.com/icons/text-right */
-  TextRight = 'text-right',
+  textRight = 'text-right',
   /** https://icons.getbootstrap.com/icons/textarea-resize */
-  TextareaResize = 'textarea-resize',
+  textareaResize = 'textarea-resize',
   /** https://icons.getbootstrap.com/icons/textarea-t */
-  TextareaT = 'textarea-t',
+  textareaT = 'textarea-t',
   /** https://icons.getbootstrap.com/icons/textarea */
-  Textarea = 'textarea',
+  textarea = 'textarea',
   /** https://icons.getbootstrap.com/icons/thermometer-half */
-  ThermometerHalf = 'thermometer-half',
+  thermometerHalf = 'thermometer-half',
   /** https://icons.getbootstrap.com/icons/thermometer */
-  Thermometer = 'thermometer',
+  thermometer = 'thermometer',
   /** https://icons.getbootstrap.com/icons/three-dots-vertical */
-  ThreeDotsVertical = 'three-dots-vertical',
+  threeDotsVertical = 'three-dots-vertical',
   /** https://icons.getbootstrap.com/icons/three-dots */
-  ThreeDots = 'three-dots',
+  threeDots = 'three-dots',
   /** https://icons.getbootstrap.com/icons/toggle-off */
-  ToggleOff = 'toggle-off',
+  toggleOff = 'toggle-off',
   /** https://icons.getbootstrap.com/icons/toggle-on */
-  ToggleOn = 'toggle-on',
+  toggleOn = 'toggle-on',
   /** https://icons.getbootstrap.com/icons/toggle2-off */
-  Toggle2Off = 'toggle2-off',
+  toggle2Off = 'toggle2-off',
   /** https://icons.getbootstrap.com/icons/toggle2-on */
-  Toggle2On = 'toggle2-on',
+  toggle2On = 'toggle2-on',
   /** https://icons.getbootstrap.com/icons/toggles */
-  Toggles = 'toggles',
+  toggles = 'toggles',
   /** https://icons.getbootstrap.com/icons/toggles2 */
-  Toggles2 = 'toggles2',
+  toggles2 = 'toggles2',
   /** https://icons.getbootstrap.com/icons/tools */
-  Tools = 'tools',
+  tools = 'tools',
   /** https://icons.getbootstrap.com/icons/trash-fill */
-  TrashFill = 'trash-fill',
+  trashFill = 'trash-fill',
   /** https://icons.getbootstrap.com/icons/trash */
-  Trash = 'trash',
+  trash = 'trash',
   /** https://icons.getbootstrap.com/icons/trash2-fill */
-  Trash2Fill = 'trash2-fill',
+  trash2Fill = 'trash2-fill',
   /** https://icons.getbootstrap.com/icons/trash2 */
-  Trash2 = 'trash2',
+  trash2 = 'trash2',
   /** https://icons.getbootstrap.com/icons/tree-fill */
-  TreeFill = 'tree-fill',
+  treeFill = 'tree-fill',
   /** https://icons.getbootstrap.com/icons/tree */
-  Tree = 'tree',
+  tree = 'tree',
   /** https://icons.getbootstrap.com/icons/triangle-fill */
-  TriangleFill = 'triangle-fill',
+  triangleFill = 'triangle-fill',
   /** https://icons.getbootstrap.com/icons/triangle-half */
-  TriangleHalf = 'triangle-half',
+  triangleHalf = 'triangle-half',
   /** https://icons.getbootstrap.com/icons/triangle */
-  Triangle = 'triangle',
+  triangle = 'triangle',
   /** https://icons.getbootstrap.com/icons/trophy-fill */
-  TrophyFill = 'trophy-fill',
+  trophyFill = 'trophy-fill',
   /** https://icons.getbootstrap.com/icons/trophy */
-  Trophy = 'trophy',
+  trophy = 'trophy',
   /** https://icons.getbootstrap.com/icons/truck-flatbed */
-  TruckFlatbed = 'truck-flatbed',
+  truckFlatbed = 'truck-flatbed',
   /** https://icons.getbootstrap.com/icons/truck */
-  Truck = 'truck',
+  truck = 'truck',
   /** https://icons.getbootstrap.com/icons/tv-fill */
-  TvFill = 'tv-fill',
+  tvFill = 'tv-fill',
   /** https://icons.getbootstrap.com/icons/tv */
-  Tv = 'tv',
+  tv = 'tv',
   /** https://icons.getbootstrap.com/icons/twitch */
-  Twitch = 'twitch',
+  twitch = 'twitch',
   /** https://icons.getbootstrap.com/icons/twitter */
-  Twitter = 'twitter',
+  twitter = 'twitter',
   /** https://icons.getbootstrap.com/icons/type-bold */
-  TypeBold = 'type-bold',
+  typeBold = 'type-bold',
   /** https://icons.getbootstrap.com/icons/type-h1 */
-  TypeH1 = 'type-h1',
+  typeH1 = 'type-h1',
   /** https://icons.getbootstrap.com/icons/type-h2 */
-  TypeH2 = 'type-h2',
+  typeH2 = 'type-h2',
   /** https://icons.getbootstrap.com/icons/type-h3 */
-  TypeH3 = 'type-h3',
+  typeH3 = 'type-h3',
   /** https://icons.getbootstrap.com/icons/type-italic */
-  TypeItalic = 'type-italic',
+  typeItalic = 'type-italic',
   /** https://icons.getbootstrap.com/icons/type-strikethrough */
-  TypeStrikethrough = 'type-strikethrough',
+  typeStrikethrough = 'type-strikethrough',
   /** https://icons.getbootstrap.com/icons/type-underline */
-  TypeUnderline = 'type-underline',
+  typeUnderline = 'type-underline',
   /** https://icons.getbootstrap.com/icons/type */
-  Type = 'type',
+  type = 'type',
   /** https://icons.getbootstrap.com/icons/ui-checks-grid */
-  UiChecksGrid = 'ui-checks-grid',
+  uiChecksGrid = 'ui-checks-grid',
   /** https://icons.getbootstrap.com/icons/ui-checks */
-  UiChecks = 'ui-checks',
+  uiChecks = 'ui-checks',
   /** https://icons.getbootstrap.com/icons/ui-radios-grid */
-  UiRadiosGrid = 'ui-radios-grid',
+  uiRadiosGrid = 'ui-radios-grid',
   /** https://icons.getbootstrap.com/icons/ui-radios */
-  UiRadios = 'ui-radios',
+  uiRadios = 'ui-radios',
   /** https://icons.getbootstrap.com/icons/union */
-  Union = 'union',
+  union = 'union',
   /** https://icons.getbootstrap.com/icons/unlock-fill */
-  UnlockFill = 'unlock-fill',
+  unlockFill = 'unlock-fill',
   /** https://icons.getbootstrap.com/icons/unlock */
-  Unlock = 'unlock',
+  unlock = 'unlock',
   /** https://icons.getbootstrap.com/icons/upc-scan */
-  UpcScan = 'upc-scan',
+  upcScan = 'upc-scan',
   /** https://icons.getbootstrap.com/icons/upc */
-  Upc = 'upc',
+  upc = 'upc',
   /** https://icons.getbootstrap.com/icons/upload */
-  Upload = 'upload',
+  upload = 'upload',
   /** https://icons.getbootstrap.com/icons/vector-pen */
-  VectorPen = 'vector-pen',
+  vectorPen = 'vector-pen',
   /** https://icons.getbootstrap.com/icons/view-list */
-  ViewList = 'view-list',
+  viewList = 'view-list',
   /** https://icons.getbootstrap.com/icons/view-stacked */
-  ViewStacked = 'view-stacked',
+  viewStacked = 'view-stacked',
   /** https://icons.getbootstrap.com/icons/vinyl-fill */
-  VinylFill = 'vinyl-fill',
+  vinylFill = 'vinyl-fill',
   /** https://icons.getbootstrap.com/icons/vinyl */
-  Vinyl = 'vinyl',
+  vinyl = 'vinyl',
   /** https://icons.getbootstrap.com/icons/voicemail */
-  Voicemail = 'voicemail',
+  voicemail = 'voicemail',
   /** https://icons.getbootstrap.com/icons/volume-down-fill */
-  VolumeDownFill = 'volume-down-fill',
+  volumeDownFill = 'volume-down-fill',
   /** https://icons.getbootstrap.com/icons/volume-down */
-  VolumeDown = 'volume-down',
+  volumeDown = 'volume-down',
   /** https://icons.getbootstrap.com/icons/volume-mute-fill */
-  VolumeMuteFill = 'volume-mute-fill',
+  volumeMuteFill = 'volume-mute-fill',
   /** https://icons.getbootstrap.com/icons/volume-mute */
-  VolumeMute = 'volume-mute',
+  volumeMute = 'volume-mute',
   /** https://icons.getbootstrap.com/icons/volume-off-fill */
-  VolumeOffFill = 'volume-off-fill',
+  volumeOffFill = 'volume-off-fill',
   /** https://icons.getbootstrap.com/icons/volume-off */
-  VolumeOff = 'volume-off',
+  volumeOff = 'volume-off',
   /** https://icons.getbootstrap.com/icons/volume-up-fill */
-  VolumeUpFill = 'volume-up-fill',
+  volumeUpFill = 'volume-up-fill',
   /** https://icons.getbootstrap.com/icons/volume-up */
-  VolumeUp = 'volume-up',
+  volumeUp = 'volume-up',
   /** https://icons.getbootstrap.com/icons/vr */
-  Vr = 'vr',
+  vr = 'vr',
   /** https://icons.getbootstrap.com/icons/wallet-fill */
-  WalletFill = 'wallet-fill',
+  walletFill = 'wallet-fill',
   /** https://icons.getbootstrap.com/icons/wallet */
-  Wallet = 'wallet',
+  wallet = 'wallet',
   /** https://icons.getbootstrap.com/icons/wallet2 */
-  Wallet2 = 'wallet2',
+  wallet2 = 'wallet2',
   /** https://icons.getbootstrap.com/icons/watch */
-  Watch = 'watch',
+  watch = 'watch',
   /** https://icons.getbootstrap.com/icons/wifi-1 */
-  Wifi1 = 'wifi-1',
+  wifi1 = 'wifi-1',
   /** https://icons.getbootstrap.com/icons/wifi-2 */
-  Wifi2 = 'wifi-2',
+  wifi2 = 'wifi-2',
   /** https://icons.getbootstrap.com/icons/wifi-off */
-  WifiOff = 'wifi-off',
+  wifiOff = 'wifi-off',
   /** https://icons.getbootstrap.com/icons/wifi */
-  Wifi = 'wifi',
+  wifi = 'wifi',
   /** https://icons.getbootstrap.com/icons/window */
-  Window = 'window',
+  window = 'window',
   /** https://icons.getbootstrap.com/icons/wrench */
-  Wrench = 'wrench',
+  wrench = 'wrench',
   /** https://icons.getbootstrap.com/icons/x-circle-fill */
-  XCircleFill = 'x-circle-fill',
+  xCircleFill = 'x-circle-fill',
   /** https://icons.getbootstrap.com/icons/x-circle */
-  XCircle = 'x-circle',
+  xCircle = 'x-circle',
   /** https://icons.getbootstrap.com/icons/x-diamond-fill */
-  XDiamondFill = 'x-diamond-fill',
+  xDiamondFill = 'x-diamond-fill',
   /** https://icons.getbootstrap.com/icons/x-diamond */
-  XDiamond = 'x-diamond',
+  xDiamond = 'x-diamond',
   /** https://icons.getbootstrap.com/icons/x-octagon-fill */
-  XOctagonFill = 'x-octagon-fill',
+  xOctagonFill = 'x-octagon-fill',
   /** https://icons.getbootstrap.com/icons/x-octagon */
-  XOctagon = 'x-octagon',
+  xOctagon = 'x-octagon',
   /** https://icons.getbootstrap.com/icons/x-square-fill */
-  XSquareFill = 'x-square-fill',
+  xSquareFill = 'x-square-fill',
   /** https://icons.getbootstrap.com/icons/x-square */
-  XSquare = 'x-square',
+  xSquare = 'x-square',
   /** https://icons.getbootstrap.com/icons/x */
-  X = 'x',
+  x = 'x',
   /** https://icons.getbootstrap.com/icons/youtube */
-  Youtube = 'youtube',
+  youtube = 'youtube',
   /** https://icons.getbootstrap.com/icons/zoom-in */
-  ZoomIn = 'zoom-in',
+  zoomIn = 'zoom-in',
   /** https://icons.getbootstrap.com/icons/zoom-out */
-  ZoomOut = 'zoom-out',
+  zoomOut = 'zoom-out',
 }

@@ -16,7 +16,7 @@
 npm i ngx-bootstrap-icons --save
 ```
 
-![Bootstrap Icons full set](https://user-images.githubusercontent.com/98681/85891337-be640680-b7a3-11ea-84a0-0a103fce118c.png)
+![Bootstrap Icons full set](https://github.com/twbs/icons/raw/main/.github/preview.png)
 
 
 ### Demo
@@ -48,12 +48,12 @@ import { allIcons } from 'ngx-bootstrap-icons';
 
 _3.2 Import some icons_
 ```ts
-import { Alarm, AlarmFill, AlignBottom } from 'ngx-bootstrap-icons';
+import { alarm, alarmFill, alignBottom } from 'ngx-bootstrap-icons';
 // Select some icons (use an object, not an array)
 const icons = {
-  Alarm,
-  AlarmFill,
-  AlignBottom
+  alarm,
+  alarmFill,
+  alignBottom
 };
 ```
 
@@ -81,13 +81,13 @@ _4.1. Import Module (some icons)_
 
 ```ts
 import { NgxBootstrapIconsModule } from 'ngx-bootstrap-icons';
-import { Alarm, AlarmFill, AlignBottom } from 'ngx-bootstrap-icons';
+import { alarm, alarmFill, alignBottom } from 'ngx-bootstrap-icons';
 
 // Select some icons (use an object, not an array)
 const icons = {
-  Alarm,
-  AlarmFill,
-  AlignBottom
+  alarm,
+  alarmFill,
+  alignBottom
 };
 
 @NgModule({
@@ -127,11 +127,11 @@ _5. Use it in template_
 or
  _Optionally use our enums for autocomplete support_
 ```ts
-import { IconNamesEnum } from 'ngx-bootstrap-icons';
+import { iconNamesEnum } from 'ngx-bootstrap-icons';
 
-public IconNames = IconNamesEnum;
+public iconNames = iconNamesEnum;
 
-<i-bs [name]="IconNames.AlarmFill"></i-bs>
+<i-bs [name]="iconNames.AlarmFill"></i-bs>
 ```
 
 Also you can use width and height for icon (By default width and height are 1rem)

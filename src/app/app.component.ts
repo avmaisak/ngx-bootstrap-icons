@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { clone } from 'lodash';
-import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/lib/enums/icon-names.enum';
+import { iconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/lib/enums/icon-names.enum';
 import { ClipboardService } from 'ngx-clipboard';
 @Component({
   selector: 'app-root',
@@ -33,7 +33,7 @@ export class AppComponent implements OnInit {
 
   public showAlert = false;
 
-  public allIcons = Object.values(IconNamesEnum);
+  public allIcons = Object.values(iconNamesEnum);
 
   constructor(private _clipboardService: ClipboardService) { }
 

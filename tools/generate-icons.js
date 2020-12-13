@@ -1,16 +1,19 @@
-const fs = require('fs-extra');
-const clc = require('cli-color');
+const fs = require("fs-extra");
+const clc = require("cli-color");
 
-const uppercamelcase = require('uppercamelcase');
+const camelCase = require("camelCase");
 
 // source original bootstrap icons
-const iconsSrcFolder = '../icons/icons';
+const iconsSrcFolder = "../icons/icons";
 // enum output folder
-const enumDestFolder = 'projects/ngx-bootstrap-icons-lib/src/lib/enums';
+const enumDestFolder = "projects/ngx-bootstrap-icons-lib/src/lib/enums";
 // destination of generated icons
-const iconsDestFolder = 'projects/ngx-bootstrap-icons-lib/src/lib/icons';
+const iconsDestFolder = "projects/ngx-bootstrap-icons-lib/src/lib/icons";
 // template for icons
-const componentTemplate = fs.readFileSync('tools/tmpl/component.ts.tpl', 'utf-8');
+const componentTemplate = fs.readFileSync(
+  "tools/tmpl/component.ts.tpl",
+  "utf-8"
+);
 
 const indexFile = `${iconsDestFolder}/index.ts`;
 const allFile = `${iconsDestFolder}/all.ts`;
@@ -18,18 +21,20 @@ const enumFile = `${enumDestFolder}/icon-names.enum.ts`;
 
 let exportAllString = `\nexport const allIcons = {\n`;
 let exportEnumString = `/** Enum with all icons. */`;
-exportEnumString += `\nexport enum IconNamesEnum {\n`;
+exportEnumString += `\nexport enum iconNamesEnum {\n`;
 
 return Promise.resolve()
   .then(() => fs.emptyDirSync(iconsDestFolder))
   .then(() => {
-    fs.readdirSync(`${iconsSrcFolder}`).forEach(filename => {
+    fs.readdirSync(`${iconsSrcFolder}`).forEach((filename) => {
+      if (filename === "__t.txt") return;
 
-      if (filename === '__t.txt') return;
-
-      const iconName = filename.replace('.svg', '').trim();
-      const fileContent = fs.readFileSync(`${iconsSrcFolder}/${filename}`, 'utf-8');
-      const exportName = uppercamelcase(iconName);
+      const iconName = filename.replace(".svg", "").trim();
+      const fileContent = fs.readFileSync(
+        `${iconsSrcFolder}/${filename}`,
+        "utf-8"
+      );
+      const exportName = camelCase(iconName);
 
       exportEnumString += `  /** https://icons.getbootstrap.com/icons/${iconName} */\n`;
       exportEnumString += `  ${exportName} = '${iconName}',\n`;
@@ -39,17 +44,23 @@ return Promise.resolve()
         .replace(/__PAYLOAD__/, fileContent)
         .replace(/__EXPORT_ICON_PATH__/, iconName);
 
-      fs.writeFileSync(`${iconsDestFolder}/${iconName}.ts`, output, 'utf-8');
-      fs.appendFileSync(indexFile,`export { ${exportName} } from './${iconName}';\n`);
-      fs.appendFileSync(allFile,`import { ${exportName} } from './${iconName}';\n`);
+      fs.writeFileSync(`${iconsDestFolder}/${iconName}.ts`, output, "utf-8");
+      fs.appendFileSync(
+        indexFile,
+        `export { ${exportName} } from './${iconName}';\n`
+      );
+      fs.appendFileSync(
+        allFile,
+        `import { ${exportName} } from './${iconName}';\n`
+      );
       exportAllString += `  ${exportName},\n`;
 
-      console.log(`icon ${ clc.green(exportName) } generated.`);
-    })
+      console.log(`icon ${clc.green(exportName)} generated.`);
+    });
 
     exportAllString += `};\n`;
     exportEnumString += `}\n`;
-    fs.appendFileSync(allFile,exportAllString);
-    fs.appendFileSync(indexFile,`\nexport { allIcons } from './all';\n`);
-    fs.writeFileSync(enumFile,exportEnumString);
+    fs.appendFileSync(allFile, exportAllString);
+    fs.appendFileSync(indexFile, `\nexport { allIcons } from './all';\n`);
+    fs.writeFileSync(enumFile, exportEnumString);
   });
