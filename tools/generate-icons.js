@@ -2,6 +2,7 @@ const fs = require("fs-extra");
 const clc = require("cli-color");
 
 const camelCase = require("camelCase");
+const uppercamelcase = require('uppercamelcase');
 
 // source original bootstrap icons
 const iconsSrcFolder = "../icons/icons";
@@ -21,14 +22,12 @@ const enumFile = `${enumDestFolder}/icon-names.enum.ts`;
 
 let exportAllString = `\nexport const allIcons = {\n`;
 let exportEnumString = `/** Enum with all icons. */`;
-exportEnumString += `\nexport enum iconNamesEnum {\n`;
+exportEnumString += `\nexport enum IconNamesEnum {\n`;
 
 return Promise.resolve()
   .then(() => fs.emptyDirSync(iconsDestFolder))
   .then(() => {
     fs.readdirSync(`${iconsSrcFolder}`).forEach((filename) => {
-      if (filename === "__t.txt") return;
-
       const iconName = filename.replace(".svg", "").trim();
       const fileContent = fs.readFileSync(
         `${iconsSrcFolder}/${filename}`,
@@ -37,7 +36,7 @@ return Promise.resolve()
       const exportName = camelCase(iconName);
 
       exportEnumString += `  /** https://icons.getbootstrap.com/icons/${iconName} */\n`;
-      exportEnumString += `  ${exportName} = '${iconName}',\n`;
+      exportEnumString += `  ${uppercamelcase(iconName)} = '${iconName}',\n`;
 
       let output = componentTemplate
         .replace(/__EXPORT_NAME__/g, exportName)

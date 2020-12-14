@@ -1,10 +1,10 @@
+/* eslint-disable max-len */
+
 /**
  * joystick.
  *
- * @link https://icons.getbootstrap.com/icons/joystick/
+ * {@link https://icons.getbootstrap.com/icons/joystick/}.
  */
-
-/** eslint-disable max-len */
 export const joystick = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-joystick" viewBox="0 0 16 16">
   <path d="M7.106 15.553L.553 12.276A1 1 0 0 1 0 11.382V9.471a1 1 0 0 1 .606-.89L6 6.269v1.088L1 9.5l5.658 2.83a3 3 0 0 0 2.684 0L15 9.5l-5-2.143V6.27l5.394 2.312a1 1 0 0 1 .606.89v1.911a1 1 0 0 1-.553.894l-6.553 3.277a2 2 0 0 1-1.788 0z"/>
   <path fill-rule="evenodd" d="M7.5 9.5v-6h1v6h-1z"/>

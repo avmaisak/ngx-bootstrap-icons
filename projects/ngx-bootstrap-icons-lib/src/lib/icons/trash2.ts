@@ -1,10 +1,10 @@
+/* eslint-disable max-len */
+
 /**
  * trash2.
  *
- * @link https://icons.getbootstrap.com/icons/trash2/
+ * {@link https://icons.getbootstrap.com/icons/trash2/}.
  */
-
-/** eslint-disable max-len */
 export const trash2 = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash2" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M3.18 4l1.528 9.164a1 1 0 0 0 .986.836h4.612a1 1 0 0 0 .986-.836L12.82 4H3.18zm.541 9.329A2 2 0 0 0 5.694 15h4.612a2 2 0 0 0 1.973-1.671L14 3H2l1.721 10.329z"/>
   <path d="M14 3c0 1.105-2.686 2-6 2s-6-.895-6-2 2.686-2 6-2 6 .895 6 2z"/>

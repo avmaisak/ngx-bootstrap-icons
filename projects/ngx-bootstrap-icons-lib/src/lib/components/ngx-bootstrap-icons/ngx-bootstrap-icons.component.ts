@@ -2,7 +2,7 @@ import {
 	ChangeDetectorRef, Component, ElementRef, Inject, Input, OnChanges, SimpleChanges,
 } from '@angular/core';
 
-import { iconNamesEnum } from '../../enums/icon-names.enum';
+import { IconNamesEnum } from '../../enums/icon-names.enum';
 import { Icons } from '../../providers/icon.provider';
 
 /**
@@ -15,7 +15,7 @@ import { Icons } from '../../providers/icon.provider';
 })
 export class NgxBootstrapIconsLibComponent implements OnChanges {
 	/** Icon name. */
-	@Input() public name!: string | iconNamesEnum;
+	@Input() public name!: string | IconNamesEnum;
 
 	/** Icon width. */
 	@Input() public width!: string;

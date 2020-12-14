@@ -1,10 +1,10 @@
+/* eslint-disable max-len */
+
 /**
  * cashStack.
  *
- * @link https://icons.getbootstrap.com/icons/cash-stack/
+ * {@link https://icons.getbootstrap.com/icons/cash-stack/}.
  */
-
-/** eslint-disable max-len */
 export const cashStack = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cash-stack" viewBox="0 0 16 16">
   <path d="M14 3H1a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1h-1z"/>
   <path fill-rule="evenodd" d="M15 5H1v8h14V5zM1 4a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H1z"/>

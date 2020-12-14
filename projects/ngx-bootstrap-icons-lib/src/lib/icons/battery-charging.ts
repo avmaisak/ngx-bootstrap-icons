@@ -1,10 +1,10 @@
+/* eslint-disable max-len */
+
 /**
  * batteryCharging.
  *
- * @link https://icons.getbootstrap.com/icons/battery-charging/
+ * {@link https://icons.getbootstrap.com/icons/battery-charging/}.
  */
-
-/** eslint-disable max-len */
 export const batteryCharging = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-battery-charging" viewBox="0 0 16 16">
   <path d="M14.5 9.5a1.5 1.5 0 0 0 0-3v3z"/>
   <path fill-rule="evenodd" d="M9.585 2.568a.5.5 0 0 1 .226.58L8.677 6.832h1.99a.5.5 0 0 1 .364.843l-5.334 5.667a.5.5 0 0 1-.842-.49L5.99 9.167H4a.5.5 0 0 1-.364-.843l5.333-5.667a.5.5 0 0 1 .616-.09z"/>
