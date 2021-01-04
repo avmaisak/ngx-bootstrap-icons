@@ -864,15 +864,15 @@ import { option } from './option';
 import { outlet } from './outlet';
 import { paperclip } from './paperclip';
 import { paragraph } from './paragraph';
-import { patchCheckFll } from './patch-check-fll';
+import { patchCheckFill } from './patch-check-fill';
 import { patchCheck } from './patch-check';
-import { patchExclamationFll } from './patch-exclamation-fll';
+import { patchExclamationFill } from './patch-exclamation-fill';
 import { patchExclamation } from './patch-exclamation';
-import { patchMinusFll } from './patch-minus-fll';
+import { patchMinusFill } from './patch-minus-fill';
 import { patchMinus } from './patch-minus';
-import { patchPlusFll } from './patch-plus-fll';
+import { patchPlusFill } from './patch-plus-fill';
 import { patchPlus } from './patch-plus';
-import { patchQuestionFll } from './patch-question-fll';
+import { patchQuestionFill } from './patch-question-fill';
 import { patchQuestion } from './patch-question';
 import { pauseBtnFill } from './pause-btn-fill';
 import { pauseBtn } from './pause-btn';
@@ -2067,15 +2067,15 @@ export const allIcons = {
   outlet,
   paperclip,
   paragraph,
-  patchCheckFll,
+  patchCheckFill,
   patchCheck,
-  patchExclamationFll,
+  patchExclamationFill,
   patchExclamation,
-  patchMinusFll,
+  patchMinusFill,
   patchMinus,
-  patchPlusFll,
+  patchPlusFill,
   patchPlus,
-  patchQuestionFll,
+  patchQuestionFill,
   patchQuestion,
   pauseBtnFill,
   pauseBtn,

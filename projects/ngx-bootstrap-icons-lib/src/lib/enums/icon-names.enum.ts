@@ -1732,24 +1732,24 @@ export enum IconNamesEnum {
   Paperclip = 'paperclip',
   /** https://icons.getbootstrap.com/icons/paragraph */
   Paragraph = 'paragraph',
-  /** https://icons.getbootstrap.com/icons/patch-check-fll */
-  PatchCheckFll = 'patch-check-fll',
+  /** https://icons.getbootstrap.com/icons/patch-check-fill */
+  PatchCheckFill = 'patch-check-fill',
   /** https://icons.getbootstrap.com/icons/patch-check */
   PatchCheck = 'patch-check',
-  /** https://icons.getbootstrap.com/icons/patch-exclamation-fll */
-  PatchExclamationFll = 'patch-exclamation-fll',
+  /** https://icons.getbootstrap.com/icons/patch-exclamation-fill */
+  PatchExclamationFill = 'patch-exclamation-fill',
   /** https://icons.getbootstrap.com/icons/patch-exclamation */
   PatchExclamation = 'patch-exclamation',
-  /** https://icons.getbootstrap.com/icons/patch-minus-fll */
-  PatchMinusFll = 'patch-minus-fll',
+  /** https://icons.getbootstrap.com/icons/patch-minus-fill */
+  PatchMinusFill = 'patch-minus-fill',
   /** https://icons.getbootstrap.com/icons/patch-minus */
   PatchMinus = 'patch-minus',
-  /** https://icons.getbootstrap.com/icons/patch-plus-fll */
-  PatchPlusFll = 'patch-plus-fll',
+  /** https://icons.getbootstrap.com/icons/patch-plus-fill */
+  PatchPlusFill = 'patch-plus-fill',
   /** https://icons.getbootstrap.com/icons/patch-plus */
   PatchPlus = 'patch-plus',
-  /** https://icons.getbootstrap.com/icons/patch-question-fll */
-  PatchQuestionFll = 'patch-question-fll',
+  /** https://icons.getbootstrap.com/icons/patch-question-fill */
+  PatchQuestionFill = 'patch-question-fill',
   /** https://icons.getbootstrap.com/icons/patch-question */
   PatchQuestion = 'patch-question',
   /** https://icons.getbootstrap.com/icons/pause-btn-fill */
