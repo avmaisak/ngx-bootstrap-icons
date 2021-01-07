@@ -33,7 +33,7 @@
     "ngx-bootstrap-icons": "1.3.2",
     "ngx-clipboard": "^14.0.1",
     "rxjs": "6.6.3",
-    "tslib": "2.0.3",
+    "tslib": "2.1.0",
     "zone.js": "0.11.3"
   },
   "devDependencies": {
