@@ -63,4 +63,8 @@
 
 ## v.1.3.2 (4.01.2021)
 
-* [breaking changes] - fixed #153 - icons v1.2.2
+* fixed #153 - icons v1.2.2
+
+## v.1.3.3 (9.01.2021)
+
+* fixed #175 - icons v1.3.0

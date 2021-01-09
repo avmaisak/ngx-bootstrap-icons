@@ -178,6 +178,10 @@ export enum IconNamesEnum {
   BackspaceReverse = 'backspace-reverse',
   /** https://icons.getbootstrap.com/icons/backspace */
   Backspace = 'backspace',
+  /** https://icons.getbootstrap.com/icons/badge-3d-fill */
+  Badge3dFill = 'badge-3d-fill',
+  /** https://icons.getbootstrap.com/icons/badge-3d */
+  Badge3d = 'badge-3d',
   /** https://icons.getbootstrap.com/icons/badge-4k-fill */
   Badge4kFill = 'badge-4k-fill',
   /** https://icons.getbootstrap.com/icons/badge-4k */
@@ -190,6 +194,10 @@ export enum IconNamesEnum {
   BadgeAdFill = 'badge-ad-fill',
   /** https://icons.getbootstrap.com/icons/badge-ad */
   BadgeAd = 'badge-ad',
+  /** https://icons.getbootstrap.com/icons/badge-ar-fill */
+  BadgeArFill = 'badge-ar-fill',
+  /** https://icons.getbootstrap.com/icons/badge-ar */
+  BadgeAr = 'badge-ar',
   /** https://icons.getbootstrap.com/icons/badge-cc-fill */
   BadgeCcFill = 'badge-cc-fill',
   /** https://icons.getbootstrap.com/icons/badge-cc */
@@ -206,6 +214,14 @@ export enum IconNamesEnum {
   BadgeVoFill = 'badge-vo-fill',
   /** https://icons.getbootstrap.com/icons/badge-vo */
   BadgeVo = 'badge-vo',
+  /** https://icons.getbootstrap.com/icons/badge-vr-fill */
+  BadgeVrFill = 'badge-vr-fill',
+  /** https://icons.getbootstrap.com/icons/badge-vr */
+  BadgeVr = 'badge-vr',
+  /** https://icons.getbootstrap.com/icons/badge-wc-fill */
+  BadgeWcFill = 'badge-wc-fill',
+  /** https://icons.getbootstrap.com/icons/badge-wc */
+  BadgeWc = 'badge-wc',
   /** https://icons.getbootstrap.com/icons/bag-check-fill */
   BagCheckFill = 'bag-check-fill',
   /** https://icons.getbootstrap.com/icons/bag-check */
@@ -320,10 +336,30 @@ export enum IconNamesEnum {
   BootstrapReboot = 'bootstrap-reboot',
   /** https://icons.getbootstrap.com/icons/bootstrap */
   Bootstrap = 'bootstrap',
+  /** https://icons.getbootstrap.com/icons/border-all */
+  BorderAll = 'border-all',
+  /** https://icons.getbootstrap.com/icons/border-bottom */
+  BorderBottom = 'border-bottom',
+  /** https://icons.getbootstrap.com/icons/border-center */
+  BorderCenter = 'border-center',
+  /** https://icons.getbootstrap.com/icons/border-inner */
+  BorderInner = 'border-inner',
+  /** https://icons.getbootstrap.com/icons/border-left */
+  BorderLeft = 'border-left',
+  /** https://icons.getbootstrap.com/icons/border-middle */
+  BorderMiddle = 'border-middle',
+  /** https://icons.getbootstrap.com/icons/border-outer */
+  BorderOuter = 'border-outer',
+  /** https://icons.getbootstrap.com/icons/border-right */
+  BorderRight = 'border-right',
   /** https://icons.getbootstrap.com/icons/border-style */
   BorderStyle = 'border-style',
+  /** https://icons.getbootstrap.com/icons/border-top */
+  BorderTop = 'border-top',
   /** https://icons.getbootstrap.com/icons/border-width */
   BorderWidth = 'border-width',
+  /** https://icons.getbootstrap.com/icons/border */
+  Border = 'border',
   /** https://icons.getbootstrap.com/icons/bounding-box-circles */
   BoundingBoxCircles = 'bounding-box-circles',
   /** https://icons.getbootstrap.com/icons/bounding-box */
@@ -866,10 +902,14 @@ export enum IconNamesEnum {
   CursorText = 'cursor-text',
   /** https://icons.getbootstrap.com/icons/cursor */
   Cursor = 'cursor',
+  /** https://icons.getbootstrap.com/icons/dash-circle-dotted */
+  DashCircleDotted = 'dash-circle-dotted',
   /** https://icons.getbootstrap.com/icons/dash-circle-fill */
   DashCircleFill = 'dash-circle-fill',
   /** https://icons.getbootstrap.com/icons/dash-circle */
   DashCircle = 'dash-circle',
+  /** https://icons.getbootstrap.com/icons/dash-square-dotted */
+  DashSquareDotted = 'dash-square-dotted',
   /** https://icons.getbootstrap.com/icons/dash-square-fill */
   DashSquareFill = 'dash-square-fill',
   /** https://icons.getbootstrap.com/icons/dash-square */
@@ -1014,6 +1054,10 @@ export enum IconNamesEnum {
   EnvelopeOpen = 'envelope-open',
   /** https://icons.getbootstrap.com/icons/envelope */
   Envelope = 'envelope',
+  /** https://icons.getbootstrap.com/icons/eraser-fill */
+  EraserFill = 'eraser-fill',
+  /** https://icons.getbootstrap.com/icons/eraser */
+  Eraser = 'eraser',
   /** https://icons.getbootstrap.com/icons/exclamation-circle-fill */
   ExclamationCircleFill = 'exclamation-circle-fill',
   /** https://icons.getbootstrap.com/icons/exclamation-circle */
@@ -1046,6 +1090,8 @@ export enum IconNamesEnum {
   EyeSlash = 'eye-slash',
   /** https://icons.getbootstrap.com/icons/eye */
   Eye = 'eye',
+  /** https://icons.getbootstrap.com/icons/eyedropper */
+  Eyedropper = 'eyedropper',
   /** https://icons.getbootstrap.com/icons/eyeglasses */
   Eyeglasses = 'eyeglasses',
   /** https://icons.getbootstrap.com/icons/facebook */
@@ -1424,12 +1470,20 @@ export enum IconNamesEnum {
   GripVertical = 'grip-vertical',
   /** https://icons.getbootstrap.com/icons/hammer */
   Hammer = 'hammer',
+  /** https://icons.getbootstrap.com/icons/hand-index-fill */
+  HandIndexFill = 'hand-index-fill',
+  /** https://icons.getbootstrap.com/icons/hand-index-thumb-fill */
+  HandIndexThumbFill = 'hand-index-thumb-fill',
   /** https://icons.getbootstrap.com/icons/hand-index-thumb */
   HandIndexThumb = 'hand-index-thumb',
   /** https://icons.getbootstrap.com/icons/hand-index */
   HandIndex = 'hand-index',
+  /** https://icons.getbootstrap.com/icons/hand-thumbs-down-fill */
+  HandThumbsDownFill = 'hand-thumbs-down-fill',
   /** https://icons.getbootstrap.com/icons/hand-thumbs-down */
   HandThumbsDown = 'hand-thumbs-down',
+  /** https://icons.getbootstrap.com/icons/hand-thumbs-up-fill */
+  HandThumbsUpFill = 'hand-thumbs-up-fill',
   /** https://icons.getbootstrap.com/icons/hand-thumbs-up */
   HandThumbsUp = 'hand-thumbs-up',
   /** https://icons.getbootstrap.com/icons/handbag-fill */
@@ -1588,6 +1642,10 @@ export enum IconNamesEnum {
   LaptopFill = 'laptop-fill',
   /** https://icons.getbootstrap.com/icons/laptop */
   Laptop = 'laptop',
+  /** https://icons.getbootstrap.com/icons/layer-backward */
+  LayerBackward = 'layer-backward',
+  /** https://icons.getbootstrap.com/icons/layer-forward */
+  LayerForward = 'layer-forward',
   /** https://icons.getbootstrap.com/icons/layers-fill */
   LayersFill = 'layers-fill',
   /** https://icons.getbootstrap.com/icons/layers-half */
@@ -1618,6 +1676,14 @@ export enum IconNamesEnum {
   LayoutWtf = 'layout-wtf',
   /** https://icons.getbootstrap.com/icons/life-preserver */
   LifePreserver = 'life-preserver',
+  /** https://icons.getbootstrap.com/icons/lightbulb-fill */
+  LightbulbFill = 'lightbulb-fill',
+  /** https://icons.getbootstrap.com/icons/lightbulb-off-fill */
+  LightbulbOffFill = 'lightbulb-off-fill',
+  /** https://icons.getbootstrap.com/icons/lightbulb-off */
+  LightbulbOff = 'lightbulb-off',
+  /** https://icons.getbootstrap.com/icons/lightbulb */
+  Lightbulb = 'lightbulb',
   /** https://icons.getbootstrap.com/icons/lightning-fill */
   LightningFill = 'lightning-fill',
   /** https://icons.getbootstrap.com/icons/lightning */
@@ -1658,6 +1724,12 @@ export enum IconNamesEnum {
   MarkdownFill = 'markdown-fill',
   /** https://icons.getbootstrap.com/icons/markdown */
   Markdown = 'markdown',
+  /** https://icons.getbootstrap.com/icons/mask */
+  Mask = 'mask',
+  /** https://icons.getbootstrap.com/icons/megaphone-fill */
+  MegaphoneFill = 'megaphone-fill',
+  /** https://icons.getbootstrap.com/icons/megaphone */
+  Megaphone = 'megaphone',
   /** https://icons.getbootstrap.com/icons/menu-app-fill */
   MenuAppFill = 'menu-app-fill',
   /** https://icons.getbootstrap.com/icons/menu-app */
@@ -1688,10 +1760,16 @@ export enum IconNamesEnum {
   Minecart = 'minecart',
   /** https://icons.getbootstrap.com/icons/moon */
   Moon = 'moon',
+  /** https://icons.getbootstrap.com/icons/mouse-fill */
+  MouseFill = 'mouse-fill',
   /** https://icons.getbootstrap.com/icons/mouse */
   Mouse = 'mouse',
+  /** https://icons.getbootstrap.com/icons/mouse2-fill */
+  Mouse2Fill = 'mouse2-fill',
   /** https://icons.getbootstrap.com/icons/mouse2 */
   Mouse2 = 'mouse2',
+  /** https://icons.getbootstrap.com/icons/mouse3-fill */
+  Mouse3Fill = 'mouse3-fill',
   /** https://icons.getbootstrap.com/icons/mouse3 */
   Mouse3 = 'mouse3',
   /** https://icons.getbootstrap.com/icons/music-note-beamed */
@@ -1728,6 +1806,14 @@ export enum IconNamesEnum {
   Option = 'option',
   /** https://icons.getbootstrap.com/icons/outlet */
   Outlet = 'outlet',
+  /** https://icons.getbootstrap.com/icons/paint-bucket */
+  PaintBucket = 'paint-bucket',
+  /** https://icons.getbootstrap.com/icons/palette-fill */
+  PaletteFill = 'palette-fill',
+  /** https://icons.getbootstrap.com/icons/palette */
+  Palette = 'palette',
+  /** https://icons.getbootstrap.com/icons/palette2 */
+  Palette2 = 'palette2',
   /** https://icons.getbootstrap.com/icons/paperclip */
   Paperclip = 'paperclip',
   /** https://icons.getbootstrap.com/icons/paragraph */
@@ -1828,6 +1914,8 @@ export enum IconNamesEnum {
   PhoneLandscapeFill = 'phone-landscape-fill',
   /** https://icons.getbootstrap.com/icons/phone-landscape */
   PhoneLandscape = 'phone-landscape',
+  /** https://icons.getbootstrap.com/icons/phone-vibrate-fill */
+  PhoneVibrateFill = 'phone-vibrate-fill',
   /** https://icons.getbootstrap.com/icons/phone-vibrate */
   PhoneVibrate = 'phone-vibrate',
   /** https://icons.getbootstrap.com/icons/phone */
@@ -1836,6 +1924,14 @@ export enum IconNamesEnum {
   PieChartFill = 'pie-chart-fill',
   /** https://icons.getbootstrap.com/icons/pie-chart */
   PieChart = 'pie-chart',
+  /** https://icons.getbootstrap.com/icons/pin-angle-fill */
+  PinAngleFill = 'pin-angle-fill',
+  /** https://icons.getbootstrap.com/icons/pin-angle */
+  PinAngle = 'pin-angle',
+  /** https://icons.getbootstrap.com/icons/pin-fill */
+  PinFill = 'pin-fill',
+  /** https://icons.getbootstrap.com/icons/pin */
+  Pin = 'pin',
   /** https://icons.getbootstrap.com/icons/pip-fill */
   PipFill = 'pip-fill',
   /** https://icons.getbootstrap.com/icons/pip */
@@ -1856,10 +1952,14 @@ export enum IconNamesEnum {
   PlugFill = 'plug-fill',
   /** https://icons.getbootstrap.com/icons/plug */
   Plug = 'plug',
+  /** https://icons.getbootstrap.com/icons/plus-circle-dotted */
+  PlusCircleDotted = 'plus-circle-dotted',
   /** https://icons.getbootstrap.com/icons/plus-circle-fill */
   PlusCircleFill = 'plus-circle-fill',
   /** https://icons.getbootstrap.com/icons/plus-circle */
   PlusCircle = 'plus-circle',
+  /** https://icons.getbootstrap.com/icons/plus-square-dotted */
+  PlusSquareDotted = 'plus-square-dotted',
   /** https://icons.getbootstrap.com/icons/plus-square-fill */
   PlusSquareFill = 'plus-square-fill',
   /** https://icons.getbootstrap.com/icons/plus-square */
@@ -1936,6 +2036,16 @@ export enum IconNamesEnum {
   RssFill = 'rss-fill',
   /** https://icons.getbootstrap.com/icons/rss */
   Rss = 'rss',
+  /** https://icons.getbootstrap.com/icons/rulers */
+  Rulers = 'rulers',
+  /** https://icons.getbootstrap.com/icons/save-fill */
+  SaveFill = 'save-fill',
+  /** https://icons.getbootstrap.com/icons/save */
+  Save = 'save',
+  /** https://icons.getbootstrap.com/icons/save2-fill */
+  Save2Fill = 'save2-fill',
+  /** https://icons.getbootstrap.com/icons/save2 */
+  Save2 = 'save2',
   /** https://icons.getbootstrap.com/icons/scissors */
   Scissors = 'scissors',
   /** https://icons.getbootstrap.com/icons/screwdriver */
@@ -2104,6 +2214,10 @@ export enum IconNamesEnum {
   SpeakerFill = 'speaker-fill',
   /** https://icons.getbootstrap.com/icons/speaker */
   Speaker = 'speaker',
+  /** https://icons.getbootstrap.com/icons/speedometer */
+  Speedometer = 'speedometer',
+  /** https://icons.getbootstrap.com/icons/speedometer2 */
+  Speedometer2 = 'speedometer2',
   /** https://icons.getbootstrap.com/icons/spellcheck */
   Spellcheck = 'spellcheck',
   /** https://icons.getbootstrap.com/icons/square-fill */
@@ -2112,6 +2226,8 @@ export enum IconNamesEnum {
   SquareHalf = 'square-half',
   /** https://icons.getbootstrap.com/icons/square */
   Square = 'square',
+  /** https://icons.getbootstrap.com/icons/stack */
+  Stack = 'stack',
   /** https://icons.getbootstrap.com/icons/star-fill */
   StarFill = 'star-fill',
   /** https://icons.getbootstrap.com/icons/star-half */
@@ -2168,6 +2284,10 @@ export enum IconNamesEnum {
   Sun = 'sun',
   /** https://icons.getbootstrap.com/icons/sunglasses */
   Sunglasses = 'sunglasses',
+  /** https://icons.getbootstrap.com/icons/symmetry-horizontal */
+  SymmetryHorizontal = 'symmetry-horizontal',
+  /** https://icons.getbootstrap.com/icons/symmetry-vertical */
+  SymmetryVertical = 'symmetry-vertical',
   /** https://icons.getbootstrap.com/icons/table */
   Table = 'table',
   /** https://icons.getbootstrap.com/icons/tablet-fill */
@@ -2186,6 +2306,8 @@ export enum IconNamesEnum {
   TagsFill = 'tags-fill',
   /** https://icons.getbootstrap.com/icons/tags */
   Tags = 'tags',
+  /** https://icons.getbootstrap.com/icons/telegram */
+  Telegram = 'telegram',
   /** https://icons.getbootstrap.com/icons/telephone-fill */
   TelephoneFill = 'telephone-fill',
   /** https://icons.getbootstrap.com/icons/telephone-forward-fill */
@@ -2366,6 +2488,8 @@ export enum IconNamesEnum {
   Wallet2 = 'wallet2',
   /** https://icons.getbootstrap.com/icons/watch */
   Watch = 'watch',
+  /** https://icons.getbootstrap.com/icons/whatsapp */
+  Whatsapp = 'whatsapp',
   /** https://icons.getbootstrap.com/icons/wifi-1 */
   Wifi1 = 'wifi-1',
   /** https://icons.getbootstrap.com/icons/wifi-2 */
@@ -2374,6 +2498,10 @@ export enum IconNamesEnum {
   WifiOff = 'wifi-off',
   /** https://icons.getbootstrap.com/icons/wifi */
   Wifi = 'wifi',
+  /** https://icons.getbootstrap.com/icons/window-dock */
+  WindowDock = 'window-dock',
+  /** https://icons.getbootstrap.com/icons/window-sidebar */
+  WindowSidebar = 'window-sidebar',
   /** https://icons.getbootstrap.com/icons/window */
   Window = 'window',
   /** https://icons.getbootstrap.com/icons/wrench */
