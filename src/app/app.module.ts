@@ -3,12 +3,12 @@ import ru from '@angular/common/locales/ru';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgxBootstrapIconsModule } from 'projects/ngx-bootstrap-icons-lib/src/lib/ngx-bootstrap-icons.module';
-
 import { ClipboardModule } from 'ngx-clipboard';
 import { allIcons } from 'projects/ngx-bootstrap-icons-lib/src/lib/icons/all';
-import { AppRoutingModule } from './app-routing.module';
+import { NgxBootstrapIconsModule } from 'projects/ngx-bootstrap-icons-lib/src/lib/ngx-bootstrap-icons.module';
+
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
 
 registerLocaleData(ru);
