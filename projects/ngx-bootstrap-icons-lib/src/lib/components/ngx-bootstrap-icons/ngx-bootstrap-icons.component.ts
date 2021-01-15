@@ -23,6 +23,9 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
   /** Icon height. */
   @Input() public height!: string;
 
+  /** Removes default dimensions from svg. */
+  @Input() public resetDefaultDimensions = false;
+
   constructor(
     private _elem: ElementRef,
     private _changeDetector: ChangeDetectorRef,
@@ -44,6 +47,10 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
     let svg = icons[camelCase(changes.name.currentValue)] || '';
 
     if (!svg) console.warn(`Icon not found: ${changes.name.currentValue}\n`);
+    if (this.resetDefaultDimensions) {
+      svg = svg.replace('width="16"', '');
+      svg = svg.replace('height="16"', '');
+    }
     if (this.width && svg.includes('width')) svg = svg.replace('width="16"', `width="${this.width}"`);
     if (this.height && svg.includes('height')) svg = svg.replace('height="16"', `height="${this.height}"`);
 

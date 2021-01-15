@@ -5,6 +5,7 @@ import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/lib/enums/ic
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
   public items: string[] = [];
