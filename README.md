@@ -25,28 +25,28 @@ npm i ngx-bootstrap-icons --save
 
 ### Usage
 
-_1. Install the package_
+#### _1. Install the package_
 
 ```sh
 npm i ngx-bootstrap-icons --save
 ```
-_2. Import module_
+#### _2. Import module_
 
 ```ts  
 import { NgxBootstrapIconsModule } from 'ngx-bootstrap-icons';
 ```
 
-_3. Import assets_
+#### _3. Import assets_
 
 You can import all icons (not recomended) or each icon individually.
 
-_3.1 Import all icons_
+##### _3.1 Import all icons_
 
 ```ts
 import { allIcons } from 'ngx-bootstrap-icons';
 ```
 
-_3.2 Import some icons_
+##### _3.2 Import some icons_
 ```ts
 import { alarm, alarmFill, alignBottom } from 'ngx-bootstrap-icons';
 // Select some icons (use an object, not an array)
@@ -57,7 +57,7 @@ const icons = {
 };
 ```
 
-_4. Import Module (all icons)_
+#### _4. Import Module (all icons)_
 
 ```ts
 import { NgxBootstrapIconsModule, allIcons } from 'ngx-bootstrap-icons';
@@ -77,7 +77,7 @@ import { NgxBootstrapIconsModule, allIcons } from 'ngx-bootstrap-icons';
 export class AppModule { }
 
 ```
-_4.1. Import Module (some icons)_
+##### _4.1. Import Module (some icons)_
 
 ```ts
 import { NgxBootstrapIconsModule } from 'ngx-bootstrap-icons';
@@ -119,13 +119,11 @@ Now you can import icons in one place only (root module) and successfully use th
 
 ```
 
-
-_5. Use it in template_
+#### _5. Use it in template_
 ```ts
 <i-bs name="alarm-fill"></i-bs>
 ```
-or
- _Optionally use our enums for autocomplete support_
+or optionally use our enums for autocomplete support
 ```ts
 import { iconNamesEnum } from 'ngx-bootstrap-icons';
 
@@ -142,3 +140,12 @@ Also you can use width and height for icon (By default width and height are 1rem
   height="2rem">
 </i-bs>
 ```
+#### _6. Input parameters_
+
+
+| Name of input prarameter |      Type      | Required | Default Value | Description |
+|--------------------------|----------------|----------|---------------|-------------|
+| name                     | `string`       |  `true`  |    `null`     | name of the icon|
+| width                    | `string`       |  `false` |    `null`     | width of the icon. Default value used from svg |
+| height                   | `string`       |  `false` |    `null`     | height of the icon. Default value used from svg |
+| resetDefaultDimensions   | `boolean`      |  `false` |    `false`    | if this parameter is set, default dimensions of the svg icon will be removed |
