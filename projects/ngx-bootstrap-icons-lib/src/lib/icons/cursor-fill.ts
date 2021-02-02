@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cursorFill.
+ * cursor-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/cursor-fill/}.
  */

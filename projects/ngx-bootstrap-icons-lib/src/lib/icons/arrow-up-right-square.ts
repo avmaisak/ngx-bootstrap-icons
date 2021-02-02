@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * arrowUpRightSquare.
+ * arrow-up-right-square.
  *
  * {@link https://icons.getbootstrap.com/icons/arrow-up-right-square/}.
  */

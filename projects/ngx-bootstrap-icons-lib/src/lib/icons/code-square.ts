@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * codeSquare.
+ * code-square.
  *
  * {@link https://icons.getbootstrap.com/icons/code-square/}.
  */

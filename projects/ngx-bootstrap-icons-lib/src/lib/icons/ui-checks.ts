@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * uiChecks.
+ * ui-checks.
  *
  * {@link https://icons.getbootstrap.com/icons/ui-checks/}.
  */

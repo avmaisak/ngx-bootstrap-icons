@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileExcel.
+ * file-excel.
  *
  * {@link https://icons.getbootstrap.com/icons/file-excel/}.
  */

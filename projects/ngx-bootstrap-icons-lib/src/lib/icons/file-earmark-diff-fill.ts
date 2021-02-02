@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileEarmarkDiffFill.
+ * file-earmark-diff-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/file-earmark-diff-fill/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * badge3DFill.
+ * badge-3d-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/badge-3d-fill/}.
  */

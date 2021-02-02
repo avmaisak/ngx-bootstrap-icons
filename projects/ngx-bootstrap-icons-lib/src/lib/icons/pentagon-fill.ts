@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * pentagonFill.
+ * pentagon-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/pentagon-fill/}.
  */

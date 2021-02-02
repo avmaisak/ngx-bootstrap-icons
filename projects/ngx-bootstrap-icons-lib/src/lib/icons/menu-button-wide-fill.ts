@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * menuButtonWideFill.
+ * menu-button-wide-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/menu-button-wide-fill/}.
  */

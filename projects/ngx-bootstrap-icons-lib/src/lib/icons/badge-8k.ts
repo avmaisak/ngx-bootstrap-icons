@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * badge8K.
+ * badge-8k.
  *
  * {@link https://icons.getbootstrap.com/icons/badge-8k/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * handIndex.
+ * hand-index.
  *
  * {@link https://icons.getbootstrap.com/icons/hand-index/}.
  */

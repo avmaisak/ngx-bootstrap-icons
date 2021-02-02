@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * checkSquare.
+ * check-square.
  *
  * {@link https://icons.getbootstrap.com/icons/check-square/}.
  */

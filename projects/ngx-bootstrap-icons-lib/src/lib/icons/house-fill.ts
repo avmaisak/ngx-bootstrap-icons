@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * houseFill.
+ * house-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/house-fill/}.
  */

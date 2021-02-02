@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * micFill.
+ * mic-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/mic-fill/}.
  */

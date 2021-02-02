@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * lifePreserver.
+ * life-preserver.
  *
  * {@link https://icons.getbootstrap.com/icons/life-preserver/}.
  */

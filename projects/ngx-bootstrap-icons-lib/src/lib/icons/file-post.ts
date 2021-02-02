@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * filePost.
+ * file-post.
  *
  * {@link https://icons.getbootstrap.com/icons/file-post/}.
  */

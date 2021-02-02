@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileEarmarkArrowUp.
+ * file-earmark-arrow-up.
  *
  * {@link https://icons.getbootstrap.com/icons/file-earmark-arrow-up/}.
  */

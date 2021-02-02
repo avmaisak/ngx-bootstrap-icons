@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * calendarMonth.
+ * calendar-month.
  *
  * {@link https://icons.getbootstrap.com/icons/calendar-month/}.
  */

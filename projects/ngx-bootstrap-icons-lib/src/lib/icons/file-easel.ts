@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileEasel.
+ * file-easel.
  *
  * {@link https://icons.getbootstrap.com/icons/file-easel/}.
  */

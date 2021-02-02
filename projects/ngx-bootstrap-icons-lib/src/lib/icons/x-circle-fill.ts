@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * xCircleFill.
+ * x-circle-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/x-circle-fill/}.
  */

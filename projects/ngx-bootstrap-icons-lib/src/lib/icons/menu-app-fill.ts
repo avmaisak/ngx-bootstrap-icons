@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * menuAppFill.
+ * menu-app-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/menu-app-fill/}.
  */

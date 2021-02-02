@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * megaphoneFill.
+ * megaphone-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/megaphone-fill/}.
  */

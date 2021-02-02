@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * squareFill.
+ * square-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/square-fill/}.
  */

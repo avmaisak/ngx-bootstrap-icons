@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * suitSpadeFill.
+ * suit-spade-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/suit-spade-fill/}.
  */

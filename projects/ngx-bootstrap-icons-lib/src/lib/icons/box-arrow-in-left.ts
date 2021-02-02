@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * boxArrowInLeft.
+ * box-arrow-in-left.
  *
  * {@link https://icons.getbootstrap.com/icons/box-arrow-in-left/}.
  */

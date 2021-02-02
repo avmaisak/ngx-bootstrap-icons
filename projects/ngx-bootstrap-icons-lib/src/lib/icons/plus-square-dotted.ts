@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * plusSquareDotted.
+ * plus-square-dotted.
  *
  * {@link https://icons.getbootstrap.com/icons/plus-square-dotted/}.
  */

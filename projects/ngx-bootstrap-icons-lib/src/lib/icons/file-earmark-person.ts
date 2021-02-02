@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileEarmarkPerson.
+ * file-earmark-person.
  *
  * {@link https://icons.getbootstrap.com/icons/file-earmark-person/}.
  */

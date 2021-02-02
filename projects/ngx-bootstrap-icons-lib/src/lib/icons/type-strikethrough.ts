@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * typeStrikethrough.
+ * type-strikethrough.
  *
  * {@link https://icons.getbootstrap.com/icons/type-strikethrough/}.
  */

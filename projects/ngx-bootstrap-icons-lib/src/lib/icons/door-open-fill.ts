@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * doorOpenFill.
+ * door-open-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/door-open-fill/}.
  */

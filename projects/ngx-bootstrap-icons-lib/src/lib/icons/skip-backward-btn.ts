@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * skipBackwardBtn.
+ * skip-backward-btn.
  *
  * {@link https://icons.getbootstrap.com/icons/skip-backward-btn/}.
  */

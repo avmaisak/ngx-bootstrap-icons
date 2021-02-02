@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * infoSquare.
+ * info-square.
  *
  * {@link https://icons.getbootstrap.com/icons/info-square/}.
  */

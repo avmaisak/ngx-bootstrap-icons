@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * symmetryVertical.
+ * symmetry-vertical.
  *
  * {@link https://icons.getbootstrap.com/icons/symmetry-vertical/}.
  */

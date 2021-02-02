@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * chatRightFill.
+ * chat-right-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/chat-right-fill/}.
  */

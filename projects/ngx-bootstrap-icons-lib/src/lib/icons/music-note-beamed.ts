@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * musicNoteBeamed.
+ * music-note-beamed.
  *
  * {@link https://icons.getbootstrap.com/icons/music-note-beamed/}.
  */

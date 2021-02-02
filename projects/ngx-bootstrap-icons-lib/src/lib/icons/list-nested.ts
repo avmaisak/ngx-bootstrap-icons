@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * listNested.
+ * list-nested.
  *
  * {@link https://icons.getbootstrap.com/icons/list-nested/}.
  */

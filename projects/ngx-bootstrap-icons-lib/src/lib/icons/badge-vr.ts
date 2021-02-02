@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * badgeVr.
+ * badge-vr.
  *
  * {@link https://icons.getbootstrap.com/icons/badge-vr/}.
  */

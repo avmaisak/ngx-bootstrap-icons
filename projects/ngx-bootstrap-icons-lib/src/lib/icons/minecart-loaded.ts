@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * minecartLoaded.
+ * minecart-loaded.
  *
  * {@link https://icons.getbootstrap.com/icons/minecart-loaded/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * badgeVoFill.
+ * badge-vo-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/badge-vo-fill/}.
  */

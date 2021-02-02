@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * bookFill.
+ * book-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/book-fill/}.
  */

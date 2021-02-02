@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * badgeTm.
+ * badge-tm.
  *
  * {@link https://icons.getbootstrap.com/icons/badge-tm/}.
  */

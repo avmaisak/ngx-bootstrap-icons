@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * exclamationDiamondFill.
+ * exclamation-diamond-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/exclamation-diamond-fill/}.
  */

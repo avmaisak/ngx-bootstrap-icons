@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * arrowRightCircleFill.
+ * arrow-right-circle-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/arrow-right-circle-fill/}.
  */

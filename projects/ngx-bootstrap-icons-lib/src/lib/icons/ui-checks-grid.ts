@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * uiChecksGrid.
+ * ui-checks-grid.
  *
  * {@link https://icons.getbootstrap.com/icons/ui-checks-grid/}.
  */

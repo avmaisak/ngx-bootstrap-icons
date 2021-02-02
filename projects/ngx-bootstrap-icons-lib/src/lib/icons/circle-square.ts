@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * circleSquare.
+ * circle-square.
  *
  * {@link https://icons.getbootstrap.com/icons/circle-square/}.
  */

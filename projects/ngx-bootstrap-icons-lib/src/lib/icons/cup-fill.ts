@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cupFill.
+ * cup-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/cup-fill/}.
  */

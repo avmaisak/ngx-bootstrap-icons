@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileSpreadsheetFill.
+ * file-spreadsheet-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/file-spreadsheet-fill/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * skipEndCircle.
+ * skip-end-circle.
  *
  * {@link https://icons.getbootstrap.com/icons/skip-end-circle/}.
  */

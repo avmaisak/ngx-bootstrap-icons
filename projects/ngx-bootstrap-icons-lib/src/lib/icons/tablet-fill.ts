@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * tabletFill.
+ * tablet-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/tablet-fill/}.
  */

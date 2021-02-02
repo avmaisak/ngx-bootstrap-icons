@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * boxArrowUpRight.
+ * box-arrow-up-right.
  *
  * {@link https://icons.getbootstrap.com/icons/box-arrow-up-right/}.
  */

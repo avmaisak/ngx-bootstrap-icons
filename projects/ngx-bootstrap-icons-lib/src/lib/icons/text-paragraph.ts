@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * textParagraph.
+ * text-paragraph.
  *
  * {@link https://icons.getbootstrap.com/icons/text-paragraph/}.
  */

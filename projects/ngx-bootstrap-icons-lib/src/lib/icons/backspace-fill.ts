@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * backspaceFill.
+ * backspace-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/backspace-fill/}.
  */

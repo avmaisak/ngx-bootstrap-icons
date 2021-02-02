@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * lightbulbOffFill.
+ * lightbulb-off-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/lightbulb-off-fill/}.
  */

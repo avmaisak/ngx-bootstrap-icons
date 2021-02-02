@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * calendarDay.
+ * calendar-day.
  *
  * {@link https://icons.getbootstrap.com/icons/calendar-day/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * walletFill.
+ * wallet-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/wallet-fill/}.
  */

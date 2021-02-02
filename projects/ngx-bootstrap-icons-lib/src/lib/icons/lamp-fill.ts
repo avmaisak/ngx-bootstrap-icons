@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * lampFill.
+ * lamp-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/lamp-fill/}.
  */

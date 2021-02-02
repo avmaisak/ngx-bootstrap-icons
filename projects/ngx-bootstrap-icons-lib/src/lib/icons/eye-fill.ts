@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * eyeFill.
+ * eye-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/eye-fill/}.
  */

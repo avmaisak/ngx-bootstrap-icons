@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * imageAlt.
+ * image-alt.
  *
  * {@link https://icons.getbootstrap.com/icons/image-alt/}.
  */

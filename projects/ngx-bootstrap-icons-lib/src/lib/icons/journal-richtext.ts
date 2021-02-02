@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * journalRichtext.
+ * journal-richtext.
  *
  * {@link https://icons.getbootstrap.com/icons/journal-richtext/}.
  */

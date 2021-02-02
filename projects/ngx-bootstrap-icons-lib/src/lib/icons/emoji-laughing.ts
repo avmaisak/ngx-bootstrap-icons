@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * emojiLaughing.
+ * emoji-laughing.
  *
  * {@link https://icons.getbootstrap.com/icons/emoji-laughing/}.
  */

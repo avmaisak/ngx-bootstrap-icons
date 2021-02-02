@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * viewStacked.
+ * view-stacked.
  *
  * {@link https://icons.getbootstrap.com/icons/view-stacked/}.
  */

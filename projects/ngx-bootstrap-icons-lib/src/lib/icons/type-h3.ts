@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * typeH3.
+ * type-h3.
  *
  * {@link https://icons.getbootstrap.com/icons/type-h3/}.
  */

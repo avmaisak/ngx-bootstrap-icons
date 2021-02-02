@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * journalMedical.
+ * journal-medical.
  *
  * {@link https://icons.getbootstrap.com/icons/journal-medical/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * signpostSplitFill.
+ * signpost-split-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/signpost-split-fill/}.
  */

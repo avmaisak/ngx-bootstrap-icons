@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * bookHalf.
+ * book-half.
  *
  * {@link https://icons.getbootstrap.com/icons/book-half/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * badgeWc.
+ * badge-wc.
  *
  * {@link https://icons.getbootstrap.com/icons/badge-wc/}.
  */

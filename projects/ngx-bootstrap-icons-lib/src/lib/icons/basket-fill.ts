@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * basketFill.
+ * basket-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/basket-fill/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * hddRack.
+ * hdd-rack.
  *
  * {@link https://icons.getbootstrap.com/icons/hdd-rack/}.
  */

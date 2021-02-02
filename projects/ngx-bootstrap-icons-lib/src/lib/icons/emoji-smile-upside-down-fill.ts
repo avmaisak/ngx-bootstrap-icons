@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * emojiSmileUpsideDownFill.
+ * emoji-smile-upside-down-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/emoji-smile-upside-down-fill/}.
  */

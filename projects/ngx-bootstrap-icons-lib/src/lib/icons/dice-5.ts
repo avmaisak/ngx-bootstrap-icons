@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * dice5.
+ * dice-5.
  *
  * {@link https://icons.getbootstrap.com/icons/dice-5/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cartDashFill.
+ * cart-dash-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/cart-dash-fill/}.
  */

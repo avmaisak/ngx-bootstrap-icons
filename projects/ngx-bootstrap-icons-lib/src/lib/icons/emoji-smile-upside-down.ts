@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * emojiSmileUpsideDown.
+ * emoji-smile-upside-down.
  *
  * {@link https://icons.getbootstrap.com/icons/emoji-smile-upside-down/}.
  */

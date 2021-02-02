@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cashStack.
+ * cash-stack.
  *
  * {@link https://icons.getbootstrap.com/icons/cash-stack/}.
  */

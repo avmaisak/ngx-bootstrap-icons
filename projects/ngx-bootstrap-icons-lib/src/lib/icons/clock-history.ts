@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * clockHistory.
+ * clock-history.
  *
  * {@link https://icons.getbootstrap.com/icons/clock-history/}.
  */

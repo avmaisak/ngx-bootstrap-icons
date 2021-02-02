@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * personBadge.
+ * person-badge.
  *
  * {@link https://icons.getbootstrap.com/icons/person-badge/}.
  */

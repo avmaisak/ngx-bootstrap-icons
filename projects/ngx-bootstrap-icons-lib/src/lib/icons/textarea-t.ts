@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * textareaT.
+ * textarea-t.
  *
  * {@link https://icons.getbootstrap.com/icons/textarea-t/}.
  */

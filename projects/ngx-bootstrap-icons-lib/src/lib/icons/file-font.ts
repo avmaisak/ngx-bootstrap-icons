@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileFont.
+ * file-font.
  *
  * {@link https://icons.getbootstrap.com/icons/file-font/}.
  */

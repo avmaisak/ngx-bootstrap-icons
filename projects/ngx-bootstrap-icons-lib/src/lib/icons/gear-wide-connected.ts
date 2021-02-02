@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * gearWideConnected.
+ * gear-wide-connected.
  *
  * {@link https://icons.getbootstrap.com/icons/gear-wide-connected/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * slashSquare.
+ * slash-square.
  *
  * {@link https://icons.getbootstrap.com/icons/slash-square/}.
  */

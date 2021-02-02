@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * zoomOut.
+ * zoom-out.
  *
  * {@link https://icons.getbootstrap.com/icons/zoom-out/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cardHeading.
+ * card-heading.
  *
  * {@link https://icons.getbootstrap.com/icons/card-heading/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * windowDock.
+ * window-dock.
  *
  * {@link https://icons.getbootstrap.com/icons/window-dock/}.
  */

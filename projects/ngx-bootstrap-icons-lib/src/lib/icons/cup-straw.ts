@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cupStraw.
+ * cup-straw.
  *
  * {@link https://icons.getbootstrap.com/icons/cup-straw/}.
  */

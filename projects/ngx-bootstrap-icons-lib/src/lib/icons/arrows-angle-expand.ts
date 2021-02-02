@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * arrowsAngleExpand.
+ * arrows-angle-expand.
  *
  * {@link https://icons.getbootstrap.com/icons/arrows-angle-expand/}.
  */

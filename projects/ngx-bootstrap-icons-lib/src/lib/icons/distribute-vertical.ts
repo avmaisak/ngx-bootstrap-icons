@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * distributeVertical.
+ * distribute-vertical.
  *
  * {@link https://icons.getbootstrap.com/icons/distribute-vertical/}.
  */

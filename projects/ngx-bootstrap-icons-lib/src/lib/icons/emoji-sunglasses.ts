@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * emojiSunglasses.
+ * emoji-sunglasses.
  *
  * {@link https://icons.getbootstrap.com/icons/emoji-sunglasses/}.
  */

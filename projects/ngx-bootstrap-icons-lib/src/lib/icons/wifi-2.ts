@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * wifi2.
+ * wifi-2.
  *
  * {@link https://icons.getbootstrap.com/icons/wifi-2/}.
  */

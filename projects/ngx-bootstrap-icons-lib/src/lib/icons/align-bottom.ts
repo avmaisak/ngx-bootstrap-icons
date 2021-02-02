@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * alignBottom.
+ * align-bottom.
  *
  * {@link https://icons.getbootstrap.com/icons/align-bottom/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * printerFill.
+ * printer-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/printer-fill/}.
  */

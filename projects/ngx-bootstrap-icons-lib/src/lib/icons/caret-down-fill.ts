@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * caretDownFill.
+ * caret-down-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/caret-down-fill/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * patchQuestionFill.
+ * patch-question-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/patch-question-fill/}.
  */

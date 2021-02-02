@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * pentagonHalf.
+ * pentagon-half.
  *
  * {@link https://icons.getbootstrap.com/icons/pentagon-half/}.
  */

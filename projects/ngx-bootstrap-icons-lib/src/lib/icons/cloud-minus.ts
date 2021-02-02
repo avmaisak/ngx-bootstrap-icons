@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cloudMinus.
+ * cloud-minus.
  *
  * {@link https://icons.getbootstrap.com/icons/cloud-minus/}.
  */

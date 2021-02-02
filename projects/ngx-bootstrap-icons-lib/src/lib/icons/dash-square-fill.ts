@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * dashSquareFill.
+ * dash-square-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/dash-square-fill/}.
  */

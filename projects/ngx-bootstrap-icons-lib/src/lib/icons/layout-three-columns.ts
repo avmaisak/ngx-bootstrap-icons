@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * layoutThreeColumns.
+ * layout-three-columns.
  *
  * {@link https://icons.getbootstrap.com/icons/layout-three-columns/}.
  */

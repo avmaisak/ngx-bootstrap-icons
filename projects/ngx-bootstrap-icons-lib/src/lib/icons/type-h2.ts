@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * typeH2.
+ * type-h2.
  *
  * {@link https://icons.getbootstrap.com/icons/type-h2/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * folderPlus.
+ * folder-plus.
  *
  * {@link https://icons.getbootstrap.com/icons/folder-plus/}.
  */

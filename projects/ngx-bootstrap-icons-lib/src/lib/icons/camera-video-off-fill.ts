@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cameraVideoOffFill.
+ * camera-video-off-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/camera-video-off-fill/}.
  */

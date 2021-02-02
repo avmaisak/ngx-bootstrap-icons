@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * typeBold.
+ * type-bold.
  *
  * {@link https://icons.getbootstrap.com/icons/type-bold/}.
  */

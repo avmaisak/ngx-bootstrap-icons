@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * borderTop.
+ * border-top.
  *
  * {@link https://icons.getbootstrap.com/icons/border-top/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * emojiExpressionlessFill.
+ * emoji-expressionless-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/emoji-expressionless-fill/}.
  */

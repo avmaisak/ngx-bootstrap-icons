@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * musicNote.
+ * music-note.
  *
  * {@link https://icons.getbootstrap.com/icons/music-note/}.
  */

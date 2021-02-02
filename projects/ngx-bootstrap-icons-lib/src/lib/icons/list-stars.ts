@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * listStars.
+ * list-stars.
  *
  * {@link https://icons.getbootstrap.com/icons/list-stars/}.
  */

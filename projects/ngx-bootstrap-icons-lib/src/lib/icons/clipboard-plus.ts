@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * clipboardPlus.
+ * clipboard-plus.
  *
  * {@link https://icons.getbootstrap.com/icons/clipboard-plus/}.
  */

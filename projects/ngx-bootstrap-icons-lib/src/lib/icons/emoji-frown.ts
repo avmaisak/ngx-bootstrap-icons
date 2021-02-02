@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * emojiFrown.
+ * emoji-frown.
  *
  * {@link https://icons.getbootstrap.com/icons/emoji-frown/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * boundingBox.
+ * bounding-box.
  *
  * {@link https://icons.getbootstrap.com/icons/bounding-box/}.
  */

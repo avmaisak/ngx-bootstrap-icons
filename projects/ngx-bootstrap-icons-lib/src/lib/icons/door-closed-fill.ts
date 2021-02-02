@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * doorClosedFill.
+ * door-closed-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/door-closed-fill/}.
  */

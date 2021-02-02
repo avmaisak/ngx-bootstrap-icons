@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * questionOctagonFill.
+ * question-octagon-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/question-octagon-fill/}.
  */

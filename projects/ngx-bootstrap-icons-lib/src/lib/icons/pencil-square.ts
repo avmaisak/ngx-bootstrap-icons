@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * pencilSquare.
+ * pencil-square.
  *
  * {@link https://icons.getbootstrap.com/icons/pencil-square/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * paletteFill.
+ * palette-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/palette-fill/}.
  */

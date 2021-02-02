@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * gearFill.
+ * gear-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/gear-fill/}.
  */

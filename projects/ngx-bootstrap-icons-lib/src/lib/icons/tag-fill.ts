@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * tagFill.
+ * tag-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/tag-fill/}.
  */

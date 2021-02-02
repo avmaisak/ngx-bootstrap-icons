@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * terminalFill.
+ * terminal-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/terminal-fill/}.
  */

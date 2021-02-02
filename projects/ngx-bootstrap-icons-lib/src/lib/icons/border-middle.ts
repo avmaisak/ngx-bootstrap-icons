@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * borderMiddle.
+ * border-middle.
  *
  * {@link https://icons.getbootstrap.com/icons/border-middle/}.
  */

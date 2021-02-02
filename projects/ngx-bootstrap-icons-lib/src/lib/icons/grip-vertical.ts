@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * gripVertical.
+ * grip-vertical.
  *
  * {@link https://icons.getbootstrap.com/icons/grip-vertical/}.
  */

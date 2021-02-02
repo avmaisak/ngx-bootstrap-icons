@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * pinAngleFill.
+ * pin-angle-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/pin-angle-fill/}.
  */

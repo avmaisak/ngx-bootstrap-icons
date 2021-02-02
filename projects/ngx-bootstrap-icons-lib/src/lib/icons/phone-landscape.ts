@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * phoneLandscape.
+ * phone-landscape.
  *
  * {@link https://icons.getbootstrap.com/icons/phone-landscape/}.
  */

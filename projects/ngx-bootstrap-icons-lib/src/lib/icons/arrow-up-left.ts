@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * arrowUpLeft.
+ * arrow-up-left.
  *
  * {@link https://icons.getbootstrap.com/icons/arrow-up-left/}.
  */

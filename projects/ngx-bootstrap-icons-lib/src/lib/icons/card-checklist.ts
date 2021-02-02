@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cardChecklist.
+ * card-checklist.
  *
  * {@link https://icons.getbootstrap.com/icons/card-checklist/}.
  */

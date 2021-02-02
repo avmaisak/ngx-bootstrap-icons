@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * vinylFill.
+ * vinyl-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/vinyl-fill/}.
  */

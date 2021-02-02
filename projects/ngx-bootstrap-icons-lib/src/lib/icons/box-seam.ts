@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * boxSeam.
+ * box-seam.
  *
  * {@link https://icons.getbootstrap.com/icons/box-seam/}.
  */

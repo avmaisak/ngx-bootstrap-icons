@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * forwardFill.
+ * forward-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/forward-fill/}.
  */

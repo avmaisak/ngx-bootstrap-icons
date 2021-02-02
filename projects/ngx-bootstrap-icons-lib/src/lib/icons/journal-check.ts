@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * journalCheck.
+ * journal-check.
  *
  * {@link https://icons.getbootstrap.com/icons/journal-check/}.
  */

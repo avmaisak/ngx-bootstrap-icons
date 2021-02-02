@@ -1,8 +1,8 @@
 /* eslint-disable max-len */
 
 /**
- * __EXPORT_NAME__.
+ * __ICON_NAME__.
  *
- * {@link https://icons.getbootstrap.com/icons/__EXPORT_ICON_PATH__/}.
+ * {@link https://icons.getbootstrap.com/icons/__ICON_NAME__/}.
  */
 export const __EXPORT_NAME__ = `__PAYLOAD__`;

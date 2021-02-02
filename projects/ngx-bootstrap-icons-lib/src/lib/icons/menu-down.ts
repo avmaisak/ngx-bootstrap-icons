@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * menuDown.
+ * menu-down.
  *
  * {@link https://icons.getbootstrap.com/icons/menu-down/}.
  */

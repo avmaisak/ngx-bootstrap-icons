@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * patchExclamationFill.
+ * patch-exclamation-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/patch-exclamation-fill/}.
  */

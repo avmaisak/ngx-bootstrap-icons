@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * circleHalf.
+ * circle-half.
  *
  * {@link https://icons.getbootstrap.com/icons/circle-half/}.
  */

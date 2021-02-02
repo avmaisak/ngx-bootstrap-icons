@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fullscreenExit.
+ * fullscreen-exit.
  *
  * {@link https://icons.getbootstrap.com/icons/fullscreen-exit/}.
  */

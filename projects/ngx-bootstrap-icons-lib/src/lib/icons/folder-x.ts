@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * folderX.
+ * folder-x.
  *
  * {@link https://icons.getbootstrap.com/icons/folder-x/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * signpost2.
+ * signpost-2.
  *
  * {@link https://icons.getbootstrap.com/icons/signpost-2/}.
  */

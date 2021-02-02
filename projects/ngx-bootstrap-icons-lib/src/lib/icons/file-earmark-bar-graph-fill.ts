@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileEarmarkBarGraphFill.
+ * file-earmark-bar-graph-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/file-earmark-bar-graph-fill/}.
  */

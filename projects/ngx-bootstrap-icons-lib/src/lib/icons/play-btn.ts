@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * playBtn.
+ * play-btn.
  *
  * {@link https://icons.getbootstrap.com/icons/play-btn/}.
  */

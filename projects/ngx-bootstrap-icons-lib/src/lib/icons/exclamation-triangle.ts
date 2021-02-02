@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * exclamationTriangle.
+ * exclamation-triangle.
  *
  * {@link https://icons.getbootstrap.com/icons/exclamation-triangle/}.
  */

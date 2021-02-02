@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * bookmarksFill.
+ * bookmarks-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/bookmarks-fill/}.
  */

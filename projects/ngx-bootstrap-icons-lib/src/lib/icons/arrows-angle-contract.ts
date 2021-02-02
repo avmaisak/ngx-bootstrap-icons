@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * arrowsAngleContract.
+ * arrows-angle-contract.
  *
  * {@link https://icons.getbootstrap.com/icons/arrows-angle-contract/}.
  */

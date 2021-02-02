@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * skipForwardCircleFill.
+ * skip-forward-circle-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/skip-forward-circle-fill/}.
  */

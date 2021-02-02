@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * patchPlusFill.
+ * patch-plus-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/patch-plus-fill/}.
  */

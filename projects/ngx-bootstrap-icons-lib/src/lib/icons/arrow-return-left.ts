@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * arrowReturnLeft.
+ * arrow-return-left.
  *
  * {@link https://icons.getbootstrap.com/icons/arrow-return-left/}.
  */

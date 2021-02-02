@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * paintBucket.
+ * paint-bucket.
  *
  * {@link https://icons.getbootstrap.com/icons/paint-bucket/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * diamondHalf.
+ * diamond-half.
  *
  * {@link https://icons.getbootstrap.com/icons/diamond-half/}.
  */

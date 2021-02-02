@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * shieldShaded.
+ * shield-shaded.
  *
  * {@link https://icons.getbootstrap.com/icons/shield-shaded/}.
  */

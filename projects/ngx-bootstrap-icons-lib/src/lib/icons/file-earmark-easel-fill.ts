@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileEarmarkEaselFill.
+ * file-earmark-easel-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/file-earmark-easel-fill/}.
  */

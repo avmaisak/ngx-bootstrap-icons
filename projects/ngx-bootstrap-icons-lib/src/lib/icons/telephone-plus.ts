@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * telephonePlus.
+ * telephone-plus.
  *
  * {@link https://icons.getbootstrap.com/icons/telephone-plus/}.
  */
