@@ -2,6 +2,7 @@ import {
   ChangeDetectorRef, Component, ElementRef, Inject, Input, OnChanges, SimpleChanges,
 } from '@angular/core';
 
+import { IModuleConfigOptions, MODULE_CONFIG_TOKEN } from '../../config/module.config';
 import { IconNamesEnum } from '../../enums/icon-names.enum';
 import { Icons } from '../../providers/icon.provider';
 
@@ -29,8 +30,8 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
   constructor(
     private _elem: ElementRef,
     private _changeDetector: ChangeDetectorRef,
-    @Inject(Icons)
-    private _icons: Icons,
+    @Inject(Icons) private _icons: Icons,
+    @Inject(MODULE_CONFIG_TOKEN) private _config: IModuleConfigOptions,
   ) { }
 
   /**
@@ -46,11 +47,23 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
     const icons = Object.assign({}, ...(this._icons as any as object[]));
     let svg = icons[camelCase(changes.name.currentValue)] || '';
 
-    if (!svg) console.warn(`Icon not found: ${changes.name.currentValue}\n`);
+    if (!svg) {
+      console.warn(`Icon not found: ${changes.name.currentValue}\n`);
+      return;
+    }
+
+    // if config provided
+    if (this._config) {
+      if (this._config.width) svg = svg.replace('width="16"', `width="${this._config.width}"`);
+      if (this._config.height) svg = svg.replace('height="16"', `height="${this._config.height}"`);
+      if (this._config.theme) this._elem.nativeElement.classList.add(this._config.theme);
+    }
+
     if (this.resetDefaultDimensions) {
       svg = svg.replace('width="16"', '');
       svg = svg.replace('height="16"', '');
     }
+
     if (this.width && svg.includes('width')) svg = svg.replace('width="16"', `width="${this.width}"`);
     if (this.height && svg.includes('height')) svg = svg.replace('height="16"', `height="${this.height}"`);
 
