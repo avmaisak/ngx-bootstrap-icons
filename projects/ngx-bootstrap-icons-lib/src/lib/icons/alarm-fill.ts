@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * alarmFill.
+ * alarm-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/alarm-fill/}.
  */

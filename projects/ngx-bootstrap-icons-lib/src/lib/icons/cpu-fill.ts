@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cpuFill.
+ * cpu-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/cpu-fill/}.
  */

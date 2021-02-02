@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * musicPlayer.
+ * music-player.
  *
  * {@link https://icons.getbootstrap.com/icons/music-player/}.
  */

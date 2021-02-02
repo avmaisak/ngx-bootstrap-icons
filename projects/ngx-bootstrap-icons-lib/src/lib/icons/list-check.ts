@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * listCheck.
+ * list-check.
  *
  * {@link https://icons.getbootstrap.com/icons/list-check/}.
  */

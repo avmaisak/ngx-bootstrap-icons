@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * binocularsFill.
+ * binoculars-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/binoculars-fill/}.
  */

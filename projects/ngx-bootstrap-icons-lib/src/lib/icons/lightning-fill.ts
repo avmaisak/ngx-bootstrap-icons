@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * lightningFill.
+ * lightning-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/lightning-fill/}.
  */

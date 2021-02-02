@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * envelopeOpen.
+ * envelope-open.
  *
  * {@link https://icons.getbootstrap.com/icons/envelope-open/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * dashSquareDotted.
+ * dash-square-dotted.
  *
  * {@link https://icons.getbootstrap.com/icons/dash-square-dotted/}.
  */

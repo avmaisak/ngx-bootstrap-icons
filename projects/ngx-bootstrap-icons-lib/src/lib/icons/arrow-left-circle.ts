@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * arrowLeftCircle.
+ * arrow-left-circle.
  *
  * {@link https://icons.getbootstrap.com/icons/arrow-left-circle/}.
  */

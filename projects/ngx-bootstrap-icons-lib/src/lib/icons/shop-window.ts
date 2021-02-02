@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * shopWindow.
+ * shop-window.
  *
  * {@link https://icons.getbootstrap.com/icons/shop-window/}.
  */

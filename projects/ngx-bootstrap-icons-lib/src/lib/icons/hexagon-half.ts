@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * hexagonHalf.
+ * hexagon-half.
  *
  * {@link https://icons.getbootstrap.com/icons/hexagon-half/}.
  */

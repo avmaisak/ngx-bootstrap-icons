@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileCheck.
+ * file-check.
  *
  * {@link https://icons.getbootstrap.com/icons/file-check/}.
  */

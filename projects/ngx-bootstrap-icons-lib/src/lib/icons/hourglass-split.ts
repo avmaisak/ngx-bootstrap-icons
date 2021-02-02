@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * hourglassSplit.
+ * hourglass-split.
  *
  * {@link https://icons.getbootstrap.com/icons/hourglass-split/}.
  */

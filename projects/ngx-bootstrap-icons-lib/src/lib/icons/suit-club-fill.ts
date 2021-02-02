@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * suitClubFill.
+ * suit-club-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/suit-club-fill/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * filterCircleFill.
+ * filter-circle-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/filter-circle-fill/}.
  */

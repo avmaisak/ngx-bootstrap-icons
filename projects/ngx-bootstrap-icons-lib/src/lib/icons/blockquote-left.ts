@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * blockquoteLeft.
+ * blockquote-left.
  *
  * {@link https://icons.getbootstrap.com/icons/blockquote-left/}.
  */

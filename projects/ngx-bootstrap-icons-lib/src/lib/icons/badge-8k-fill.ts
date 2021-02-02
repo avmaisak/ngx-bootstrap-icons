@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * badge8KFill.
+ * badge-8k-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/badge-8k-fill/}.
  */

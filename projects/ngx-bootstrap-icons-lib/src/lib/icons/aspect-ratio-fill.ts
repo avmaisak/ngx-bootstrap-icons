@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * aspectRatioFill.
+ * aspect-ratio-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/aspect-ratio-fill/}.
  */

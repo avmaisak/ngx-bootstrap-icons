@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * questionDiamondFill.
+ * question-diamond-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/question-diamond-fill/}.
  */

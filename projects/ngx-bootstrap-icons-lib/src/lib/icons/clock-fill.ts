@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * clockFill.
+ * clock-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/clock-fill/}.
  */

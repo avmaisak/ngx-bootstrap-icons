@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * dropletHalf.
+ * droplet-half.
  *
  * {@link https://icons.getbootstrap.com/icons/droplet-half/}.
  */

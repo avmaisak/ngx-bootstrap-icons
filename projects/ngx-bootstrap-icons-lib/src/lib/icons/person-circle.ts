@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * personCircle.
+ * person-circle.
  *
  * {@link https://icons.getbootstrap.com/icons/person-circle/}.
  */

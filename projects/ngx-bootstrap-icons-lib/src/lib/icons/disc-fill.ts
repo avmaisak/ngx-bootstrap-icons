@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * discFill.
+ * disc-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/disc-fill/}.
  */

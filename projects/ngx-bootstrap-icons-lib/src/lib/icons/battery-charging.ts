@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * batteryCharging.
+ * battery-charging.
  *
  * {@link https://icons.getbootstrap.com/icons/battery-charging/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * link45Deg.
+ * link-45deg.
  *
  * {@link https://icons.getbootstrap.com/icons/link-45deg/}.
  */

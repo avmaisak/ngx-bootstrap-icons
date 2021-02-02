@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * layoutTextSidebar.
+ * layout-text-sidebar.
  *
  * {@link https://icons.getbootstrap.com/icons/layout-text-sidebar/}.
  */

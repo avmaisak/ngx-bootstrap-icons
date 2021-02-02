@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * backspaceReverseFill.
+ * backspace-reverse-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/backspace-reverse-fill/}.
  */

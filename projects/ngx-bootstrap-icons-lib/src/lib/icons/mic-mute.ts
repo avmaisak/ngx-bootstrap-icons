@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * micMute.
+ * mic-mute.
  *
  * {@link https://icons.getbootstrap.com/icons/mic-mute/}.
  */

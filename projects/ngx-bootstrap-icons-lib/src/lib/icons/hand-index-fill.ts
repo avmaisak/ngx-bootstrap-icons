@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * handIndexFill.
+ * hand-index-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/hand-index-fill/}.
  */

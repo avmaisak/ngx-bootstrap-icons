@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * hddNetworkFill.
+ * hdd-network-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/hdd-network-fill/}.
  */

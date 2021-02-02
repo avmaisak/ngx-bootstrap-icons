@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * pauseBtnFill.
+ * pause-btn-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/pause-btn-fill/}.
  */

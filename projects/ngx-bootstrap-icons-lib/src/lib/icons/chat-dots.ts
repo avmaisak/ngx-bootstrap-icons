@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * chatDots.
+ * chat-dots.
  *
  * {@link https://icons.getbootstrap.com/icons/chat-dots/}.
  */

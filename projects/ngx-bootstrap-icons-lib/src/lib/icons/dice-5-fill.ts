@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * dice5Fill.
+ * dice-5-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/dice-5-fill/}.
  */

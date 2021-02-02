@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * columnsGap.
+ * columns-gap.
  *
  * {@link https://icons.getbootstrap.com/icons/columns-gap/}.
  */

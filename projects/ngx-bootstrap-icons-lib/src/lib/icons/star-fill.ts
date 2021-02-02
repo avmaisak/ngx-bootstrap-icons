@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * starFill.
+ * star-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/star-fill/}.
  */

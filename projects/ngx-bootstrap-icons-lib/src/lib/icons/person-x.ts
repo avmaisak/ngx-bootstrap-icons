@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * personX.
+ * person-x.
  *
  * {@link https://icons.getbootstrap.com/icons/person-x/}.
  */

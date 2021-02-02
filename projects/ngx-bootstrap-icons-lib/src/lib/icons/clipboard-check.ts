@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * clipboardCheck.
+ * clipboard-check.
  *
  * {@link https://icons.getbootstrap.com/icons/clipboard-check/}.
  */

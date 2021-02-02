@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * filterLeft.
+ * filter-left.
  *
  * {@link https://icons.getbootstrap.com/icons/filter-left/}.
  */

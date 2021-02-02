@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * caretRightSquareFill.
+ * caret-right-square-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/caret-right-square-fill/}.
  */

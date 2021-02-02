@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * coneStriped.
+ * cone-striped.
  *
  * {@link https://icons.getbootstrap.com/icons/cone-striped/}.
  */

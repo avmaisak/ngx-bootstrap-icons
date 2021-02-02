@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * trophyFill.
+ * trophy-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/trophy-fill/}.
  */

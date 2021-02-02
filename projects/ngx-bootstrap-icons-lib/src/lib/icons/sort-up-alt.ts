@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * sortUpAlt.
+ * sort-up-alt.
  *
  * {@link https://icons.getbootstrap.com/icons/sort-up-alt/}.
  */

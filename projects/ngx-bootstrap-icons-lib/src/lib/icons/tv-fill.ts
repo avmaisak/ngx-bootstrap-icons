@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * tvFill.
+ * tv-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/tv-fill/}.
  */

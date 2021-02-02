@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * diagram2Fill.
+ * diagram-2-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/diagram-2-fill/}.
  */

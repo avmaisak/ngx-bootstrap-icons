@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * pencilFill.
+ * pencil-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/pencil-fill/}.
  */

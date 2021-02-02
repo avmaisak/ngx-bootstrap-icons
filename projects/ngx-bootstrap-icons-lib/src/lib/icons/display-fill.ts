@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * displayFill.
+ * display-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/display-fill/}.
  */

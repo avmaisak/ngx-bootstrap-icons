@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * textLeft.
+ * text-left.
  *
  * {@link https://icons.getbootstrap.com/icons/text-left/}.
  */

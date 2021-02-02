@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * skipStartCircle.
+ * skip-start-circle.
  *
  * {@link https://icons.getbootstrap.com/icons/skip-start-circle/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * receiptCutoff.
+ * receipt-cutoff.
  *
  * {@link https://icons.getbootstrap.com/icons/receipt-cutoff/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * windowSidebar.
+ * window-sidebar.
  *
  * {@link https://icons.getbootstrap.com/icons/window-sidebar/}.
  */

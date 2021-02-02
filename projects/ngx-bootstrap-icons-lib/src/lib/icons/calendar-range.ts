@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * calendarRange.
+ * calendar-range.
  *
  * {@link https://icons.getbootstrap.com/icons/calendar-range/}.
  */

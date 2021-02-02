@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * tabletLandscapeFill.
+ * tablet-landscape-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/tablet-landscape-fill/}.
  */

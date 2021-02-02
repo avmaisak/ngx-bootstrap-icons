@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * grid3X2Gap.
+ * grid-3x2-gap.
  *
  * {@link https://icons.getbootstrap.com/icons/grid-3x2-gap/}.
  */

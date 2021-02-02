@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * typeItalic.
+ * type-italic.
  *
  * {@link https://icons.getbootstrap.com/icons/type-italic/}.
  */

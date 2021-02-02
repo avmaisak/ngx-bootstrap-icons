@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * keyboardFill.
+ * keyboard-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/keyboard-fill/}.
  */

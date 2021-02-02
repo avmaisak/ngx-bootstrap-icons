@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * personBoundingBox.
+ * person-bounding-box.
  *
  * {@link https://icons.getbootstrap.com/icons/person-bounding-box/}.
  */

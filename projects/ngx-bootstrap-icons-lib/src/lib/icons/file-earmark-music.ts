@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileEarmarkMusic.
+ * file-earmark-music.
  *
  * {@link https://icons.getbootstrap.com/icons/file-earmark-music/}.
  */

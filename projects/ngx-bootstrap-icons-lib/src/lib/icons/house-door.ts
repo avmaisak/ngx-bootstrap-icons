@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * houseDoor.
+ * house-door.
  *
  * {@link https://icons.getbootstrap.com/icons/house-door/}.
  */

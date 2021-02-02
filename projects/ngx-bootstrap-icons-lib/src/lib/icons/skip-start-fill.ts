@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * skipStartFill.
+ * skip-start-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/skip-start-fill/}.
  */

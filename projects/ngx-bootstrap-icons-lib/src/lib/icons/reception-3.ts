@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * reception3.
+ * reception-3.
  *
  * {@link https://icons.getbootstrap.com/icons/reception-3/}.
  */

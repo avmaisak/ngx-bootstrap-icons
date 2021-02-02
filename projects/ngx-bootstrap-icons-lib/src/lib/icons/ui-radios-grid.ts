@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * uiRadiosGrid.
+ * ui-radios-grid.
  *
  * {@link https://icons.getbootstrap.com/icons/ui-radios-grid/}.
  */

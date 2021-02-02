@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileRichtext.
+ * file-richtext.
  *
  * {@link https://icons.getbootstrap.com/icons/file-richtext/}.
  */

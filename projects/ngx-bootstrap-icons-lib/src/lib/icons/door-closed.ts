@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * doorClosed.
+ * door-closed.
  *
  * {@link https://icons.getbootstrap.com/icons/door-closed/}.
  */

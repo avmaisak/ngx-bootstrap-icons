@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * hourglassTop.
+ * hourglass-top.
  *
  * {@link https://icons.getbootstrap.com/icons/hourglass-top/}.
  */

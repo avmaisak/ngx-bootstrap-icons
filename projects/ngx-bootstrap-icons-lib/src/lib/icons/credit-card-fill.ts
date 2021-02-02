@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * creditCardFill.
+ * credit-card-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/credit-card-fill/}.
  */

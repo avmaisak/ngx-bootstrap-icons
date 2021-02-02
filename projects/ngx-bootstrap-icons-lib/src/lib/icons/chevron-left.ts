@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * chevronLeft.
+ * chevron-left.
  *
  * {@link https://icons.getbootstrap.com/icons/chevron-left/}.
  */

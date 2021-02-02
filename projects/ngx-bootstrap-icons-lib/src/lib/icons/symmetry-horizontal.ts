@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * symmetryHorizontal.
+ * symmetry-horizontal.
  *
  * {@link https://icons.getbootstrap.com/icons/symmetry-horizontal/}.
  */

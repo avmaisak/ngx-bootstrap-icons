@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * journalBookmark.
+ * journal-bookmark.
  *
  * {@link https://icons.getbootstrap.com/icons/journal-bookmark/}.
  */

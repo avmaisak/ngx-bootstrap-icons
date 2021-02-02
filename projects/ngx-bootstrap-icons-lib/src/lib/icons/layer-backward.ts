@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * layerBackward.
+ * layer-backward.
  *
  * {@link https://icons.getbootstrap.com/icons/layer-backward/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileMusic.
+ * file-music.
  *
  * {@link https://icons.getbootstrap.com/icons/file-music/}.
  */

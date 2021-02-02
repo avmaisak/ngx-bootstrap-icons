@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cloudCheckFill.
+ * cloud-check-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/cloud-check-fill/}.
  */

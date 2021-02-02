@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * toggleOff.
+ * toggle-off.
  *
  * {@link https://icons.getbootstrap.com/icons/toggle-off/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * bookmarkStar.
+ * bookmark-star.
  *
  * {@link https://icons.getbootstrap.com/icons/bookmark-star/}.
  */

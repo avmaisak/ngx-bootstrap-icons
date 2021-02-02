@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * brightnessAltLow.
+ * brightness-alt-low.
  *
  * {@link https://icons.getbootstrap.com/icons/brightness-alt-low/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * shieldFillExclamation.
+ * shield-fill-exclamation.
  *
  * {@link https://icons.getbootstrap.com/icons/shield-fill-exclamation/}.
  */

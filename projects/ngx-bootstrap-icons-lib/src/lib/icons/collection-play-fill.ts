@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * collectionPlayFill.
+ * collection-play-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/collection-play-fill/}.
  */

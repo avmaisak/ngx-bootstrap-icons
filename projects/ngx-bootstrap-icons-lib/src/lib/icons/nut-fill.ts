@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * nutFill.
+ * nut-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/nut-fill/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * checkSquareFill.
+ * check-square-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/check-square-fill/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileZip.
+ * file-zip.
  *
  * {@link https://icons.getbootstrap.com/icons/file-zip/}.
  */

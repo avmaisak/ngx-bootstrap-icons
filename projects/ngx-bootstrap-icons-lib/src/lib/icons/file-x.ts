@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileX.
+ * file-x.
  *
  * {@link https://icons.getbootstrap.com/icons/file-x/}.
  */

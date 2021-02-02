@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * emojiWink.
+ * emoji-wink.
  *
  * {@link https://icons.getbootstrap.com/icons/emoji-wink/}.
  */

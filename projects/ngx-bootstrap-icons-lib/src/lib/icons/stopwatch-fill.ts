@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * stopwatchFill.
+ * stopwatch-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/stopwatch-fill/}.
  */

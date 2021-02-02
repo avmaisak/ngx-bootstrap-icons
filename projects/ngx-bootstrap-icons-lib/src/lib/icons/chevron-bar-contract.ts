@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * chevronBarContract.
+ * chevron-bar-contract.
  *
  * {@link https://icons.getbootstrap.com/icons/chevron-bar-contract/}.
  */

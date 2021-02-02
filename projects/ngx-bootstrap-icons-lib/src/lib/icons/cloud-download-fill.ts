@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cloudDownloadFill.
+ * cloud-download-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/cloud-download-fill/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * emojiDizzyFill.
+ * emoji-dizzy-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/emoji-dizzy-fill/}.
  */

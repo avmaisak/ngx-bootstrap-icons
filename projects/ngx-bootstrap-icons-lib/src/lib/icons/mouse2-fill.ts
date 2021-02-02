@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * mouse2Fill.
+ * mouse2-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/mouse2-fill/}.
  */

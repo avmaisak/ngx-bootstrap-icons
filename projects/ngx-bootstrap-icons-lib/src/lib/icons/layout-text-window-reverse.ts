@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * layoutTextWindowReverse.
+ * layout-text-window-reverse.
  *
  * {@link https://icons.getbootstrap.com/icons/layout-text-window-reverse/}.
  */

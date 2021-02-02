@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * calculatorFill.
+ * calculator-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/calculator-fill/}.
  */

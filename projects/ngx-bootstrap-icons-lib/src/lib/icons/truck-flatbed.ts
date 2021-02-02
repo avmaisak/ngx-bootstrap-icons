@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * truckFlatbed.
+ * truck-flatbed.
  *
  * {@link https://icons.getbootstrap.com/icons/truck-flatbed/}.
  */

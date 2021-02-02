@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * nodePlusFill.
+ * node-plus-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/node-plus-fill/}.
  */

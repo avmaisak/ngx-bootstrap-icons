@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * bagCheckFill.
+ * bag-check-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/bag-check-fill/}.
  */

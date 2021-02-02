@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cloudArrowDown.
+ * cloud-arrow-down.
  *
  * {@link https://icons.getbootstrap.com/icons/cloud-arrow-down/}.
  */

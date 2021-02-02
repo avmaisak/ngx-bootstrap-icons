@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * creditCard2Front.
+ * credit-card-2-front.
  *
  * {@link https://icons.getbootstrap.com/icons/credit-card-2-front/}.
  */

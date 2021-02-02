@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * laptopFill.
+ * laptop-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/laptop-fill/}.
  */

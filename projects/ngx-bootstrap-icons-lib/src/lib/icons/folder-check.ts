@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * folderCheck.
+ * folder-check.
  *
  * {@link https://icons.getbootstrap.com/icons/folder-check/}.
  */

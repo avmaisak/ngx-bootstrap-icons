@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * textIndentLeft.
+ * text-indent-left.
  *
  * {@link https://icons.getbootstrap.com/icons/text-indent-left/}.
  */

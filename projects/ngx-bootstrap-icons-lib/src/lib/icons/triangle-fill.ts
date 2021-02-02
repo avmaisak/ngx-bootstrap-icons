@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * triangleFill.
+ * triangle-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/triangle-fill/}.
  */

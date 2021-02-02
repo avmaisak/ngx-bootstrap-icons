@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * rssFill.
+ * rss-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/rss-fill/}.
  */

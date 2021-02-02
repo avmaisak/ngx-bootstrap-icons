@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * chevronCompactDown.
+ * chevron-compact-down.
  *
  * {@link https://icons.getbootstrap.com/icons/chevron-compact-down/}.
  */

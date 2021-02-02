@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * badgeAdFill.
+ * badge-ad-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/badge-ad-fill/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * borderWidth.
+ * border-width.
  *
  * {@link https://icons.getbootstrap.com/icons/border-width/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileExcelFill.
+ * file-excel-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/file-excel-fill/}.
  */

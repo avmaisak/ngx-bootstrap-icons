@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * puzzleFill.
+ * puzzle-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/puzzle-fill/}.
  */

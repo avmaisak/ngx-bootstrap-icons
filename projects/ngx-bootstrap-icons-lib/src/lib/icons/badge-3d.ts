@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * badge3D.
+ * badge-3d.
  *
  * {@link https://icons.getbootstrap.com/icons/badge-3d/}.
  */

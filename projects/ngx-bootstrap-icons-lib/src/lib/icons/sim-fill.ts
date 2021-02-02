@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * simFill.
+ * sim-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/sim-fill/}.
  */

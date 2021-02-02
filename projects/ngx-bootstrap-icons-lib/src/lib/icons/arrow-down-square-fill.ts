@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * arrowDownSquareFill.
+ * arrow-down-square-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/arrow-down-square-fill/}.
  */

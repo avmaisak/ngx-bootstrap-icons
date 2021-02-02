@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cartX.
+ * cart-x.
  *
  * {@link https://icons.getbootstrap.com/icons/cart-x/}.
  */

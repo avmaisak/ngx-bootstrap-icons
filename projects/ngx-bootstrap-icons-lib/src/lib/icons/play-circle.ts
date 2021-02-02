@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * playCircle.
+ * play-circle.
  *
  * {@link https://icons.getbootstrap.com/icons/play-circle/}.
  */

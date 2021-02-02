@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * emojiDizzy.
+ * emoji-dizzy.
  *
  * {@link https://icons.getbootstrap.com/icons/emoji-dizzy/}.
  */

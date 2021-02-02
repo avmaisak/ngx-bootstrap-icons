@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileArrowDown.
+ * file-arrow-down.
  *
  * {@link https://icons.getbootstrap.com/icons/file-arrow-down/}.
  */

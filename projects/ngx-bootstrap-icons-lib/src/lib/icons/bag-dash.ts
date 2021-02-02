@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * bagDash.
+ * bag-dash.
  *
  * {@link https://icons.getbootstrap.com/icons/bag-dash/}.
  */

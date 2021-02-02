@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * arrowClockwise.
+ * arrow-clockwise.
  *
  * {@link https://icons.getbootstrap.com/icons/arrow-clockwise/}.
  */

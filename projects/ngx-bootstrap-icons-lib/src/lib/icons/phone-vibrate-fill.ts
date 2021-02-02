@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * phoneVibrateFill.
+ * phone-vibrate-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/phone-vibrate-fill/}.
  */

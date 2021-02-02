@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * telephoneOutboundFill.
+ * telephone-outbound-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/telephone-outbound-fill/}.
  */

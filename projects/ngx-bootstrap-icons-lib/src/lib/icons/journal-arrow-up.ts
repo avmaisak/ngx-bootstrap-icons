@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * journalArrowUp.
+ * journal-arrow-up.
  *
  * {@link https://icons.getbootstrap.com/icons/journal-arrow-up/}.
  */

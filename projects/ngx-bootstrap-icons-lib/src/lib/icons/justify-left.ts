@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * justifyLeft.
+ * justify-left.
  *
  * {@link https://icons.getbootstrap.com/icons/justify-left/}.
  */

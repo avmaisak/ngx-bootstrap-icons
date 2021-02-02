@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * chevronUp.
+ * chevron-up.
  *
  * {@link https://icons.getbootstrap.com/icons/chevron-up/}.
  */

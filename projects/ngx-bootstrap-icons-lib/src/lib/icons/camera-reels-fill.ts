@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cameraReelsFill.
+ * camera-reels-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/camera-reels-fill/}.
  */

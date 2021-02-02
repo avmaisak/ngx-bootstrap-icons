@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * sortNumericDown.
+ * sort-numeric-down.
  *
  * {@link https://icons.getbootstrap.com/icons/sort-numeric-down/}.
  */

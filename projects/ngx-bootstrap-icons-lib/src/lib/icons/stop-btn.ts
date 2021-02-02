@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * stopBtn.
+ * stop-btn.
  *
  * {@link https://icons.getbootstrap.com/icons/stop-btn/}.
  */

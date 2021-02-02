@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * stickyFill.
+ * sticky-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/sticky-fill/}.
  */

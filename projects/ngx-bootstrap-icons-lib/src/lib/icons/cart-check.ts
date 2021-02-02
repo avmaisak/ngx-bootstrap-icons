@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cartCheck.
+ * cart-check.
  *
  * {@link https://icons.getbootstrap.com/icons/cart-check/}.
  */

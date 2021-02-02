@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * typeUnderline.
+ * type-underline.
  *
  * {@link https://icons.getbootstrap.com/icons/type-underline/}.
  */

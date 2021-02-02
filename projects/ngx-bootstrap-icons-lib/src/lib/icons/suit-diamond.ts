@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * suitDiamond.
+ * suit-diamond.
  *
  * {@link https://icons.getbootstrap.com/icons/suit-diamond/}.
  */

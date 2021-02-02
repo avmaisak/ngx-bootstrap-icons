@@ -39,9 +39,9 @@ return Promise.resolve()
       exportEnumString += `  ${uppercamelcase(iconName)} = '${iconName}',\n`;
 
       let output = componentTemplate
+        .replace(/__ICON_NAME__/g, iconName)
         .replace(/__EXPORT_NAME__/g, exportName)
-        .replace(/__PAYLOAD__/, fileContent)
-        .replace(/__EXPORT_ICON_PATH__/, iconName);
+        .replace(/__PAYLOAD__/, fileContent);
 
       fs.writeFileSync(`${iconsDestFolder}/${iconName}.ts`, output, "utf-8");
       fs.appendFileSync(

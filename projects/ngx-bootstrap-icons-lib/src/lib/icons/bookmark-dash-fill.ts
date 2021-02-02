@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * bookmarkDashFill.
+ * bookmark-dash-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/bookmark-dash-fill/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * exclamationCircleFill.
+ * exclamation-circle-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/exclamation-circle-fill/}.
  */

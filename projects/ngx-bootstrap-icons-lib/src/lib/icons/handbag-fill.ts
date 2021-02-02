@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * handbagFill.
+ * handbag-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/handbag-fill/}.
  */

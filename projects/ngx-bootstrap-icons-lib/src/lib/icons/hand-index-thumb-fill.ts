@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * handIndexThumbFill.
+ * hand-index-thumb-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/hand-index-thumb-fill/}.
  */

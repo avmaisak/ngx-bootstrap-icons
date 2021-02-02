@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * bucketFill.
+ * bucket-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/bucket-fill/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * suitHeart.
+ * suit-heart.
  *
  * {@link https://icons.getbootstrap.com/icons/suit-heart/}.
  */

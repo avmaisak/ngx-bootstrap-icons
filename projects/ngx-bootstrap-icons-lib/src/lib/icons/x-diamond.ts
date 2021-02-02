@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * xDiamond.
+ * x-diamond.
  *
  * {@link https://icons.getbootstrap.com/icons/x-diamond/}.
  */

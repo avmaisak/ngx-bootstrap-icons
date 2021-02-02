@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * stoplightsFill.
+ * stoplights-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/stoplights-fill/}.
  */

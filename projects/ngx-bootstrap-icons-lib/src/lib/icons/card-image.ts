@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cardImage.
+ * card-image.
  *
  * {@link https://icons.getbootstrap.com/icons/card-image/}.
  */

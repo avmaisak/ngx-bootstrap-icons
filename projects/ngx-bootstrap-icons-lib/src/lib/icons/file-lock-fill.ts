@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileLockFill.
+ * file-lock-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/file-lock-fill/}.
  */

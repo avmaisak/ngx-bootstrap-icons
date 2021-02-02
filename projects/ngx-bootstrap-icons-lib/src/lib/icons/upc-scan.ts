@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * upcScan.
+ * upc-scan.
  *
  * {@link https://icons.getbootstrap.com/icons/upc-scan/}.
  */

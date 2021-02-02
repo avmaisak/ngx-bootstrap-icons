@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileImage.
+ * file-image.
  *
  * {@link https://icons.getbootstrap.com/icons/file-image/}.
  */

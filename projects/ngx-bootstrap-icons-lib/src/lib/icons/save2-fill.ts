@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * save2Fill.
+ * save2-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/save2-fill/}.
  */
