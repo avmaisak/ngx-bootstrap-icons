@@ -23,7 +23,7 @@ registerLocaleData(ru);
     FormsModule,
     CommonModule,
     AppRoutingModule,
-    NgxBootstrapIconsModule.pick(allIcons),
+    NgxBootstrapIconsModule.forRoot(allIcons),
     ClipboardModule,
   ],
   providers: [],

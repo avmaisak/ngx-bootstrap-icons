@@ -71,3 +71,8 @@
 ## v.1.3.4 (15.01.2021)
 
 * fixed #182, #54
+
+## v.1.3.5 (02.02.2021)
+
+* fixed #222, added config options for module,
+* [breaking changes] - pick() changed forRoot()

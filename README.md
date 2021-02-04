@@ -69,7 +69,7 @@ import { NgxBootstrapIconsModule, allIcons } from 'ngx-bootstrap-icons';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxBootstrapIconsModule.pick(allIcons)
+    NgxBootstrapIconsModule.forRoot(allIcons)
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -97,7 +97,7 @@ const icons = {
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxBootstrapIconsModule.pick(icons)
+    NgxBootstrapIconsModule.forRoot(icons)
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -109,15 +109,57 @@ export class AppModule { }
 Another way.
 --------------
 
-Import NgxBootstrapIconsModule.pick(icons) inside of the AppModule
+Import NgxBootstrapIconsModule.forRoot(icons) inside of the AppModule
 
-Import NgxBootstrapIconsModule (without the pick() method) inside of any FeatureModule where will be used.
+Import NgxBootstrapIconsModule (without the forRoot() method) inside of any FeatureModule where will be used.
 
 Now you can import icons in one place only (root module) and successfully use the component anywhere you want.
 
 **/
 
 ```
+
+##### _4.2. Configure Module (optional)_
+
+```ts
+import { NgxBootstrapIconsModule, ColorTheme } from 'ngx-bootstrap-icons';
+import { alarm, alarmFill, alignBottom } from 'ngx-bootstrap-icons';
+
+// Select some icons (use an object, not an array)
+const icons = {
+  alarm,
+  alarmFill,
+  alignBottom
+};
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NgxBootstrapIconsModule.forRoot(icons, { 
+        width: '2em', 
+        height: '2em', 
+        theme: ColorTheme.Danger,
+    })
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+```
+##### _Configure options_
+
+
+| Name of input prarameter |      Type      | Required | Default Value | Description |
+|--------------------------|----------------|----------|---------------|-------------|
+| width                    |    `string`    |  `false` |    `null`     | icon default width |
+| height                   |    `string`    |  `false` |    `null`     | icon default height |
+| theme                    |    `enum`      |  `false` |    `null`     | default color theme |
+
 
 #### _5. Use it in template_
 ```ts
