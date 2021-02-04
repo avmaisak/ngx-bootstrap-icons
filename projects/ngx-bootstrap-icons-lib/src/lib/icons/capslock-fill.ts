@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * capslockFill.
+ * capslock-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/capslock-fill/}.
  */

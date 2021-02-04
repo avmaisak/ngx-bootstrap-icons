@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * ejectFill.
+ * eject-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/eject-fill/}.
  */

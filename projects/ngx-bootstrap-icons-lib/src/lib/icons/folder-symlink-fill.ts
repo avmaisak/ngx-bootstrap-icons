@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * folderSymlinkFill.
+ * folder-symlink-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/folder-symlink-fill/}.
  */

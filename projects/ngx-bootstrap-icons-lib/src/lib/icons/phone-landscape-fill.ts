@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * phoneLandscapeFill.
+ * phone-landscape-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/phone-landscape-fill/}.
  */

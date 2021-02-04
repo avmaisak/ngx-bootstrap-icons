@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * sortDown.
+ * sort-down.
  *
  * {@link https://icons.getbootstrap.com/icons/sort-down/}.
  */

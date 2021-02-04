@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * suitClub.
+ * suit-club.
  *
  * {@link https://icons.getbootstrap.com/icons/suit-club/}.
  */

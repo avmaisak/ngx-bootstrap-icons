@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileEarmarkRichtext.
+ * file-earmark-richtext.
  *
  * {@link https://icons.getbootstrap.com/icons/file-earmark-richtext/}.
  */

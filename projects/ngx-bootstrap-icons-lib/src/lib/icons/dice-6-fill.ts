@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * dice6Fill.
+ * dice-6-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/dice-6-fill/}.
  */

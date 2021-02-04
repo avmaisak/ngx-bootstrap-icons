@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * geoFill.
+ * geo-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/geo-fill/}.
  */

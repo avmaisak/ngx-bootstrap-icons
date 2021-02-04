@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * menuUp.
+ * menu-up.
  *
  * {@link https://icons.getbootstrap.com/icons/menu-up/}.
  */

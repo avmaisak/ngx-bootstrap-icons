@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileEarmarkSpreadsheet.
+ * file-earmark-spreadsheet.
  *
  * {@link https://icons.getbootstrap.com/icons/file-earmark-spreadsheet/}.
  */

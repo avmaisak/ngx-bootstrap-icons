@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * replyAll.
+ * reply-all.
  *
  * {@link https://icons.getbootstrap.com/icons/reply-all/}.
  */

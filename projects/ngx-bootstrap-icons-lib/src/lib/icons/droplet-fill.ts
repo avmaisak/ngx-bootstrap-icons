@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * dropletFill.
+ * droplet-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/droplet-fill/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * questionSquare.
+ * question-square.
  *
  * {@link https://icons.getbootstrap.com/icons/question-square/}.
  */

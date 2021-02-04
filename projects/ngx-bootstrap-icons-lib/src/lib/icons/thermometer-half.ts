@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * thermometerHalf.
+ * thermometer-half.
  *
  * {@link https://icons.getbootstrap.com/icons/thermometer-half/}.
  */

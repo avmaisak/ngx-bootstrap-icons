@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * shiftFill.
+ * shift-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/shift-fill/}.
  */

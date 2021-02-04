@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * telephoneInbound.
+ * telephone-inbound.
  *
  * {@link https://icons.getbootstrap.com/icons/telephone-inbound/}.
  */

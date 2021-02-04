@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * triangleHalf.
+ * triangle-half.
  *
  * {@link https://icons.getbootstrap.com/icons/triangle-half/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * filePersonFill.
+ * file-person-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/file-person-fill/}.
  */

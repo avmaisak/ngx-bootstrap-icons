@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * dashCircleFill.
+ * dash-circle-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/dash-circle-fill/}.
  */

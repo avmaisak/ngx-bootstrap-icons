@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * checkCircle.
+ * check-circle.
  *
  * {@link https://icons.getbootstrap.com/icons/check-circle/}.
  */

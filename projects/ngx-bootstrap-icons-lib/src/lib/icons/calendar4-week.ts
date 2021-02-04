@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * calendar4Week.
+ * calendar4-week.
  *
  * {@link https://icons.getbootstrap.com/icons/calendar4-week/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * caretDownSquare.
+ * caret-down-square.
  *
  * {@link https://icons.getbootstrap.com/icons/caret-down-square/}.
  */

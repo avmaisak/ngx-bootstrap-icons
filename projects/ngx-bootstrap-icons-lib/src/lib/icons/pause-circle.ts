@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * pauseCircle.
+ * pause-circle.
  *
  * {@link https://icons.getbootstrap.com/icons/pause-circle/}.
  */

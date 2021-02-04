@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * batteryHalf.
+ * battery-half.
  *
  * {@link https://icons.getbootstrap.com/icons/battery-half/}.
  */

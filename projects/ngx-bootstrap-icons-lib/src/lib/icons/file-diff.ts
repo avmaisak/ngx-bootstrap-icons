@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileDiff.
+ * file-diff.
  *
  * {@link https://icons.getbootstrap.com/icons/file-diff/}.
  */

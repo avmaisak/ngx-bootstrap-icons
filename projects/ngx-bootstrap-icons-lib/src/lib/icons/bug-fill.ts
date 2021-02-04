@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * bugFill.
+ * bug-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/bug-fill/}.
  */

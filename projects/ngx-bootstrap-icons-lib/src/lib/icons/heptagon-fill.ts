@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * heptagonFill.
+ * heptagon-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/heptagon-fill/}.
  */

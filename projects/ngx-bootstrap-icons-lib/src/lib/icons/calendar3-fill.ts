@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * calendar3Fill.
+ * calendar3-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/calendar3-fill/}.
  */

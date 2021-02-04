@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * layersFill.
+ * layers-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/layers-fill/}.
  */

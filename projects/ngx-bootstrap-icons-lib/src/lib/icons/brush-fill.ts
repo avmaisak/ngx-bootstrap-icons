@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * brushFill.
+ * brush-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/brush-fill/}.
  */

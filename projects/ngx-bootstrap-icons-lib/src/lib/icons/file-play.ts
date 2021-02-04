@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * filePlay.
+ * file-play.
  *
  * {@link https://icons.getbootstrap.com/icons/file-play/}.
  */

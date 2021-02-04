@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * recordFill.
+ * record-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/record-fill/}.
  */

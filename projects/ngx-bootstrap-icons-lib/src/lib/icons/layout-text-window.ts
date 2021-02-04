@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * layoutTextWindow.
+ * layout-text-window.
  *
  * {@link https://icons.getbootstrap.com/icons/layout-text-window/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * exclamationSquare.
+ * exclamation-square.
  *
  * {@link https://icons.getbootstrap.com/icons/exclamation-square/}.
  */

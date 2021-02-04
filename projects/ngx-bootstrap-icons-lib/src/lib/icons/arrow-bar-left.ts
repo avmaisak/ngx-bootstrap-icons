@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * arrowBarLeft.
+ * arrow-bar-left.
  *
  * {@link https://icons.getbootstrap.com/icons/arrow-bar-left/}.
  */

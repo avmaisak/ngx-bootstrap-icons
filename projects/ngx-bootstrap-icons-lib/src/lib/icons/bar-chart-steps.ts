@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * barChartSteps.
+ * bar-chart-steps.
  *
  * {@link https://icons.getbootstrap.com/icons/bar-chart-steps/}.
  */

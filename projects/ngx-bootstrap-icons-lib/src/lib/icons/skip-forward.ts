@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * skipForward.
+ * skip-forward.
  *
  * {@link https://icons.getbootstrap.com/icons/skip-forward/}.
  */

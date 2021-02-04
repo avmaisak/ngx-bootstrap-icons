@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * broadcastPin.
+ * broadcast-pin.
  *
  * {@link https://icons.getbootstrap.com/icons/broadcast-pin/}.
  */

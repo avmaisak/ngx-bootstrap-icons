@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * bellFill.
+ * bell-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/bell-fill/}.
  */

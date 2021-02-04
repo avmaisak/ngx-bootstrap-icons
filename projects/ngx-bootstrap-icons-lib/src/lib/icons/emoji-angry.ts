@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * emojiAngry.
+ * emoji-angry.
  *
  * {@link https://icons.getbootstrap.com/icons/emoji-angry/}.
  */

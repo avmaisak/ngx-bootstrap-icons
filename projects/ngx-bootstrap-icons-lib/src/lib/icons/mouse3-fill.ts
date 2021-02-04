@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * mouse3Fill.
+ * mouse3-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/mouse3-fill/}.
  */

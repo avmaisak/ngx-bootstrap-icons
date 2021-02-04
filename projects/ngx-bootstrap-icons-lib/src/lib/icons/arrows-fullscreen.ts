@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * arrowsFullscreen.
+ * arrows-fullscreen.
  *
  * {@link https://icons.getbootstrap.com/icons/arrows-fullscreen/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * chevronBarDown.
+ * chevron-bar-down.
  *
  * {@link https://icons.getbootstrap.com/icons/chevron-bar-down/}.
  */

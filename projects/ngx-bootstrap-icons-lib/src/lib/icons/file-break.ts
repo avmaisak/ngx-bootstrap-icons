@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileBreak.
+ * file-break.
  *
  * {@link https://icons.getbootstrap.com/icons/file-break/}.
  */

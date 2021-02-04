@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * personSquare.
+ * person-square.
  *
  * {@link https://icons.getbootstrap.com/icons/person-square/}.
  */

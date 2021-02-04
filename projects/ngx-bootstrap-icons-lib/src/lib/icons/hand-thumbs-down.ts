@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * handThumbsDown.
+ * hand-thumbs-down.
  *
  * {@link https://icons.getbootstrap.com/icons/hand-thumbs-down/}.
  */

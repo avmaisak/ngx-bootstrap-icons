@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * awardFill.
+ * award-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/award-fill/}.
  */

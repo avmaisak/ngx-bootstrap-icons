@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * graphDown.
+ * graph-down.
  *
  * {@link https://icons.getbootstrap.com/icons/graph-down/}.
  */

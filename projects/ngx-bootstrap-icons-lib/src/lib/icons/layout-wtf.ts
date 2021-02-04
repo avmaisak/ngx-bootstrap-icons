@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * layoutWtf.
+ * layout-wtf.
  *
  * {@link https://icons.getbootstrap.com/icons/layout-wtf/}.
  */

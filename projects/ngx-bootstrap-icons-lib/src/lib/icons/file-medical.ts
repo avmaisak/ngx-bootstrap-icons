@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileMedical.
+ * file-medical.
  *
  * {@link https://icons.getbootstrap.com/icons/file-medical/}.
  */

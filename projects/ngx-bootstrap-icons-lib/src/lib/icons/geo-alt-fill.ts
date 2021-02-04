@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * geoAltFill.
+ * geo-alt-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/geo-alt-fill/}.
  */

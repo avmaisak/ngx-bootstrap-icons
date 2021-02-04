@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * chatSquareTextFill.
+ * chat-square-text-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/chat-square-text-fill/}.
  */

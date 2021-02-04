@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * xOctagonFill.
+ * x-octagon-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/x-octagon-fill/}.
  */

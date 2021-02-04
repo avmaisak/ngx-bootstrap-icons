@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * filePptFill.
+ * file-ppt-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/file-ppt-fill/}.
  */

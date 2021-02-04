@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * emojiNeutral.
+ * emoji-neutral.
  *
  * {@link https://icons.getbootstrap.com/icons/emoji-neutral/}.
  */

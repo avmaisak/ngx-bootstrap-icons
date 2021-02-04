@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * vectorPen.
+ * vector-pen.
  *
  * {@link https://icons.getbootstrap.com/icons/vector-pen/}.
  */

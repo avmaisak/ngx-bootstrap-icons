@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * bootstrapReboot.
+ * bootstrap-reboot.
  *
  * {@link https://icons.getbootstrap.com/icons/bootstrap-reboot/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * folder2Open.
+ * folder2-open.
  *
  * {@link https://icons.getbootstrap.com/icons/folder2-open/}.
  */

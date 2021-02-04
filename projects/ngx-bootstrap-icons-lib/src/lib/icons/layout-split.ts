@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * layoutSplit.
+ * layout-split.
  *
  * {@link https://icons.getbootstrap.com/icons/layout-split/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * listTask.
+ * list-task.
  *
  * {@link https://icons.getbootstrap.com/icons/list-task/}.
  */

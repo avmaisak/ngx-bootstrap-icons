@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileEarmarkExcelFill.
+ * file-earmark-excel-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/file-earmark-excel-fill/}.
  */

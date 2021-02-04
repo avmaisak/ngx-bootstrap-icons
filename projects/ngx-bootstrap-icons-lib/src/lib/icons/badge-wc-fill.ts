@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * badgeWcFill.
+ * badge-wc-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/badge-wc-fill/}.
  */

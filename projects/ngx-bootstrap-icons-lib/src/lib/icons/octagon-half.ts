@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * octagonHalf.
+ * octagon-half.
  *
  * {@link https://icons.getbootstrap.com/icons/octagon-half/}.
  */

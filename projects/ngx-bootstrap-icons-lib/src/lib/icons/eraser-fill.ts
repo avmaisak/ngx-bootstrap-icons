@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * eraserFill.
+ * eraser-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/eraser-fill/}.
  */

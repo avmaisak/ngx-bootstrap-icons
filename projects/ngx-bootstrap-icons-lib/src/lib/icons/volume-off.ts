@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * volumeOff.
+ * volume-off.
  *
  * {@link https://icons.getbootstrap.com/icons/volume-off/}.
  */

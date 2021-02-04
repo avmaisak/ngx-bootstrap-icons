@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * speakerFill.
+ * speaker-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/speaker-fill/}.
  */

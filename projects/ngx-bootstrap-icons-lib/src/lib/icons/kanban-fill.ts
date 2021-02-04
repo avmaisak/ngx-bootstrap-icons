@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * kanbanFill.
+ * kanban-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/kanban-fill/}.
  */

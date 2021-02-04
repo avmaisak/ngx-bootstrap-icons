@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileBarGraph.
+ * file-bar-graph.
  *
  * {@link https://icons.getbootstrap.com/icons/file-bar-graph/}.
  */

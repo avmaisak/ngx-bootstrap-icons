@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * wifiOff.
+ * wifi-off.
  *
  * {@link https://icons.getbootstrap.com/icons/wifi-off/}.
  */

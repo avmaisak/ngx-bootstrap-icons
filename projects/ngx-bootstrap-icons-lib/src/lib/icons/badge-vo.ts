@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * badgeVo.
+ * badge-vo.
  *
  * {@link https://icons.getbootstrap.com/icons/badge-vo/}.
  */

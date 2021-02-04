@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * shieldFill.
+ * shield-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/shield-fill/}.
  */

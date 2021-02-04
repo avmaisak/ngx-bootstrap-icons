@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * arrowsMove.
+ * arrows-move.
  *
  * {@link https://icons.getbootstrap.com/icons/arrows-move/}.
  */

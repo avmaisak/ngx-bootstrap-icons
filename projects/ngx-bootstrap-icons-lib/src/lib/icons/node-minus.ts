@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * nodeMinus.
+ * node-minus.
  *
  * {@link https://icons.getbootstrap.com/icons/node-minus/}.
  */

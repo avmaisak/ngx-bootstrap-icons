@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * eyeSlash.
+ * eye-slash.
  *
  * {@link https://icons.getbootstrap.com/icons/eye-slash/}.
  */

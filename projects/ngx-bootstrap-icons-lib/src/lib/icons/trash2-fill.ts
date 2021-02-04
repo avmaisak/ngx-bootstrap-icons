@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * trash2Fill.
+ * trash2-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/trash2-fill/}.
  */

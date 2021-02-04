@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * bookmarkDash.
+ * bookmark-dash.
  *
  * {@link https://icons.getbootstrap.com/icons/bookmark-dash/}.
  */

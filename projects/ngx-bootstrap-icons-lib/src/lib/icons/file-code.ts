@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileCode.
+ * file-code.
  *
  * {@link https://icons.getbootstrap.com/icons/file-code/}.
  */

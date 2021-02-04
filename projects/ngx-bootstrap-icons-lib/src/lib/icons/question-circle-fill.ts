@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * questionCircleFill.
+ * question-circle-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/question-circle-fill/}.
  */

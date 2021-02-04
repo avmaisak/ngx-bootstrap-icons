@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileEarmarkMedical.
+ * file-earmark-medical.
  *
  * {@link https://icons.getbootstrap.com/icons/file-earmark-medical/}.
  */

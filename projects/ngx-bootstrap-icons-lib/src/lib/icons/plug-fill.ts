@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * plugFill.
+ * plug-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/plug-fill/}.
  */

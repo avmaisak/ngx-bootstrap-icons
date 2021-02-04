@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileSlidesFill.
+ * file-slides-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/file-slides-fill/}.
  */

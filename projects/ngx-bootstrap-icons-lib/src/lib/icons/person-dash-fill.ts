@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * personDashFill.
+ * person-dash-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/person-dash-fill/}.
  */

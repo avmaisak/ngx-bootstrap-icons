@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * journalAlbum.
+ * journal-album.
  *
  * {@link https://icons.getbootstrap.com/icons/journal-album/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * compassFill.
+ * compass-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/compass-fill/}.
  */

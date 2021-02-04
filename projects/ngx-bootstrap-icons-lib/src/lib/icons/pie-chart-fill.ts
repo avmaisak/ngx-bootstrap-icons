@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * pieChartFill.
+ * pie-chart-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/pie-chart-fill/}.
  */

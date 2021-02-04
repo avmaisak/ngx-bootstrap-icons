@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * badgeAd.
+ * badge-ad.
  *
  * {@link https://icons.getbootstrap.com/icons/badge-ad/}.
  */

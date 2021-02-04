@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * inputCursorText.
+ * input-cursor-text.
  *
  * {@link https://icons.getbootstrap.com/icons/input-cursor-text/}.
  */

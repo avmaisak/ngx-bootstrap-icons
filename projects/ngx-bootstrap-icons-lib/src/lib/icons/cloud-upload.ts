@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cloudUpload.
+ * cloud-upload.
  *
  * {@link https://icons.getbootstrap.com/icons/cloud-upload/}.
  */

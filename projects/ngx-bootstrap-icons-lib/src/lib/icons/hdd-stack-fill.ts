@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * hddStackFill.
+ * hdd-stack-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/hdd-stack-fill/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * textCenter.
+ * text-center.
  *
  * {@link https://icons.getbootstrap.com/icons/text-center/}.
  */

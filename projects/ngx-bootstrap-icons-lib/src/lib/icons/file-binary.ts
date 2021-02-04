@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileBinary.
+ * file-binary.
  *
  * {@link https://icons.getbootstrap.com/icons/file-binary/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * cursorText.
+ * cursor-text.
  *
  * {@link https://icons.getbootstrap.com/icons/cursor-text/}.
  */

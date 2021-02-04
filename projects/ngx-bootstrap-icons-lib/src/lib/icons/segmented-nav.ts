@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * segmentedNav.
+ * segmented-nav.
  *
  * {@link https://icons.getbootstrap.com/icons/segmented-nav/}.
  */

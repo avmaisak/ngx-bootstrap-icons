@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * arrowLeftSquareFill.
+ * arrow-left-square-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/arrow-left-square-fill/}.
  */

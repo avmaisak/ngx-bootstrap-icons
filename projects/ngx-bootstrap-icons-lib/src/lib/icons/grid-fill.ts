@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * gridFill.
+ * grid-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/grid-fill/}.
  */

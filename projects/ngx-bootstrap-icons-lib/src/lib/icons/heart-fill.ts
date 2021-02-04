@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * heartFill.
+ * heart-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/heart-fill/}.
  */

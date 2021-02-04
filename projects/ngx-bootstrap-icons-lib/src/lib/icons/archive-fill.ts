@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * archiveFill.
+ * archive-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/archive-fill/}.
  */

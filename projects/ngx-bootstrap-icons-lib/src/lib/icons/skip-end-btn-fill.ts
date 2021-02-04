@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * skipEndBtnFill.
+ * skip-end-btn-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/skip-end-btn-fill/}.
  */

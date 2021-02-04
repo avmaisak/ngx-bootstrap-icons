@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * layerForward.
+ * layer-forward.
  *
  * {@link https://icons.getbootstrap.com/icons/layer-forward/}.
  */

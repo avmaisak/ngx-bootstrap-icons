@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * layoutSidebarInsetReverse.
+ * layout-sidebar-inset-reverse.
  *
  * {@link https://icons.getbootstrap.com/icons/layout-sidebar-inset-reverse/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * briefcaseFill.
+ * briefcase-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/briefcase-fill/}.
  */

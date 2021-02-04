@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * shieldSlash.
+ * shield-slash.
  *
  * {@link https://icons.getbootstrap.com/icons/shield-slash/}.
  */

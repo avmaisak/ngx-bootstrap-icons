@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * eggFried.
+ * egg-fried.
  *
  * {@link https://icons.getbootstrap.com/icons/egg-fried/}.
  */

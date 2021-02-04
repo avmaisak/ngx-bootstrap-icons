@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * replyFill.
+ * reply-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/reply-fill/}.
  */

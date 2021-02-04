@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * mapFill.
+ * map-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/map-fill/}.
  */

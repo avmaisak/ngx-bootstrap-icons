@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileMinus.
+ * file-minus.
  *
  * {@link https://icons.getbootstrap.com/icons/file-minus/}.
  */

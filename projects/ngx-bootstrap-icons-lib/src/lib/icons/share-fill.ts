@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * shareFill.
+ * share-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/share-fill/}.
  */

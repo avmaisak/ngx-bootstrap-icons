@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * funnelFill.
+ * funnel-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/funnel-fill/}.
  */

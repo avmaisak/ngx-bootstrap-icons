@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileEarmarkRuled.
+ * file-earmark-ruled.
  *
  * {@link https://icons.getbootstrap.com/icons/file-earmark-ruled/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * gearWide.
+ * gear-wide.
  *
  * {@link https://icons.getbootstrap.com/icons/gear-wide/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * arrowDownSquare.
+ * arrow-down-square.
  *
  * {@link https://icons.getbootstrap.com/icons/arrow-down-square/}.
  */

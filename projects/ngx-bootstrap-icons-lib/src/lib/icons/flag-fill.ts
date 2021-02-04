@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * flagFill.
+ * flag-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/flag-fill/}.
  */

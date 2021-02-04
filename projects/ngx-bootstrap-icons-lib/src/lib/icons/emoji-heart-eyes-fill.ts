@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * emojiHeartEyesFill.
+ * emoji-heart-eyes-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/emoji-heart-eyes-fill/}.
  */

@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * check2All.
+ * check2-all.
  *
  * {@link https://icons.getbootstrap.com/icons/check2-all/}.
  */

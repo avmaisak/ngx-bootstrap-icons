@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * layersHalf.
+ * layers-half.
  *
  * {@link https://icons.getbootstrap.com/icons/layers-half/}.
  */

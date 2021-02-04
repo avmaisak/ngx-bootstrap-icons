@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * treeFill.
+ * tree-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/tree-fill/}.
  */

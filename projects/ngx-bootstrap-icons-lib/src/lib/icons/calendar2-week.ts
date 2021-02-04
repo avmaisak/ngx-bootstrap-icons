@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * calendar2Week.
+ * calendar2-week.
  *
  * {@link https://icons.getbootstrap.com/icons/calendar2-week/}.
  */

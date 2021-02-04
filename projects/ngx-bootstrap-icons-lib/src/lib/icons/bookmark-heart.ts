@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * bookmarkHeart.
+ * bookmark-heart.
  *
  * {@link https://icons.getbootstrap.com/icons/bookmark-heart/}.
  */

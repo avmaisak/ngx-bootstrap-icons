@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * journalPlus.
+ * journal-plus.
  *
  * {@link https://icons.getbootstrap.com/icons/journal-plus/}.
  */

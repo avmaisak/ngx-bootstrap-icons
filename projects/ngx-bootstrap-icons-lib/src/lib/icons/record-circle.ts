@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * recordCircle.
+ * record-circle.
  *
  * {@link https://icons.getbootstrap.com/icons/record-circle/}.
  */

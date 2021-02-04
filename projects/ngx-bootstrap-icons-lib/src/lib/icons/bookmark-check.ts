@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * bookmarkCheck.
+ * bookmark-check.
  *
  * {@link https://icons.getbootstrap.com/icons/bookmark-check/}.
  */

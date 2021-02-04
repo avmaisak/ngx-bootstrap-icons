@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * listUl.
+ * list-ul.
  *
  * {@link https://icons.getbootstrap.com/icons/list-ul/}.
  */

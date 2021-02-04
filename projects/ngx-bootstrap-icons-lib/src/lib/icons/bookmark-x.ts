@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * bookmarkX.
+ * bookmark-x.
  *
  * {@link https://icons.getbootstrap.com/icons/bookmark-x/}.
  */

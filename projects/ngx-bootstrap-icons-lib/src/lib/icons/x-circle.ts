@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * xCircle.
+ * x-circle.
  *
  * {@link https://icons.getbootstrap.com/icons/x-circle/}.
  */

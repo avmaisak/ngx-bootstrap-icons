@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * codeSlash.
+ * code-slash.
  *
  * {@link https://icons.getbootstrap.com/icons/code-slash/}.
  */

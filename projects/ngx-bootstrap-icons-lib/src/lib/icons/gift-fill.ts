@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * giftFill.
+ * gift-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/gift-fill/}.
  */

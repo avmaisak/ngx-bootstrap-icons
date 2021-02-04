@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * threeDots.
+ * three-dots.
  *
  * {@link https://icons.getbootstrap.com/icons/three-dots/}.
  */

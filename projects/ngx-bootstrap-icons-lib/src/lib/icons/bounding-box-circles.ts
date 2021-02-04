@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * boundingBoxCircles.
+ * bounding-box-circles.
  *
  * {@link https://icons.getbootstrap.com/icons/bounding-box-circles/}.
  */

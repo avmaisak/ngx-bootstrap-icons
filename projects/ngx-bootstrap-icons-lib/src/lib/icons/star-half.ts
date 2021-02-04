@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * starHalf.
+ * star-half.
  *
  * {@link https://icons.getbootstrap.com/icons/star-half/}.
  */

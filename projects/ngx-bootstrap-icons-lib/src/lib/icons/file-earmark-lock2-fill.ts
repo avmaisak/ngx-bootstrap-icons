@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileEarmarkLock2Fill.
+ * file-earmark-lock2-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/file-earmark-lock2-fill/}.
  */

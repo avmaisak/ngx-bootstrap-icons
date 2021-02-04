@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileEarmarkPptFill.
+ * file-earmark-ppt-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/file-earmark-ppt-fill/}.
  */

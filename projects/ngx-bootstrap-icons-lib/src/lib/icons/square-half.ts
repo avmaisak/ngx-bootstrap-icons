@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * squareHalf.
+ * square-half.
  *
  * {@link https://icons.getbootstrap.com/icons/square-half/}.
  */

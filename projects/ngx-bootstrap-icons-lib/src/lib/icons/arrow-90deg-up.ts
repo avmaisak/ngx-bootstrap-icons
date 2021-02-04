@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * arrow90DegUp.
+ * arrow-90deg-up.
  *
  * {@link https://icons.getbootstrap.com/icons/arrow-90deg-up/}.
  */

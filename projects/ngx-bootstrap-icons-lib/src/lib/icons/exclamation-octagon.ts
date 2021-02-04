@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * exclamationOctagon.
+ * exclamation-octagon.
  *
  * {@link https://icons.getbootstrap.com/icons/exclamation-octagon/}.
  */

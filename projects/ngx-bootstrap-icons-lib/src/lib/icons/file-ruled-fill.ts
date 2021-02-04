@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * fileRuledFill.
+ * file-ruled-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/file-ruled-fill/}.
  */

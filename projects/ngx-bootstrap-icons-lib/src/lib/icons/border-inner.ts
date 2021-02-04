@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * borderInner.
+ * border-inner.
  *
  * {@link https://icons.getbootstrap.com/icons/border-inner/}.
  */

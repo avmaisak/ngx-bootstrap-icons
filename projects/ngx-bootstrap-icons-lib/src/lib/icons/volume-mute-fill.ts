@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * volumeMuteFill.
+ * volume-mute-fill.
  *
  * {@link https://icons.getbootstrap.com/icons/volume-mute-fill/}.
  */

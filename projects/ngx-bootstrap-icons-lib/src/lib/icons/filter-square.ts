@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * filterSquare.
+ * filter-square.
  *
  * {@link https://icons.getbootstrap.com/icons/filter-square/}.
  */

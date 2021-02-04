@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 /**
- * barChartLine.
+ * bar-chart-line.
  *
  * {@link https://icons.getbootstrap.com/icons/bar-chart-line/}.
  */
