@@ -1,6 +1,6 @@
 <p align="center" style="text-align:center">
   <a href="https://v5.getbootstrap.com/" target="_blank">
-    <img src="https://camo.githubusercontent.com/0e0adf58c74c6e74bb64ece5d0ef4620f4f46915/68747470733a2f2f76352e676574626f6f7473747261702e636f6d2f646f63732f352e302f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67" alt="Bootstrap logo" width="200a" height="165">
+    <img src="https://icons.getbootstrap.com/assets/img/icons-hero.png" alt="Bootstrap logo" width="450" height="340">
   </a>
   <h3 align="center" style="color:#6610f2">ngx-bootstrap-icons</h3>
 </p>
