@@ -20,8 +20,7 @@
             "allowedCommonJsDependencies": [
               "lodash",
               "@angular/common/locales/ru",
-              "@ant-design/colors",
-              "js-sha256"
+              "ngx-bootstrap-icons"
             ],
             "outputPath": "dist/ngx-bootstrap-icons",
             "index": "src/index.html",
