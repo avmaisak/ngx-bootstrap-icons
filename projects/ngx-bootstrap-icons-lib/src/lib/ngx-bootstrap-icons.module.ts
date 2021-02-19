@@ -1,5 +1,5 @@
 import {
-  ModuleWithProviders, NgModule, Optional, SkipSelf,
+  ModuleWithProviders, NgModule,
 } from '@angular/core';
 
 import { NgxBootstrapIconsLibComponent } from './components/ngx-bootstrap-icons/ngx-bootstrap-icons.component';
@@ -11,15 +11,7 @@ import { Icons } from './providers/icon.provider';
   exports: [NgxBootstrapIconsLibComponent],
 })
 export class NgxBootstrapIconsModule {
-  constructor(
-    @Optional() private _icons: Icons,
-    @Optional() @SkipSelf() parentModule: NgxBootstrapIconsModule,
-  ) {
-    if (parentModule) throw new Error('NgxBootstrapIconsModule is already loaded. Import it in the AppModule only');
-    if (!this._icons) throw new Error('No icon provided. Make sure to use \'NgxBootstrapIconsModule.pick({ ... })\' when importing the module\n');
-  }
-
-  public static forRoot(icons: { [key: string]: string }, config?: IModuleConfigOptions): ModuleWithProviders<NgxBootstrapIconsModule> {
+  public static pick(icons: { [key: string]: string }, config?: IModuleConfigOptions): ModuleWithProviders<NgxBootstrapIconsModule> {
     return {
       ngModule: NgxBootstrapIconsModule,
       providers: [
