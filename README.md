@@ -69,7 +69,7 @@ import { NgxBootstrapIconsModule, allIcons } from 'ngx-bootstrap-icons';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxBootstrapIconsModule.forRoot(allIcons)
+    NgxBootstrapIconsModule.pick(allIcons)
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -97,7 +97,7 @@ const icons = {
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxBootstrapIconsModule.forRoot(icons)
+    NgxBootstrapIconsModule.pick(icons)
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -109,9 +109,9 @@ export class AppModule { }
 Another way.
 --------------
 
-Import NgxBootstrapIconsModule.forRoot(icons) inside of the AppModule
+Import NgxBootstrapIconsModule.pick(icons) inside of the AppModule
 
-Import NgxBootstrapIconsModule (without the forRoot() method) inside of any FeatureModule where will be used.
+Import NgxBootstrapIconsModule (without the pick() method) inside of any FeatureModule where will be used.
 
 Now you can import icons in one place only (root module) and successfully use the component anywhere you want.
 
@@ -139,7 +139,7 @@ const icons = {
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxBootstrapIconsModule.forRoot(icons, { 
+    NgxBootstrapIconsModule.pick(icons, { 
         width: '2em', 
         height: '2em', 
         theme: ColorTheme.Danger,
