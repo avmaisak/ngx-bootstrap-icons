@@ -76,3 +76,9 @@
 
 * fixed #222, added config options for module,
 * [breaking changes] - pick() changed forRoot()
+
+## v.1.3.6 (23.02.2021)
+
+* Updated to 1.4.0
+* fixed #253, added config options for module,
+* [breaking changes] - reverted to pick() method
