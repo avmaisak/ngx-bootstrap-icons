@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { clone } from 'lodash';
 import { ClipboardService } from 'ngx-clipboard';
 import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/lib/enums/icon-names.enum';
@@ -8,7 +8,7 @@ import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/lib/enums/ic
   templateUrl: './home-page.component.html',
   styleUrls: ['./home-page.component.scss'],
 })
-export class HomePageComponent {
+export class HomePageComponent implements OnInit {
   public items: string[] = [];
 
   public search: string;

@@ -82,3 +82,7 @@
 * Updated to 1.4.0
 * fixed #253, added config options for module,
 * [breaking changes] - reverted to pick() method
+
+## v.1.4.0 (01.03.2021)
+
+* Sync version with bootstrap-icons
