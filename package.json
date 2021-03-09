@@ -51,7 +51,7 @@
     "@types/jasmine": "3.6.4",
     "@types/jasminewd2": "2.0.8",
     "@types/node": "14.14.31",
-    "@typescript-eslint/eslint-plugin": "4.16.1",
+    "@typescript-eslint/eslint-plugin": "4.17.0",
     "@typescript-eslint/parser": "4.16.1",
     "bootstrap-icons": "1.4.0",
     "camelcase": "6.2.0",
