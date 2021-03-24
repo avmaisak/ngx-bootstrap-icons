@@ -86,3 +86,10 @@
 ## v.1.4.0 (01.03.2021)
 
 * Sync version with bootstrap-icons
+
+## v.1.4.1 (24.03.2021)
+
+* bootstrap icons - Update mic and record icons to prevent fill rule issues (#815)
+* bootstrap icons - Update mic icons to prevent fill rule issues
+* Fixes #673: Fix fill-rule on record icon
+* lib peerd ependencies changed to lodash instead camelcase

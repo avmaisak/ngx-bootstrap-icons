@@ -1,6 +1,7 @@
 import {
   ChangeDetectorRef, Component, ElementRef, Inject, Input, OnChanges, SimpleChanges,
 } from '@angular/core';
+import { camelCase } from 'lodash';
 
 import { IModuleConfigOptions, MODULE_CONFIG_TOKEN } from '../../config/module.config';
 import { IconNamesEnum } from '../../enums/icon-names.enum';
@@ -40,8 +41,6 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
    * @param changes SimpleChanges
    */
   public ngOnChanges(changes: SimpleChanges): void {
-    // eslint-disable-next-line global-require
-    const camelCase = require('camelcase');
     // icons are provided as an array of objects because of "multi: true"
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const icons = Object.assign({}, ...(this._icons as any as object[]));
