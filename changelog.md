@@ -91,5 +91,5 @@
 
 * bootstrap icons - Update mic and record icons to prevent fill rule issues (#815)
 * bootstrap icons - Update mic icons to prevent fill rule issues
-* Fixes #673: Fix fill-rule on record icon
-* lib peerd ependencies changed to lodash instead camelcase
+* bootstrap icons - Fixes #673: Fix fill-rule on record icon
+* lib peer dependencies changed to lodash instead camelcase
