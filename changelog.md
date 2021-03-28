@@ -93,3 +93,8 @@
 * bootstrap icons - Update mic icons to prevent fill rule issues
 * bootstrap icons - Fixes #673: Fix fill-rule on record icon
 * lib peer dependencies changed to lodash instead camelcase
+
+## v.1.4.2 (28.03.2021)
+
+* bootstrap icons - Change PowerPoint icons to capitalize the P
+* bootstrap icons - Update skip-forward and skip-backward icons to fix their names
