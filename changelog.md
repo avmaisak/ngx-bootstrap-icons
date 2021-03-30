@@ -98,3 +98,13 @@
 
 * bootstrap icons - Change PowerPoint icons to capitalize the P
 * bootstrap icons - Update skip-forward and skip-backward icons to fix their names
+
+## v.1.4.3 (29.03.2021)
+
+* bootstrap icons - Update icons after the svgo update
+* bootstrap icons - Re-run icons script after fresh export from Figma
+
+
+## v.1.4.4 (30.03.2021)
+
+* bootstrap icons - updated to 1.4.1
