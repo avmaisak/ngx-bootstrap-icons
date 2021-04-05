@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { clone } from 'lodash';
+import { clone } from 'lodash.clone';
 import { ClipboardService } from 'ngx-clipboard';
 import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/lib/enums/icon-names.enum';
 
