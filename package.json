@@ -42,7 +42,7 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "0.1102.8",
     "@angular-devkit/build-ng-packagr": "0.1002.0",
-    "@angular-eslint/builder": "2.0.2",
+    "@angular-eslint/builder": "2.1.0",
     "@angular-eslint/eslint-plugin": "2.0.2",
     "@angular-eslint/eslint-plugin-template": "2.1.0",
     "@angular-eslint/schematics": "2.0.2",
