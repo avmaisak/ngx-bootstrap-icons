@@ -1,0 +1,10 @@
+<form [formGroup]="searchForm"
+      class="p-0 container">
+  <div class="form-group p-0 m-0">
+    <input formControlName="searchText"
+           type="text"
+           class="form-control"
+           placeholder="Search icon"
+           (change)="submitForm()" />
+  </div>
+</form>

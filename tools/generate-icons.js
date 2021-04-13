@@ -4,12 +4,17 @@ const clc = require("cli-color");
 const camelCase = require("camelCase");
 const uppercamelcase = require('uppercamelcase');
 
+
+const urlBase = 'https://icons.getbootstrap.com/icons/';
+const allIconsVariable = 'allIcons';
+const libFolder = 'projects/ngx-bootstrap-icons-lib/src/lib';
+
 // source original bootstrap icons
 const iconsSrcFolder = "../icons/icons";
 // enum output folder
-const enumDestFolder = "projects/ngx-bootstrap-icons-lib/src/lib/enums";
+const enumDestFolder = `${libFolder}/enums`;
 // destination of generated icons
-const iconsDestFolder = "projects/ngx-bootstrap-icons-lib/src/lib/icons";
+const iconsDestFolder = `${libFolder}/icons`;
 // template for icons
 const componentTemplate = fs.readFileSync(
   "tools/tmpl/component.ts.tpl",
@@ -35,7 +40,7 @@ return Promise.resolve()
       );
       const exportName = camelCase(iconName);
 
-      exportEnumString += `  /** https://icons.getbootstrap.com/icons/${iconName} */\n`;
+      exportEnumString += `  /** ${urlBase}${iconName} */\n`;
       exportEnumString += `  ${uppercamelcase(iconName)} = '${iconName}',\n`;
 
       let output = componentTemplate
@@ -60,6 +65,6 @@ return Promise.resolve()
     exportAllString += `};\n`;
     exportEnumString += `}\n`;
     fs.appendFileSync(allFile, exportAllString);
-    fs.appendFileSync(indexFile, `\nexport { allIcons } from './all';\n`);
+    fs.appendFileSync(indexFile, `\nexport { ${allIconsVariable} } from './all';\n`);
     fs.writeFileSync(enumFile, exportEnumString);
   });

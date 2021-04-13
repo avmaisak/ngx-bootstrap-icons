@@ -1,7 +1,6 @@
 import { CommonModule, registerLocaleData } from '@angular/common';
 import ru from '@angular/common/locales/ru';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -15,7 +14,6 @@ registerLocaleData(ru);
   ],
   imports: [
     BrowserModule,
-    FormsModule,
     CommonModule,
     AppRoutingModule,
   ],
