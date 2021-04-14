@@ -1,0 +1,60 @@
+<div class="modal modal-dialog-centered "
+     id="exampleModal"
+     tabindex="-1"
+     aria-labelledby="exampleModalLabel"
+     aria-hidden="true"
+     style="opacity: 1;">
+  <div class="modal-dialog"
+       style="width: 480px;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"
+            id="exampleModalLabel">{{ icon }}</h5>
+        <button type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+                (click)="closed.emit()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="p-5 text-center">
+          <i-bs [name]="icon"
+                width="75"
+                height="75">
+          </i-bs>
+        </div>
+
+        <pre class="p-5 text-center">
+          {{ iconCode }}
+        </pre>
+
+        <div *ngIf="!copied"
+             class="text-center">
+          <a class="btn btn-outline-success"
+             (click)="copyToClipBoard();">Copy to clipboard</a>
+        </div>
+
+        <div class="alert alert-success mt-2"
+             *ngIf="copied">
+          <b>Copied!</b>
+
+          <i-bs name="x"
+                class="float-right ml-5 cursor-pointer"
+                (click)="copied = false"></i-bs>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-success"
+           [href]="'https://icons.getbootstrap.com/assets/icons/' + icon + '.svg'"
+           target="_blank">Download svg</a>
+        <button type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+                (click)="closed.emit()">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
