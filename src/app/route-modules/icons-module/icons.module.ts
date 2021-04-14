@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { allIcons, NgxBootstrapIconsModule } from 'ngx-bootstrap-icons';
+import { allIcons } from 'projects/ngx-bootstrap-icons-lib/src/lib/icons/all';
+import { NgxBootstrapIconsModule } from 'projects/ngx-bootstrap-icons-lib/src/lib/ngx-bootstrap-icons.module';
 
 import { HeaderModule } from './components/header/header.module';
 import { IconModalModule } from './components/icon-modal/icon-modal.module';

@@ -1,17 +1,17 @@
 import {
   ChangeDetectorRef, Component, ElementRef, Inject, Input, OnChanges, SimpleChanges,
 } from '@angular/core';
-import * as camelCase_ from 'lodash.camelcase';
 
 import { IModuleConfigOptions, MODULE_CONFIG_TOKEN } from '../../config/module.config';
 import { IconNamesEnum } from '../../enums/icon-names.enum';
+import { toCamelCase } from '../../internal/utils/toCamelCase';
 import { Icons } from '../../providers/icon.provider';
 
 /**
  * Bootstrap icon component.
  */
 @Component({
-  selector: 'i-bs',
+  selector: 'i-bs, *[i-bs]',
   template: '<ng-content></ng-content>',
 })
 export class NgxBootstrapIconsLibComponent implements OnChanges {
@@ -43,8 +43,7 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
     // icons are provided as an array of objects because of "multi: true"
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const icons = Object.assign({}, ...(this._icons as any as object[]));
-    const camelCase = camelCase_;
-    let svg = icons[camelCase(changes.name.currentValue)] || '';
+    let svg = icons[toCamelCase(changes.name.currentValue)] || '';
 
     if (!svg) {
       console.warn(`Icon not found: ${changes.name.currentValue}\n`);
