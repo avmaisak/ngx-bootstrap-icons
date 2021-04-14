@@ -1,0 +1,48 @@
+<app-header></app-header>
+
+<app-top-side></app-top-side>
+
+<app-icon-modal *ngIf="showDialog && selectedIcon"
+                [icon]="selectedIcon"
+                (closed)="toggleShowDialog()"></app-icon-modal>
+<hr />
+
+<div class="container">
+  <div class="row">
+    <div class="col-6"></div>
+    <div class="col-6">
+      <app-search-bar (textChanged)="textChange($event)"></app-search-bar>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-3">
+  <div *ngIf="(icons | async) as items"
+       class="row">
+
+    <ng-container *ngIf="items?.length > 0; else emptyDataTemplate">
+      <div *ngFor="let item of items;"
+           class="col-3 text-center">
+        <div class="border rounded p-5 mb-4 bg-light cursor-pointer"
+             (click)="selectIcon(item)">
+          <i-bs [name]="item"
+                width="35"
+                height="35">
+          </i-bs>
+          <small class="d-block mt-3">{{ item }}</small>
+        </div>
+      </div>
+
+      <div class="text-center p-3 w-100">
+        <a class="btn btn-outline-secondary mx-auto"
+           (click)="nextPage()">More icons</a>
+      </div>
+    </ng-container>
+  </div>
+</div>
+
+<ng-template #emptyDataTemplate>
+  <div class="text-center pt-5 d-block mb-5 w-100">
+    <span class="text-center text-muted mx-auto d-inline-block mb-5">Sorry, but specified icons not found ((</span>
+  </div>
+</ng-template>

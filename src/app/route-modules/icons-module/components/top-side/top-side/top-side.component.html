@@ -1,0 +1,37 @@
+<div class="container py-5">
+  <div class="row">
+    <div class="col-6 pt-5">
+      <h1>Bootstrap Icons</h1>
+      <p>This Angular module allows you to use the Bootstrap Icons in your angular application without additional
+        dependencies.</p>
+
+      <code class="badge badge-light px-5 py-3 w-100 ">
+        {{ installScript }}
+        <i-bs name="clipboard" class="float-right ml-5 clipboard cursor-pointer" (click)="copyToClipBoard()"></i-bs>
+      </code>
+
+      <div class="alert alert-success mt-2"
+           *ngIf="copied">
+        <b>Copied!</b>
+
+        <i-bs name="x"
+              class="float-right ml-5 clipboard"
+              (click)="copied = false"></i-bs>
+      </div>
+
+      <a href="https://github.com/avmaisak/ngx-bootstrap-icons#usage"
+         class="btn btn-outline-success mt-5">Getting started</a>
+
+      <a href="https://github.com/avmaisak/ngx-bootstrap-icons"
+         class="btn btn-link mt-5 ml-3">GitHub repo</a>
+
+      <a href="https://github.com/avmaisak/ngx-bootstrap-icons/releases"
+         class="btn btn-link mt-5 ml-3 text-muted">Latest version <b>{{ version }}</b></a>
+
+    </div>
+
+    <div class="col-6">
+      <app-bs-image></app-bs-image>
+    </div>
+  </div>
+</div>

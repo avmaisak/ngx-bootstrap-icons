@@ -11,7 +11,6 @@ import { Icons } from '../../providers/icon.provider';
  * Bootstrap icon component.
  */
 @Component({
-  // tslint:disable-next-line: component-selector
   selector: 'i-bs',
   template: '<ng-content></ng-content>',
 })
