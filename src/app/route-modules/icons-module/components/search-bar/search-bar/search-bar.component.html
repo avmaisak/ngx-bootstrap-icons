@@ -1,10 +1,19 @@
-<form [formGroup]="searchForm"
-      class="p-0 container">
-  <div class="form-group p-0 m-0">
-    <input formControlName="searchText"
-           type="text"
-           class="form-control"
-           placeholder="Search icon"
-           (change)="submitForm()" />
+<div class="sticky-top bg-white border-top border-bottom py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-6"></div>
+      <div class="col-6">
+        <form [formGroup]="searchForm"
+              class="p-0 container">
+          <div class="form-group p-0 m-0">
+            <input formControlName="searchText"
+                   type="text"
+                   class="form-control form-control-lg"
+                   placeholder="Search icon"
+                   (change)="submitForm()" />
+          </div>
+        </form>
+      </div>
+    </div>
   </div>
-</form>
+</div>

@@ -6,15 +6,15 @@ import { SubscriberComponent } from 'src/app/helpers/component';
 import { IconsUseCases } from '../../icons.usecases';
 import { IconsViewModel } from '../../icons.viewmodel';
 
+export const ITEMS_PER_PAGE = 20;
 @Component({
   selector: 'app-icons-search-page',
   templateUrl: './icons-search-page.component.html',
-  styleUrls: ['./icons-search-page.component.scss'],
 })
 export class IconsSearchPageComponent extends SubscriberComponent implements OnInit {
   public readonly icons = this._viewModel.selectIcons();
 
-  public readonly search = { skip: 0, take: 20 } as ISearch;
+  public readonly search = { skip: 0, take: ITEMS_PER_PAGE } as ISearch;
 
   public showDialog = false;
 
@@ -36,12 +36,6 @@ export class IconsSearchPageComponent extends SubscriberComponent implements OnI
     this._setData();
   }
 
-  public nextPage(): void {
-    // eslint-disable-next-line operator-assignment
-    this.search.take = this.search.take + this.search.take;
-    this._setData();
-  }
-
   public toggleShowDialog(): void {
     this.showDialog = !this.showDialog;
     if (!this.showDialog) {
@@ -52,6 +46,16 @@ export class IconsSearchPageComponent extends SubscriberComponent implements OnI
   public selectIcon(icon: IconNamesEnum): void {
     this.selectedIcon = icon;
     this.toggleShowDialog();
+  }
+
+  public scrolled(): void {
+    this._nextPage();
+  }
+
+  private _nextPage(): void {
+    // eslint-disable-next-line operator-assignment
+    this.search.take = this.search.take + ITEMS_PER_PAGE;
+    this._setData();
   }
 
   private _setData(): void {

@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 import { allIcons } from 'projects/ngx-bootstrap-icons-lib/src/lib/icons/all';
 import { NgxBootstrapIconsModule } from 'projects/ngx-bootstrap-icons-lib/src/lib/ngx-bootstrap-icons.module';
 
@@ -20,6 +21,7 @@ import { IconsSearchPageComponent } from './pages/icons-search-page/icons-search
     HeaderModule,
     TopSideModule,
     IconModalModule,
+    InfiniteScrollModule,
   ],
 })
 export class IconsModule { }
