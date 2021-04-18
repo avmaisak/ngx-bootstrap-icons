@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Query } from '@datorama/akita';
-import { IconNamesEnum } from 'ngx-bootstrap-icons';
+import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/lib/enums/icon-names.enum';
 import { Observable } from 'rxjs';
 import { filter } from 'rxjs/operators';
 

@@ -25,10 +25,11 @@
            class="col-3 text-center">
         <div class="border rounded p-5 mb-4 bg-light cursor-pointer"
              (click)="selectIcon(item)">
-          <i-bs [name]="item"
-                width="35"
-                height="35">
-          </i-bs>
+          <i i-bs
+             [name]="item"
+             width="35"
+             height="35">
+          </i>
           <small class="d-block mt-3">{{ item }}</small>
         </div>
       </div>

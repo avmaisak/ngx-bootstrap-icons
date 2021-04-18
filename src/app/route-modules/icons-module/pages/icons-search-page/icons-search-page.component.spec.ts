@@ -8,9 +8,9 @@ describe('IconsSearchPageComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ IconsSearchPageComponent ]
+      declarations: [IconsSearchPageComponent],
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {

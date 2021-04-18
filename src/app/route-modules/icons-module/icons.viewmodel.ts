@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { IconNamesEnum } from 'ngx-bootstrap-icons';
+import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/lib/enums/icon-names.enum';
 import { Observable } from 'rxjs';
 import { IconsStoreQueries } from 'src/app/stores/icons-store/queries';
 

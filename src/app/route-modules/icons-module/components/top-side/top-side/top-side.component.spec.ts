@@ -8,9 +8,9 @@ describe('TopSideComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TopSideComponent ]
+      declarations: [TopSideComponent],
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {

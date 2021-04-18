@@ -165,6 +165,10 @@ export class AppModule { }
 ```ts
 <i-bs name="alarm-fill"></i-bs>
 ```
+or (with your preffered tag)
+```ts
+<i i-bs name="alarm-fill"></i>
+```
 or optionally use our enums for autocomplete support
 ```ts
 import { iconNamesEnum } from 'ngx-bootstrap-icons';
@@ -181,6 +185,15 @@ Also you can use width and height for icon (By default width and height are 1rem
   width="2rem" 
   height="2rem">
 </i-bs>
+```
+
+```
+<i
+  i-bs 
+  name="alarm-fill" 
+  width="2rem" 
+  height="2rem">
+</i>
 ```
 #### _6. Input parameters_
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IconNamesEnum } from 'ngx-bootstrap-icons';
+import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/lib/enums/icon-names.enum';
 import { ISearch } from 'src/app/apis/api.model';
 import { SubscriberComponent } from 'src/app/helpers/component';
 

@@ -8,9 +8,9 @@ describe('IconModalComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ IconModalComponent ]
+      declarations: [IconModalComponent],
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {

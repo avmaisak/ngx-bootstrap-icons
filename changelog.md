@@ -113,3 +113,15 @@
 ## v.1.4.5 (30.03.2021)
 
 * fixed - #357
+
+## v.1.4.6 (18.04.2021)
+
+* removed unneeded packages
+* engines.node updated to 14 LTS
+* engines.npm updated to 6.14.12
+* removed lodash.camelcase peer dependency
+* added own camelcase function
+* icon can be used like directive with your preffred tag
+* fixed ColorTheme naming enum file
+* demo now uses local library paths
+* fixed #381
