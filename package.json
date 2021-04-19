@@ -46,7 +46,7 @@
     "@angular-eslint/eslint-plugin": "3.0.1",
     "@angular-eslint/eslint-plugin-template": "3.0.1",
     "@angular-eslint/schematics": "3.0.1",
-    "@angular-eslint/template-parser": "3.0.1",
+    "@angular-eslint/template-parser": "4.0.0",
     "@angular/cli": "11.2.9",
     "@angular/compiler-cli": "11.2.10",
     "@angular/language-service": "11.2.10",
