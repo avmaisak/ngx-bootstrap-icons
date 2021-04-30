@@ -125,3 +125,8 @@
 * fixed ColorTheme naming enum file
 * demo now uses local library paths
 * fixed #381
+
+## v.1.5.0 (01.05.2021)
+
+* Add 45 new icons for v1.5.0
+* Updated figma link in readme
