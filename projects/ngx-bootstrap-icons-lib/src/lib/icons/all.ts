@@ -119,6 +119,8 @@ import { bagPlus } from './bag-plus';
 import { bagPlusFill } from './bag-plus-fill';
 import { bagX } from './bag-x';
 import { bagXFill } from './bag-x-fill';
+import { bank } from './bank';
+import { bank2 } from './bank2';
 import { barChart } from './bar-chart';
 import { barChartFill } from './bar-chart-fill';
 import { barChartLine } from './bar-chart-line';
@@ -136,6 +138,8 @@ import { batteryFull } from './battery-full';
 import { batteryHalf } from './battery-half';
 import { bell } from './bell';
 import { bellFill } from './bell-fill';
+import { bellSlash } from './bell-slash';
+import { bellSlashFill } from './bell-slash-fill';
 import { bezier } from './bezier';
 import { bezier2 } from './bezier2';
 import { bicycle } from './bicycle';
@@ -324,6 +328,7 @@ import { cart2 } from './cart2';
 import { cart3 } from './cart3';
 import { cart4 } from './cart4';
 import { cash } from './cash';
+import { cashCoin } from './cash-coin';
 import { cashStack } from './cash-stack';
 import { cast } from './cast';
 import { chat } from './chat';
@@ -362,6 +367,7 @@ import { check } from './check';
 import { checkAll } from './check-all';
 import { checkCircle } from './check-circle';
 import { checkCircleFill } from './check-circle-fill';
+import { checkLg } from './check-lg';
 import { checkSquare } from './check-square';
 import { checkSquareFill } from './check-square-fill';
 import { check2 } from './check2';
@@ -454,6 +460,7 @@ import { cloudyFill } from './cloudy-fill';
 import { code } from './code';
 import { codeSlash } from './code-slash';
 import { codeSquare } from './code-square';
+import { coin } from './coin';
 import { collection } from './collection';
 import { collectionFill } from './collection-fill';
 import { collectionPlay } from './collection-play';
@@ -478,6 +485,12 @@ import { crop } from './crop';
 import { cup } from './cup';
 import { cupFill } from './cup-fill';
 import { cupStraw } from './cup-straw';
+import { currencyBitcoin } from './currency-bitcoin';
+import { currencyDollar } from './currency-dollar';
+import { currencyEuro } from './currency-euro';
+import { currencyExchange } from './currency-exchange';
+import { currencyPound } from './currency-pound';
+import { currencyYen } from './currency-yen';
 import { cursor } from './cursor';
 import { cursorFill } from './cursor-fill';
 import { cursorText } from './cursor-text';
@@ -485,6 +498,7 @@ import { dash } from './dash';
 import { dashCircle } from './dash-circle';
 import { dashCircleDotted } from './dash-circle-dotted';
 import { dashCircleFill } from './dash-circle-fill';
+import { dashLg } from './dash-lg';
 import { dashSquare } from './dash-square';
 import { dashSquareDotted } from './dash-square-dotted';
 import { dashSquareFill } from './dash-square-fill';
@@ -564,6 +578,7 @@ import { exclamationCircle } from './exclamation-circle';
 import { exclamationCircleFill } from './exclamation-circle-fill';
 import { exclamationDiamond } from './exclamation-diamond';
 import { exclamationDiamondFill } from './exclamation-diamond-fill';
+import { exclamationLg } from './exclamation-lg';
 import { exclamationOctagon } from './exclamation-octagon';
 import { exclamationOctagonFill } from './exclamation-octagon-fill';
 import { exclamationSquare } from './exclamation-square';
@@ -631,6 +646,8 @@ import { fileEarmarkMinus } from './file-earmark-minus';
 import { fileEarmarkMinusFill } from './file-earmark-minus-fill';
 import { fileEarmarkMusic } from './file-earmark-music';
 import { fileEarmarkMusicFill } from './file-earmark-music-fill';
+import { fileEarmarkPdf } from './file-earmark-pdf';
+import { fileEarmarkPdfFill } from './file-earmark-pdf-fill';
 import { fileEarmarkPerson } from './file-earmark-person';
 import { fileEarmarkPersonFill } from './file-earmark-person-fill';
 import { fileEarmarkPlay } from './file-earmark-play';
@@ -676,6 +693,8 @@ import { fileMinus } from './file-minus';
 import { fileMinusFill } from './file-minus-fill';
 import { fileMusic } from './file-music';
 import { fileMusicFill } from './file-music-fill';
+import { filePdf } from './file-pdf';
+import { filePdfFill } from './file-pdf-fill';
 import { filePerson } from './file-person';
 import { filePersonFill } from './file-person-fill';
 import { filePlay } from './file-play';
@@ -740,6 +759,10 @@ import { gearFill } from './gear-fill';
 import { gearWide } from './gear-wide';
 import { gearWideConnected } from './gear-wide-connected';
 import { gem } from './gem';
+import { genderAmbiguous } from './gender-ambiguous';
+import { genderFemale } from './gender-female';
+import { genderMale } from './gender-male';
+import { genderTrans } from './gender-trans';
 import { geo } from './geo';
 import { geoAlt } from './geo-alt';
 import { geoAltFill } from './geo-alt-fill';
@@ -786,6 +809,7 @@ import { hddStack } from './hdd-stack';
 import { hddStackFill } from './hdd-stack-fill';
 import { headphones } from './headphones';
 import { headset } from './headset';
+import { headsetVr } from './headset-vr';
 import { heart } from './heart';
 import { heartFill } from './heart-fill';
 import { heartHalf } from './heart-half';
@@ -816,6 +840,7 @@ import { inboxesFill } from './inboxes-fill';
 import { info } from './info';
 import { infoCircle } from './info-circle';
 import { infoCircleFill } from './info-circle-fill';
+import { infoLg } from './info-lg';
 import { infoSquare } from './info-square';
 import { infoSquareFill } from './info-square-fill';
 import { inputCursor } from './input-cursor';
@@ -896,6 +921,7 @@ import { mapFill } from './map-fill';
 import { markdown } from './markdown';
 import { markdownFill } from './markdown-fill';
 import { mask } from './mask';
+import { mastodon } from './mastodon';
 import { megaphone } from './megaphone';
 import { megaphoneFill } from './megaphone-fill';
 import { menuApp } from './menu-app';
@@ -906,6 +932,7 @@ import { menuButtonWide } from './menu-button-wide';
 import { menuButtonWideFill } from './menu-button-wide-fill';
 import { menuDown } from './menu-down';
 import { menuUp } from './menu-up';
+import { messenger } from './messenger';
 import { mic } from './mic';
 import { micFill } from './mic-fill';
 import { micMute } from './mic-mute';
@@ -999,10 +1026,14 @@ import { phoneVibrate } from './phone-vibrate';
 import { phoneVibrateFill } from './phone-vibrate-fill';
 import { pieChart } from './pie-chart';
 import { pieChartFill } from './pie-chart-fill';
+import { piggyBank } from './piggy-bank';
+import { piggyBankFill } from './piggy-bank-fill';
 import { pin } from './pin';
 import { pinAngle } from './pin-angle';
 import { pinAngleFill } from './pin-angle-fill';
 import { pinFill } from './pin-fill';
+import { pinMap } from './pin-map';
+import { pinMapFill } from './pin-map-fill';
 import { pip } from './pip';
 import { pipFill } from './pip-fill';
 import { play } from './play';
@@ -1017,6 +1048,7 @@ import { plus } from './plus';
 import { plusCircle } from './plus-circle';
 import { plusCircleDotted } from './plus-circle-dotted';
 import { plusCircleFill } from './plus-circle-fill';
+import { plusLg } from './plus-lg';
 import { plusSquare } from './plus-square';
 import { plusSquareDotted } from './plus-square-dotted';
 import { plusSquareFill } from './plus-square-fill';
@@ -1030,6 +1062,7 @@ import { questionCircle } from './question-circle';
 import { questionCircleFill } from './question-circle-fill';
 import { questionDiamond } from './question-diamond';
 import { questionDiamondFill } from './question-diamond-fill';
+import { questionLg } from './question-lg';
 import { questionOctagon } from './question-octagon';
 import { questionOctagonFill } from './question-octagon-fill';
 import { questionSquare } from './question-square';
@@ -1050,6 +1083,8 @@ import { recordCircleFill } from './record-circle-fill';
 import { recordFill } from './record-fill';
 import { record2 } from './record2';
 import { record2Fill } from './record2-fill';
+import { recycle } from './recycle';
+import { reddit } from './reddit';
 import { reply } from './reply';
 import { replyAll } from './reply-all';
 import { replyAllFill } from './reply-all-fill';
@@ -1057,12 +1092,18 @@ import { replyFill } from './reply-fill';
 import { rss } from './rss';
 import { rssFill } from './rss-fill';
 import { rulers } from './rulers';
+import { safe } from './safe';
+import { safeFill } from './safe-fill';
+import { safe2 } from './safe2';
+import { safe2Fill } from './safe2-fill';
 import { save } from './save';
 import { saveFill } from './save-fill';
 import { save2 } from './save2';
 import { save2Fill } from './save2-fill';
 import { scissors } from './scissors';
 import { screwdriver } from './screwdriver';
+import { sdCard } from './sd-card';
+import { sdCardFill } from './sd-card-fill';
 import { search } from './search';
 import { segmentedNav } from './segmented-nav';
 import { server } from './server';
@@ -1122,10 +1163,12 @@ import { skipStartBtnFill } from './skip-start-btn-fill';
 import { skipStartCircle } from './skip-start-circle';
 import { skipStartCircleFill } from './skip-start-circle-fill';
 import { skipStartFill } from './skip-start-fill';
+import { skype } from './skype';
 import { slack } from './slack';
 import { slash } from './slash';
 import { slashCircle } from './slash-circle';
 import { slashCircleFill } from './slash-circle-fill';
+import { slashLg } from './slash-lg';
 import { slashSquare } from './slash-square';
 import { slashSquareFill } from './slash-square-fill';
 import { sliders } from './sliders';
@@ -1242,6 +1285,7 @@ import { toggles } from './toggles';
 import { toggles2 } from './toggles2';
 import { tools } from './tools';
 import { tornado } from './tornado';
+import { translate } from './translate';
 import { trash } from './trash';
 import { trashFill } from './trash-fill';
 import { trash2 } from './trash2';
@@ -1316,6 +1360,7 @@ import { xCircle } from './x-circle';
 import { xCircleFill } from './x-circle-fill';
 import { xDiamond } from './x-diamond';
 import { xDiamondFill } from './x-diamond-fill';
+import { xLg } from './x-lg';
 import { xOctagon } from './x-octagon';
 import { xOctagonFill } from './x-octagon-fill';
 import { xSquare } from './x-square';
@@ -1446,6 +1491,8 @@ export const allIcons = {
   bagXFill,
   bagX,
   bag,
+  bank,
+  bank2,
   barChartFill,
   barChartLineFill,
   barChartLine,
@@ -1462,6 +1509,8 @@ export const allIcons = {
   batteryHalf,
   battery,
   bellFill,
+  bellSlashFill,
+  bellSlash,
   bell,
   bezier,
   bezier2,
@@ -1650,6 +1699,7 @@ export const allIcons = {
   cart2,
   cart3,
   cart4,
+  cashCoin,
   cashStack,
   cash,
   cast,
@@ -1688,6 +1738,7 @@ export const allIcons = {
   checkAll,
   checkCircleFill,
   checkCircle,
+  checkLg,
   checkSquareFill,
   checkSquare,
   check,
@@ -1781,6 +1832,7 @@ export const allIcons = {
   codeSlash,
   codeSquare,
   code,
+  coin,
   collectionFill,
   collectionPlayFill,
   collectionPlay,
@@ -1805,12 +1857,19 @@ export const allIcons = {
   cupFill,
   cupStraw,
   cup,
+  currencyBitcoin,
+  currencyDollar,
+  currencyEuro,
+  currencyExchange,
+  currencyPound,
+  currencyYen,
   cursorFill,
   cursorText,
   cursor,
   dashCircleDotted,
   dashCircleFill,
   dashCircle,
+  dashLg,
   dashSquareDotted,
   dashSquareFill,
   dashSquare,
@@ -1890,6 +1949,7 @@ export const allIcons = {
   exclamationCircle,
   exclamationDiamondFill,
   exclamationDiamond,
+  exclamationLg,
   exclamationOctagonFill,
   exclamationOctagon,
   exclamationSquareFill,
@@ -1956,6 +2016,8 @@ export const allIcons = {
   fileEarmarkMinus,
   fileEarmarkMusicFill,
   fileEarmarkMusic,
+  fileEarmarkPdfFill,
+  fileEarmarkPdf,
   fileEarmarkPersonFill,
   fileEarmarkPerson,
   fileEarmarkPlayFill,
@@ -2002,6 +2064,8 @@ export const allIcons = {
   fileMinus,
   fileMusicFill,
   fileMusic,
+  filePdfFill,
+  filePdf,
   filePersonFill,
   filePerson,
   filePlayFill,
@@ -2067,6 +2131,10 @@ export const allIcons = {
   gearWide,
   gear,
   gem,
+  genderAmbiguous,
+  genderFemale,
+  genderMale,
+  genderTrans,
   geoAltFill,
   geoAlt,
   geoFill,
@@ -2112,6 +2180,7 @@ export const allIcons = {
   hddStack,
   hdd,
   headphones,
+  headsetVr,
   headset,
   heartFill,
   heartHalf,
@@ -2142,6 +2211,7 @@ export const allIcons = {
   inboxes,
   infoCircleFill,
   infoCircle,
+  infoLg,
   infoSquareFill,
   infoSquare,
   info,
@@ -2223,6 +2293,7 @@ export const allIcons = {
   markdownFill,
   markdown,
   mask,
+  mastodon,
   megaphoneFill,
   megaphone,
   menuAppFill,
@@ -2233,6 +2304,7 @@ export const allIcons = {
   menuButton,
   menuDown,
   menuUp,
+  messenger,
   micFill,
   micMuteFill,
   micMute,
@@ -2326,9 +2398,13 @@ export const allIcons = {
   phone,
   pieChartFill,
   pieChart,
+  piggyBankFill,
+  piggyBank,
   pinAngleFill,
   pinAngle,
   pinFill,
+  pinMapFill,
+  pinMap,
   pin,
   pipFill,
   pip,
@@ -2343,6 +2419,7 @@ export const allIcons = {
   plusCircleDotted,
   plusCircleFill,
   plusCircle,
+  plusLg,
   plusSquareDotted,
   plusSquareFill,
   plusSquare,
@@ -2356,6 +2433,7 @@ export const allIcons = {
   questionCircle,
   questionDiamondFill,
   questionDiamond,
+  questionLg,
   questionOctagonFill,
   questionOctagon,
   questionSquareFill,
@@ -2377,6 +2455,8 @@ export const allIcons = {
   record,
   record2Fill,
   record2,
+  recycle,
+  reddit,
   replyAllFill,
   replyAll,
   replyFill,
@@ -2384,12 +2464,18 @@ export const allIcons = {
   rssFill,
   rss,
   rulers,
+  safeFill,
+  safe,
+  safe2Fill,
+  safe2,
   saveFill,
   save,
   save2Fill,
   save2,
   scissors,
   screwdriver,
+  sdCardFill,
+  sdCard,
   search,
   segmentedNav,
   server,
@@ -2449,9 +2535,11 @@ export const allIcons = {
   skipStartCircle,
   skipStartFill,
   skipStart,
+  skype,
   slack,
   slashCircleFill,
   slashCircle,
+  slashLg,
   slashSquareFill,
   slashSquare,
   slash,
@@ -2569,6 +2657,7 @@ export const allIcons = {
   toggles2,
   tools,
   tornado,
+  translate,
   trashFill,
   trash,
   trash2Fill,
@@ -2642,6 +2731,7 @@ export const allIcons = {
   xCircle,
   xDiamondFill,
   xDiamond,
+  xLg,
   xOctagonFill,
   xOctagon,
   xSquareFill,

@@ -10,13 +10,12 @@
       <div class="modal-header">
         <h5 class="modal-title"
             id="exampleModalLabel">{{ icon }}</h5>
-        <button type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-                (click)="closed.emit()">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <i-bs name="x"
+              width="30"
+              height="30"
+              class="cursor-pointer"
+              (click)="closed.emit()">
+        </i-bs>
       </div>
       <div class="modal-body">
         <div class="p-5 text-center">
@@ -41,7 +40,7 @@
           <b>Copied!</b>
 
           <i-bs name="x"
-                class="float-right ml-5 cursor-pointer"
+                class="float-right ms-5 cursor-pointer"
                 (click)="copied = false"></i-bs>
         </div>
 
