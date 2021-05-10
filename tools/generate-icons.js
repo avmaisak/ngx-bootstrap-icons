@@ -32,7 +32,8 @@ exportEnumString += `\nexport enum IconNamesEnum {\n`;
 return Promise.resolve()
   .then(() => fs.emptyDirSync(iconsDestFolder))
   .then(() => {
-    fs.readdirSync(`${iconsSrcFolder}`).forEach((filename) => {
+    fs.readdirSync(iconsSrcFolder).forEach((filename) => {
+
       const iconName = filename.replace(".svg", "").trim();
       const fileContent = fs.readFileSync(
         `${iconsSrcFolder}/${filename}`,

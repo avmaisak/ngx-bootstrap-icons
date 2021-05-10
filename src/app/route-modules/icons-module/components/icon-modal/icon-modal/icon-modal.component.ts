@@ -7,7 +7,6 @@ import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/lib/enums/ic
 @Component({
   selector: 'app-icon-modal',
   templateUrl: './icon-modal.component.html',
-  styleUrls: ['./icon-modal.component.scss'],
 })
 export class IconModalComponent {
   @Input()
