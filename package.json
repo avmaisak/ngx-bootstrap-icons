@@ -59,7 +59,7 @@
     "bootstrap-icons": "1.5.0",
     "cli-color": "2.0.0",
     "codelyzer": "6.0.2",
-    "eslint": "7.27.0",
+    "eslint": "7.28.0",
     "eslint-config-airbnb-typescript": "12.3.1",
     "eslint-plugin-import": "2.23.4",
     "eslint-plugin-jasmine": "4.1.2",
