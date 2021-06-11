@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "angular-cli-ghpages": "0.6.2",
-    "@angular-devkit/architect": "^0.1200.3",
+    "@angular-devkit/architect": "^0.1200.4",
     "@angular-devkit/build-angular": "12.0.3",
     "@angular-devkit/build-ng-packagr": "0.1002.0",
     "@angular-eslint/builder": "12.1.0",
