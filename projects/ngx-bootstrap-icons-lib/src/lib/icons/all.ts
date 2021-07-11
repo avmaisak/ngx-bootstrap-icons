@@ -119,6 +119,8 @@ import { bagPlus } from './bag-plus';
 import { bagPlusFill } from './bag-plus-fill';
 import { bagX } from './bag-x';
 import { bagXFill } from './bag-x-fill';
+import { bank } from './bank';
+import { bank2 } from './bank2';
 import { barChart } from './bar-chart';
 import { barChartFill } from './bar-chart-fill';
 import { barChartLine } from './bar-chart-line';
@@ -136,6 +138,8 @@ import { batteryFull } from './battery-full';
 import { batteryHalf } from './battery-half';
 import { bell } from './bell';
 import { bellFill } from './bell-fill';
+import { bellSlash } from './bell-slash';
+import { bellSlashFill } from './bell-slash-fill';
 import { bezier } from './bezier';
 import { bezier2 } from './bezier2';
 import { bicycle } from './bicycle';
@@ -324,6 +328,7 @@ import { cart2 } from './cart2';
 import { cart3 } from './cart3';
 import { cart4 } from './cart4';
 import { cash } from './cash';
+import { cashCoin } from './cash-coin';
 import { cashStack } from './cash-stack';
 import { cast } from './cast';
 import { chat } from './chat';
@@ -362,6 +367,7 @@ import { check } from './check';
 import { checkAll } from './check-all';
 import { checkCircle } from './check-circle';
 import { checkCircleFill } from './check-circle-fill';
+import { checkLg } from './check-lg';
 import { checkSquare } from './check-square';
 import { checkSquareFill } from './check-square-fill';
 import { check2 } from './check2';
@@ -410,18 +416,51 @@ import { cloudCheck } from './cloud-check';
 import { cloudCheckFill } from './cloud-check-fill';
 import { cloudDownload } from './cloud-download';
 import { cloudDownloadFill } from './cloud-download-fill';
+import { cloudDrizzle } from './cloud-drizzle';
+import { cloudDrizzleFill } from './cloud-drizzle-fill';
 import { cloudFill } from './cloud-fill';
+import { cloudFog } from './cloud-fog';
+import { cloudFogFill } from './cloud-fog-fill';
+import { cloudFog2 } from './cloud-fog2';
+import { cloudFog2Fill } from './cloud-fog2-fill';
+import { cloudHail } from './cloud-hail';
+import { cloudHailFill } from './cloud-hail-fill';
+import { cloudHaze } from './cloud-haze';
+import { cloudHaze1 } from './cloud-haze-1';
+import { cloudHazeFill } from './cloud-haze-fill';
+import { cloudHaze2Fill } from './cloud-haze2-fill';
+import { cloudLightning } from './cloud-lightning';
+import { cloudLightningFill } from './cloud-lightning-fill';
+import { cloudLightningRain } from './cloud-lightning-rain';
+import { cloudLightningRainFill } from './cloud-lightning-rain-fill';
 import { cloudMinus } from './cloud-minus';
 import { cloudMinusFill } from './cloud-minus-fill';
+import { cloudMoon } from './cloud-moon';
+import { cloudMoonFill } from './cloud-moon-fill';
 import { cloudPlus } from './cloud-plus';
 import { cloudPlusFill } from './cloud-plus-fill';
+import { cloudRain } from './cloud-rain';
+import { cloudRainFill } from './cloud-rain-fill';
+import { cloudRainHeavy } from './cloud-rain-heavy';
+import { cloudRainHeavyFill } from './cloud-rain-heavy-fill';
 import { cloudSlash } from './cloud-slash';
 import { cloudSlashFill } from './cloud-slash-fill';
+import { cloudSleet } from './cloud-sleet';
+import { cloudSleetFill } from './cloud-sleet-fill';
+import { cloudSnow } from './cloud-snow';
+import { cloudSnowFill } from './cloud-snow-fill';
+import { cloudSun } from './cloud-sun';
+import { cloudSunFill } from './cloud-sun-fill';
 import { cloudUpload } from './cloud-upload';
 import { cloudUploadFill } from './cloud-upload-fill';
+import { clouds } from './clouds';
+import { cloudsFill } from './clouds-fill';
+import { cloudy } from './cloudy';
+import { cloudyFill } from './cloudy-fill';
 import { code } from './code';
 import { codeSlash } from './code-slash';
 import { codeSquare } from './code-square';
+import { coin } from './coin';
 import { collection } from './collection';
 import { collectionFill } from './collection-fill';
 import { collectionPlay } from './collection-play';
@@ -446,6 +485,12 @@ import { crop } from './crop';
 import { cup } from './cup';
 import { cupFill } from './cup-fill';
 import { cupStraw } from './cup-straw';
+import { currencyBitcoin } from './currency-bitcoin';
+import { currencyDollar } from './currency-dollar';
+import { currencyEuro } from './currency-euro';
+import { currencyExchange } from './currency-exchange';
+import { currencyPound } from './currency-pound';
+import { currencyYen } from './currency-yen';
 import { cursor } from './cursor';
 import { cursorFill } from './cursor-fill';
 import { cursorText } from './cursor-text';
@@ -453,6 +498,7 @@ import { dash } from './dash';
 import { dashCircle } from './dash-circle';
 import { dashCircleDotted } from './dash-circle-dotted';
 import { dashCircleFill } from './dash-circle-fill';
+import { dashLg } from './dash-lg';
 import { dashSquare } from './dash-square';
 import { dashSquareDotted } from './dash-square-dotted';
 import { dashSquareFill } from './dash-square-fill';
@@ -532,6 +578,7 @@ import { exclamationCircle } from './exclamation-circle';
 import { exclamationCircleFill } from './exclamation-circle-fill';
 import { exclamationDiamond } from './exclamation-diamond';
 import { exclamationDiamondFill } from './exclamation-diamond-fill';
+import { exclamationLg } from './exclamation-lg';
 import { exclamationOctagon } from './exclamation-octagon';
 import { exclamationOctagonFill } from './exclamation-octagon-fill';
 import { exclamationSquare } from './exclamation-square';
@@ -599,6 +646,8 @@ import { fileEarmarkMinus } from './file-earmark-minus';
 import { fileEarmarkMinusFill } from './file-earmark-minus-fill';
 import { fileEarmarkMusic } from './file-earmark-music';
 import { fileEarmarkMusicFill } from './file-earmark-music-fill';
+import { fileEarmarkPdf } from './file-earmark-pdf';
+import { fileEarmarkPdfFill } from './file-earmark-pdf-fill';
 import { fileEarmarkPerson } from './file-earmark-person';
 import { fileEarmarkPersonFill } from './file-earmark-person-fill';
 import { fileEarmarkPlay } from './file-earmark-play';
@@ -644,6 +693,8 @@ import { fileMinus } from './file-minus';
 import { fileMinusFill } from './file-minus-fill';
 import { fileMusic } from './file-music';
 import { fileMusicFill } from './file-music-fill';
+import { filePdf } from './file-pdf';
+import { filePdfFill } from './file-pdf-fill';
 import { filePerson } from './file-person';
 import { filePersonFill } from './file-person-fill';
 import { filePlay } from './file-play';
@@ -708,6 +759,10 @@ import { gearFill } from './gear-fill';
 import { gearWide } from './gear-wide';
 import { gearWideConnected } from './gear-wide-connected';
 import { gem } from './gem';
+import { genderAmbiguous } from './gender-ambiguous';
+import { genderFemale } from './gender-female';
+import { genderMale } from './gender-male';
+import { genderTrans } from './gender-trans';
 import { geo } from './geo';
 import { geoAlt } from './geo-alt';
 import { geoAltFill } from './geo-alt-fill';
@@ -754,6 +809,7 @@ import { hddStack } from './hdd-stack';
 import { hddStackFill } from './hdd-stack-fill';
 import { headphones } from './headphones';
 import { headset } from './headset';
+import { headsetVr } from './headset-vr';
 import { heart } from './heart';
 import { heartFill } from './heart-fill';
 import { heartHalf } from './heart-half';
@@ -772,6 +828,7 @@ import { houseDoor } from './house-door';
 import { houseDoorFill } from './house-door-fill';
 import { houseFill } from './house-fill';
 import { hr } from './hr';
+import { hurricane } from './hurricane';
 import { image } from './image';
 import { imageAlt } from './image-alt';
 import { imageFill } from './image-fill';
@@ -783,6 +840,7 @@ import { inboxesFill } from './inboxes-fill';
 import { info } from './info';
 import { infoCircle } from './info-circle';
 import { infoCircleFill } from './info-circle-fill';
+import { infoLg } from './info-lg';
 import { infoSquare } from './info-square';
 import { infoSquareFill } from './info-square-fill';
 import { inputCursor } from './input-cursor';
@@ -841,6 +899,8 @@ import { lightbulbFill } from './lightbulb-fill';
 import { lightbulbOff } from './lightbulb-off';
 import { lightbulbOffFill } from './lightbulb-off-fill';
 import { lightning } from './lightning';
+import { lightningCharge } from './lightning-charge';
+import { lightningChargeFill } from './lightning-charge-fill';
 import { lightningFill } from './lightning-fill';
 import { link } from './link';
 import { link45Deg } from './link-45deg';
@@ -861,6 +921,7 @@ import { mapFill } from './map-fill';
 import { markdown } from './markdown';
 import { markdownFill } from './markdown-fill';
 import { mask } from './mask';
+import { mastodon } from './mastodon';
 import { megaphone } from './megaphone';
 import { megaphoneFill } from './megaphone-fill';
 import { menuApp } from './menu-app';
@@ -871,13 +932,18 @@ import { menuButtonWide } from './menu-button-wide';
 import { menuButtonWideFill } from './menu-button-wide-fill';
 import { menuDown } from './menu-down';
 import { menuUp } from './menu-up';
+import { messenger } from './messenger';
 import { mic } from './mic';
 import { micFill } from './mic-fill';
 import { micMute } from './mic-mute';
 import { micMuteFill } from './mic-mute-fill';
 import { minecart } from './minecart';
 import { minecartLoaded } from './minecart-loaded';
+import { moisture } from './moisture';
 import { moon } from './moon';
+import { moonFill } from './moon-fill';
+import { moonStars } from './moon-stars';
+import { moonStarsFill } from './moon-stars-fill';
 import { mouse } from './mouse';
 import { mouseFill } from './mouse-fill';
 import { mouse2 } from './mouse2';
@@ -960,10 +1026,14 @@ import { phoneVibrate } from './phone-vibrate';
 import { phoneVibrateFill } from './phone-vibrate-fill';
 import { pieChart } from './pie-chart';
 import { pieChartFill } from './pie-chart-fill';
+import { piggyBank } from './piggy-bank';
+import { piggyBankFill } from './piggy-bank-fill';
 import { pin } from './pin';
 import { pinAngle } from './pin-angle';
 import { pinAngleFill } from './pin-angle-fill';
 import { pinFill } from './pin-fill';
+import { pinMap } from './pin-map';
+import { pinMapFill } from './pin-map-fill';
 import { pip } from './pip';
 import { pipFill } from './pip-fill';
 import { play } from './play';
@@ -978,6 +1048,7 @@ import { plus } from './plus';
 import { plusCircle } from './plus-circle';
 import { plusCircleDotted } from './plus-circle-dotted';
 import { plusCircleFill } from './plus-circle-fill';
+import { plusLg } from './plus-lg';
 import { plusSquare } from './plus-square';
 import { plusSquareDotted } from './plus-square-dotted';
 import { plusSquareFill } from './plus-square-fill';
@@ -991,10 +1062,12 @@ import { questionCircle } from './question-circle';
 import { questionCircleFill } from './question-circle-fill';
 import { questionDiamond } from './question-diamond';
 import { questionDiamondFill } from './question-diamond-fill';
+import { questionLg } from './question-lg';
 import { questionOctagon } from './question-octagon';
 import { questionOctagonFill } from './question-octagon-fill';
 import { questionSquare } from './question-square';
 import { questionSquareFill } from './question-square-fill';
+import { rainbow } from './rainbow';
 import { receipt } from './receipt';
 import { receiptCutoff } from './receipt-cutoff';
 import { reception0 } from './reception-0';
@@ -1010,6 +1083,8 @@ import { recordCircleFill } from './record-circle-fill';
 import { recordFill } from './record-fill';
 import { record2 } from './record2';
 import { record2Fill } from './record2-fill';
+import { recycle } from './recycle';
+import { reddit } from './reddit';
 import { reply } from './reply';
 import { replyAll } from './reply-all';
 import { replyAllFill } from './reply-all-fill';
@@ -1017,12 +1092,18 @@ import { replyFill } from './reply-fill';
 import { rss } from './rss';
 import { rssFill } from './rss-fill';
 import { rulers } from './rulers';
+import { safe } from './safe';
+import { safeFill } from './safe-fill';
+import { safe2 } from './safe2';
+import { safe2Fill } from './safe2-fill';
 import { save } from './save';
 import { saveFill } from './save-fill';
 import { save2 } from './save2';
 import { save2Fill } from './save2-fill';
 import { scissors } from './scissors';
 import { screwdriver } from './screwdriver';
+import { sdCard } from './sd-card';
+import { sdCardFill } from './sd-card-fill';
 import { search } from './search';
 import { segmentedNav } from './segmented-nav';
 import { server } from './server';
@@ -1082,14 +1163,19 @@ import { skipStartBtnFill } from './skip-start-btn-fill';
 import { skipStartCircle } from './skip-start-circle';
 import { skipStartCircleFill } from './skip-start-circle-fill';
 import { skipStartFill } from './skip-start-fill';
+import { skype } from './skype';
 import { slack } from './slack';
 import { slash } from './slash';
 import { slashCircle } from './slash-circle';
 import { slashCircleFill } from './slash-circle-fill';
+import { slashLg } from './slash-lg';
 import { slashSquare } from './slash-square';
 import { slashSquareFill } from './slash-square-fill';
 import { sliders } from './sliders';
 import { smartwatch } from './smartwatch';
+import { snow } from './snow';
+import { snow2 } from './snow2';
+import { snow3 } from './snow3';
 import { sortAlphaDown } from './sort-alpha-down';
 import { sortAlphaDownAlt } from './sort-alpha-down-alt';
 import { sortAlphaUp } from './sort-alpha-up';
@@ -1115,6 +1201,7 @@ import { stack } from './stack';
 import { star } from './star';
 import { starFill } from './star-fill';
 import { starHalf } from './star-half';
+import { stars } from './stars';
 import { stickies } from './stickies';
 import { stickiesFill } from './stickies-fill';
 import { sticky } from './sticky';
@@ -1139,7 +1226,12 @@ import { suitHeartFill } from './suit-heart-fill';
 import { suitSpade } from './suit-spade';
 import { suitSpadeFill } from './suit-spade-fill';
 import { sun } from './sun';
+import { sunFill } from './sun-fill';
 import { sunglasses } from './sunglasses';
+import { sunrise } from './sunrise';
+import { sunriseFill } from './sunrise-fill';
+import { sunset } from './sunset';
+import { sunsetFill } from './sunset-fill';
 import { symmetryHorizontal } from './symmetry-horizontal';
 import { symmetryVertical } from './symmetry-vertical';
 import { table } from './table';
@@ -1179,6 +1271,10 @@ import { textareaResize } from './textarea-resize';
 import { textareaT } from './textarea-t';
 import { thermometer } from './thermometer';
 import { thermometerHalf } from './thermometer-half';
+import { thermometerHigh } from './thermometer-high';
+import { thermometerLow } from './thermometer-low';
+import { thermometerSnow } from './thermometer-snow';
+import { thermometerSun } from './thermometer-sun';
 import { threeDots } from './three-dots';
 import { threeDotsVertical } from './three-dots-vertical';
 import { toggleOff } from './toggle-off';
@@ -1188,6 +1284,8 @@ import { toggle2On } from './toggle2-on';
 import { toggles } from './toggles';
 import { toggles2 } from './toggles2';
 import { tools } from './tools';
+import { tornado } from './tornado';
+import { translate } from './translate';
 import { trash } from './trash';
 import { trashFill } from './trash-fill';
 import { trash2 } from './trash2';
@@ -1199,8 +1297,10 @@ import { triangleFill } from './triangle-fill';
 import { triangleHalf } from './triangle-half';
 import { trophy } from './trophy';
 import { trophyFill } from './trophy-fill';
+import { tropicalStorm } from './tropical-storm';
 import { truck } from './truck';
 import { truckFlatbed } from './truck-flatbed';
+import { tsunami } from './tsunami';
 import { tv } from './tv';
 import { tvFill } from './tv-fill';
 import { twitch } from './twitch';
@@ -1217,6 +1317,8 @@ import { uiChecks } from './ui-checks';
 import { uiChecksGrid } from './ui-checks-grid';
 import { uiRadios } from './ui-radios';
 import { uiRadiosGrid } from './ui-radios-grid';
+import { umbrella } from './umbrella';
+import { umbrellaFill } from './umbrella-fill';
 import { union } from './union';
 import { unlock } from './unlock';
 import { unlockFill } from './unlock-fill';
@@ -1242,11 +1344,13 @@ import { wallet } from './wallet';
 import { walletFill } from './wallet-fill';
 import { wallet2 } from './wallet2';
 import { watch } from './watch';
+import { water } from './water';
 import { whatsapp } from './whatsapp';
 import { wifi } from './wifi';
 import { wifi1 } from './wifi-1';
 import { wifi2 } from './wifi-2';
 import { wifiOff } from './wifi-off';
+import { wind } from './wind';
 import { window } from './window';
 import { windowDock } from './window-dock';
 import { windowSidebar } from './window-sidebar';
@@ -1256,6 +1360,7 @@ import { xCircle } from './x-circle';
 import { xCircleFill } from './x-circle-fill';
 import { xDiamond } from './x-diamond';
 import { xDiamondFill } from './x-diamond-fill';
+import { xLg } from './x-lg';
 import { xOctagon } from './x-octagon';
 import { xOctagonFill } from './x-octagon-fill';
 import { xSquare } from './x-square';
@@ -1386,6 +1491,8 @@ export const allIcons = {
   bagXFill,
   bagX,
   bag,
+  bank,
+  bank2,
   barChartFill,
   barChartLineFill,
   barChartLine,
@@ -1402,6 +1509,8 @@ export const allIcons = {
   batteryHalf,
   battery,
   bellFill,
+  bellSlashFill,
+  bellSlash,
   bell,
   bezier,
   bezier2,
@@ -1590,6 +1699,7 @@ export const allIcons = {
   cart2,
   cart3,
   cart4,
+  cashCoin,
   cashStack,
   cash,
   cast,
@@ -1628,6 +1738,7 @@ export const allIcons = {
   checkAll,
   checkCircleFill,
   checkCircle,
+  checkLg,
   checkSquareFill,
   checkSquare,
   check,
@@ -1676,19 +1787,52 @@ export const allIcons = {
   cloudCheck,
   cloudDownloadFill,
   cloudDownload,
+  cloudDrizzleFill,
+  cloudDrizzle,
   cloudFill,
+  cloudFogFill,
+  cloudFog,
+  cloudFog2Fill,
+  cloudFog2,
+  cloudHailFill,
+  cloudHail,
+  cloudHaze1,
+  cloudHazeFill,
+  cloudHaze,
+  cloudHaze2Fill,
+  cloudLightningFill,
+  cloudLightningRainFill,
+  cloudLightningRain,
+  cloudLightning,
   cloudMinusFill,
   cloudMinus,
+  cloudMoonFill,
+  cloudMoon,
   cloudPlusFill,
   cloudPlus,
+  cloudRainFill,
+  cloudRainHeavyFill,
+  cloudRainHeavy,
+  cloudRain,
   cloudSlashFill,
   cloudSlash,
+  cloudSleetFill,
+  cloudSleet,
+  cloudSnowFill,
+  cloudSnow,
+  cloudSunFill,
+  cloudSun,
   cloudUploadFill,
   cloudUpload,
   cloud,
+  cloudsFill,
+  clouds,
+  cloudyFill,
+  cloudy,
   codeSlash,
   codeSquare,
   code,
+  coin,
   collectionFill,
   collectionPlayFill,
   collectionPlay,
@@ -1713,12 +1857,19 @@ export const allIcons = {
   cupFill,
   cupStraw,
   cup,
+  currencyBitcoin,
+  currencyDollar,
+  currencyEuro,
+  currencyExchange,
+  currencyPound,
+  currencyYen,
   cursorFill,
   cursorText,
   cursor,
   dashCircleDotted,
   dashCircleFill,
   dashCircle,
+  dashLg,
   dashSquareDotted,
   dashSquareFill,
   dashSquare,
@@ -1798,6 +1949,7 @@ export const allIcons = {
   exclamationCircle,
   exclamationDiamondFill,
   exclamationDiamond,
+  exclamationLg,
   exclamationOctagonFill,
   exclamationOctagon,
   exclamationSquareFill,
@@ -1864,6 +2016,8 @@ export const allIcons = {
   fileEarmarkMinus,
   fileEarmarkMusicFill,
   fileEarmarkMusic,
+  fileEarmarkPdfFill,
+  fileEarmarkPdf,
   fileEarmarkPersonFill,
   fileEarmarkPerson,
   fileEarmarkPlayFill,
@@ -1910,6 +2064,8 @@ export const allIcons = {
   fileMinus,
   fileMusicFill,
   fileMusic,
+  filePdfFill,
+  filePdf,
   filePersonFill,
   filePerson,
   filePlayFill,
@@ -1975,6 +2131,10 @@ export const allIcons = {
   gearWide,
   gear,
   gem,
+  genderAmbiguous,
+  genderFemale,
+  genderMale,
+  genderTrans,
   geoAltFill,
   geoAlt,
   geoFill,
@@ -2020,6 +2180,7 @@ export const allIcons = {
   hddStack,
   hdd,
   headphones,
+  headsetVr,
   headset,
   heartFill,
   heartHalf,
@@ -2039,6 +2200,7 @@ export const allIcons = {
   houseFill,
   house,
   hr,
+  hurricane,
   imageAlt,
   imageFill,
   image,
@@ -2049,6 +2211,7 @@ export const allIcons = {
   inboxes,
   infoCircleFill,
   infoCircle,
+  infoLg,
   infoSquareFill,
   infoSquare,
   info,
@@ -2107,6 +2270,8 @@ export const allIcons = {
   lightbulbOffFill,
   lightbulbOff,
   lightbulb,
+  lightningChargeFill,
+  lightningCharge,
   lightningFill,
   lightning,
   link45Deg,
@@ -2128,6 +2293,7 @@ export const allIcons = {
   markdownFill,
   markdown,
   mask,
+  mastodon,
   megaphoneFill,
   megaphone,
   menuAppFill,
@@ -2138,12 +2304,17 @@ export const allIcons = {
   menuButton,
   menuDown,
   menuUp,
+  messenger,
   micFill,
   micMuteFill,
   micMute,
   mic,
   minecartLoaded,
   minecart,
+  moisture,
+  moonFill,
+  moonStarsFill,
+  moonStars,
   moon,
   mouseFill,
   mouse,
@@ -2227,9 +2398,13 @@ export const allIcons = {
   phone,
   pieChartFill,
   pieChart,
+  piggyBankFill,
+  piggyBank,
   pinAngleFill,
   pinAngle,
   pinFill,
+  pinMapFill,
+  pinMap,
   pin,
   pipFill,
   pip,
@@ -2244,6 +2419,7 @@ export const allIcons = {
   plusCircleDotted,
   plusCircleFill,
   plusCircle,
+  plusLg,
   plusSquareDotted,
   plusSquareFill,
   plusSquare,
@@ -2257,11 +2433,13 @@ export const allIcons = {
   questionCircle,
   questionDiamondFill,
   questionDiamond,
+  questionLg,
   questionOctagonFill,
   questionOctagon,
   questionSquareFill,
   questionSquare,
   question,
+  rainbow,
   receiptCutoff,
   receipt,
   reception0,
@@ -2277,6 +2455,8 @@ export const allIcons = {
   record,
   record2Fill,
   record2,
+  recycle,
+  reddit,
   replyAllFill,
   replyAll,
   replyFill,
@@ -2284,12 +2464,18 @@ export const allIcons = {
   rssFill,
   rss,
   rulers,
+  safeFill,
+  safe,
+  safe2Fill,
+  safe2,
   saveFill,
   save,
   save2Fill,
   save2,
   scissors,
   screwdriver,
+  sdCardFill,
+  sdCard,
   search,
   segmentedNav,
   server,
@@ -2349,14 +2535,19 @@ export const allIcons = {
   skipStartCircle,
   skipStartFill,
   skipStart,
+  skype,
   slack,
   slashCircleFill,
   slashCircle,
+  slashLg,
   slashSquareFill,
   slashSquare,
   slash,
   sliders,
   smartwatch,
+  snow,
+  snow2,
+  snow3,
   sortAlphaDownAlt,
   sortAlphaDown,
   sortAlphaUpAlt,
@@ -2382,6 +2573,7 @@ export const allIcons = {
   starFill,
   starHalf,
   star,
+  stars,
   stickiesFill,
   stickies,
   stickyFill,
@@ -2405,8 +2597,13 @@ export const allIcons = {
   suitHeart,
   suitSpadeFill,
   suitSpade,
+  sunFill,
   sun,
   sunglasses,
+  sunriseFill,
+  sunrise,
+  sunsetFill,
+  sunset,
   symmetryHorizontal,
   symmetryVertical,
   table,
@@ -2445,6 +2642,10 @@ export const allIcons = {
   textareaT,
   textarea,
   thermometerHalf,
+  thermometerHigh,
+  thermometerLow,
+  thermometerSnow,
+  thermometerSun,
   thermometer,
   threeDotsVertical,
   threeDots,
@@ -2455,6 +2656,8 @@ export const allIcons = {
   toggles,
   toggles2,
   tools,
+  tornado,
+  translate,
   trashFill,
   trash,
   trash2Fill,
@@ -2466,8 +2669,10 @@ export const allIcons = {
   triangle,
   trophyFill,
   trophy,
+  tropicalStorm,
   truckFlatbed,
   truck,
+  tsunami,
   tvFill,
   tv,
   twitch,
@@ -2484,6 +2689,8 @@ export const allIcons = {
   uiChecks,
   uiRadiosGrid,
   uiRadios,
+  umbrellaFill,
+  umbrella,
   union,
   unlockFill,
   unlock,
@@ -2509,11 +2716,13 @@ export const allIcons = {
   wallet,
   wallet2,
   watch,
+  water,
   whatsapp,
   wifi1,
   wifi2,
   wifiOff,
   wifi,
+  wind,
   windowDock,
   windowSidebar,
   window,
@@ -2522,6 +2731,7 @@ export const allIcons = {
   xCircle,
   xDiamondFill,
   xDiamond,
+  xLg,
   xOctagonFill,
   xOctagon,
   xSquareFill,

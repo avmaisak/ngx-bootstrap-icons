@@ -1,6 +1,6 @@
 <p align="center" style="text-align:center">
   <a href="https://v5.getbootstrap.com/" target="_blank">
-    <img src="https://camo.githubusercontent.com/0e0adf58c74c6e74bb64ece5d0ef4620f4f46915/68747470733a2f2f76352e676574626f6f7473747261702e636f6d2f646f63732f352e302f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67" alt="Bootstrap logo" width="200a" height="165">
+    <img src="https://icons.getbootstrap.com/assets/img/icons-hero.png" alt="Bootstrap logo" width="450" height="340">
   </a>
   <h3 align="center" style="color:#6610f2">ngx-bootstrap-icons</h3>
 </p>
@@ -10,8 +10,13 @@
 
 
 
-[![GitHub issues](https://img.shields.io/github/issues/avmaisak/ngx-bootstrap-icons)](https://github.com/avmaisak/ngx-bootstrap-icons/issues) [![GitHub license](https://img.shields.io/github/license/avmaisak/ngx-bootstrap-icons)](https://github.com/avmaisak/ngx-bootstrap-icons/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/avmaisak/ngx-bootstrap-icons)](https://github.com/avmaisak/ngx-bootstrap-icons/stargazers) [![npm version](https://badge.fury.io/js/ngx-bootstrap-icons.svg)](https://badge.fury.io/js/ngx-bootstrap-icons) [![Package Quality](https://npm.packagequality.com/shield/ngx-bootstrap-icons.svg)](https://packagequality.com/#?package=ngx-bootstrap-icons)  <a href="https://www.figma.com/file/hTJtQ2MrMTeNVmYrVBqNZZ/Bootstrap-Icons-v1.0.0-alpha5?node-id=0%3A1" target="_blank">     <img src="https://avatars3.githubusercontent.com/u/5155369?s=200&v=4" alt="Bootstrap logo" width="21" height="21">
-  </a>
+[![GitHub issues](https://img.shields.io/github/issues/avmaisak/ngx-bootstrap-icons)](https://github.com/avmaisak/ngx-bootstrap-icons/issues)
+[![GitHub license](https://img.shields.io/github/license/avmaisak/ngx-bootstrap-icons)](https://github.com/avmaisak/ngx-bootstrap-icons/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/avmaisak/ngx-bootstrap-icons)](https://github.com/avmaisak/ngx-bootstrap-icons/stargazers)
+[![npm version](https://badge.fury.io/js/ngx-bootstrap-icons.svg)](https://badge.fury.io/js/ngx-bootstrap-icons)
+[![Package Quality](https://npm.packagequality.com/shield/ngx-bootstrap-icons.svg)](https://packagequality.com/#?package=ngx-bootstrap-icons)<a href="https://www.figma.com/file/YjjMzXhECL1MIb6Qlm7VJO/Bootstrap-Icons-v1.4.1" target="_blank">
+  <img src="https://avatars3.githubusercontent.com/u/5155369?s=200&v=4" alt="Bootstrap logo" width="21" height="21">
+</a>
 ```sh
 npm i ngx-bootstrap-icons --save
 ```
@@ -69,7 +74,7 @@ import { NgxBootstrapIconsModule, allIcons } from 'ngx-bootstrap-icons';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxBootstrapIconsModule.forRoot(allIcons)
+    NgxBootstrapIconsModule.pick(allIcons)
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -97,7 +102,7 @@ const icons = {
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxBootstrapIconsModule.forRoot(icons)
+    NgxBootstrapIconsModule.pick(icons)
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -109,9 +114,9 @@ export class AppModule { }
 Another way.
 --------------
 
-Import NgxBootstrapIconsModule.forRoot(icons) inside of the AppModule
+Import NgxBootstrapIconsModule.pick(icons) inside of the AppModule
 
-Import NgxBootstrapIconsModule (without the forRoot() method) inside of any FeatureModule where will be used.
+Import NgxBootstrapIconsModule (without the pick() method) inside of any FeatureModule where will be used.
 
 Now you can import icons in one place only (root module) and successfully use the component anywhere you want.
 
@@ -139,7 +144,7 @@ const icons = {
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxBootstrapIconsModule.forRoot(icons, { 
+    NgxBootstrapIconsModule.pick(icons, { 
         width: '2em', 
         height: '2em', 
         theme: ColorTheme.Danger,
@@ -165,6 +170,10 @@ export class AppModule { }
 ```ts
 <i-bs name="alarm-fill"></i-bs>
 ```
+or (with your preffered tag)
+```ts
+<i i-bs name="alarm-fill"></i>
+```
 or optionally use our enums for autocomplete support
 ```ts
 import { iconNamesEnum } from 'ngx-bootstrap-icons';
@@ -181,6 +190,15 @@ Also you can use width and height for icon (By default width and height are 1rem
   width="2rem" 
   height="2rem">
 </i-bs>
+```
+
+```
+<i
+  i-bs 
+  name="alarm-fill" 
+  width="2rem" 
+  height="2rem">
+</i>
 ```
 #### _6. Input parameters_
 

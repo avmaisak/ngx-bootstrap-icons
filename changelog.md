@@ -76,3 +76,57 @@
 
 * fixed #222, added config options for module,
 * [breaking changes] - pick() changed forRoot()
+
+## v.1.3.6 (23.02.2021)
+
+* Updated to 1.4.0
+* fixed #253, added config options for module,
+* [breaking changes] - reverted to pick() method
+
+## v.1.4.0 (01.03.2021)
+
+* Sync version with bootstrap-icons
+
+## v.1.4.1 (24.03.2021)
+
+* bootstrap icons - Update mic and record icons to prevent fill rule issues (#815)
+* bootstrap icons - Update mic icons to prevent fill rule issues
+* bootstrap icons - Fixes #673: Fix fill-rule on record icon
+* lib peer dependencies changed to lodash instead camelcase
+
+## v.1.4.2 (28.03.2021)
+
+* bootstrap icons - Change PowerPoint icons to capitalize the P
+* bootstrap icons - Update skip-forward and skip-backward icons to fix their names
+
+## v.1.4.3 (29.03.2021)
+
+* bootstrap icons - Update icons after the svgo update
+* bootstrap icons - Re-run icons script after fresh export from Figma
+
+
+## v.1.4.4 (30.03.2021)
+
+* bootstrap icons - updated to 1.4.1
+
+
+## v.1.4.5 (30.03.2021)
+
+* fixed - #357
+
+## v.1.4.6 (18.04.2021)
+
+* removed unneeded packages
+* engines.node updated to 14 LTS
+* engines.npm updated to 6.14.12
+* removed lodash.camelcase peer dependency
+* added own camelcase function
+* icon can be used like directive with your preffred tag
+* fixed ColorTheme naming enum file
+* demo now uses local library paths
+* fixed #381
+
+## v.1.5.0 (01.05.2021)
+
+* Add 45 new icons for v1.5.0
+* Updated figma link in readme
