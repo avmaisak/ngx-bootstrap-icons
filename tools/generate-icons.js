@@ -10,7 +10,7 @@ const allIconsVariable = 'allIcons';
 const libFolder = 'projects/ngx-bootstrap-icons-lib/src/lib';
 
 // source original bootstrap icons
-const iconsSrcFolder = "../icons";
+const iconsSrcFolder = "icons";
 // enum output folder
 const enumDestFolder = `${libFolder}/enums`;
 // type output folder

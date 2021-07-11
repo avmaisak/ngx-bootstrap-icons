@@ -340,6 +340,12 @@ export enum IconNamesEnum {
   Bookshelf = 'bookshelf',
   /** https://icons.getbootstrap.com/icons/bootstrap-fill */
   BootstrapFill = 'bootstrap-fill',
+  /** https://icons.getbootstrap.com/icons/bootstrap-icons.css */
+  BootstrapIconsCss = 'bootstrap-icons.css',
+  /** https://icons.getbootstrap.com/icons/bootstrap-icons.json */
+  BootstrapIconsJson = 'bootstrap-icons.json',
+  /** https://icons.getbootstrap.com/icons/bootstrap-icons */
+  BootstrapIcons = 'bootstrap-icons',
   /** https://icons.getbootstrap.com/icons/bootstrap-reboot */
   BootstrapReboot = 'bootstrap-reboot',
   /** https://icons.getbootstrap.com/icons/bootstrap */
@@ -1678,6 +1684,8 @@ export enum IconNamesEnum {
   InboxesFill = 'inboxes-fill',
   /** https://icons.getbootstrap.com/icons/inboxes */
   Inboxes = 'inboxes',
+  /** https://icons.getbootstrap.com/icons/index.html */
+  IndexHtml = 'index.html',
   /** https://icons.getbootstrap.com/icons/info-circle-fill */
   InfoCircleFill = 'info-circle-fill',
   /** https://icons.getbootstrap.com/icons/info-circle */
@@ -2740,4 +2748,4 @@ export enum IconNamesEnum {
   ZoomIn = 'zoom-in',
   /** https://icons.getbootstrap.com/icons/zoom-out */
   ZoomOut = 'zoom-out',
-}
+};
