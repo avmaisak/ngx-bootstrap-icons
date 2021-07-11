@@ -1,7 +1,7 @@
 const fs = require("fs-extra");
 const clc = require("cli-color");
 
-const camelCase = require("camelCase");
+const camelcase = require("camelcase");
 const uppercamelcase = require('uppercamelcase');
 
 
@@ -45,7 +45,7 @@ return Promise.resolve()
         `${iconsSrcFolder}/${filename}`,
         "utf-8"
       );
-      const exportName = camelCase(iconName);
+      const exportName = camelcase(iconName);
 
       exportEnumString += `  /** ${urlBase}${iconName} */\n`;
       exportEnumString += `  ${uppercamelcase(iconName)} = '${iconName}',\n`;
