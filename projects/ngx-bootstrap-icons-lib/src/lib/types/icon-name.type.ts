@@ -2747,5 +2747,4 @@ export type IconName =
   /** https://icons.getbootstrap.com/icons/zoom-in */
 'zoom-in' |
   /** https://icons.getbootstrap.com/icons/zoom-out */
-'zoom-out' |
-;
+'zoom-out';

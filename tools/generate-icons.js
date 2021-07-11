@@ -2,12 +2,11 @@ const fs = require("fs-extra");
 const clc = require("cli-color");
 
 const camelcase = require("camelcase");
-const uppercamelcase = require('uppercamelcase');
+const uppercamelcase = require("uppercamelcase");
 
-
-const urlBase = 'https://icons.getbootstrap.com/icons/';
-const allIconsVariable = 'allIcons';
-const libFolder = 'projects/ngx-bootstrap-icons-lib/src/lib';
+const urlBase = "https://icons.getbootstrap.com/icons/";
+const allIconsVariable = "allIcons";
+const libFolder = "projects/ngx-bootstrap-icons-lib/src/lib";
 
 // source original bootstrap icons
 const iconsSrcFolder = "icons";
@@ -38,15 +37,13 @@ exportTypeString += `\nexport type IconName =\n`;
 fs.emptyDirSync(iconsDestFolder);
 fs.readdirSync(iconsSrcFolder).forEach((filename) => {
   const iconName = filename.replace(".svg", "").trim();
-  const fileContent = fs.readFileSync(
-    `${iconsSrcFolder}/${filename}`,
-    "utf-8"
-  );
+  const fileContent = fs.readFileSync(`${iconsSrcFolder}/${filename}`, "utf-8");
   const exportName = camelcase(iconName);
   exportEnumString += `  /** ${urlBase}${iconName} */\n`;
   exportEnumString += `  ${uppercamelcase(iconName)} = '${iconName}',\n`;
   exportTypeString += `  /** https://icons.getbootstrap.com/icons/${iconName} */\n`;
   exportTypeString += `'${iconName}' |\n`;
+
   let output = componentTemplate
     .replace(/__ICON_NAME__/g, iconName)
     .replace(/__EXPORT_NAME__/g, exportName)
@@ -65,8 +62,15 @@ fs.readdirSync(iconsSrcFolder).forEach((filename) => {
 });
 exportAllString += `};\n`;
 exportEnumString += `};\n`;
+
+// Remove last Pipe character ("|") from Type Output
+exportTypeString = exportTypeString.slice(0, -3);
 exportTypeString += `;\n`;
+
 fs.appendFileSync(allFile, exportAllString);
-fs.appendFileSync(indexFile, `\nexport { ${allIconsVariable} } from './all';\n`);
+fs.appendFileSync(
+  indexFile,
+  `\nexport { ${allIconsVariable} } from './all';\n`
+);
 fs.writeFileSync(enumFile, exportEnumString);
 fs.writeFileSync(typeFile, exportTypeString);
