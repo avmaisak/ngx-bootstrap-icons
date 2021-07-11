@@ -13,6 +13,8 @@ const libFolder = 'projects/ngx-bootstrap-icons-lib/src/lib';
 const iconsSrcFolder = "../icons/icons";
 // enum output folder
 const enumDestFolder = `${libFolder}/enums`;
+// type output folder
+const typeDestFolder = "projects/ngx-bootstrap-icons-lib/src/lib/types";
 // destination of generated icons
 const iconsDestFolder = `${libFolder}/icons`;
 // template for icons
@@ -24,10 +26,14 @@ const componentTemplate = fs.readFileSync(
 const indexFile = `${iconsDestFolder}/index.ts`;
 const allFile = `${iconsDestFolder}/all.ts`;
 const enumFile = `${enumDestFolder}/icon-names.enum.ts`;
+const typeFile = `${typeDestFolder}/icon-name.type.ts`;
 
 let exportAllString = `\nexport const allIcons = {\n`;
 let exportEnumString = `/** Enum with all icons. */`;
+let exportTypeString = `/** Type for icon names. */`;
+
 exportEnumString += `\nexport enum IconNamesEnum {\n`;
+exportTypeString += `\nexport type IconName =\n`;
 
 return Promise.resolve()
   .then(() => fs.emptyDirSync(iconsDestFolder))
@@ -43,6 +49,9 @@ return Promise.resolve()
 
       exportEnumString += `  /** ${urlBase}${iconName} */\n`;
       exportEnumString += `  ${uppercamelcase(iconName)} = '${iconName}',\n`;
+
+      exportTypeString += `  /** https://icons.getbootstrap.com/icons/${iconName} */\n`;
+      exportTypeString += `'${iconName}' |\n`;
 
       let output = componentTemplate
         .replace(/__ICON_NAME__/g, iconName)
@@ -65,7 +74,10 @@ return Promise.resolve()
 
     exportAllString += `};\n`;
     exportEnumString += `}\n`;
+    exportTypeString += `}\n`;
+
     fs.appendFileSync(allFile, exportAllString);
     fs.appendFileSync(indexFile, `\nexport { ${allIconsVariable} } from './all';\n`);
     fs.writeFileSync(enumFile, exportEnumString);
+    fs.writeFileSync(typeFile, exportTypeString);
   });
