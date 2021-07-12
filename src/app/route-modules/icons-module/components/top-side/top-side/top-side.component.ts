@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ClipboardService } from 'ngx-clipboard';
-import { version } from 'package.json';
+
 @Component({
   selector: 'app-top-side',
   templateUrl: './top-side.component.html',
@@ -15,9 +15,5 @@ export class TopSideComponent {
   public copyToClipBoard(): void {
     this._clipboardService.copy(this.installScript);
     this.copied = true;
-  }
-
-  public get version(): string {
-    return version;
   }
 }

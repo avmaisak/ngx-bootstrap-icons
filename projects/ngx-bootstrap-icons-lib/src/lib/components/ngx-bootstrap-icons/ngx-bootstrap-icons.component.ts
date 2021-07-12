@@ -1,11 +1,21 @@
 import {
-  ChangeDetectorRef, Component, ElementRef, Inject, Input, OnChanges, SimpleChanges,
+  ChangeDetectorRef,
+  Component,
+  ElementRef,
+  Inject,
+  Input,
+  OnChanges,
+  SimpleChanges,
 } from '@angular/core';
 
-import { IModuleConfigOptions, MODULE_CONFIG_TOKEN } from '../../config/module.config';
+import {
+  IModuleConfigOptions,
+  MODULE_CONFIG_TOKEN,
+} from '../../config/module.config';
 import { IconNamesEnum } from '../../enums/icon-names.enum';
 import { toCamelCase } from '../../internal/utils/toCamelCase';
 import { Icons } from '../../providers/icon.provider';
+import { IconName } from '../../types/icon-names.type';
 
 /**
  * Bootstrap icon component.
@@ -16,16 +26,20 @@ import { Icons } from '../../providers/icon.provider';
 })
 export class NgxBootstrapIconsLibComponent implements OnChanges {
   /** Icon name. */
-  @Input() public name!: string | IconNamesEnum;
+  @Input()
+  public name!: string | IconNamesEnum | IconName;
 
   /** Icon width. */
-  @Input() public width!: string;
+  @Input()
+  public width!: string;
 
   /** Icon height. */
-  @Input() public height!: string;
+  @Input()
+  public height!: string;
 
   /** Removes default dimensions from svg. */
-  @Input() public resetDefaultDimensions = false;
+  @Input()
+  public resetDefaultDimensions = false;
 
   constructor(
     private _elem: ElementRef,
@@ -52,9 +66,15 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
 
     // if config provided
     if (this._config) {
-      if (this._config.width) svg = svg.replace('width="16"', `width="${this._config.width}"`);
-      if (this._config.height) svg = svg.replace('height="16"', `height="${this._config.height}"`);
-      if (this._config.theme) this._elem.nativeElement.classList.add(this._config.theme);
+      if (this._config.width) {
+        svg = svg.replace('width="16"', `width="${this._config.width}"`);
+      }
+      if (this._config.height) {
+        svg = svg.replace('height="16"', `height="${this._config.height}"`);
+      }
+      if (this._config.theme) {
+        this._elem.nativeElement.classList.add(this._config.theme);
+      }
     }
 
     if (this.resetDefaultDimensions) {
@@ -62,8 +82,12 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
       svg = svg.replace('height="16"', '');
     }
 
-    if (this.width && svg.includes('width')) svg = svg.replace('width="16"', `width="${this.width}"`);
-    if (this.height && svg.includes('height')) svg = svg.replace('height="16"', `height="${this.height}"`);
+    if (this.width && svg.includes('width')) {
+      svg = svg.replace('width="16"', `width="${this.width}"`);
+    }
+    if (this.height && svg.includes('height')) {
+      svg = svg.replace('height="16"', `height="${this.height}"`);
+    }
 
     this._elem.nativeElement.innerHTML = svg;
     this._changeDetector.markForCheck();
