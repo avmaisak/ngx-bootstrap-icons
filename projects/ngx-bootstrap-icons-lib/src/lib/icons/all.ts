@@ -2209,6 +2209,7 @@ export const allIcons = {
   inbox,
   inboxesFill,
   inboxes,
+  indexHtml,
   infoCircleFill,
   infoCircle,
   infoLg,
