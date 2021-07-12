@@ -8,3 +8,5 @@ export * from './lib/enums/color-theme.enum';
 export * from './lib/enums/icon-names.enum';
 export * from './lib/icons';
 export * from './lib/ngx-bootstrap-icons.module';
+export * from './lib/types/color-theme.type';
+export * from './lib/types/icon-names.type';

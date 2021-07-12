@@ -15,7 +15,7 @@ import {
 import { IconNamesEnum } from '../../enums/icon-names.enum';
 import { toCamelCase } from '../../internal/utils/toCamelCase';
 import { Icons } from '../../providers/icon.provider';
-import { IconName } from '../../types/icon-name.type';
+import { IconName } from '../../types/icon-names.type';
 
 /**
  * Bootstrap icon component.
@@ -26,23 +26,27 @@ import { IconName } from '../../types/icon-name.type';
 })
 export class NgxBootstrapIconsLibComponent implements OnChanges {
   /** Icon name. */
-  @Input() public name!: string | IconName | IconNamesEnum;
+  @Input()
+  public name!: string | IconNamesEnum | IconName;
 
   /** Icon width. */
-  @Input() public width!: string;
+  @Input()
+  public width!: string;
 
   /** Icon height. */
-  @Input() public height!: string;
+  @Input()
+  public height!: string;
 
   /** Removes default dimensions from svg. */
-  @Input() public resetDefaultDimensions = false;
+  @Input()
+  public resetDefaultDimensions = false;
 
   constructor(
     private _elem: ElementRef,
     private _changeDetector: ChangeDetectorRef,
     @Inject(Icons) private _icons: Icons,
     @Inject(MODULE_CONFIG_TOKEN) private _config: IModuleConfigOptions,
-  ) {}
+  ) { }
 
   /**
    * OnChanges event.

@@ -4,6 +4,7 @@ import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/lib/enums/ic
 import { Observable, of } from 'rxjs';
 
 import { ISearch } from './api.model';
+
 @Injectable({ providedIn: 'root' })
 export class ApiService {
   public getIcons(search: ISearch): Observable<IconNamesEnum[]> {

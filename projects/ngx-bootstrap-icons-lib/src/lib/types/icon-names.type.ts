@@ -1678,8 +1678,6 @@ export type IconName =
 'inboxes-fill' |
   /** https://icons.getbootstrap.com/icons/inboxes */
 'inboxes' |
-  /** https://icons.getbootstrap.com/icons/index.html */
-'index.html' |
   /** https://icons.getbootstrap.com/icons/info-circle-fill */
 'info-circle-fill' |
   /** https://icons.getbootstrap.com/icons/info-circle */

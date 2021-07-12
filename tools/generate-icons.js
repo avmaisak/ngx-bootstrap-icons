@@ -9,7 +9,7 @@ const allIconsVariable = "allIcons";
 const libFolder = "projects/ngx-bootstrap-icons-lib/src/lib";
 
 // source original bootstrap icons
-const iconsSrcFolder = "icons";
+const iconsSrcFolder = "../icons/icons";
 // enum output folder
 const enumDestFolder = `${libFolder}/enums`;
 // type output folder
@@ -25,7 +25,7 @@ const componentTemplate = fs.readFileSync(
 const indexFile = `${iconsDestFolder}/index.ts`;
 const allFile = `${iconsDestFolder}/all.ts`;
 const enumFile = `${enumDestFolder}/icon-names.enum.ts`;
-const typeFile = `${typeDestFolder}/icon-name.type.ts`;
+const typeFile = `${typeDestFolder}/icon-names.type.ts`;
 
 let exportAllString = `\nexport const allIcons = {\n`;
 let exportEnumString = `/** Enum with all icons. */`;

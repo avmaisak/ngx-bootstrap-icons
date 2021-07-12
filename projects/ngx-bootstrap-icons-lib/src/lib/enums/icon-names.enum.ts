@@ -1678,8 +1678,6 @@ export enum IconNamesEnum {
   InboxesFill = 'inboxes-fill',
   /** https://icons.getbootstrap.com/icons/inboxes */
   Inboxes = 'inboxes',
-  /** https://icons.getbootstrap.com/icons/index.html */
-  IndexHtml = 'index.html',
   /** https://icons.getbootstrap.com/icons/info-circle-fill */
   InfoCircleFill = 'info-circle-fill',
   /** https://icons.getbootstrap.com/icons/info-circle */
