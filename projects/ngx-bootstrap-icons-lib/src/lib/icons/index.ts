@@ -837,7 +837,6 @@ export { inboxFill } from './inbox-fill';
 export { inbox } from './inbox';
 export { inboxesFill } from './inboxes-fill';
 export { inboxes } from './inboxes';
-export { indexHtml } from './index.html';
 export { infoCircleFill } from './info-circle-fill';
 export { infoCircle } from './info-circle';
 export { infoLg } from './info-lg';

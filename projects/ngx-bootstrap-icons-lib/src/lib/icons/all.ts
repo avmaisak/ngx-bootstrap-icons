@@ -837,7 +837,6 @@ import { inboxFill } from './inbox-fill';
 import { inbox } from './inbox';
 import { inboxesFill } from './inboxes-fill';
 import { inboxes } from './inboxes';
-import { indexHtml } from './index.html';
 import { infoCircleFill } from './info-circle-fill';
 import { infoCircle } from './info-circle';
 import { infoLg } from './info-lg';
