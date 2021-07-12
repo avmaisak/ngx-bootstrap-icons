@@ -168,9 +168,6 @@ import { bookmarksFill } from './bookmarks-fill';
 import { bookmarks } from './bookmarks';
 import { bookshelf } from './bookshelf';
 import { bootstrapFill } from './bootstrap-fill';
-import { bootstrapIconsCss } from './bootstrap-icons.css';
-import { bootstrapIconsJson } from './bootstrap-icons.json';
-import { bootstrapIcons } from './bootstrap-icons';
 import { bootstrapReboot } from './bootstrap-reboot';
 import { bootstrap } from './bootstrap';
 import { borderAll } from './border-all';
@@ -1544,9 +1541,6 @@ export const allIcons = {
   bookmarks,
   bookshelf,
   bootstrapFill,
-  bootstrapIconsCss,
-  bootstrapIconsJson,
-  bootstrapIcons,
   bootstrapReboot,
   bootstrap,
   borderAll,

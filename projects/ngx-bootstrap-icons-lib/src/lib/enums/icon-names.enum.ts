@@ -340,12 +340,6 @@ export enum IconNamesEnum {
   Bookshelf = 'bookshelf',
   /** https://icons.getbootstrap.com/icons/bootstrap-fill */
   BootstrapFill = 'bootstrap-fill',
-  /** https://icons.getbootstrap.com/icons/bootstrap-icons.css */
-  BootstrapIconsCss = 'bootstrap-icons.css',
-  /** https://icons.getbootstrap.com/icons/bootstrap-icons.json */
-  BootstrapIconsJson = 'bootstrap-icons.json',
-  /** https://icons.getbootstrap.com/icons/bootstrap-icons */
-  BootstrapIcons = 'bootstrap-icons',
   /** https://icons.getbootstrap.com/icons/bootstrap-reboot */
   BootstrapReboot = 'bootstrap-reboot',
   /** https://icons.getbootstrap.com/icons/bootstrap */

@@ -340,12 +340,6 @@ export type IconName =
 'bookshelf' |
   /** https://icons.getbootstrap.com/icons/bootstrap-fill */
 'bootstrap-fill' |
-  /** https://icons.getbootstrap.com/icons/bootstrap-icons.css */
-'bootstrap-icons.css' |
-  /** https://icons.getbootstrap.com/icons/bootstrap-icons.json */
-'bootstrap-icons.json' |
-  /** https://icons.getbootstrap.com/icons/bootstrap-icons */
-'bootstrap-icons' |
   /** https://icons.getbootstrap.com/icons/bootstrap-reboot */
 'bootstrap-reboot' |
   /** https://icons.getbootstrap.com/icons/bootstrap */
