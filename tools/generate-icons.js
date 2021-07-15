@@ -39,10 +39,10 @@ fs.readdirSync(iconsSrcFolder).forEach((filename) => {
   const iconName = filename.replace(".svg", "").trim();
   const fileContent = fs.readFileSync(`${iconsSrcFolder}/${filename}`, "utf-8");
   const exportName = camelcase(iconName);
-  exportEnumString += `  /** ${urlBase}${iconName} */\n`;
-  exportEnumString += `  ${uppercamelcase(iconName)} = '${iconName}',\n`;
-  exportTypeString += `  /** https://icons.getbootstrap.com/icons/${iconName} */\n`;
-  exportTypeString += `'${iconName}' |\n`;
+  exportEnumString += `/** {@link ${urlBase}${iconName}} */\n`;
+  exportEnumString += `${uppercamelcase(iconName)} = '${iconName}',\n`;
+  exportTypeString += `/** {@link ${urlBase}${iconName}} */\n`;
+  exportTypeString += `'${iconName}' | \n`;
 
   let output = componentTemplate
     .replace(/__ICON_NAME__/g, iconName)

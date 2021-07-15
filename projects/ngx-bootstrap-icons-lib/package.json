@@ -1,6 +1,6 @@
 {
   "name": "ngx-bootstrap-icons",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Bootstrap Icons components library for your Angular Applications",
   "homepage": "https://avmaisak.github.io/ngx-bootstrap-icons/",
   "repository": {
@@ -27,11 +27,11 @@
   "author": "Anton Maisak",
   "license": "MIT",
   "engines": {
-    "node": ">= 14.16.1",
-    "npm": ">= 6.14.12"
+    "node": ">= 14.17.3",
+    "npm": ">= 6.14.13"
   },
   "peerDependencies": {
-    "@angular/common": ">= 10.2.4",
-    "@angular/core": ">= 10.2.4"
+    "@angular/common": ">= 10.2.5",
+    "@angular/core": ">= 10.2.5"
   }
 }
