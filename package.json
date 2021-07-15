@@ -42,7 +42,7 @@
     "@angular-devkit/architect": "^0.1201.1",
     "@angular-devkit/build-angular": "12.1.1",
     "@angular-devkit/build-ng-packagr": "0.1002.0",
-    "@angular-eslint/builder": "12.2.2",
+    "@angular-eslint/builder": "12.3.0",
     "@angular-eslint/eslint-plugin": "12.2.2",
     "@angular-eslint/eslint-plugin-template": "12.3.0",
     "@angular-eslint/schematics": "12.2.2",
