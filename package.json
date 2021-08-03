@@ -54,7 +54,7 @@
     "@types/jasmine": "3.8.2",
     "@types/jasminewd2": "2.0.10",
     "@types/lodash": "^4.14.171",
-    "@types/node": "16.4.8",
+    "@types/node": "16.4.10",
     "@typescript-eslint/eslint-plugin": "4.29.0",
     "@typescript-eslint/parser": "4.29.0",
     "bootstrap-icons": "1.5.0",
