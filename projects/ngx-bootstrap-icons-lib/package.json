@@ -27,8 +27,8 @@
   "author": "Anton Maisak",
   "license": "MIT",
   "engines": {
-    "node": ">= 14.17.3",
-    "npm": ">= 6.14.13"
+    "node": ">= 14.17.4",
+    "npm": ">= 6.14.14"
   },
   "peerDependencies": {
     "@angular/common": ">= 10.2.5",

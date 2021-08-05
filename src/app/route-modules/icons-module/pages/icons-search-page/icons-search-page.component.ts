@@ -1,20 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/lib/enums/icon-names.enum';
-import { ISearch } from 'src/app/apis/api.model';
+import {
+  distinctUntilChanged, first, switchMap, tap,
+} from 'rxjs';
+import { ITEMS_PER_PAGE } from 'src/app/constants';
 import { SubscriberComponent } from 'src/app/helpers/component';
 
 import { IconsUseCases } from '../../icons.usecases';
 import { IconsViewModel } from '../../icons.viewmodel';
 
-export const ITEMS_PER_PAGE = 20;
 @Component({
   selector: 'app-icons-search-page',
   templateUrl: './icons-search-page.component.html',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class IconsSearchPageComponent extends SubscriberComponent implements OnInit {
   public readonly icons = this._viewModel.selectIcons();
-
-  public readonly search = { skip: 0, take: ITEMS_PER_PAGE } as ISearch;
 
   public showDialog = false;
 
@@ -27,13 +28,22 @@ export class IconsSearchPageComponent extends SubscriberComponent implements OnI
     super();
   }
 
+  public trackByIndex = (index: number): number => index;
+
   public ngOnInit(): void {
     this._setData();
   }
 
   public textChange(text: string): void {
-    this.search.text = text;
-    this._setData();
+    this.subscribe(
+      this._viewModel.selectSearch().pipe(
+        distinctUntilChanged(),
+        tap((search) => {
+          this._useCases.setSearch({ ...search, take: ITEMS_PER_PAGE, text });
+          this._setData();
+        }),
+      ),
+    );
   }
 
   public toggleShowDialog(): void {
@@ -53,12 +63,19 @@ export class IconsSearchPageComponent extends SubscriberComponent implements OnI
   }
 
   private _nextPage(): void {
-    // eslint-disable-next-line operator-assignment
-    this.search.take = this.search.take + ITEMS_PER_PAGE;
-    this._setData();
+    this.subscribe(this._viewModel.selectSearch().pipe(
+      first(),
+      tap((search) => {
+        this._useCases.setSearch({ ...search, take: search.take + ITEMS_PER_PAGE });
+        this._setData();
+      }),
+    ));
   }
 
   private _setData(): void {
-    this.subscribe(this._useCases.setIcons(this.search));
+    this.subscribe(this._viewModel.selectSearch().pipe(
+      first(),
+      switchMap((search) => this._useCases.setIcons(search)),
+    ));
   }
 }

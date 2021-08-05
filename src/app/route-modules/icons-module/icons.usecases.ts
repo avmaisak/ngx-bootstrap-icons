@@ -10,4 +10,8 @@ export class IconsUseCases {
   public setIcons(search: ISearch): Observable<void> {
     return this._service.setIcons(search);
   }
+
+  public setSearch(search: ISearch): void {
+    this._service.setSearch(search);
+  }
 }
