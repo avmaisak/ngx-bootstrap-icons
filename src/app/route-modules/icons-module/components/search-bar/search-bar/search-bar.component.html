@@ -9,8 +9,9 @@
             <input formControlName="searchText"
                    type="search"
                    class="form-control form-control-lg"
-                   placeholder="Search icon"
-                   (change)="submitForm()" />
+                   placeholder="Search icon and press enter..."
+                   autocomplete
+                   (search)="submitForm()" />
           </div>
         </form>
       </div>
