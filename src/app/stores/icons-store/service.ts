@@ -9,11 +9,14 @@ import { IconsStore } from './store';
 
 @Injectable({ providedIn: 'root' })
 export class IconsStoreService {
-  constructor(private _store: IconsStore, private _data: IconsDataService) { }
+  constructor(
+    private _store: IconsStore,
+    private _data: IconsDataService,
+  ) { }
 
   public setIcons(search: ISearch): Observable<void> {
     return this._data.loadIcons(search).pipe(
-      tap((icons) => this._store.update({ icons: icons as IconNamesEnum[] })),
+      tap((icons) => this._store.update({ icons })),
       // eslint-disable-next-line no-void
       mapTo(void 0),
     );
@@ -21,5 +24,13 @@ export class IconsStoreService {
 
   public setSearch(search: ISearch): void {
     this._store.update({ search });
+  }
+
+  public setSelectedIcon(selectedIcon: IconNamesEnum): void {
+    this._store.update({ selectedIcon });
+  }
+
+  public resetSelectedIcon(): void {
+    this._store.update({ selectedIcon: null });
   }
 }

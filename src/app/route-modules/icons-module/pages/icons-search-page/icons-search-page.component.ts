@@ -17,9 +17,11 @@ import { IconsViewModel } from '../../icons.viewmodel';
 export class IconsSearchPageComponent extends SubscriberComponent implements OnInit {
   public readonly icons = this._viewModel.selectIcons();
 
-  public showDialog = false;
+  public readonly selectedIcon = this._viewModel.selectSelectedIcon();
 
-  public selectedIcon!: IconNamesEnum;
+  public readonly search = this._viewModel.selectSearch();
+
+  public showDialog = false;
 
   constructor(
     private readonly _viewModel: IconsViewModel,
@@ -36,10 +38,11 @@ export class IconsSearchPageComponent extends SubscriberComponent implements OnI
 
   public textChange(text: string): void {
     this.subscribe(
-      this._viewModel.selectSearch().pipe(
+      this.search.pipe(
         distinctUntilChanged(),
         tap((search) => {
-          this._useCases.setSearch({ ...search, take: ITEMS_PER_PAGE, text });
+          const searchData = { ...search, take: ITEMS_PER_PAGE, text };
+          this._useCases.setSearch(searchData);
           this._setData();
         }),
       ),
@@ -49,12 +52,12 @@ export class IconsSearchPageComponent extends SubscriberComponent implements OnI
   public toggleShowDialog(): void {
     this.showDialog = !this.showDialog;
     if (!this.showDialog) {
-      this.selectedIcon = null;
+      this._useCases.resetSelectedIcon();
     }
   }
 
   public selectIcon(icon: IconNamesEnum): void {
-    this.selectedIcon = icon;
+    this._useCases.setSelectedIcon(icon);
     this.toggleShowDialog();
   }
 
@@ -63,17 +66,18 @@ export class IconsSearchPageComponent extends SubscriberComponent implements OnI
   }
 
   private _nextPage(): void {
-    this.subscribe(this._viewModel.selectSearch().pipe(
+    this.subscribe(this.search.pipe(
       first(),
       tap((search) => {
-        this._useCases.setSearch({ ...search, take: search.take + ITEMS_PER_PAGE });
+        const searchData = { ...search, take: search.take + ITEMS_PER_PAGE };
+        this._useCases.setSearch(searchData);
         this._setData();
       }),
     ));
   }
 
   private _setData(): void {
-    this.subscribe(this._viewModel.selectSearch().pipe(
+    this.subscribe(this.search.pipe(
       first(),
       switchMap((search) => this._useCases.setIcons(search)),
     ));

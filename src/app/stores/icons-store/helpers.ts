@@ -12,5 +12,6 @@ export function createInitialState(): IStoreModelState {
   return {
     icons: [] as IconNamesEnum[],
     search: { skip: 0, take: ITEMS_PER_PAGE, text: '' },
+    selectedIcon: null,
   };
 }

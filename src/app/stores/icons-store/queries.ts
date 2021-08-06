@@ -21,4 +21,8 @@ export class IconsStoreQueries extends Query<IStoreModelState> {
   public selectSearch(): Observable<ISearch> {
     return this.select('search');
   }
+
+  public selectSelectedIcon(): Observable<IconNamesEnum> {
+    return this.select('selectedIcon');
+  }
 }

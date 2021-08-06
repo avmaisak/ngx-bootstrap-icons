@@ -4,4 +4,5 @@ import { ISearch } from 'src/app/apis/api.model';
 export interface IStoreModelState {
   icons: IconNamesEnum[],
   search: ISearch,
+  selectedIcon?: IconNamesEnum,
 }

@@ -2,8 +2,8 @@
 
 <app-top-side></app-top-side>
 
-<app-icon-modal *ngIf="showDialog && selectedIcon"
-                [icon]="selectedIcon"
+<app-icon-modal *ngIf="showDialog && selectedIcon | async"
+                [icon]="selectedIcon | async"
                 (closed)="toggleShowDialog()"></app-icon-modal>
 
 <app-search-bar (textChanged)="textChange($event)"></app-search-bar>
@@ -31,6 +31,7 @@
 
 <ng-template #emptyDataTemplate>
   <div class="text-center pt-5 d-block mb-5 w-100">
-    <span class="text-center text-muted mx-auto d-inline-block mb-5">Sorry, but specified icons not found ((</span>
+    <span class="text-center text-muted mx-auto d-inline-block mb-5">Sorry, but specified icon(s)
+      <b>{{ (search | async).text }}</b> not found ((</span>
   </div>
 </ng-template>

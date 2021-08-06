@@ -33,4 +33,8 @@ export class IconModalComponent {
     this._clipboardService.copy(this.iconCode);
     this.copied = true;
   }
+
+  public getHref(icon: string): string {
+    return `https://icons.getbootstrap.com/assets/icons/${icon}.svg`;
+  }
 }
