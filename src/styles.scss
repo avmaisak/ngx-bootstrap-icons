@@ -4,9 +4,15 @@
   cursor: pointer;
 }
 
-.icon-item  {
-  .btn.btn-light  { opacity: 0;}
+.icon-item {
+  .btn.btn-light {
+    opacity: 0;
+  }
+
   &:hover {
-    .btn.btn-light  { opacity: 1; transition: 0.3s;}
+    .btn.btn-light {
+      opacity: 1;
+      transition: 0.3s;
+    }
   }
 }

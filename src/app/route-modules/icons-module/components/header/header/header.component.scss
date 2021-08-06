@@ -1,3 +1,6 @@
+@import "~bootstrap/scss/functions";
+@import '~bootstrap/scss/variables';
+
 .bg-header {
-  background: #7952b3;
+  background: $indigo-500;
 }
