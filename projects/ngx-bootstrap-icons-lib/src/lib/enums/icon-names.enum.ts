@@ -27,13 +27,13 @@ export enum IconNamesEnum {
   /** {@link https://icons.getbootstrap.com/icons/archive} */
   Archive = 'archive',
   /** {@link https://icons.getbootstrap.com/icons/arrow-90deg-down} */
-  Arrow90degDown = 'arrow-90deg-down',
+  Arrow90DegDown = 'arrow-90deg-down',
   /** {@link https://icons.getbootstrap.com/icons/arrow-90deg-left} */
-  Arrow90degLeft = 'arrow-90deg-left',
+  Arrow90DegLeft = 'arrow-90deg-left',
   /** {@link https://icons.getbootstrap.com/icons/arrow-90deg-right} */
-  Arrow90degRight = 'arrow-90deg-right',
+  Arrow90DegRight = 'arrow-90deg-right',
   /** {@link https://icons.getbootstrap.com/icons/arrow-90deg-up} */
-  Arrow90degUp = 'arrow-90deg-up',
+  Arrow90DegUp = 'arrow-90deg-up',
   /** {@link https://icons.getbootstrap.com/icons/arrow-bar-down} */
   ArrowBarDown = 'arrow-bar-down',
   /** {@link https://icons.getbootstrap.com/icons/arrow-bar-left} */
@@ -179,17 +179,17 @@ export enum IconNamesEnum {
   /** {@link https://icons.getbootstrap.com/icons/backspace} */
   Backspace = 'backspace',
   /** {@link https://icons.getbootstrap.com/icons/badge-3d-fill} */
-  Badge3dFill = 'badge-3d-fill',
+  Badge3DFill = 'badge-3d-fill',
   /** {@link https://icons.getbootstrap.com/icons/badge-3d} */
-  Badge3d = 'badge-3d',
+  Badge3D = 'badge-3d',
   /** {@link https://icons.getbootstrap.com/icons/badge-4k-fill} */
-  Badge4kFill = 'badge-4k-fill',
+  Badge4KFill = 'badge-4k-fill',
   /** {@link https://icons.getbootstrap.com/icons/badge-4k} */
-  Badge4k = 'badge-4k',
+  Badge4K = 'badge-4k',
   /** {@link https://icons.getbootstrap.com/icons/badge-8k-fill} */
-  Badge8kFill = 'badge-8k-fill',
+  Badge8KFill = 'badge-8k-fill',
   /** {@link https://icons.getbootstrap.com/icons/badge-8k} */
-  Badge8k = 'badge-8k',
+  Badge8K = 'badge-8k',
   /** {@link https://icons.getbootstrap.com/icons/badge-ad-fill} */
   BadgeAdFill = 'badge-ad-fill',
   /** {@link https://icons.getbootstrap.com/icons/badge-ad} */
@@ -1555,21 +1555,21 @@ export enum IconNamesEnum {
   /** {@link https://icons.getbootstrap.com/icons/graph-up} */
   GraphUp = 'graph-up',
   /** {@link https://icons.getbootstrap.com/icons/grid-1x2-fill} */
-  Grid1x2Fill = 'grid-1x2-fill',
+  Grid1X2Fill = 'grid-1x2-fill',
   /** {@link https://icons.getbootstrap.com/icons/grid-1x2} */
-  Grid1x2 = 'grid-1x2',
+  Grid1X2 = 'grid-1x2',
   /** {@link https://icons.getbootstrap.com/icons/grid-3x2-gap-fill} */
-  Grid3x2GapFill = 'grid-3x2-gap-fill',
+  Grid3X2GapFill = 'grid-3x2-gap-fill',
   /** {@link https://icons.getbootstrap.com/icons/grid-3x2-gap} */
-  Grid3x2Gap = 'grid-3x2-gap',
+  Grid3X2Gap = 'grid-3x2-gap',
   /** {@link https://icons.getbootstrap.com/icons/grid-3x2} */
-  Grid3x2 = 'grid-3x2',
+  Grid3X2 = 'grid-3x2',
   /** {@link https://icons.getbootstrap.com/icons/grid-3x3-gap-fill} */
-  Grid3x3GapFill = 'grid-3x3-gap-fill',
+  Grid3X3GapFill = 'grid-3x3-gap-fill',
   /** {@link https://icons.getbootstrap.com/icons/grid-3x3-gap} */
-  Grid3x3Gap = 'grid-3x3-gap',
+  Grid3X3Gap = 'grid-3x3-gap',
   /** {@link https://icons.getbootstrap.com/icons/grid-3x3} */
-  Grid3x3 = 'grid-3x3',
+  Grid3X3 = 'grid-3x3',
   /** {@link https://icons.getbootstrap.com/icons/grid-fill} */
   GridFill = 'grid-fill',
   /** {@link https://icons.getbootstrap.com/icons/grid} */
@@ -1809,7 +1809,7 @@ export enum IconNamesEnum {
   /** {@link https://icons.getbootstrap.com/icons/lightning} */
   Lightning = 'lightning',
   /** {@link https://icons.getbootstrap.com/icons/link-45deg} */
-  Link45deg = 'link-45deg',
+  Link45Deg = 'link-45deg',
   /** {@link https://icons.getbootstrap.com/icons/link} */
   Link = 'link',
   /** {@link https://icons.getbootstrap.com/icons/linkedin} */

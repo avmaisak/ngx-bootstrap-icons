@@ -1,8 +1,6 @@
 const fs = require("fs-extra");
 const clc = require("cli-color");
-
-const camelcase = require("camelcase");
-const uppercamelcase = require("uppercamelcase");
+const lodash = require("lodash");
 
 const urlBase = "https://icons.getbootstrap.com/icons/";
 const allIconsVariable = "allIcons";
@@ -38,9 +36,10 @@ fs.emptyDirSync(iconsDestFolder);
 fs.readdirSync(iconsSrcFolder).forEach((filename) => {
   const iconName = filename.replace(".svg", "").trim();
   const fileContent = fs.readFileSync(`${iconsSrcFolder}/${filename}`, "utf-8");
-  const exportName = camelcase(iconName);
+  const exportName = lodash.camelCase(iconName);
+
   exportEnumString += `/** {@link ${urlBase}${iconName}} */\n`;
-  exportEnumString += `${uppercamelcase(iconName)} = '${iconName}',\n`;
+  exportEnumString += `${lodash.startCase(iconName).replace(/\s/g, '')} = '${iconName}',\n`;
   exportTypeString += `/** {@link ${urlBase}${iconName}} */\n`;
   exportTypeString += `'${iconName}' | \n`;
 
