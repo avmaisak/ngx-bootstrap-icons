@@ -54,7 +54,7 @@
     "@types/jasminewd2": "2.0.10",
     "@types/lodash": "^4.14.172",
     "@types/node": "16.4.13",
-    "@typescript-eslint/eslint-plugin": "4.29.0",
+    "@typescript-eslint/eslint-plugin": "4.29.1",
     "@typescript-eslint/parser": "4.29.0",
     "angular-cli-ghpages": "0.6.2",
     "bootstrap-icons": "1.5.0",
