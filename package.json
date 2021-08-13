@@ -39,7 +39,7 @@
     "zone.js": "0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/architect": "^0.1202.0",
+    "@angular-devkit/architect": "^0.1202.1",
     "@angular-devkit/build-angular": "12.2.1",
     "@angular-devkit/build-ng-packagr": "0.1002.0",
     "@angular-eslint/builder": "12.3.1",
