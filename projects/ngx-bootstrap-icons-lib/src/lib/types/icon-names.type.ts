@@ -22,6 +22,8 @@ export type IconName =
 'app-indicator' |
 /** {@link https://icons.getbootstrap.com/icons/app} */
 'app' |
+/** {@link https://icons.getbootstrap.com/icons/apple} */
+'apple' |
 /** {@link https://icons.getbootstrap.com/icons/archive-fill} */
 'archive-fill' |
 /** {@link https://icons.getbootstrap.com/icons/archive} */
@@ -276,6 +278,8 @@ export type IconName =
 'battery-half' |
 /** {@link https://icons.getbootstrap.com/icons/battery} */
 'battery' |
+/** {@link https://icons.getbootstrap.com/icons/behance} */
+'behance' |
 /** {@link https://icons.getbootstrap.com/icons/bell-fill} */
 'bell-fill' |
 /** {@link https://icons.getbootstrap.com/icons/bell-slash-fill} */
@@ -1072,6 +1076,8 @@ export type IconName =
 'dot' |
 /** {@link https://icons.getbootstrap.com/icons/download} */
 'download' |
+/** {@link https://icons.getbootstrap.com/icons/dribbble} */
+'dribbble' |
 /** {@link https://icons.getbootstrap.com/icons/droplet-fill} */
 'droplet-fill' |
 /** {@link https://icons.getbootstrap.com/icons/droplet-half} */
@@ -1808,6 +1814,8 @@ export type IconName =
 'lightning-fill' |
 /** {@link https://icons.getbootstrap.com/icons/lightning} */
 'lightning' |
+/** {@link https://icons.getbootstrap.com/icons/line} */
+'line' |
 /** {@link https://icons.getbootstrap.com/icons/link-45deg} */
 'link-45deg' |
 /** {@link https://icons.getbootstrap.com/icons/link} */
@@ -1848,6 +1856,8 @@ export type IconName =
 'mask' |
 /** {@link https://icons.getbootstrap.com/icons/mastodon} */
 'mastodon' |
+/** {@link https://icons.getbootstrap.com/icons/medium} */
+'medium' |
 /** {@link https://icons.getbootstrap.com/icons/megaphone-fill} */
 'megaphone-fill' |
 /** {@link https://icons.getbootstrap.com/icons/megaphone} */
@@ -1878,6 +1888,8 @@ export type IconName =
 'mic-mute' |
 /** {@link https://icons.getbootstrap.com/icons/mic} */
 'mic' |
+/** {@link https://icons.getbootstrap.com/icons/microsoft} */
+'microsoft' |
 /** {@link https://icons.getbootstrap.com/icons/minecart-loaded} */
 'minecart-loaded' |
 /** {@link https://icons.getbootstrap.com/icons/minecart} */
@@ -1982,6 +1994,8 @@ export type IconName =
 'pause-fill' |
 /** {@link https://icons.getbootstrap.com/icons/pause} */
 'pause' |
+/** {@link https://icons.getbootstrap.com/icons/paypal} */
+'paypal' |
 /** {@link https://icons.getbootstrap.com/icons/peace-fill} */
 'peace-fill' |
 /** {@link https://icons.getbootstrap.com/icons/peace} */
@@ -2072,6 +2086,8 @@ export type IconName =
 'pin-map' |
 /** {@link https://icons.getbootstrap.com/icons/pin} */
 'pin' |
+/** {@link https://icons.getbootstrap.com/icons/pinterest} */
+'pinterest' |
 /** {@link https://icons.getbootstrap.com/icons/pip-fill} */
 'pip-fill' |
 /** {@link https://icons.getbootstrap.com/icons/pip} */
@@ -2266,6 +2282,8 @@ export type IconName =
 'shop' |
 /** {@link https://icons.getbootstrap.com/icons/shuffle} */
 'shuffle' |
+/** {@link https://icons.getbootstrap.com/icons/signal} */
+'signal' |
 /** {@link https://icons.getbootstrap.com/icons/signpost-2-fill} */
 'signpost-2-fill' |
 /** {@link https://icons.getbootstrap.com/icons/signpost-2} */
@@ -2350,6 +2368,8 @@ export type IconName =
 'sliders' |
 /** {@link https://icons.getbootstrap.com/icons/smartwatch} */
 'smartwatch' |
+/** {@link https://icons.getbootstrap.com/icons/snapchat} */
+'snapchat' |
 /** {@link https://icons.getbootstrap.com/icons/snow} */
 'snow' |
 /** {@link https://icons.getbootstrap.com/icons/snow2} */
@@ -2392,12 +2412,16 @@ export type IconName =
 'speedometer2' |
 /** {@link https://icons.getbootstrap.com/icons/spellcheck} */
 'spellcheck' |
+/** {@link https://icons.getbootstrap.com/icons/spotify} */
+'spotify' |
 /** {@link https://icons.getbootstrap.com/icons/square-fill} */
 'square-fill' |
 /** {@link https://icons.getbootstrap.com/icons/square-half} */
 'square-half' |
 /** {@link https://icons.getbootstrap.com/icons/square} */
 'square' |
+/** {@link https://icons.getbootstrap.com/icons/stack-overflow} */
+'stack-overflow' |
 /** {@link https://icons.getbootstrap.com/icons/stack} */
 'stack' |
 /** {@link https://icons.getbootstrap.com/icons/star-fill} */
@@ -2436,6 +2460,8 @@ export type IconName =
 'stopwatch-fill' |
 /** {@link https://icons.getbootstrap.com/icons/stopwatch} */
 'stopwatch' |
+/** {@link https://icons.getbootstrap.com/icons/strava} */
+'strava' |
 /** {@link https://icons.getbootstrap.com/icons/subtract} */
 'subtract' |
 /** {@link https://icons.getbootstrap.com/icons/suit-club-fill} */
@@ -2660,6 +2686,8 @@ export type IconName =
 'view-list' |
 /** {@link https://icons.getbootstrap.com/icons/view-stacked} */
 'view-stacked' |
+/** {@link https://icons.getbootstrap.com/icons/vimeo} */
+'vimeo' |
 /** {@link https://icons.getbootstrap.com/icons/vinyl-fill} */
 'vinyl-fill' |
 /** {@link https://icons.getbootstrap.com/icons/vinyl} */
@@ -2712,6 +2740,10 @@ export type IconName =
 'window-sidebar' |
 /** {@link https://icons.getbootstrap.com/icons/window} */
 'window' |
+/** {@link https://icons.getbootstrap.com/icons/windows} */
+'windows' |
+/** {@link https://icons.getbootstrap.com/icons/wordpress} */
+'wordpress' |
 /** {@link https://icons.getbootstrap.com/icons/wrench} */
 'wrench' |
 /** {@link https://icons.getbootstrap.com/icons/x-circle-fill} */

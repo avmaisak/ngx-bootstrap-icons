@@ -7,10 +7,11 @@
               class="p-0 container">
           <div class="form-group p-0 m-0">
             <input formControlName="searchText"
-                   type="text"
+                   type="search"
                    class="form-control form-control-lg"
-                   placeholder="Search icon"
-                   (change)="submitForm()" />
+                   placeholder="Search icon and press enter..."
+                   autocomplete
+                   (search)="submitForm()" />
           </div>
         </form>
       </div>

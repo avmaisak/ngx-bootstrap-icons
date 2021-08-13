@@ -40,14 +40,14 @@
           <b>Copied!</b>
 
           <i-bs name="x"
-                class="float-right ms-5 cursor-pointer"
+                class="float-end ms-5 cursor-pointer"
                 (click)="copied = false"></i-bs>
         </div>
 
       </div>
       <div class="modal-footer">
         <a class="btn btn-success"
-           [href]="'https://icons.getbootstrap.com/assets/icons/' + icon + '.svg'"
+           [href]="getHref(icon)"
            target="_blank">Download svg</a>
         <button type="button"
                 class="btn btn-secondary"

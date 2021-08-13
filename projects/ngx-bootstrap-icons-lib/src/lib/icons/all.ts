@@ -9,6 +9,7 @@ import { alignTop } from './align-top';
 import { alt } from './alt';
 import { app } from './app';
 import { appIndicator } from './app-indicator';
+import { apple } from './apple';
 import { archive } from './archive';
 import { archiveFill } from './archive-fill';
 import { arrow90DegDown } from './arrow-90deg-down';
@@ -136,6 +137,7 @@ import { battery } from './battery';
 import { batteryCharging } from './battery-charging';
 import { batteryFull } from './battery-full';
 import { batteryHalf } from './battery-half';
+import { behance } from './behance';
 import { bell } from './bell';
 import { bellFill } from './bell-fill';
 import { bellSlash } from './bell-slash';
@@ -534,6 +536,7 @@ import { doorOpen } from './door-open';
 import { doorOpenFill } from './door-open-fill';
 import { dot } from './dot';
 import { download } from './download';
+import { dribbble } from './dribbble';
 import { droplet } from './droplet';
 import { dropletFill } from './droplet-fill';
 import { dropletHalf } from './droplet-half';
@@ -902,6 +905,7 @@ import { lightning } from './lightning';
 import { lightningCharge } from './lightning-charge';
 import { lightningChargeFill } from './lightning-charge-fill';
 import { lightningFill } from './lightning-fill';
+import { line } from './line';
 import { link } from './link';
 import { link45Deg } from './link-45deg';
 import { linkedin } from './linkedin';
@@ -922,6 +926,7 @@ import { markdown } from './markdown';
 import { markdownFill } from './markdown-fill';
 import { mask } from './mask';
 import { mastodon } from './mastodon';
+import { medium } from './medium';
 import { megaphone } from './megaphone';
 import { megaphoneFill } from './megaphone-fill';
 import { menuApp } from './menu-app';
@@ -937,6 +942,7 @@ import { mic } from './mic';
 import { micFill } from './mic-fill';
 import { micMute } from './mic-mute';
 import { micMuteFill } from './mic-mute-fill';
+import { microsoft } from './microsoft';
 import { minecart } from './minecart';
 import { minecartLoaded } from './minecart-loaded';
 import { moisture } from './moisture';
@@ -989,6 +995,7 @@ import { pauseBtnFill } from './pause-btn-fill';
 import { pauseCircle } from './pause-circle';
 import { pauseCircleFill } from './pause-circle-fill';
 import { pauseFill } from './pause-fill';
+import { paypal } from './paypal';
 import { peace } from './peace';
 import { peaceFill } from './peace-fill';
 import { pen } from './pen';
@@ -1034,6 +1041,7 @@ import { pinAngleFill } from './pin-angle-fill';
 import { pinFill } from './pin-fill';
 import { pinMap } from './pin-map';
 import { pinMapFill } from './pin-map-fill';
+import { pinterest } from './pinterest';
 import { pip } from './pip';
 import { pipFill } from './pip-fill';
 import { play } from './play';
@@ -1131,6 +1139,7 @@ import { shiftFill } from './shift-fill';
 import { shop } from './shop';
 import { shopWindow } from './shop-window';
 import { shuffle } from './shuffle';
+import { signal } from './signal';
 import { signpost } from './signpost';
 import { signpost2 } from './signpost-2';
 import { signpost2Fill } from './signpost-2-fill';
@@ -1173,6 +1182,7 @@ import { slashSquare } from './slash-square';
 import { slashSquareFill } from './slash-square-fill';
 import { sliders } from './sliders';
 import { smartwatch } from './smartwatch';
+import { snapchat } from './snapchat';
 import { snow } from './snow';
 import { snow2 } from './snow2';
 import { snow3 } from './snow3';
@@ -1194,10 +1204,12 @@ import { speakerFill } from './speaker-fill';
 import { speedometer } from './speedometer';
 import { speedometer2 } from './speedometer2';
 import { spellcheck } from './spellcheck';
+import { spotify } from './spotify';
 import { square } from './square';
 import { squareFill } from './square-fill';
 import { squareHalf } from './square-half';
 import { stack } from './stack';
+import { stackOverflow } from './stack-overflow';
 import { star } from './star';
 import { starFill } from './star-fill';
 import { starHalf } from './star-half';
@@ -1216,6 +1228,7 @@ import { stoplights } from './stoplights';
 import { stoplightsFill } from './stoplights-fill';
 import { stopwatch } from './stopwatch';
 import { stopwatchFill } from './stopwatch-fill';
+import { strava } from './strava';
 import { subtract } from './subtract';
 import { suitClub } from './suit-club';
 import { suitClubFill } from './suit-club-fill';
@@ -1328,6 +1341,7 @@ import { upload } from './upload';
 import { vectorPen } from './vector-pen';
 import { viewList } from './view-list';
 import { viewStacked } from './view-stacked';
+import { vimeo } from './vimeo';
 import { vinyl } from './vinyl';
 import { vinylFill } from './vinyl-fill';
 import { voicemail } from './voicemail';
@@ -1354,6 +1368,8 @@ import { wind } from './wind';
 import { window } from './window';
 import { windowDock } from './window-dock';
 import { windowSidebar } from './window-sidebar';
+import { windows } from './windows';
+import { wordpress } from './wordpress';
 import { wrench } from './wrench';
 import { x } from './x';
 import { xCircle } from './x-circle';
@@ -1381,6 +1397,7 @@ export const allIcons = {
   alt,
   appIndicator,
   app,
+  apple,
   archiveFill,
   archive,
   arrow90DegDown,
@@ -1508,6 +1525,7 @@ export const allIcons = {
   batteryFull,
   batteryHalf,
   battery,
+  behance,
   bellFill,
   bellSlashFill,
   bellSlash,
@@ -1906,6 +1924,7 @@ export const allIcons = {
   doorOpen,
   dot,
   download,
+  dribbble,
   dropletFill,
   dropletHalf,
   droplet,
@@ -2274,6 +2293,7 @@ export const allIcons = {
   lightningCharge,
   lightningFill,
   lightning,
+  line,
   link45Deg,
   link,
   linkedin,
@@ -2294,6 +2314,7 @@ export const allIcons = {
   markdown,
   mask,
   mastodon,
+  medium,
   megaphoneFill,
   megaphone,
   menuAppFill,
@@ -2309,6 +2330,7 @@ export const allIcons = {
   micMuteFill,
   micMute,
   mic,
+  microsoft,
   minecartLoaded,
   minecart,
   moisture,
@@ -2361,6 +2383,7 @@ export const allIcons = {
   pauseCircle,
   pauseFill,
   pause,
+  paypal,
   peaceFill,
   peace,
   penFill,
@@ -2406,6 +2429,7 @@ export const allIcons = {
   pinMapFill,
   pinMap,
   pin,
+  pinterest,
   pipFill,
   pip,
   playBtnFill,
@@ -2503,6 +2527,7 @@ export const allIcons = {
   shopWindow,
   shop,
   shuffle,
+  signal,
   signpost2Fill,
   signpost2,
   signpostFill,
@@ -2545,6 +2570,7 @@ export const allIcons = {
   slash,
   sliders,
   smartwatch,
+  snapchat,
   snow,
   snow2,
   snow3,
@@ -2566,9 +2592,11 @@ export const allIcons = {
   speedometer,
   speedometer2,
   spellcheck,
+  spotify,
   squareFill,
   squareHalf,
   square,
+  stackOverflow,
   stack,
   starFill,
   starHalf,
@@ -2588,6 +2616,7 @@ export const allIcons = {
   stoplights,
   stopwatchFill,
   stopwatch,
+  strava,
   subtract,
   suitClubFill,
   suitClub,
@@ -2700,6 +2729,7 @@ export const allIcons = {
   vectorPen,
   viewList,
   viewStacked,
+  vimeo,
   vinylFill,
   vinyl,
   voicemail,
@@ -2726,6 +2756,8 @@ export const allIcons = {
   windowDock,
   windowSidebar,
   window,
+  windows,
+  wordpress,
   wrench,
   xCircleFill,
   xCircle,
