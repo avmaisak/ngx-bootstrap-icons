@@ -55,7 +55,7 @@
     "@types/lodash": "^4.14.172",
     "@types/node": "16.7.11",
     "@typescript-eslint/eslint-plugin": "4.30.0",
-    "@typescript-eslint/parser": "4.30.0",
+    "@typescript-eslint/parser": "4.31.0",
     "angular-cli-ghpages": "0.6.2",
     "bootstrap-icons": "1.5.0",
     "cli-color": "2.0.0",
