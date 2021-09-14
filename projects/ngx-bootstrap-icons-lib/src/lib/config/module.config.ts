@@ -2,7 +2,6 @@ import { InjectionToken } from '@angular/core';
 import { ColorTheme } from '../enums/color-theme.enum';
 import { ColorThemeType } from '../types/color-theme.type';
 
-
 /**
  * Module configuration interface.
  */

@@ -130,3 +130,11 @@
 
 * Add 45 new icons for v1.5.0
 * Updated figma link in readme
+
+## v.1.5.1 (12.07.2021)
+
+* fixed #540 (thanks to @tayambamwanza)
+
+## v.1.5.2 (15.07.2021)
+
+* fixed #545

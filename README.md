@@ -14,7 +14,7 @@
 [![GitHub license](https://img.shields.io/github/license/avmaisak/ngx-bootstrap-icons)](https://github.com/avmaisak/ngx-bootstrap-icons/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/avmaisak/ngx-bootstrap-icons)](https://github.com/avmaisak/ngx-bootstrap-icons/stargazers)
 [![npm version](https://badge.fury.io/js/ngx-bootstrap-icons.svg)](https://badge.fury.io/js/ngx-bootstrap-icons)
-[![Package Quality](https://npm.packagequality.com/shield/ngx-bootstrap-icons.svg)](https://packagequality.com/#?package=ngx-bootstrap-icons)<a href="https://www.figma.com/file/YjjMzXhECL1MIb6Qlm7VJO/Bootstrap-Icons-v1.4.1" target="_blank">
+[![Package Quality](https://npm.packagequality.com/shield/ngx-bootstrap-icons.svg)](https://packagequality.com/#?package=ngx-bootstrap-icons)<a href="https://www.figma.com/community/file/972989644486753519/Bootstrap-Icons-v1.5.0" target="_blank">
   <img src="https://avatars3.githubusercontent.com/u/5155369?s=200&v=4" alt="Bootstrap logo" width="21" height="21">
 </a>
 ```sh

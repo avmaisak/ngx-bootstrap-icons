@@ -1,3 +1,6 @@
+import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/public-api';
+import { ITEMS_PER_PAGE } from 'src/app/constants';
+
 import { IStoreModelState } from './models';
 
 /**
@@ -7,8 +10,8 @@ import { IStoreModelState } from './models';
  */
 export function createInitialState(): IStoreModelState {
   return {
-    icons: [],
+    icons: [] as IconNamesEnum[],
+    search: { skip: 0, take: ITEMS_PER_PAGE, text: '' },
+    selectedIcon: null,
   };
 }
-
-export const notNullOrUndefined = <T>(value: T | null | undefined): value is T => value != null;

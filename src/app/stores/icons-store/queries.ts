@@ -1,10 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Query } from '@datorama/akita';
-import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/lib/enums/icon-names.enum';
+import { IconNamesEnum } from 'projects/ngx-bootstrap-icons-lib/src/public-api';
 import { Observable } from 'rxjs';
-import { filter } from 'rxjs/operators';
+import { ISearch } from 'src/app/apis/api.model';
 
-import { notNullOrUndefined } from './helpers';
 import { IStoreModelState } from './models';
 import { IconsStore } from './store';
 
@@ -16,8 +15,14 @@ export class IconsStoreQueries extends Query<IStoreModelState> {
   }
 
   public selectIcons(): Observable<IconNamesEnum[]> {
-    return this.select('icons').pipe(
-      filter(notNullOrUndefined),
-    );
+    return this.select('icons');
+  }
+
+  public selectSearch(): Observable<ISearch> {
+    return this.select('search');
+  }
+
+  public selectSelectedIcon(): Observable<IconNamesEnum> {
+    return this.select('selectedIcon');
   }
 }
