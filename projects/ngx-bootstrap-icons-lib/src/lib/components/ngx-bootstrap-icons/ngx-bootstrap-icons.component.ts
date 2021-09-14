@@ -5,17 +5,17 @@ import {
   Inject,
   Input,
   OnChanges,
-  SimpleChanges,
+  SimpleChanges
 } from '@angular/core';
-
 import {
   IModuleConfigOptions,
-  MODULE_CONFIG_TOKEN,
+  MODULE_CONFIG_TOKEN
 } from '../../config/module.config';
 import { IconNamesEnum } from '../../enums/icon-names.enum';
 import { toCamelCase } from '../../internal/utils/toCamelCase';
 import { Icons } from '../../providers/icon.provider';
 import { IconName } from '../../types/icon-name.type';
+
 
 /**
  * Bootstrap icon component.
@@ -26,7 +26,7 @@ import { IconName } from '../../types/icon-name.type';
 })
 export class NgxBootstrapIconsLibComponent implements OnChanges {
   /** Icon name. */
-  @Input() public name!: string | IconName | IconNamesEnum;
+  @Input() public name!: IconName | IconNamesEnum;
 
   /** Icon width. */
   @Input() public width!: string;
