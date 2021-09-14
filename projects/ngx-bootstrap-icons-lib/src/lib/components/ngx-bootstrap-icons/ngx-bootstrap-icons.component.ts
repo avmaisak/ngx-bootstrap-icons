@@ -27,7 +27,7 @@ import { IconName } from '../../types/icon-names.type';
 export class NgxBootstrapIconsLibComponent implements OnChanges {
   /** Icon name. */
   @Input()
-  public name!: IconName | IconNamesEnum ;
+  public name!: IconName | IconNamesEnum;
 
   /** Icon width. */
   @Input()
