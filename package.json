@@ -30,7 +30,7 @@
     "@angular/router": "12.2.8",
     "@datorama/akita": "^6.2.3",
     "@datorama/akita-ngdevtools": "^6.0.1",
-    "bootstrap": "5.1.1",
+    "bootstrap": "5.1.3",
     "lodash": "^4.17.21",
     "ngx-clipboard": "14.0.1",
     "ngx-infinite-scroll": "^10.0.1",
