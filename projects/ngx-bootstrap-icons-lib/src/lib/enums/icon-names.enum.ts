@@ -1,6 +1,8 @@
 /** Enum with all icons. */
 export enum IconNamesEnum {
-/** {@link https://icons.getbootstrap.com/icons/alarm-fill} */
+/** {@link https://icons.getbootstrap.com/icons/activity} */
+  Activity = 'activity',
+  /** {@link https://icons.getbootstrap.com/icons/alarm-fill} */
   AlarmFill = 'alarm-fill',
   /** {@link https://icons.getbootstrap.com/icons/alarm} */
   Alarm = 'alarm',
@@ -1090,6 +1092,14 @@ export enum IconNamesEnum {
   EaselFill = 'easel-fill',
   /** {@link https://icons.getbootstrap.com/icons/easel} */
   Easel = 'easel',
+  /** {@link https://icons.getbootstrap.com/icons/easel2-fill} */
+  Easel2Fill = 'easel2-fill',
+  /** {@link https://icons.getbootstrap.com/icons/easel2} */
+  Easel2 = 'easel2',
+  /** {@link https://icons.getbootstrap.com/icons/easel3-fill} */
+  Easel3Fill = 'easel3-fill',
+  /** {@link https://icons.getbootstrap.com/icons/easel3} */
+  Easel3 = 'easel3',
   /** {@link https://icons.getbootstrap.com/icons/egg-fill} */
   EggFill = 'egg-fill',
   /** {@link https://icons.getbootstrap.com/icons/egg-fried} */
@@ -1196,6 +1206,8 @@ export enum IconNamesEnum {
   Eyeglasses = 'eyeglasses',
   /** {@link https://icons.getbootstrap.com/icons/facebook} */
   Facebook = 'facebook',
+  /** {@link https://icons.getbootstrap.com/icons/fan} */
+  Fan = 'fan',
   /** {@link https://icons.getbootstrap.com/icons/file-arrow-down-fill} */
   FileArrowDownFill = 'file-arrow-down-fill',
   /** {@link https://icons.getbootstrap.com/icons/file-arrow-down} */
@@ -1472,6 +1484,8 @@ export enum IconNamesEnum {
   FilterSquare = 'filter-square',
   /** {@link https://icons.getbootstrap.com/icons/filter} */
   Filter = 'filter',
+  /** {@link https://icons.getbootstrap.com/icons/fingerprint} */
+  Fingerprint = 'fingerprint',
   /** {@link https://icons.getbootstrap.com/icons/flag-fill} */
   FlagFill = 'flag-fill',
   /** {@link https://icons.getbootstrap.com/icons/flag} */
@@ -1556,8 +1570,12 @@ export enum IconNamesEnum {
   Globe2 = 'globe2',
   /** {@link https://icons.getbootstrap.com/icons/google} */
   Google = 'google',
+  /** {@link https://icons.getbootstrap.com/icons/graph-down-arrow} */
+  GraphDownArrow = 'graph-down-arrow',
   /** {@link https://icons.getbootstrap.com/icons/graph-down} */
   GraphDown = 'graph-down',
+  /** {@link https://icons.getbootstrap.com/icons/graph-up-arrow} */
+  GraphUpArrow = 'graph-up-arrow',
   /** {@link https://icons.getbootstrap.com/icons/graph-up} */
   GraphUp = 'graph-up',
   /** {@link https://icons.getbootstrap.com/icons/grid-1x2-fill} */
@@ -1668,6 +1686,8 @@ export enum IconNamesEnum {
   Hr = 'hr',
   /** {@link https://icons.getbootstrap.com/icons/hurricane} */
   Hurricane = 'hurricane',
+  /** {@link https://icons.getbootstrap.com/icons/hypnotize} */
+  Hypnotize = 'hypnotize',
   /** {@link https://icons.getbootstrap.com/icons/image-alt} */
   ImageAlt = 'image-alt',
   /** {@link https://icons.getbootstrap.com/icons/image-fill} */
@@ -1840,6 +1860,8 @@ export enum IconNamesEnum {
   LockFill = 'lock-fill',
   /** {@link https://icons.getbootstrap.com/icons/lock} */
   Lock = 'lock',
+  /** {@link https://icons.getbootstrap.com/icons/magic} */
+  Magic = 'magic',
   /** {@link https://icons.getbootstrap.com/icons/mailbox} */
   Mailbox = 'mailbox',
   /** {@link https://icons.getbootstrap.com/icons/mailbox2} */
@@ -2046,8 +2068,18 @@ export enum IconNamesEnum {
   PersonPlusFill = 'person-plus-fill',
   /** {@link https://icons.getbootstrap.com/icons/person-plus} */
   PersonPlus = 'person-plus',
+  /** {@link https://icons.getbootstrap.com/icons/person-rolodex} */
+  PersonRolodex = 'person-rolodex',
   /** {@link https://icons.getbootstrap.com/icons/person-square} */
   PersonSquare = 'person-square',
+  /** {@link https://icons.getbootstrap.com/icons/person-video} */
+  PersonVideo = 'person-video',
+  /** {@link https://icons.getbootstrap.com/icons/person-video2} */
+  PersonVideo2 = 'person-video2',
+  /** {@link https://icons.getbootstrap.com/icons/person-video3} */
+  PersonVideo3 = 'person-video3',
+  /** {@link https://icons.getbootstrap.com/icons/person-workspace} */
+  PersonWorkspace = 'person-workspace',
   /** {@link https://icons.getbootstrap.com/icons/person-x-fill} */
   PersonXFill = 'person-x-fill',
   /** {@link https://icons.getbootstrap.com/icons/person-x} */
@@ -2154,6 +2186,8 @@ export enum IconNamesEnum {
   QuestionSquare = 'question-square',
   /** {@link https://icons.getbootstrap.com/icons/question} */
   Question = 'question',
+  /** {@link https://icons.getbootstrap.com/icons/radioactive} */
+  Radioactive = 'radioactive',
   /** {@link https://icons.getbootstrap.com/icons/rainbow} */
   Rainbow = 'rainbow',
   /** {@link https://icons.getbootstrap.com/icons/receipt-cutoff} */
@@ -2722,6 +2756,10 @@ export enum IconNamesEnum {
   Watch = 'watch',
   /** {@link https://icons.getbootstrap.com/icons/water} */
   Water = 'water',
+  /** {@link https://icons.getbootstrap.com/icons/webcam-fill} */
+  WebcamFill = 'webcam-fill',
+  /** {@link https://icons.getbootstrap.com/icons/webcam} */
+  Webcam = 'webcam',
   /** {@link https://icons.getbootstrap.com/icons/whatsapp} */
   Whatsapp = 'whatsapp',
   /** {@link https://icons.getbootstrap.com/icons/wifi-1} */
@@ -2766,6 +2804,8 @@ export enum IconNamesEnum {
   XSquare = 'x-square',
   /** {@link https://icons.getbootstrap.com/icons/x} */
   X = 'x',
+  /** {@link https://icons.getbootstrap.com/icons/yin-yang} */
+  YinYang = 'yin-yang',
   /** {@link https://icons.getbootstrap.com/icons/youtube} */
   Youtube = 'youtube',
   /** {@link https://icons.getbootstrap.com/icons/zoom-in} */

@@ -1,3 +1,4 @@
+import { activity } from './activity';
 import { alarm } from './alarm';
 import { alarmFill } from './alarm-fill';
 import { alignBottom } from './align-bottom';
@@ -543,6 +544,10 @@ import { dropletHalf } from './droplet-half';
 import { earbuds } from './earbuds';
 import { easel } from './easel';
 import { easelFill } from './easel-fill';
+import { easel2 } from './easel2';
+import { easel2Fill } from './easel2-fill';
+import { easel3 } from './easel3';
+import { easel3Fill } from './easel3-fill';
 import { egg } from './egg';
 import { eggFill } from './egg-fill';
 import { eggFried } from './egg-fried';
@@ -596,6 +601,7 @@ import { eyeSlashFill } from './eye-slash-fill';
 import { eyedropper } from './eyedropper';
 import { eyeglasses } from './eyeglasses';
 import { facebook } from './facebook';
+import { fan } from './fan';
 import { file } from './file';
 import { fileArrowDown } from './file-arrow-down';
 import { fileArrowDownFill } from './file-arrow-down-fill';
@@ -734,6 +740,7 @@ import { filterLeft } from './filter-left';
 import { filterRight } from './filter-right';
 import { filterSquare } from './filter-square';
 import { filterSquareFill } from './filter-square-fill';
+import { fingerprint } from './fingerprint';
 import { flag } from './flag';
 import { flagFill } from './flag-fill';
 import { flower1 } from './flower1';
@@ -777,7 +784,9 @@ import { globe } from './globe';
 import { globe2 } from './globe2';
 import { google } from './google';
 import { graphDown } from './graph-down';
+import { graphDownArrow } from './graph-down-arrow';
 import { graphUp } from './graph-up';
+import { graphUpArrow } from './graph-up-arrow';
 import { grid } from './grid';
 import { grid1X2 } from './grid-1x2';
 import { grid1X2Fill } from './grid-1x2-fill';
@@ -832,6 +841,7 @@ import { houseDoorFill } from './house-door-fill';
 import { houseFill } from './house-fill';
 import { hr } from './hr';
 import { hurricane } from './hurricane';
+import { hypnotize } from './hypnotize';
 import { image } from './image';
 import { imageAlt } from './image-alt';
 import { imageFill } from './image-fill';
@@ -918,6 +928,7 @@ import { listTask } from './list-task';
 import { listUl } from './list-ul';
 import { lock } from './lock';
 import { lockFill } from './lock-fill';
+import { magic } from './magic';
 import { mailbox } from './mailbox';
 import { mailbox2 } from './mailbox2';
 import { map } from './map';
@@ -1022,7 +1033,12 @@ import { personFill } from './person-fill';
 import { personLinesFill } from './person-lines-fill';
 import { personPlus } from './person-plus';
 import { personPlusFill } from './person-plus-fill';
+import { personRolodex } from './person-rolodex';
 import { personSquare } from './person-square';
+import { personVideo } from './person-video';
+import { personVideo2 } from './person-video2';
+import { personVideo3 } from './person-video3';
+import { personWorkspace } from './person-workspace';
 import { personX } from './person-x';
 import { personXFill } from './person-x-fill';
 import { phone } from './phone';
@@ -1075,6 +1091,7 @@ import { questionOctagon } from './question-octagon';
 import { questionOctagonFill } from './question-octagon-fill';
 import { questionSquare } from './question-square';
 import { questionSquareFill } from './question-square-fill';
+import { radioactive } from './radioactive';
 import { rainbow } from './rainbow';
 import { receipt } from './receipt';
 import { receiptCutoff } from './receipt-cutoff';
@@ -1359,6 +1376,8 @@ import { walletFill } from './wallet-fill';
 import { wallet2 } from './wallet2';
 import { watch } from './watch';
 import { water } from './water';
+import { webcam } from './webcam';
+import { webcamFill } from './webcam-fill';
 import { whatsapp } from './whatsapp';
 import { wifi } from './wifi';
 import { wifi1 } from './wifi-1';
@@ -1381,11 +1400,13 @@ import { xOctagon } from './x-octagon';
 import { xOctagonFill } from './x-octagon-fill';
 import { xSquare } from './x-square';
 import { xSquareFill } from './x-square-fill';
+import { yinYang } from './yin-yang';
 import { youtube } from './youtube';
 import { zoomIn } from './zoom-in';
 import { zoomOut } from './zoom-out';
 
 export const allIcons = {
+  activity,
   alarmFill,
   alarm,
   alignBottom,
@@ -1931,6 +1952,10 @@ export const allIcons = {
   earbuds,
   easelFill,
   easel,
+  easel2Fill,
+  easel2,
+  easel3Fill,
+  easel3,
   eggFill,
   eggFried,
   egg,
@@ -1984,6 +2009,7 @@ export const allIcons = {
   eyedropper,
   eyeglasses,
   facebook,
+  fan,
   fileArrowDownFill,
   fileArrowDown,
   fileArrowUpFill,
@@ -2122,6 +2148,7 @@ export const allIcons = {
   filterSquareFill,
   filterSquare,
   filter,
+  fingerprint,
   flagFill,
   flag,
   flower1,
@@ -2164,7 +2191,9 @@ export const allIcons = {
   globe,
   globe2,
   google,
+  graphDownArrow,
   graphDown,
+  graphUpArrow,
   graphUp,
   grid1X2Fill,
   grid1X2,
@@ -2220,6 +2249,7 @@ export const allIcons = {
   house,
   hr,
   hurricane,
+  hypnotize,
   imageAlt,
   imageFill,
   image,
@@ -2306,6 +2336,7 @@ export const allIcons = {
   list,
   lockFill,
   lock,
+  magic,
   mailbox,
   mailbox2,
   mapFill,
@@ -2409,7 +2440,12 @@ export const allIcons = {
   personLinesFill,
   personPlusFill,
   personPlus,
+  personRolodex,
   personSquare,
+  personVideo,
+  personVideo2,
+  personVideo3,
+  personWorkspace,
   personXFill,
   personX,
   person,
@@ -2463,6 +2499,7 @@ export const allIcons = {
   questionSquareFill,
   questionSquare,
   question,
+  radioactive,
   rainbow,
   receiptCutoff,
   receipt,
@@ -2747,6 +2784,8 @@ export const allIcons = {
   wallet2,
   watch,
   water,
+  webcamFill,
+  webcam,
   whatsapp,
   wifi1,
   wifi2,
@@ -2769,6 +2808,7 @@ export const allIcons = {
   xSquareFill,
   xSquare,
   x,
+  yinYang,
   youtube,
   zoomIn,
   zoomOut,
