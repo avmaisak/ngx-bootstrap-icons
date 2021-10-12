@@ -1,5 +1,7 @@
 /** Type for icon names. */
 export type IconName =
+/** {@link https://icons.getbootstrap.com/icons/activity} */
+'activity' | 
 /** {@link https://icons.getbootstrap.com/icons/alarm-fill} */
 'alarm-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/alarm} */
@@ -1090,6 +1092,14 @@ export type IconName =
 'easel-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/easel} */
 'easel' | 
+/** {@link https://icons.getbootstrap.com/icons/easel2-fill} */
+'easel2-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/easel2} */
+'easel2' | 
+/** {@link https://icons.getbootstrap.com/icons/easel3-fill} */
+'easel3-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/easel3} */
+'easel3' | 
 /** {@link https://icons.getbootstrap.com/icons/egg-fill} */
 'egg-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/egg-fried} */
@@ -1196,6 +1206,8 @@ export type IconName =
 'eyeglasses' | 
 /** {@link https://icons.getbootstrap.com/icons/facebook} */
 'facebook' | 
+/** {@link https://icons.getbootstrap.com/icons/fan} */
+'fan' | 
 /** {@link https://icons.getbootstrap.com/icons/file-arrow-down-fill} */
 'file-arrow-down-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/file-arrow-down} */
@@ -1472,6 +1484,8 @@ export type IconName =
 'filter-square' | 
 /** {@link https://icons.getbootstrap.com/icons/filter} */
 'filter' | 
+/** {@link https://icons.getbootstrap.com/icons/fingerprint} */
+'fingerprint' | 
 /** {@link https://icons.getbootstrap.com/icons/flag-fill} */
 'flag-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/flag} */
@@ -1556,8 +1570,12 @@ export type IconName =
 'globe2' | 
 /** {@link https://icons.getbootstrap.com/icons/google} */
 'google' | 
+/** {@link https://icons.getbootstrap.com/icons/graph-down-arrow} */
+'graph-down-arrow' | 
 /** {@link https://icons.getbootstrap.com/icons/graph-down} */
 'graph-down' | 
+/** {@link https://icons.getbootstrap.com/icons/graph-up-arrow} */
+'graph-up-arrow' | 
 /** {@link https://icons.getbootstrap.com/icons/graph-up} */
 'graph-up' | 
 /** {@link https://icons.getbootstrap.com/icons/grid-1x2-fill} */
@@ -1668,6 +1686,8 @@ export type IconName =
 'hr' | 
 /** {@link https://icons.getbootstrap.com/icons/hurricane} */
 'hurricane' | 
+/** {@link https://icons.getbootstrap.com/icons/hypnotize} */
+'hypnotize' | 
 /** {@link https://icons.getbootstrap.com/icons/image-alt} */
 'image-alt' | 
 /** {@link https://icons.getbootstrap.com/icons/image-fill} */
@@ -1840,6 +1860,8 @@ export type IconName =
 'lock-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/lock} */
 'lock' | 
+/** {@link https://icons.getbootstrap.com/icons/magic} */
+'magic' | 
 /** {@link https://icons.getbootstrap.com/icons/mailbox} */
 'mailbox' | 
 /** {@link https://icons.getbootstrap.com/icons/mailbox2} */
@@ -2046,8 +2068,18 @@ export type IconName =
 'person-plus-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/person-plus} */
 'person-plus' | 
+/** {@link https://icons.getbootstrap.com/icons/person-rolodex} */
+'person-rolodex' | 
 /** {@link https://icons.getbootstrap.com/icons/person-square} */
 'person-square' | 
+/** {@link https://icons.getbootstrap.com/icons/person-video} */
+'person-video' | 
+/** {@link https://icons.getbootstrap.com/icons/person-video2} */
+'person-video2' | 
+/** {@link https://icons.getbootstrap.com/icons/person-video3} */
+'person-video3' | 
+/** {@link https://icons.getbootstrap.com/icons/person-workspace} */
+'person-workspace' | 
 /** {@link https://icons.getbootstrap.com/icons/person-x-fill} */
 'person-x-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/person-x} */
@@ -2154,6 +2186,8 @@ export type IconName =
 'question-square' | 
 /** {@link https://icons.getbootstrap.com/icons/question} */
 'question' | 
+/** {@link https://icons.getbootstrap.com/icons/radioactive} */
+'radioactive' | 
 /** {@link https://icons.getbootstrap.com/icons/rainbow} */
 'rainbow' | 
 /** {@link https://icons.getbootstrap.com/icons/receipt-cutoff} */
@@ -2722,6 +2756,10 @@ export type IconName =
 'watch' | 
 /** {@link https://icons.getbootstrap.com/icons/water} */
 'water' | 
+/** {@link https://icons.getbootstrap.com/icons/webcam-fill} */
+'webcam-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/webcam} */
+'webcam' | 
 /** {@link https://icons.getbootstrap.com/icons/whatsapp} */
 'whatsapp' | 
 /** {@link https://icons.getbootstrap.com/icons/wifi-1} */
@@ -2766,6 +2804,8 @@ export type IconName =
 'x-square' | 
 /** {@link https://icons.getbootstrap.com/icons/x} */
 'x' | 
+/** {@link https://icons.getbootstrap.com/icons/yin-yang} */
+'yin-yang' | 
 /** {@link https://icons.getbootstrap.com/icons/youtube} */
 'youtube' | 
 /** {@link https://icons.getbootstrap.com/icons/zoom-in} */
