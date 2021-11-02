@@ -19,12 +19,12 @@ import { IconName } from '../../types/icon-names.type';
 
 const DEFAULT_SIZE = 16;
 const MESSAGE = {
-  ICON_NOT_FOUND: 'Icon not found',
+  iconNotFound: 'Icon not found',
 };
 
-enum DIMENSION_TYPE {
-  WIDTH = 'width',
-  HEIGHT = 'height',
+enum DimensionType {
+  Width = 'width',
+  Height = 'height',
 }
 
 /**
@@ -71,7 +71,7 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
     let svg = icons[toCamelCase(changes.name.currentValue)] || '';
 
     if (!svg) {
-      this.logMessage(this.setIconMessage(MESSAGE.ICON_NOT_FOUND, changes.name.currentValue));
+      this._logMessage(this._setIconMessage(MESSAGE.iconNotFound, changes.name.currentValue));
       return;
     }
 
@@ -79,9 +79,9 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
     if (this._config) {
       if (this._config.width) {
         svg = svg.replace(
-          this.setSize(DIMENSION_TYPE.WIDTH),
-          this.setSize(
-            DIMENSION_TYPE.WIDTH,
+          this._setSize(DimensionType.Width),
+          this._setSize(
+            DimensionType.Width,
             this._config.width,
           ),
         );
@@ -89,9 +89,9 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
 
       if (this._config.height) {
         svg = svg.replace(
-          this.setSize(DIMENSION_TYPE.HEIGHT),
-          this.setSize(
-            DIMENSION_TYPE.HEIGHT,
+          this._setSize(DimensionType.Height),
+          this._setSize(
+            DimensionType.Height,
             this._config.height,
           ),
         );
@@ -103,25 +103,25 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
     }
 
     if (this.resetDefaultDimensions) {
-      svg = svg.replace(this.setSize(DIMENSION_TYPE.WIDTH), '');
-      svg = svg.replace(this.setSize(DIMENSION_TYPE.HEIGHT), '');
+      svg = svg.replace(this._setSize(DimensionType.Width), '');
+      svg = svg.replace(this._setSize(DimensionType.Height), '');
     }
 
-    if (this.width && svg.includes(DIMENSION_TYPE.WIDTH)) {
+    if (this.width && svg.includes(DimensionType.Width)) {
       svg = svg.replace(
-        this.setSize(DIMENSION_TYPE.WIDTH),
-        this.setSize(
-          DIMENSION_TYPE.WIDTH,
+        this._setSize(DimensionType.Width),
+        this._setSize(
+          DimensionType.Width,
           this.width,
         ),
       );
     }
 
-    if (this.height && svg.includes(DIMENSION_TYPE.HEIGHT)) {
+    if (this.height && svg.includes(DimensionType.Height)) {
       svg = svg.replace(
-        this.setSize(DIMENSION_TYPE.HEIGHT),
-        this.setSize(
-          DIMENSION_TYPE.HEIGHT,
+        this._setSize(DimensionType.Height),
+        this._setSize(
+          DimensionType.Height,
           this.height,
         ),
       );
@@ -131,9 +131,9 @@ export class NgxBootstrapIconsLibComponent implements OnChanges {
     this._changeDetector.markForCheck();
   }
 
-  private setSize = (type: DIMENSION_TYPE, size: number | string = DEFAULT_SIZE): string => `${type}="${size}"`;
+  private _setSize = (type: DimensionType, size: number | string = DEFAULT_SIZE): string => `${type}="${size}"`;
 
-  private setIconMessage = (message: string, icon: string) => `${message}: ${icon}\n`;
+  private _setIconMessage = (message: string, icon: string): string => `${message}: ${icon}\n`;
 
-  private logMessage = (message: string) => console.warn(message);
+  private _logMessage = (message: string): void => console.warn(message);
 }
