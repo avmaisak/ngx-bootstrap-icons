@@ -34,7 +34,12 @@ exportTypeString += `\nexport type IconName =\n`;
 
 fs.emptyDirSync(iconsDestFolder);
 fs.readdirSync(iconsSrcFolder).forEach((filename) => {
-  const iconName = filename.replace(".svg", "").trim();
+  let iconName = filename.replace(".svg", "").trim();
+
+  if (!isNaN(parseInt(iconName))) {
+    iconName = `icon${iconName}`
+  }
+
   const fileContent = fs.readFileSync(`${iconsSrcFolder}/${filename}`, "utf-8");
   const exportName = lodash.camelCase(iconName);
 

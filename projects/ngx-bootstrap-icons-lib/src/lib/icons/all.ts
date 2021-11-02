@@ -121,6 +121,8 @@ import { bagPlus } from './bag-plus';
 import { bagPlusFill } from './bag-plus-fill';
 import { bagX } from './bag-x';
 import { bagXFill } from './bag-x-fill';
+import { bandaid } from './bandaid';
+import { bandaidFill } from './bandaid-fill';
 import { bank } from './bank';
 import { bank2 } from './bank2';
 import { barChart } from './bar-chart';
@@ -150,6 +152,8 @@ import { binoculars } from './binoculars';
 import { binocularsFill } from './binoculars-fill';
 import { blockquoteLeft } from './blockquote-left';
 import { blockquoteRight } from './blockquote-right';
+import { bluetooth } from './bluetooth';
+import { bodyText } from './body-text';
 import { book } from './book';
 import { bookFill } from './book-fill';
 import { bookHalf } from './book-half';
@@ -170,6 +174,8 @@ import { bookmarkXFill } from './bookmark-x-fill';
 import { bookmarks } from './bookmarks';
 import { bookmarksFill } from './bookmarks-fill';
 import { bookshelf } from './bookshelf';
+import { boombox } from './boombox';
+import { boomboxFill } from './boombox-fill';
 import { bootstrap } from './bootstrap';
 import { bootstrapFill } from './bootstrap-fill';
 import { bootstrapReboot } from './bootstrap-reboot';
@@ -205,6 +211,7 @@ import { boxArrowUp } from './box-arrow-up';
 import { boxArrowUpLeft } from './box-arrow-up-left';
 import { boxArrowUpRight } from './box-arrow-up-right';
 import { boxSeam } from './box-seam';
+import { boxes } from './boxes';
 import { braces } from './braces';
 import { bricks } from './bricks';
 import { briefcase } from './briefcase';
@@ -429,8 +436,8 @@ import { cloudFog2Fill } from './cloud-fog2-fill';
 import { cloudHail } from './cloud-hail';
 import { cloudHailFill } from './cloud-hail-fill';
 import { cloudHaze } from './cloud-haze';
-import { cloudHaze1 } from './cloud-haze-1';
 import { cloudHazeFill } from './cloud-haze-fill';
+import { cloudHaze2 } from './cloud-haze2';
 import { cloudHaze2Fill } from './cloud-haze2-fill';
 import { cloudLightning } from './cloud-lightning';
 import { cloudLightningFill } from './cloud-lightning-fill';
@@ -505,6 +512,10 @@ import { dashLg } from './dash-lg';
 import { dashSquare } from './dash-square';
 import { dashSquareDotted } from './dash-square-dotted';
 import { dashSquareFill } from './dash-square-fill';
+import { deviceHdd } from './device-hdd';
+import { deviceHddFill } from './device-hdd-fill';
+import { deviceSsd } from './device-ssd';
+import { deviceSsdFill } from './device-ssd-fill';
 import { diagram2 } from './diagram-2';
 import { diagram2Fill } from './diagram-2-fill';
 import { diagram3 } from './diagram-3';
@@ -529,6 +540,8 @@ import { discFill } from './disc-fill';
 import { discord } from './discord';
 import { display } from './display';
 import { displayFill } from './display-fill';
+import { displayport } from './displayport';
+import { displayportFill } from './displayport-fill';
 import { distributeHorizontal } from './distribute-horizontal';
 import { distributeVertical } from './distribute-vertical';
 import { doorClosed } from './door-closed';
@@ -537,10 +550,14 @@ import { doorOpen } from './door-open';
 import { doorOpenFill } from './door-open-fill';
 import { dot } from './dot';
 import { download } from './download';
+import { dpad } from './dpad';
+import { dpadFill } from './dpad-fill';
 import { dribbble } from './dribbble';
 import { droplet } from './droplet';
 import { dropletFill } from './droplet-fill';
 import { dropletHalf } from './droplet-half';
+import { ear } from './ear';
+import { earFill } from './ear-fill';
 import { earbuds } from './earbuds';
 import { easel } from './easel';
 import { easelFill } from './easel-fill';
@@ -576,11 +593,24 @@ import { emojiSunglassesFill } from './emoji-sunglasses-fill';
 import { emojiWink } from './emoji-wink';
 import { emojiWinkFill } from './emoji-wink-fill';
 import { envelope } from './envelope';
+import { envelopeCheck } from './envelope-check';
+import { envelopeCheckFill } from './envelope-check-fill';
+import { envelopeDash } from './envelope-dash';
+import { envelopeDashFill } from './envelope-dash-fill';
+import { envelopeExclamation } from './envelope-exclamation';
+import { envelopeExclamationFill } from './envelope-exclamation-fill';
 import { envelopeFill } from './envelope-fill';
 import { envelopeOpen } from './envelope-open';
 import { envelopeOpenFill } from './envelope-open-fill';
+import { envelopePlus } from './envelope-plus';
+import { envelopePlusFill } from './envelope-plus-fill';
+import { envelopeSlash } from './envelope-slash';
+import { envelopeSlashFill } from './envelope-slash-fill';
+import { envelopeX } from './envelope-x';
+import { envelopeXFill } from './envelope-x-fill';
 import { eraser } from './eraser';
 import { eraserFill } from './eraser-fill';
+import { ethernet } from './ethernet';
 import { exclamation } from './exclamation';
 import { exclamationCircle } from './exclamation-circle';
 import { exclamationCircleFill } from './exclamation-circle-fill';
@@ -594,6 +624,8 @@ import { exclamationSquareFill } from './exclamation-square-fill';
 import { exclamationTriangle } from './exclamation-triangle';
 import { exclamationTriangleFill } from './exclamation-triangle-fill';
 import { exclude } from './exclude';
+import { explicit } from './explicit';
+import { explicitFill } from './explicit-fill';
 import { eye } from './eye';
 import { eyeFill } from './eye-fill';
 import { eyeSlash } from './eye-slash';
@@ -779,10 +811,12 @@ import { geoAltFill } from './geo-alt-fill';
 import { geoFill } from './geo-fill';
 import { gift } from './gift';
 import { giftFill } from './gift-fill';
+import { git } from './git';
 import { github } from './github';
 import { globe } from './globe';
 import { globe2 } from './globe2';
 import { google } from './google';
+import { gpuCard } from './gpu-card';
 import { graphDown } from './graph-down';
 import { graphDownArrow } from './graph-down-arrow';
 import { graphUp } from './graph-up';
@@ -819,6 +853,8 @@ import { hddRack } from './hdd-rack';
 import { hddRackFill } from './hdd-rack-fill';
 import { hddStack } from './hdd-stack';
 import { hddStackFill } from './hdd-stack-fill';
+import { hdmi } from './hdmi';
+import { hdmiFill } from './hdmi-fill';
 import { headphones } from './headphones';
 import { headset } from './headset';
 import { headsetVr } from './headset-vr';
@@ -842,6 +878,7 @@ import { houseFill } from './house-fill';
 import { hr } from './hr';
 import { hurricane } from './hurricane';
 import { hypnotize } from './hypnotize';
+import { icon123 } from './icon123';
 import { image } from './image';
 import { imageAlt } from './image-alt';
 import { imageFill } from './image-fill';
@@ -850,6 +887,7 @@ import { inbox } from './inbox';
 import { inboxFill } from './inbox-fill';
 import { inboxes } from './inboxes';
 import { inboxesFill } from './inboxes-fill';
+import { infinity } from './infinity';
 import { info } from './info';
 import { infoCircle } from './info-circle';
 import { infoCircleFill } from './info-circle-fill';
@@ -921,6 +959,8 @@ import { link45Deg } from './link-45deg';
 import { linkedin } from './linkedin';
 import { list } from './list';
 import { listCheck } from './list-check';
+import { listColumns } from './list-columns';
+import { listColumnsReverse } from './list-columns-reverse';
 import { listNested } from './list-nested';
 import { listOl } from './list-ol';
 import { listStars } from './list-stars';
@@ -940,6 +980,7 @@ import { mastodon } from './mastodon';
 import { medium } from './medium';
 import { megaphone } from './megaphone';
 import { megaphoneFill } from './megaphone-fill';
+import { memory } from './memory';
 import { menuApp } from './menu-app';
 import { menuAppFill } from './menu-app-fill';
 import { menuButton } from './menu-button';
@@ -949,6 +990,7 @@ import { menuButtonWideFill } from './menu-button-wide-fill';
 import { menuDown } from './menu-down';
 import { menuUp } from './menu-up';
 import { messenger } from './messenger';
+import { meta } from './meta';
 import { mic } from './mic';
 import { micFill } from './mic-fill';
 import { micMute } from './mic-mute';
@@ -956,11 +998,17 @@ import { micMuteFill } from './mic-mute-fill';
 import { microsoft } from './microsoft';
 import { minecart } from './minecart';
 import { minecartLoaded } from './minecart-loaded';
+import { modem } from './modem';
+import { modemFill } from './modem-fill';
 import { moisture } from './moisture';
 import { moon } from './moon';
 import { moonFill } from './moon-fill';
 import { moonStars } from './moon-stars';
 import { moonStarsFill } from './moon-stars-fill';
+import { mortarboard } from './mortarboard';
+import { mortarboardFill } from './mortarboard-fill';
+import { motherboard } from './motherboard';
+import { motherboardFill } from './motherboard-fill';
 import { mouse } from './mouse';
 import { mouseFill } from './mouse-fill';
 import { mouse2 } from './mouse2';
@@ -973,6 +1021,7 @@ import { musicNoteList } from './music-note-list';
 import { musicPlayer } from './music-player';
 import { musicPlayerFill } from './music-player-fill';
 import { newspaper } from './newspaper';
+import { nintendoSwitch } from './nintendo-switch';
 import { nodeMinus } from './node-minus';
 import { nodeMinusFill } from './node-minus-fill';
 import { nodePlus } from './node-plus';
@@ -982,6 +1031,8 @@ import { nutFill } from './nut-fill';
 import { octagon } from './octagon';
 import { octagonFill } from './octagon-fill';
 import { octagonHalf } from './octagon-half';
+import { opticalAudio } from './optical-audio';
+import { opticalAudioFill } from './optical-audio-fill';
 import { option } from './option';
 import { outlet } from './outlet';
 import { paintBucket } from './paint-bucket';
@@ -1007,6 +1058,11 @@ import { pauseCircle } from './pause-circle';
 import { pauseCircleFill } from './pause-circle-fill';
 import { pauseFill } from './pause-fill';
 import { paypal } from './paypal';
+import { pc } from './pc';
+import { pcDisplay } from './pc-display';
+import { pcDisplayHorizontal } from './pc-display-horizontal';
+import { pcHorizontal } from './pc-horizontal';
+import { pciCard } from './pci-card';
 import { peace } from './peace';
 import { peaceFill } from './peace-fill';
 import { pen } from './pen';
@@ -1066,6 +1122,7 @@ import { playBtnFill } from './play-btn-fill';
 import { playCircle } from './play-circle';
 import { playCircleFill } from './play-circle-fill';
 import { playFill } from './play-fill';
+import { playstation } from './playstation';
 import { plug } from './plug';
 import { plugFill } from './plug-fill';
 import { plus } from './plus';
@@ -1073,14 +1130,19 @@ import { plusCircle } from './plus-circle';
 import { plusCircleDotted } from './plus-circle-dotted';
 import { plusCircleFill } from './plus-circle-fill';
 import { plusLg } from './plus-lg';
+import { plusSlashMinus } from './plus-slash-minus';
 import { plusSquare } from './plus-square';
 import { plusSquareDotted } from './plus-square-dotted';
 import { plusSquareFill } from './plus-square-fill';
 import { power } from './power';
 import { printer } from './printer';
 import { printerFill } from './printer-fill';
+import { projector } from './projector';
+import { projectorFill } from './projector-fill';
 import { puzzle } from './puzzle';
 import { puzzleFill } from './puzzle-fill';
+import { qrCode } from './qr-code';
+import { qrCodeScan } from './qr-code-scan';
 import { question } from './question';
 import { questionCircle } from './question-circle';
 import { questionCircleFill } from './question-circle-fill';
@@ -1091,6 +1153,8 @@ import { questionOctagon } from './question-octagon';
 import { questionOctagonFill } from './question-octagon-fill';
 import { questionSquare } from './question-square';
 import { questionSquareFill } from './question-square-fill';
+import { quora } from './quora';
+import { quote } from './quote';
 import { radioactive } from './radioactive';
 import { rainbow } from './rainbow';
 import { receipt } from './receipt';
@@ -1114,6 +1178,9 @@ import { reply } from './reply';
 import { replyAll } from './reply-all';
 import { replyAllFill } from './reply-all-fill';
 import { replyFill } from './reply-fill';
+import { robot } from './robot';
+import { router } from './router';
+import { routerFill } from './router-fill';
 import { rss } from './rss';
 import { rssFill } from './rss-fill';
 import { rulers } from './rulers';
@@ -1131,6 +1198,20 @@ import { sdCard } from './sd-card';
 import { sdCardFill } from './sd-card-fill';
 import { search } from './search';
 import { segmentedNav } from './segmented-nav';
+import { send } from './send';
+import { sendCheck } from './send-check';
+import { sendCheckFill } from './send-check-fill';
+import { sendDash } from './send-dash';
+import { sendDashFill } from './send-dash-fill';
+import { sendExclamation } from './send-exclamation';
+import { sendExclamationFill } from './send-exclamation-fill';
+import { sendFill } from './send-fill';
+import { sendPlus } from './send-plus';
+import { sendPlusFill } from './send-plus-fill';
+import { sendSlash } from './send-slash';
+import { sendSlashFill } from './send-slash-fill';
+import { sendX } from './send-x';
+import { sendXFill } from './send-x-fill';
 import { server } from './server';
 import { share } from './share';
 import { shareFill } from './share-fill';
@@ -1231,6 +1312,7 @@ import { star } from './star';
 import { starFill } from './star-fill';
 import { starHalf } from './star-half';
 import { stars } from './stars';
+import { steam } from './steam';
 import { stickies } from './stickies';
 import { stickiesFill } from './stickies-fill';
 import { sticky } from './sticky';
@@ -1289,7 +1371,10 @@ import { telephonePlusFill } from './telephone-plus-fill';
 import { telephoneX } from './telephone-x';
 import { telephoneXFill } from './telephone-x-fill';
 import { terminal } from './terminal';
+import { terminalDash } from './terminal-dash';
 import { terminalFill } from './terminal-fill';
+import { terminalPlus } from './terminal-plus';
+import { terminalSplit } from './terminal-split';
 import { textCenter } from './text-center';
 import { textIndentLeft } from './text-indent-left';
 import { textIndentRight } from './text-indent-right';
@@ -1307,6 +1392,15 @@ import { thermometerSnow } from './thermometer-snow';
 import { thermometerSun } from './thermometer-sun';
 import { threeDots } from './three-dots';
 import { threeDotsVertical } from './three-dots-vertical';
+import { thunderbolt } from './thunderbolt';
+import { thunderboltFill } from './thunderbolt-fill';
+import { ticket } from './ticket';
+import { ticketDetailed } from './ticket-detailed';
+import { ticketDetailedFill } from './ticket-detailed-fill';
+import { ticketFill } from './ticket-fill';
+import { ticketPerferated } from './ticket-perferated';
+import { ticketPerferatedFill } from './ticket-perferated-fill';
+import { tiktok } from './tiktok';
 import { toggleOff } from './toggle-off';
 import { toggleOn } from './toggle-on';
 import { toggle2Off } from './toggle2-off';
@@ -1355,6 +1449,19 @@ import { unlockFill } from './unlock-fill';
 import { upc } from './upc';
 import { upcScan } from './upc-scan';
 import { upload } from './upload';
+import { usb } from './usb';
+import { usbC } from './usb-c';
+import { usbCFill } from './usb-c-fill';
+import { usbDrive } from './usb-drive';
+import { usbDriveFill } from './usb-drive-fill';
+import { usbFill } from './usb-fill';
+import { usbMicro } from './usb-micro';
+import { usbMicroFill } from './usb-micro-fill';
+import { usbMini } from './usb-mini';
+import { usbMiniFill } from './usb-mini-fill';
+import { usbPlug } from './usb-plug';
+import { usbPlugFill } from './usb-plug-fill';
+import { usbSymbol } from './usb-symbol';
 import { vectorPen } from './vector-pen';
 import { viewList } from './view-list';
 import { viewStacked } from './view-stacked';
@@ -1385,8 +1492,15 @@ import { wifi2 } from './wifi-2';
 import { wifiOff } from './wifi-off';
 import { wind } from './wind';
 import { window } from './window';
+import { windowDash } from './window-dash';
+import { windowDesktop } from './window-desktop';
 import { windowDock } from './window-dock';
+import { windowFullscreen } from './window-fullscreen';
+import { windowPlus } from './window-plus';
 import { windowSidebar } from './window-sidebar';
+import { windowSplit } from './window-split';
+import { windowStack } from './window-stack';
+import { windowX } from './window-x';
 import { windows } from './windows';
 import { wordpress } from './wordpress';
 import { wrench } from './wrench';
@@ -1400,12 +1514,14 @@ import { xOctagon } from './x-octagon';
 import { xOctagonFill } from './x-octagon-fill';
 import { xSquare } from './x-square';
 import { xSquareFill } from './x-square-fill';
+import { xbox } from './xbox';
 import { yinYang } from './yin-yang';
 import { youtube } from './youtube';
 import { zoomIn } from './zoom-in';
 import { zoomOut } from './zoom-out';
 
 export const allIcons = {
+  icon123,
   activity,
   alarmFill,
   alarm,
@@ -1529,6 +1645,8 @@ export const allIcons = {
   bagXFill,
   bagX,
   bag,
+  bandaidFill,
+  bandaid,
   bank,
   bank2,
   barChartFill,
@@ -1558,6 +1676,8 @@ export const allIcons = {
   binoculars,
   blockquoteLeft,
   blockquoteRight,
+  bluetooth,
+  bodyText,
   bookFill,
   bookHalf,
   book,
@@ -1578,6 +1698,8 @@ export const allIcons = {
   bookmarksFill,
   bookmarks,
   bookshelf,
+  boomboxFill,
+  boombox,
   bootstrapFill,
   bootstrapReboot,
   bootstrap,
@@ -1613,6 +1735,7 @@ export const allIcons = {
   boxArrowUp,
   boxSeam,
   box,
+  boxes,
   braces,
   bricks,
   briefcaseFill,
@@ -1835,10 +1958,10 @@ export const allIcons = {
   cloudFog2,
   cloudHailFill,
   cloudHail,
-  cloudHaze1,
   cloudHazeFill,
   cloudHaze,
   cloudHaze2Fill,
+  cloudHaze2,
   cloudLightningFill,
   cloudLightningRainFill,
   cloudLightningRain,
@@ -1913,6 +2036,10 @@ export const allIcons = {
   dashSquareFill,
   dashSquare,
   dash,
+  deviceHddFill,
+  deviceHdd,
+  deviceSsdFill,
+  deviceSsd,
   diagram2Fill,
   diagram2,
   diagram3Fill,
@@ -1937,6 +2064,8 @@ export const allIcons = {
   discord,
   displayFill,
   display,
+  displayportFill,
+  displayport,
   distributeHorizontal,
   distributeVertical,
   doorClosedFill,
@@ -1945,10 +2074,14 @@ export const allIcons = {
   doorOpen,
   dot,
   download,
+  dpadFill,
+  dpad,
   dribbble,
   dropletFill,
   dropletHalf,
   droplet,
+  earFill,
+  ear,
   earbuds,
   easelFill,
   easel,
@@ -1983,12 +2116,25 @@ export const allIcons = {
   emojiSunglasses,
   emojiWinkFill,
   emojiWink,
+  envelopeCheckFill,
+  envelopeCheck,
+  envelopeDashFill,
+  envelopeDash,
+  envelopeExclamationFill,
+  envelopeExclamation,
   envelopeFill,
   envelopeOpenFill,
   envelopeOpen,
+  envelopePlusFill,
+  envelopePlus,
+  envelopeSlashFill,
+  envelopeSlash,
+  envelopeXFill,
+  envelopeX,
   envelope,
   eraserFill,
   eraser,
+  ethernet,
   exclamationCircleFill,
   exclamationCircle,
   exclamationDiamondFill,
@@ -2002,6 +2148,8 @@ export const allIcons = {
   exclamationTriangle,
   exclamation,
   exclude,
+  explicitFill,
+  explicit,
   eyeFill,
   eyeSlashFill,
   eyeSlash,
@@ -2187,10 +2335,12 @@ export const allIcons = {
   geo,
   giftFill,
   gift,
+  git,
   github,
   globe,
   globe2,
   google,
+  gpuCard,
   graphDownArrow,
   graphDown,
   graphUpArrow,
@@ -2227,6 +2377,8 @@ export const allIcons = {
   hddStackFill,
   hddStack,
   hdd,
+  hdmiFill,
+  hdmi,
   headphones,
   headsetVr,
   headset,
@@ -2258,6 +2410,7 @@ export const allIcons = {
   inbox,
   inboxesFill,
   inboxes,
+  infinity,
   infoCircleFill,
   infoCircle,
   infoLg,
@@ -2328,6 +2481,8 @@ export const allIcons = {
   link,
   linkedin,
   listCheck,
+  listColumnsReverse,
+  listColumns,
   listNested,
   listOl,
   listStars,
@@ -2348,6 +2503,7 @@ export const allIcons = {
   medium,
   megaphoneFill,
   megaphone,
+  memory,
   menuAppFill,
   menuApp,
   menuButtonFill,
@@ -2357,6 +2513,7 @@ export const allIcons = {
   menuDown,
   menuUp,
   messenger,
+  meta,
   micFill,
   micMuteFill,
   micMute,
@@ -2364,11 +2521,17 @@ export const allIcons = {
   microsoft,
   minecartLoaded,
   minecart,
+  modemFill,
+  modem,
   moisture,
   moonFill,
   moonStarsFill,
   moonStars,
   moon,
+  mortarboardFill,
+  mortarboard,
+  motherboardFill,
+  motherboard,
   mouseFill,
   mouse,
   mouse2Fill,
@@ -2381,6 +2544,7 @@ export const allIcons = {
   musicPlayerFill,
   musicPlayer,
   newspaper,
+  nintendoSwitch,
   nodeMinusFill,
   nodeMinus,
   nodePlusFill,
@@ -2390,6 +2554,8 @@ export const allIcons = {
   octagonFill,
   octagonHalf,
   octagon,
+  opticalAudioFill,
+  opticalAudio,
   option,
   outlet,
   paintBucket,
@@ -2415,6 +2581,11 @@ export const allIcons = {
   pauseFill,
   pause,
   paypal,
+  pcDisplayHorizontal,
+  pcDisplay,
+  pcHorizontal,
+  pc,
+  pciCard,
   peaceFill,
   peace,
   penFill,
@@ -2474,12 +2645,14 @@ export const allIcons = {
   playCircle,
   playFill,
   play,
+  playstation,
   plugFill,
   plug,
   plusCircleDotted,
   plusCircleFill,
   plusCircle,
   plusLg,
+  plusSlashMinus,
   plusSquareDotted,
   plusSquareFill,
   plusSquare,
@@ -2487,8 +2660,12 @@ export const allIcons = {
   power,
   printerFill,
   printer,
+  projectorFill,
+  projector,
   puzzleFill,
   puzzle,
+  qrCodeScan,
+  qrCode,
   questionCircleFill,
   questionCircle,
   questionDiamondFill,
@@ -2499,6 +2676,8 @@ export const allIcons = {
   questionSquareFill,
   questionSquare,
   question,
+  quora,
+  quote,
   radioactive,
   rainbow,
   receiptCutoff,
@@ -2522,6 +2701,9 @@ export const allIcons = {
   replyAll,
   replyFill,
   reply,
+  robot,
+  routerFill,
+  router,
   rssFill,
   rss,
   rulers,
@@ -2539,6 +2721,20 @@ export const allIcons = {
   sdCard,
   search,
   segmentedNav,
+  sendCheckFill,
+  sendCheck,
+  sendDashFill,
+  sendDash,
+  sendExclamationFill,
+  sendExclamation,
+  sendFill,
+  sendPlusFill,
+  sendPlus,
+  sendSlashFill,
+  sendSlash,
+  sendXFill,
+  sendX,
+  send,
   server,
   shareFill,
   share,
@@ -2639,6 +2835,7 @@ export const allIcons = {
   starHalf,
   star,
   stars,
+  steam,
   stickiesFill,
   stickies,
   stickyFill,
@@ -2696,7 +2893,10 @@ export const allIcons = {
   telephoneXFill,
   telephoneX,
   telephone,
+  terminalDash,
   terminalFill,
+  terminalPlus,
+  terminalSplit,
   terminal,
   textCenter,
   textIndentLeft,
@@ -2715,6 +2915,15 @@ export const allIcons = {
   thermometer,
   threeDotsVertical,
   threeDots,
+  thunderboltFill,
+  thunderbolt,
+  ticketDetailedFill,
+  ticketDetailed,
+  ticketFill,
+  ticketPerferatedFill,
+  ticketPerferated,
+  ticket,
+  tiktok,
   toggleOff,
   toggleOn,
   toggle2Off,
@@ -2763,6 +2972,19 @@ export const allIcons = {
   upcScan,
   upc,
   upload,
+  usbCFill,
+  usbC,
+  usbDriveFill,
+  usbDrive,
+  usbFill,
+  usbMicroFill,
+  usbMicro,
+  usbMiniFill,
+  usbMini,
+  usbPlugFill,
+  usbPlug,
+  usbSymbol,
+  usb,
   vectorPen,
   viewList,
   viewStacked,
@@ -2792,8 +3014,15 @@ export const allIcons = {
   wifiOff,
   wifi,
   wind,
+  windowDash,
+  windowDesktop,
   windowDock,
+  windowFullscreen,
+  windowPlus,
   windowSidebar,
+  windowSplit,
+  windowStack,
+  windowX,
   window,
   windows,
   wordpress,
@@ -2808,6 +3037,7 @@ export const allIcons = {
   xSquareFill,
   xSquare,
   x,
+  xbox,
   yinYang,
   youtube,
   zoomIn,
