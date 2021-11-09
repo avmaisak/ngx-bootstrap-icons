@@ -1376,6 +1376,7 @@ export { terminalDash } from './terminal-dash';
 export { terminalFill } from './terminal-fill';
 export { terminalPlus } from './terminal-plus';
 export { terminalSplit } from './terminal-split';
+export { terminalX } from './terminal-x';
 export { textCenter } from './text-center';
 export { textIndentLeft } from './text-indent-left';
 export { textIndentRight } from './text-indent-right';
