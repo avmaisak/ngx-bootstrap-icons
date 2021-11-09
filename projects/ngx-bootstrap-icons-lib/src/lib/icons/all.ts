@@ -1375,6 +1375,7 @@ import { terminalDash } from './terminal-dash';
 import { terminalFill } from './terminal-fill';
 import { terminalPlus } from './terminal-plus';
 import { terminalSplit } from './terminal-split';
+import { terminalX } from './terminal-x';
 import { textCenter } from './text-center';
 import { textIndentLeft } from './text-indent-left';
 import { textIndentRight } from './text-indent-right';
@@ -2897,6 +2898,7 @@ export const allIcons = {
   terminalFill,
   terminalPlus,
   terminalSplit,
+  terminalX,
   terminal,
   textCenter,
   textIndentLeft,

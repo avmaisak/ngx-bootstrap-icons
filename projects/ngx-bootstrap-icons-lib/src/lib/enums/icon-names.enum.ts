@@ -2752,6 +2752,8 @@ export enum IconNamesEnum {
   TerminalPlus = 'terminal-plus',
   /** {@link https://icons.getbootstrap.com/icons/terminal-split} */
   TerminalSplit = 'terminal-split',
+  /** {@link https://icons.getbootstrap.com/icons/terminal-x} */
+  TerminalX = 'terminal-x',
   /** {@link https://icons.getbootstrap.com/icons/terminal} */
   Terminal = 'terminal',
   /** {@link https://icons.getbootstrap.com/icons/text-center} */

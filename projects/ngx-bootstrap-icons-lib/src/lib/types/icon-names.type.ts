@@ -2752,6 +2752,8 @@ export type IconName =
 'terminal-plus' | 
 /** {@link https://icons.getbootstrap.com/icons/terminal-split} */
 'terminal-split' | 
+/** {@link https://icons.getbootstrap.com/icons/terminal-x} */
+'terminal-x' | 
 /** {@link https://icons.getbootstrap.com/icons/terminal} */
 'terminal' | 
 /** {@link https://icons.getbootstrap.com/icons/text-center} */
