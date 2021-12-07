@@ -57,7 +57,7 @@
     "@typescript-eslint/eslint-plugin": "5.4.0",
     "@typescript-eslint/parser": "5.5.0",
     "angular-cli-ghpages": "1.0.0",
-    "bootstrap-icons": "1.7.1",
+    "bootstrap-icons": "1.7.2",
     "cli-color": "2.0.1",
     "codelyzer": "6.0.2",
     "eslint": "8.4.0",
