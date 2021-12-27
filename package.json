@@ -61,7 +61,7 @@
     "cli-color": "2.0.1",
     "codelyzer": "6.0.2",
     "eslint": "8.5.0",
-    "eslint-config-airbnb": "^19.0.2",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "16.1.0",
     "eslint-plugin-import": "2.25.3",
     "eslint-plugin-jasmine": "4.1.3",
