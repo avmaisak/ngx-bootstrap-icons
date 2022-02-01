@@ -118,6 +118,10 @@ export enum IconNamesEnum {
   ArrowRightSquare = 'arrow-right-square',
   /** {@link https://icons.getbootstrap.com/icons/arrow-right} */
   ArrowRight = 'arrow-right',
+  /** {@link https://icons.getbootstrap.com/icons/arrow-through-heart-fill} */
+  ArrowThroughHeartFill = 'arrow-through-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/arrow-through-heart} */
+  ArrowThroughHeart = 'arrow-through-heart',
   /** {@link https://icons.getbootstrap.com/icons/arrow-up-circle-fill} */
   ArrowUpCircleFill = 'arrow-up-circle-fill',
   /** {@link https://icons.getbootstrap.com/icons/arrow-up-circle} */
@@ -212,6 +216,10 @@ export enum IconNamesEnum {
   BadgeHdFill = 'badge-hd-fill',
   /** {@link https://icons.getbootstrap.com/icons/badge-hd} */
   BadgeHd = 'badge-hd',
+  /** {@link https://icons.getbootstrap.com/icons/badge-sd-fill} */
+  BadgeSdFill = 'badge-sd-fill',
+  /** {@link https://icons.getbootstrap.com/icons/badge-sd} */
+  BadgeSd = 'badge-sd',
   /** {@link https://icons.getbootstrap.com/icons/badge-tm-fill} */
   BadgeTmFill = 'badge-tm-fill',
   /** {@link https://icons.getbootstrap.com/icons/badge-tm} */
@@ -238,6 +246,10 @@ export enum IconNamesEnum {
   BagDash = 'bag-dash',
   /** {@link https://icons.getbootstrap.com/icons/bag-fill} */
   BagFill = 'bag-fill',
+  /** {@link https://icons.getbootstrap.com/icons/bag-heart-fill} */
+  BagHeartFill = 'bag-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/bag-heart} */
+  BagHeart = 'bag-heart',
   /** {@link https://icons.getbootstrap.com/icons/bag-plus-fill} */
   BagPlusFill = 'bag-plus-fill',
   /** {@link https://icons.getbootstrap.com/icons/bag-plus} */
@@ -248,6 +260,14 @@ export enum IconNamesEnum {
   BagX = 'bag-x',
   /** {@link https://icons.getbootstrap.com/icons/bag} */
   Bag = 'bag',
+  /** {@link https://icons.getbootstrap.com/icons/balloon-fill} */
+  BalloonFill = 'balloon-fill',
+  /** {@link https://icons.getbootstrap.com/icons/balloon-heart-fill} */
+  BalloonHeartFill = 'balloon-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/balloon-heart} */
+  BalloonHeart = 'balloon-heart',
+  /** {@link https://icons.getbootstrap.com/icons/balloon} */
+  Balloon = 'balloon',
   /** {@link https://icons.getbootstrap.com/icons/bandaid-fill} */
   BandaidFill = 'bandaid-fill',
   /** {@link https://icons.getbootstrap.com/icons/bandaid} */
@@ -428,8 +448,18 @@ export enum IconNamesEnum {
   BoxSeam = 'box-seam',
   /** {@link https://icons.getbootstrap.com/icons/box} */
   Box = 'box',
+  /** {@link https://icons.getbootstrap.com/icons/box2-fill} */
+  Box2Fill = 'box2-fill',
+  /** {@link https://icons.getbootstrap.com/icons/box2-heart-fill} */
+  Box2HeartFill = 'box2-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/box2-heart} */
+  Box2Heart = 'box2-heart',
+  /** {@link https://icons.getbootstrap.com/icons/box2} */
+  Box2 = 'box2',
   /** {@link https://icons.getbootstrap.com/icons/boxes} */
   Boxes = 'boxes',
+  /** {@link https://icons.getbootstrap.com/icons/braces-asterisk} */
+  BracesAsterisk = 'braces-asterisk',
   /** {@link https://icons.getbootstrap.com/icons/braces} */
   Braces = 'braces',
   /** {@link https://icons.getbootstrap.com/icons/bricks} */
@@ -496,6 +526,10 @@ export enum IconNamesEnum {
   CalendarEvent = 'calendar-event',
   /** {@link https://icons.getbootstrap.com/icons/calendar-fill} */
   CalendarFill = 'calendar-fill',
+  /** {@link https://icons.getbootstrap.com/icons/calendar-heart-fill} */
+  CalendarHeartFill = 'calendar-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/calendar-heart} */
+  CalendarHeart = 'calendar-heart',
   /** {@link https://icons.getbootstrap.com/icons/calendar-minus-fill} */
   CalendarMinusFill = 'calendar-minus-fill',
   /** {@link https://icons.getbootstrap.com/icons/calendar-minus} */
@@ -540,6 +574,10 @@ export enum IconNamesEnum {
   Calendar2Event = 'calendar2-event',
   /** {@link https://icons.getbootstrap.com/icons/calendar2-fill} */
   Calendar2Fill = 'calendar2-fill',
+  /** {@link https://icons.getbootstrap.com/icons/calendar2-heart-fill} */
+  Calendar2HeartFill = 'calendar2-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/calendar2-heart} */
+  Calendar2Heart = 'calendar2-heart',
   /** {@link https://icons.getbootstrap.com/icons/calendar2-minus-fill} */
   Calendar2MinusFill = 'calendar2-minus-fill',
   /** {@link https://icons.getbootstrap.com/icons/calendar2-minus} */
@@ -694,12 +732,20 @@ export enum IconNamesEnum {
   ChatDots = 'chat-dots',
   /** {@link https://icons.getbootstrap.com/icons/chat-fill} */
   ChatFill = 'chat-fill',
+  /** {@link https://icons.getbootstrap.com/icons/chat-heart-fill} */
+  ChatHeartFill = 'chat-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/chat-heart} */
+  ChatHeart = 'chat-heart',
   /** {@link https://icons.getbootstrap.com/icons/chat-left-dots-fill} */
   ChatLeftDotsFill = 'chat-left-dots-fill',
   /** {@link https://icons.getbootstrap.com/icons/chat-left-dots} */
   ChatLeftDots = 'chat-left-dots',
   /** {@link https://icons.getbootstrap.com/icons/chat-left-fill} */
   ChatLeftFill = 'chat-left-fill',
+  /** {@link https://icons.getbootstrap.com/icons/chat-left-heart-fill} */
+  ChatLeftHeartFill = 'chat-left-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/chat-left-heart} */
+  ChatLeftHeart = 'chat-left-heart',
   /** {@link https://icons.getbootstrap.com/icons/chat-left-quote-fill} */
   ChatLeftQuoteFill = 'chat-left-quote-fill',
   /** {@link https://icons.getbootstrap.com/icons/chat-left-quote} */
@@ -720,6 +766,10 @@ export enum IconNamesEnum {
   ChatRightDots = 'chat-right-dots',
   /** {@link https://icons.getbootstrap.com/icons/chat-right-fill} */
   ChatRightFill = 'chat-right-fill',
+  /** {@link https://icons.getbootstrap.com/icons/chat-right-heart-fill} */
+  ChatRightHeartFill = 'chat-right-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/chat-right-heart} */
+  ChatRightHeart = 'chat-right-heart',
   /** {@link https://icons.getbootstrap.com/icons/chat-right-quote-fill} */
   ChatRightQuoteFill = 'chat-right-quote-fill',
   /** {@link https://icons.getbootstrap.com/icons/chat-right-quote} */
@@ -736,6 +786,10 @@ export enum IconNamesEnum {
   ChatSquareDots = 'chat-square-dots',
   /** {@link https://icons.getbootstrap.com/icons/chat-square-fill} */
   ChatSquareFill = 'chat-square-fill',
+  /** {@link https://icons.getbootstrap.com/icons/chat-square-heart-fill} */
+  ChatSquareHeartFill = 'chat-square-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/chat-square-heart} */
+  ChatSquareHeart = 'chat-square-heart',
   /** {@link https://icons.getbootstrap.com/icons/chat-square-quote-fill} */
   ChatSquareQuoteFill = 'chat-square-quote-fill',
   /** {@link https://icons.getbootstrap.com/icons/chat-square-quote} */
@@ -822,18 +876,68 @@ export enum IconNamesEnum {
   CircleSquare = 'circle-square',
   /** {@link https://icons.getbootstrap.com/icons/circle} */
   Circle = 'circle',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard-check-fill} */
+  ClipboardCheckFill = 'clipboard-check-fill',
   /** {@link https://icons.getbootstrap.com/icons/clipboard-check} */
   ClipboardCheck = 'clipboard-check',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard-data-fill} */
+  ClipboardDataFill = 'clipboard-data-fill',
   /** {@link https://icons.getbootstrap.com/icons/clipboard-data} */
   ClipboardData = 'clipboard-data',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard-fill} */
+  ClipboardFill = 'clipboard-fill',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard-heart-fill} */
+  ClipboardHeartFill = 'clipboard-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard-heart} */
+  ClipboardHeart = 'clipboard-heart',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard-minus-fill} */
+  ClipboardMinusFill = 'clipboard-minus-fill',
   /** {@link https://icons.getbootstrap.com/icons/clipboard-minus} */
   ClipboardMinus = 'clipboard-minus',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard-plus-fill} */
+  ClipboardPlusFill = 'clipboard-plus-fill',
   /** {@link https://icons.getbootstrap.com/icons/clipboard-plus} */
   ClipboardPlus = 'clipboard-plus',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard-pulse} */
+  ClipboardPulse = 'clipboard-pulse',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard-x-fill} */
+  ClipboardXFill = 'clipboard-x-fill',
   /** {@link https://icons.getbootstrap.com/icons/clipboard-x} */
   ClipboardX = 'clipboard-x',
   /** {@link https://icons.getbootstrap.com/icons/clipboard} */
   Clipboard = 'clipboard',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2-check-fill} */
+  Clipboard2CheckFill = 'clipboard2-check-fill',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2-check} */
+  Clipboard2Check = 'clipboard2-check',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2-data-fill} */
+  Clipboard2DataFill = 'clipboard2-data-fill',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2-data} */
+  Clipboard2Data = 'clipboard2-data',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2-fill} */
+  Clipboard2Fill = 'clipboard2-fill',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2-heart-fill} */
+  Clipboard2HeartFill = 'clipboard2-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2-heart} */
+  Clipboard2Heart = 'clipboard2-heart',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2-minus-fill} */
+  Clipboard2MinusFill = 'clipboard2-minus-fill',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2-minus} */
+  Clipboard2Minus = 'clipboard2-minus',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2-plus-fill} */
+  Clipboard2PlusFill = 'clipboard2-plus-fill',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2-plus} */
+  Clipboard2Plus = 'clipboard2-plus',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2-pulse-fill} */
+  Clipboard2PulseFill = 'clipboard2-pulse-fill',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2-pulse} */
+  Clipboard2Pulse = 'clipboard2-pulse',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2-x-fill} */
+  Clipboard2XFill = 'clipboard2-x-fill',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2-x} */
+  Clipboard2X = 'clipboard2-x',
+  /** {@link https://icons.getbootstrap.com/icons/clipboard2} */
+  Clipboard2 = 'clipboard2',
   /** {@link https://icons.getbootstrap.com/icons/clock-fill} */
   ClockFill = 'clock-fill',
   /** {@link https://icons.getbootstrap.com/icons/clock-history} */
@@ -1166,6 +1270,10 @@ export enum IconNamesEnum {
   EmojiHeartEyesFill = 'emoji-heart-eyes-fill',
   /** {@link https://icons.getbootstrap.com/icons/emoji-heart-eyes} */
   EmojiHeartEyes = 'emoji-heart-eyes',
+  /** {@link https://icons.getbootstrap.com/icons/emoji-kiss-fill} */
+  EmojiKissFill = 'emoji-kiss-fill',
+  /** {@link https://icons.getbootstrap.com/icons/emoji-kiss} */
+  EmojiKiss = 'emoji-kiss',
   /** {@link https://icons.getbootstrap.com/icons/emoji-laughing-fill} */
   EmojiLaughingFill = 'emoji-laughing-fill',
   /** {@link https://icons.getbootstrap.com/icons/emoji-laughing} */
@@ -1204,10 +1312,26 @@ export enum IconNamesEnum {
   EnvelopeExclamation = 'envelope-exclamation',
   /** {@link https://icons.getbootstrap.com/icons/envelope-fill} */
   EnvelopeFill = 'envelope-fill',
+  /** {@link https://icons.getbootstrap.com/icons/envelope-heart-fill} */
+  EnvelopeHeartFill = 'envelope-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/envelope-heart} */
+  EnvelopeHeart = 'envelope-heart',
   /** {@link https://icons.getbootstrap.com/icons/envelope-open-fill} */
   EnvelopeOpenFill = 'envelope-open-fill',
+  /** {@link https://icons.getbootstrap.com/icons/envelope-open-heart-fill} */
+  EnvelopeOpenHeartFill = 'envelope-open-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/envelope-open-heart} */
+  EnvelopeOpenHeart = 'envelope-open-heart',
   /** {@link https://icons.getbootstrap.com/icons/envelope-open} */
   EnvelopeOpen = 'envelope-open',
+  /** {@link https://icons.getbootstrap.com/icons/envelope-paper-fill} */
+  EnvelopePaperFill = 'envelope-paper-fill',
+  /** {@link https://icons.getbootstrap.com/icons/envelope-paper-heart-fill} */
+  EnvelopePaperHeartFill = 'envelope-paper-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/envelope-paper-heart} */
+  EnvelopePaperHeart = 'envelope-paper-heart',
+  /** {@link https://icons.getbootstrap.com/icons/envelope-paper} */
+  EnvelopePaper = 'envelope-paper',
   /** {@link https://icons.getbootstrap.com/icons/envelope-plus-fill} */
   EnvelopePlusFill = 'envelope-plus-fill',
   /** {@link https://icons.getbootstrap.com/icons/envelope-plus} */
@@ -1534,6 +1658,102 @@ export enum IconNamesEnum {
   FilesAlt = 'files-alt',
   /** {@link https://icons.getbootstrap.com/icons/files} */
   Files = 'files',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-aac} */
+  FiletypeAac = 'filetype-aac',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-ai} */
+  FiletypeAi = 'filetype-ai',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-bmp} */
+  FiletypeBmp = 'filetype-bmp',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-cs} */
+  FiletypeCs = 'filetype-cs',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-css} */
+  FiletypeCss = 'filetype-css',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-csv} */
+  FiletypeCsv = 'filetype-csv',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-doc} */
+  FiletypeDoc = 'filetype-doc',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-docx} */
+  FiletypeDocx = 'filetype-docx',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-exe} */
+  FiletypeExe = 'filetype-exe',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-gif} */
+  FiletypeGif = 'filetype-gif',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-heic} */
+  FiletypeHeic = 'filetype-heic',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-html} */
+  FiletypeHtml = 'filetype-html',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-java} */
+  FiletypeJava = 'filetype-java',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-jpg} */
+  FiletypeJpg = 'filetype-jpg',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-js} */
+  FiletypeJs = 'filetype-js',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-json} */
+  FiletypeJson = 'filetype-json',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-jsx} */
+  FiletypeJsx = 'filetype-jsx',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-key} */
+  FiletypeKey = 'filetype-key',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-m4p} */
+  FiletypeM4P = 'filetype-m4p',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-md} */
+  FiletypeMd = 'filetype-md',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-mdx} */
+  FiletypeMdx = 'filetype-mdx',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-mov} */
+  FiletypeMov = 'filetype-mov',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-mp3} */
+  FiletypeMp3 = 'filetype-mp3',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-mp4} */
+  FiletypeMp4 = 'filetype-mp4',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-otf} */
+  FiletypeOtf = 'filetype-otf',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-pdf} */
+  FiletypePdf = 'filetype-pdf',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-php} */
+  FiletypePhp = 'filetype-php',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-png} */
+  FiletypePng = 'filetype-png',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-ppt} */
+  FiletypePpt = 'filetype-ppt',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-pptx} */
+  FiletypePptx = 'filetype-pptx',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-psd} */
+  FiletypePsd = 'filetype-psd',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-py} */
+  FiletypePy = 'filetype-py',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-raw} */
+  FiletypeRaw = 'filetype-raw',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-rb} */
+  FiletypeRb = 'filetype-rb',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-sass} */
+  FiletypeSass = 'filetype-sass',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-scss} */
+  FiletypeScss = 'filetype-scss',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-sh} */
+  FiletypeSh = 'filetype-sh',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-svg} */
+  FiletypeSvg = 'filetype-svg',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-tiff} */
+  FiletypeTiff = 'filetype-tiff',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-tsx} */
+  FiletypeTsx = 'filetype-tsx',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-ttf} */
+  FiletypeTtf = 'filetype-ttf',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-txt} */
+  FiletypeTxt = 'filetype-txt',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-wav} */
+  FiletypeWav = 'filetype-wav',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-woff} */
+  FiletypeWoff = 'filetype-woff',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-xls} */
+  FiletypeXls = 'filetype-xls',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-xlsx} */
+  FiletypeXlsx = 'filetype-xlsx',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-xml} */
+  FiletypeXml = 'filetype-xml',
+  /** {@link https://icons.getbootstrap.com/icons/filetype-yml} */
+  FiletypeYml = 'filetype-yml',
   /** {@link https://icons.getbootstrap.com/icons/film} */
   Film = 'film',
   /** {@link https://icons.getbootstrap.com/icons/filter-circle-fill} */
@@ -1722,12 +1942,24 @@ export enum IconNamesEnum {
   HeadsetVr = 'headset-vr',
   /** {@link https://icons.getbootstrap.com/icons/headset} */
   Headset = 'headset',
+  /** {@link https://icons.getbootstrap.com/icons/heart-arrow} */
+  HeartArrow = 'heart-arrow',
   /** {@link https://icons.getbootstrap.com/icons/heart-fill} */
   HeartFill = 'heart-fill',
   /** {@link https://icons.getbootstrap.com/icons/heart-half} */
   HeartHalf = 'heart-half',
+  /** {@link https://icons.getbootstrap.com/icons/heart-pulse-fill} */
+  HeartPulseFill = 'heart-pulse-fill',
+  /** {@link https://icons.getbootstrap.com/icons/heart-pulse} */
+  HeartPulse = 'heart-pulse',
   /** {@link https://icons.getbootstrap.com/icons/heart} */
   Heart = 'heart',
+  /** {@link https://icons.getbootstrap.com/icons/heartbreak-fill} */
+  HeartbreakFill = 'heartbreak-fill',
+  /** {@link https://icons.getbootstrap.com/icons/heartbreak} */
+  Heartbreak = 'heartbreak',
+  /** {@link https://icons.getbootstrap.com/icons/hearts} */
+  Hearts = 'hearts',
   /** {@link https://icons.getbootstrap.com/icons/heptagon-fill} */
   HeptagonFill = 'heptagon-fill',
   /** {@link https://icons.getbootstrap.com/icons/heptagon-half} */
@@ -1740,6 +1972,10 @@ export enum IconNamesEnum {
   HexagonHalf = 'hexagon-half',
   /** {@link https://icons.getbootstrap.com/icons/hexagon} */
   Hexagon = 'hexagon',
+  /** {@link https://icons.getbootstrap.com/icons/hospital-fill} */
+  HospitalFill = 'hospital-fill',
+  /** {@link https://icons.getbootstrap.com/icons/hospital} */
+  Hospital = 'hospital',
   /** {@link https://icons.getbootstrap.com/icons/hourglass-bottom} */
   HourglassBottom = 'hourglass-bottom',
   /** {@link https://icons.getbootstrap.com/icons/hourglass-split} */
@@ -1754,6 +1990,10 @@ export enum IconNamesEnum {
   HouseDoor = 'house-door',
   /** {@link https://icons.getbootstrap.com/icons/house-fill} */
   HouseFill = 'house-fill',
+  /** {@link https://icons.getbootstrap.com/icons/house-heart-fill} */
+  HouseHeartFill = 'house-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/house-heart} */
+  HouseHeart = 'house-heart',
   /** {@link https://icons.getbootstrap.com/icons/house} */
   House = 'house',
   /** {@link https://icons.getbootstrap.com/icons/hr} */
@@ -1778,6 +2018,8 @@ export enum IconNamesEnum {
   InboxesFill = 'inboxes-fill',
   /** {@link https://icons.getbootstrap.com/icons/inboxes} */
   Inboxes = 'inboxes',
+  /** {@link https://icons.getbootstrap.com/icons/incognito} */
+  Incognito = 'incognito',
   /** {@link https://icons.getbootstrap.com/icons/infinity} */
   Infinity = 'infinity',
   /** {@link https://icons.getbootstrap.com/icons/info-circle-fill} */
@@ -1942,6 +2184,10 @@ export enum IconNamesEnum {
   Lock = 'lock',
   /** {@link https://icons.getbootstrap.com/icons/magic} */
   Magic = 'magic',
+  /** {@link https://icons.getbootstrap.com/icons/magnet-fill} */
+  MagnetFill = 'magnet-fill',
+  /** {@link https://icons.getbootstrap.com/icons/magnet} */
+  Magnet = 'magnet',
   /** {@link https://icons.getbootstrap.com/icons/mailbox} */
   Mailbox = 'mailbox',
   /** {@link https://icons.getbootstrap.com/icons/mailbox2} */
@@ -2174,6 +2420,10 @@ export enum IconNamesEnum {
   PersonDash = 'person-dash',
   /** {@link https://icons.getbootstrap.com/icons/person-fill} */
   PersonFill = 'person-fill',
+  /** {@link https://icons.getbootstrap.com/icons/person-heart} */
+  PersonHeart = 'person-heart',
+  /** {@link https://icons.getbootstrap.com/icons/person-hearts} */
+  PersonHearts = 'person-hearts',
   /** {@link https://icons.getbootstrap.com/icons/person-lines-fill} */
   PersonLinesFill = 'person-lines-fill',
   /** {@link https://icons.getbootstrap.com/icons/person-plus-fill} */
@@ -2200,6 +2450,8 @@ export enum IconNamesEnum {
   Person = 'person',
   /** {@link https://icons.getbootstrap.com/icons/phone-fill} */
   PhoneFill = 'phone-fill',
+  /** {@link https://icons.getbootstrap.com/icons/phone-flip} */
+  PhoneFlip = 'phone-flip',
   /** {@link https://icons.getbootstrap.com/icons/phone-landscape-fill} */
   PhoneLandscapeFill = 'phone-landscape-fill',
   /** {@link https://icons.getbootstrap.com/icons/phone-landscape} */
@@ -2254,6 +2506,8 @@ export enum IconNamesEnum {
   PlugFill = 'plug-fill',
   /** {@link https://icons.getbootstrap.com/icons/plug} */
   Plug = 'plug',
+  /** {@link https://icons.getbootstrap.com/icons/plugin} */
+  Plugin = 'plugin',
   /** {@link https://icons.getbootstrap.com/icons/plus-circle-dotted} */
   PlusCircleDotted = 'plus-circle-dotted',
   /** {@link https://icons.getbootstrap.com/icons/plus-circle-fill} */
@@ -2272,6 +2526,22 @@ export enum IconNamesEnum {
   PlusSquare = 'plus-square',
   /** {@link https://icons.getbootstrap.com/icons/plus} */
   Plus = 'plus',
+  /** {@link https://icons.getbootstrap.com/icons/postage-fill} */
+  PostageFill = 'postage-fill',
+  /** {@link https://icons.getbootstrap.com/icons/postage-heart-fill} */
+  PostageHeartFill = 'postage-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/postage-heart} */
+  PostageHeart = 'postage-heart',
+  /** {@link https://icons.getbootstrap.com/icons/postage} */
+  Postage = 'postage',
+  /** {@link https://icons.getbootstrap.com/icons/postcard-fill} */
+  PostcardFill = 'postcard-fill',
+  /** {@link https://icons.getbootstrap.com/icons/postcard-heart-fill} */
+  PostcardHeartFill = 'postcard-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/postcard-heart} */
+  PostcardHeart = 'postcard-heart',
+  /** {@link https://icons.getbootstrap.com/icons/postcard} */
+  Postcard = 'postcard',
   /** {@link https://icons.getbootstrap.com/icons/power} */
   Power = 'power',
   /** {@link https://icons.getbootstrap.com/icons/printer-fill} */
@@ -2396,6 +2666,10 @@ export enum IconNamesEnum {
   SdCardFill = 'sd-card-fill',
   /** {@link https://icons.getbootstrap.com/icons/sd-card} */
   SdCard = 'sd-card',
+  /** {@link https://icons.getbootstrap.com/icons/search-heart-fill} */
+  SearchHeartFill = 'search-heart-fill',
+  /** {@link https://icons.getbootstrap.com/icons/search-heart} */
+  SearchHeart = 'search-heart',
   /** {@link https://icons.getbootstrap.com/icons/search} */
   Search = 'search',
   /** {@link https://icons.getbootstrap.com/icons/segmented-nav} */
@@ -2562,6 +2836,10 @@ export enum IconNamesEnum {
   Slash = 'slash',
   /** {@link https://icons.getbootstrap.com/icons/sliders} */
   Sliders = 'sliders',
+  /** {@link https://icons.getbootstrap.com/icons/sliders2-vertical} */
+  Sliders2Vertical = 'sliders2-vertical',
+  /** {@link https://icons.getbootstrap.com/icons/sliders2} */
+  Sliders2 = 'sliders2',
   /** {@link https://icons.getbootstrap.com/icons/smartwatch} */
   Smartwatch = 'smartwatch',
   /** {@link https://icons.getbootstrap.com/icons/snapchat} */
@@ -2800,10 +3078,10 @@ export enum IconNamesEnum {
   TicketDetailed = 'ticket-detailed',
   /** {@link https://icons.getbootstrap.com/icons/ticket-fill} */
   TicketFill = 'ticket-fill',
-  /** {@link https://icons.getbootstrap.com/icons/ticket-perferated-fill} */
-  TicketPerferatedFill = 'ticket-perferated-fill',
-  /** {@link https://icons.getbootstrap.com/icons/ticket-perferated} */
-  TicketPerferated = 'ticket-perferated',
+  /** {@link https://icons.getbootstrap.com/icons/ticket-perforated-fill} */
+  TicketPerforatedFill = 'ticket-perforated-fill',
+  /** {@link https://icons.getbootstrap.com/icons/ticket-perforated} */
+  TicketPerforated = 'ticket-perforated',
   /** {@link https://icons.getbootstrap.com/icons/ticket} */
   Ticket = 'ticket',
   /** {@link https://icons.getbootstrap.com/icons/tiktok} */
@@ -2834,6 +3112,10 @@ export enum IconNamesEnum {
   Trash2Fill = 'trash2-fill',
   /** {@link https://icons.getbootstrap.com/icons/trash2} */
   Trash2 = 'trash2',
+  /** {@link https://icons.getbootstrap.com/icons/trash3-fill} */
+  Trash3Fill = 'trash3-fill',
+  /** {@link https://icons.getbootstrap.com/icons/trash3} */
+  Trash3 = 'trash3',
   /** {@link https://icons.getbootstrap.com/icons/tree-fill} */
   TreeFill = 'tree-fill',
   /** {@link https://icons.getbootstrap.com/icons/tree} */
@@ -2930,6 +3212,10 @@ export enum IconNamesEnum {
   UsbSymbol = 'usb-symbol',
   /** {@link https://icons.getbootstrap.com/icons/usb} */
   Usb = 'usb',
+  /** {@link https://icons.getbootstrap.com/icons/valentine} */
+  Valentine = 'valentine',
+  /** {@link https://icons.getbootstrap.com/icons/valentine2} */
+  Valentine2 = 'valentine2',
   /** {@link https://icons.getbootstrap.com/icons/vector-pen} */
   VectorPen = 'vector-pen',
   /** {@link https://icons.getbootstrap.com/icons/view-list} */
@@ -3012,6 +3298,12 @@ export enum IconNamesEnum {
   Windows = 'windows',
   /** {@link https://icons.getbootstrap.com/icons/wordpress} */
   Wordpress = 'wordpress',
+  /** {@link https://icons.getbootstrap.com/icons/wrench-adjustable-circle-fill} */
+  WrenchAdjustableCircleFill = 'wrench-adjustable-circle-fill',
+  /** {@link https://icons.getbootstrap.com/icons/wrench-adjustable-cricle} */
+  WrenchAdjustableCricle = 'wrench-adjustable-cricle',
+  /** {@link https://icons.getbootstrap.com/icons/wrench-adjustable} */
+  WrenchAdjustable = 'wrench-adjustable',
   /** {@link https://icons.getbootstrap.com/icons/wrench} */
   Wrench = 'wrench',
   /** {@link https://icons.getbootstrap.com/icons/x-circle-fill} */
