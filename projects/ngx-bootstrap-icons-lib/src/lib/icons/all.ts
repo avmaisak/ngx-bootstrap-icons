@@ -56,6 +56,8 @@ import { arrowRightCircleFill } from './arrow-right-circle-fill';
 import { arrowRightShort } from './arrow-right-short';
 import { arrowRightSquare } from './arrow-right-square';
 import { arrowRightSquareFill } from './arrow-right-square-fill';
+import { arrowThroughHeart } from './arrow-through-heart';
+import { arrowThroughHeartFill } from './arrow-through-heart-fill';
 import { arrowUp } from './arrow-up';
 import { arrowUpCircle } from './arrow-up-circle';
 import { arrowUpCircleFill } from './arrow-up-circle-fill';
@@ -103,6 +105,8 @@ import { badgeCc } from './badge-cc';
 import { badgeCcFill } from './badge-cc-fill';
 import { badgeHd } from './badge-hd';
 import { badgeHdFill } from './badge-hd-fill';
+import { badgeSd } from './badge-sd';
+import { badgeSdFill } from './badge-sd-fill';
 import { badgeTm } from './badge-tm';
 import { badgeTmFill } from './badge-tm-fill';
 import { badgeVo } from './badge-vo';
@@ -117,10 +121,16 @@ import { bagCheckFill } from './bag-check-fill';
 import { bagDash } from './bag-dash';
 import { bagDashFill } from './bag-dash-fill';
 import { bagFill } from './bag-fill';
+import { bagHeart } from './bag-heart';
+import { bagHeartFill } from './bag-heart-fill';
 import { bagPlus } from './bag-plus';
 import { bagPlusFill } from './bag-plus-fill';
 import { bagX } from './bag-x';
 import { bagXFill } from './bag-x-fill';
+import { balloon } from './balloon';
+import { balloonFill } from './balloon-fill';
+import { balloonHeart } from './balloon-heart';
+import { balloonHeartFill } from './balloon-heart-fill';
 import { bandaid } from './bandaid';
 import { bandaidFill } from './bandaid-fill';
 import { bank } from './bank';
@@ -211,8 +221,13 @@ import { boxArrowUp } from './box-arrow-up';
 import { boxArrowUpLeft } from './box-arrow-up-left';
 import { boxArrowUpRight } from './box-arrow-up-right';
 import { boxSeam } from './box-seam';
+import { box2 } from './box2';
+import { box2Fill } from './box2-fill';
+import { box2Heart } from './box2-heart';
+import { box2HeartFill } from './box2-heart-fill';
 import { boxes } from './boxes';
 import { braces } from './braces';
+import { bracesAsterisk } from './braces-asterisk';
 import { bricks } from './bricks';
 import { briefcase } from './briefcase';
 import { briefcaseFill } from './briefcase-fill';
@@ -246,6 +261,8 @@ import { calendarDayFill } from './calendar-day-fill';
 import { calendarEvent } from './calendar-event';
 import { calendarEventFill } from './calendar-event-fill';
 import { calendarFill } from './calendar-fill';
+import { calendarHeart } from './calendar-heart';
+import { calendarHeartFill } from './calendar-heart-fill';
 import { calendarMinus } from './calendar-minus';
 import { calendarMinusFill } from './calendar-minus-fill';
 import { calendarMonth } from './calendar-month';
@@ -268,6 +285,8 @@ import { calendar2DayFill } from './calendar2-day-fill';
 import { calendar2Event } from './calendar2-event';
 import { calendar2EventFill } from './calendar2-event-fill';
 import { calendar2Fill } from './calendar2-fill';
+import { calendar2Heart } from './calendar2-heart';
+import { calendar2HeartFill } from './calendar2-heart-fill';
 import { calendar2Minus } from './calendar2-minus';
 import { calendar2MinusFill } from './calendar2-minus-fill';
 import { calendar2Month } from './calendar2-month';
@@ -345,10 +364,14 @@ import { chat } from './chat';
 import { chatDots } from './chat-dots';
 import { chatDotsFill } from './chat-dots-fill';
 import { chatFill } from './chat-fill';
+import { chatHeart } from './chat-heart';
+import { chatHeartFill } from './chat-heart-fill';
 import { chatLeft } from './chat-left';
 import { chatLeftDots } from './chat-left-dots';
 import { chatLeftDotsFill } from './chat-left-dots-fill';
 import { chatLeftFill } from './chat-left-fill';
+import { chatLeftHeart } from './chat-left-heart';
+import { chatLeftHeartFill } from './chat-left-heart-fill';
 import { chatLeftQuote } from './chat-left-quote';
 import { chatLeftQuoteFill } from './chat-left-quote-fill';
 import { chatLeftText } from './chat-left-text';
@@ -359,6 +382,8 @@ import { chatRight } from './chat-right';
 import { chatRightDots } from './chat-right-dots';
 import { chatRightDotsFill } from './chat-right-dots-fill';
 import { chatRightFill } from './chat-right-fill';
+import { chatRightHeart } from './chat-right-heart';
+import { chatRightHeartFill } from './chat-right-heart-fill';
 import { chatRightQuote } from './chat-right-quote';
 import { chatRightQuoteFill } from './chat-right-quote-fill';
 import { chatRightText } from './chat-right-text';
@@ -367,6 +392,8 @@ import { chatSquare } from './chat-square';
 import { chatSquareDots } from './chat-square-dots';
 import { chatSquareDotsFill } from './chat-square-dots-fill';
 import { chatSquareFill } from './chat-square-fill';
+import { chatSquareHeart } from './chat-square-heart';
+import { chatSquareHeartFill } from './chat-square-heart-fill';
 import { chatSquareQuote } from './chat-square-quote';
 import { chatSquareQuoteFill } from './chat-square-quote-fill';
 import { chatSquareText } from './chat-square-text';
@@ -410,10 +437,35 @@ import { circleHalf } from './circle-half';
 import { circleSquare } from './circle-square';
 import { clipboard } from './clipboard';
 import { clipboardCheck } from './clipboard-check';
+import { clipboardCheckFill } from './clipboard-check-fill';
 import { clipboardData } from './clipboard-data';
+import { clipboardDataFill } from './clipboard-data-fill';
+import { clipboardFill } from './clipboard-fill';
+import { clipboardHeart } from './clipboard-heart';
+import { clipboardHeartFill } from './clipboard-heart-fill';
 import { clipboardMinus } from './clipboard-minus';
+import { clipboardMinusFill } from './clipboard-minus-fill';
 import { clipboardPlus } from './clipboard-plus';
+import { clipboardPlusFill } from './clipboard-plus-fill';
+import { clipboardPulse } from './clipboard-pulse';
 import { clipboardX } from './clipboard-x';
+import { clipboardXFill } from './clipboard-x-fill';
+import { clipboard2 } from './clipboard2';
+import { clipboard2Check } from './clipboard2-check';
+import { clipboard2CheckFill } from './clipboard2-check-fill';
+import { clipboard2Data } from './clipboard2-data';
+import { clipboard2DataFill } from './clipboard2-data-fill';
+import { clipboard2Fill } from './clipboard2-fill';
+import { clipboard2Heart } from './clipboard2-heart';
+import { clipboard2HeartFill } from './clipboard2-heart-fill';
+import { clipboard2Minus } from './clipboard2-minus';
+import { clipboard2MinusFill } from './clipboard2-minus-fill';
+import { clipboard2Plus } from './clipboard2-plus';
+import { clipboard2PlusFill } from './clipboard2-plus-fill';
+import { clipboard2Pulse } from './clipboard2-pulse';
+import { clipboard2PulseFill } from './clipboard2-pulse-fill';
+import { clipboard2X } from './clipboard2-x';
+import { clipboard2XFill } from './clipboard2-x-fill';
 import { clock } from './clock';
 import { clockFill } from './clock-fill';
 import { clockHistory } from './clock-history';
@@ -580,6 +632,8 @@ import { emojiFrown } from './emoji-frown';
 import { emojiFrownFill } from './emoji-frown-fill';
 import { emojiHeartEyes } from './emoji-heart-eyes';
 import { emojiHeartEyesFill } from './emoji-heart-eyes-fill';
+import { emojiKiss } from './emoji-kiss';
+import { emojiKissFill } from './emoji-kiss-fill';
 import { emojiLaughing } from './emoji-laughing';
 import { emojiLaughingFill } from './emoji-laughing-fill';
 import { emojiNeutral } from './emoji-neutral';
@@ -600,8 +654,16 @@ import { envelopeDashFill } from './envelope-dash-fill';
 import { envelopeExclamation } from './envelope-exclamation';
 import { envelopeExclamationFill } from './envelope-exclamation-fill';
 import { envelopeFill } from './envelope-fill';
+import { envelopeHeart } from './envelope-heart';
+import { envelopeHeartFill } from './envelope-heart-fill';
 import { envelopeOpen } from './envelope-open';
 import { envelopeOpenFill } from './envelope-open-fill';
+import { envelopeOpenHeart } from './envelope-open-heart';
+import { envelopeOpenHeartFill } from './envelope-open-heart-fill';
+import { envelopePaper } from './envelope-paper';
+import { envelopePaperFill } from './envelope-paper-fill';
+import { envelopePaperHeart } from './envelope-paper-heart';
+import { envelopePaperHeartFill } from './envelope-paper-heart-fill';
 import { envelopePlus } from './envelope-plus';
 import { envelopePlusFill } from './envelope-plus-fill';
 import { envelopeSlash } from './envelope-slash';
@@ -764,6 +826,54 @@ import { fileZip } from './file-zip';
 import { fileZipFill } from './file-zip-fill';
 import { files } from './files';
 import { filesAlt } from './files-alt';
+import { filetypeAac } from './filetype-aac';
+import { filetypeAi } from './filetype-ai';
+import { filetypeBmp } from './filetype-bmp';
+import { filetypeCs } from './filetype-cs';
+import { filetypeCss } from './filetype-css';
+import { filetypeCsv } from './filetype-csv';
+import { filetypeDoc } from './filetype-doc';
+import { filetypeDocx } from './filetype-docx';
+import { filetypeExe } from './filetype-exe';
+import { filetypeGif } from './filetype-gif';
+import { filetypeHeic } from './filetype-heic';
+import { filetypeHtml } from './filetype-html';
+import { filetypeJava } from './filetype-java';
+import { filetypeJpg } from './filetype-jpg';
+import { filetypeJs } from './filetype-js';
+import { filetypeJson } from './filetype-json';
+import { filetypeJsx } from './filetype-jsx';
+import { filetypeKey } from './filetype-key';
+import { filetypeM4P } from './filetype-m4p';
+import { filetypeMd } from './filetype-md';
+import { filetypeMdx } from './filetype-mdx';
+import { filetypeMov } from './filetype-mov';
+import { filetypeMp3 } from './filetype-mp3';
+import { filetypeMp4 } from './filetype-mp4';
+import { filetypeOtf } from './filetype-otf';
+import { filetypePdf } from './filetype-pdf';
+import { filetypePhp } from './filetype-php';
+import { filetypePng } from './filetype-png';
+import { filetypePpt } from './filetype-ppt';
+import { filetypePptx } from './filetype-pptx';
+import { filetypePsd } from './filetype-psd';
+import { filetypePy } from './filetype-py';
+import { filetypeRaw } from './filetype-raw';
+import { filetypeRb } from './filetype-rb';
+import { filetypeSass } from './filetype-sass';
+import { filetypeScss } from './filetype-scss';
+import { filetypeSh } from './filetype-sh';
+import { filetypeSvg } from './filetype-svg';
+import { filetypeTiff } from './filetype-tiff';
+import { filetypeTsx } from './filetype-tsx';
+import { filetypeTtf } from './filetype-ttf';
+import { filetypeTxt } from './filetype-txt';
+import { filetypeWav } from './filetype-wav';
+import { filetypeWoff } from './filetype-woff';
+import { filetypeXls } from './filetype-xls';
+import { filetypeXlsx } from './filetype-xlsx';
+import { filetypeXml } from './filetype-xml';
+import { filetypeYml } from './filetype-yml';
 import { film } from './film';
 import { filter } from './filter';
 import { filterCircle } from './filter-circle';
@@ -859,14 +969,22 @@ import { headphones } from './headphones';
 import { headset } from './headset';
 import { headsetVr } from './headset-vr';
 import { heart } from './heart';
+import { heartArrow } from './heart-arrow';
 import { heartFill } from './heart-fill';
 import { heartHalf } from './heart-half';
+import { heartPulse } from './heart-pulse';
+import { heartPulseFill } from './heart-pulse-fill';
+import { heartbreak } from './heartbreak';
+import { heartbreakFill } from './heartbreak-fill';
+import { hearts } from './hearts';
 import { heptagon } from './heptagon';
 import { heptagonFill } from './heptagon-fill';
 import { heptagonHalf } from './heptagon-half';
 import { hexagon } from './hexagon';
 import { hexagonFill } from './hexagon-fill';
 import { hexagonHalf } from './hexagon-half';
+import { hospital } from './hospital';
+import { hospitalFill } from './hospital-fill';
 import { hourglass } from './hourglass';
 import { hourglassBottom } from './hourglass-bottom';
 import { hourglassSplit } from './hourglass-split';
@@ -875,6 +993,8 @@ import { house } from './house';
 import { houseDoor } from './house-door';
 import { houseDoorFill } from './house-door-fill';
 import { houseFill } from './house-fill';
+import { houseHeart } from './house-heart';
+import { houseHeartFill } from './house-heart-fill';
 import { hr } from './hr';
 import { hurricane } from './hurricane';
 import { hypnotize } from './hypnotize';
@@ -887,6 +1007,7 @@ import { inbox } from './inbox';
 import { inboxFill } from './inbox-fill';
 import { inboxes } from './inboxes';
 import { inboxesFill } from './inboxes-fill';
+import { incognito } from './incognito';
 import { infinity } from './infinity';
 import { info } from './info';
 import { infoCircle } from './info-circle';
@@ -969,6 +1090,8 @@ import { listUl } from './list-ul';
 import { lock } from './lock';
 import { lockFill } from './lock-fill';
 import { magic } from './magic';
+import { magnet } from './magnet';
+import { magnetFill } from './magnet-fill';
 import { mailbox } from './mailbox';
 import { mailbox2 } from './mailbox2';
 import { map } from './map';
@@ -1086,6 +1209,8 @@ import { personCircle } from './person-circle';
 import { personDash } from './person-dash';
 import { personDashFill } from './person-dash-fill';
 import { personFill } from './person-fill';
+import { personHeart } from './person-heart';
+import { personHearts } from './person-hearts';
 import { personLinesFill } from './person-lines-fill';
 import { personPlus } from './person-plus';
 import { personPlusFill } from './person-plus-fill';
@@ -1099,6 +1224,7 @@ import { personX } from './person-x';
 import { personXFill } from './person-x-fill';
 import { phone } from './phone';
 import { phoneFill } from './phone-fill';
+import { phoneFlip } from './phone-flip';
 import { phoneLandscape } from './phone-landscape';
 import { phoneLandscapeFill } from './phone-landscape-fill';
 import { phoneVibrate } from './phone-vibrate';
@@ -1125,6 +1251,7 @@ import { playFill } from './play-fill';
 import { playstation } from './playstation';
 import { plug } from './plug';
 import { plugFill } from './plug-fill';
+import { plugin } from './plugin';
 import { plus } from './plus';
 import { plusCircle } from './plus-circle';
 import { plusCircleDotted } from './plus-circle-dotted';
@@ -1134,6 +1261,14 @@ import { plusSlashMinus } from './plus-slash-minus';
 import { plusSquare } from './plus-square';
 import { plusSquareDotted } from './plus-square-dotted';
 import { plusSquareFill } from './plus-square-fill';
+import { postage } from './postage';
+import { postageFill } from './postage-fill';
+import { postageHeart } from './postage-heart';
+import { postageHeartFill } from './postage-heart-fill';
+import { postcard } from './postcard';
+import { postcardFill } from './postcard-fill';
+import { postcardHeart } from './postcard-heart';
+import { postcardHeartFill } from './postcard-heart-fill';
 import { power } from './power';
 import { printer } from './printer';
 import { printerFill } from './printer-fill';
@@ -1197,6 +1332,8 @@ import { screwdriver } from './screwdriver';
 import { sdCard } from './sd-card';
 import { sdCardFill } from './sd-card-fill';
 import { search } from './search';
+import { searchHeart } from './search-heart';
+import { searchHeartFill } from './search-heart-fill';
 import { segmentedNav } from './segmented-nav';
 import { send } from './send';
 import { sendCheck } from './send-check';
@@ -1279,6 +1416,8 @@ import { slashLg } from './slash-lg';
 import { slashSquare } from './slash-square';
 import { slashSquareFill } from './slash-square-fill';
 import { sliders } from './sliders';
+import { sliders2 } from './sliders2';
+import { sliders2Vertical } from './sliders2-vertical';
 import { smartwatch } from './smartwatch';
 import { snapchat } from './snapchat';
 import { snow } from './snow';
@@ -1399,8 +1538,8 @@ import { ticket } from './ticket';
 import { ticketDetailed } from './ticket-detailed';
 import { ticketDetailedFill } from './ticket-detailed-fill';
 import { ticketFill } from './ticket-fill';
-import { ticketPerferated } from './ticket-perferated';
-import { ticketPerferatedFill } from './ticket-perferated-fill';
+import { ticketPerforated } from './ticket-perforated';
+import { ticketPerforatedFill } from './ticket-perforated-fill';
 import { tiktok } from './tiktok';
 import { toggleOff } from './toggle-off';
 import { toggleOn } from './toggle-on';
@@ -1415,6 +1554,8 @@ import { trash } from './trash';
 import { trashFill } from './trash-fill';
 import { trash2 } from './trash2';
 import { trash2Fill } from './trash2-fill';
+import { trash3 } from './trash3';
+import { trash3Fill } from './trash3-fill';
 import { tree } from './tree';
 import { treeFill } from './tree-fill';
 import { triangle } from './triangle';
@@ -1463,6 +1604,8 @@ import { usbMiniFill } from './usb-mini-fill';
 import { usbPlug } from './usb-plug';
 import { usbPlugFill } from './usb-plug-fill';
 import { usbSymbol } from './usb-symbol';
+import { valentine } from './valentine';
+import { valentine2 } from './valentine2';
 import { vectorPen } from './vector-pen';
 import { viewList } from './view-list';
 import { viewStacked } from './view-stacked';
@@ -1505,6 +1648,9 @@ import { windowX } from './window-x';
 import { windows } from './windows';
 import { wordpress } from './wordpress';
 import { wrench } from './wrench';
+import { wrenchAdjustable } from './wrench-adjustable';
+import { wrenchAdjustableCircleFill } from './wrench-adjustable-circle-fill';
+import { wrenchAdjustableCricle } from './wrench-adjustable-cricle';
 import { x } from './x';
 import { xCircle } from './x-circle';
 import { xCircleFill } from './x-circle-fill';
@@ -1581,6 +1727,8 @@ export const allIcons = {
   arrowRightSquareFill,
   arrowRightSquare,
   arrowRight,
+  arrowThroughHeartFill,
+  arrowThroughHeart,
   arrowUpCircleFill,
   arrowUpCircle,
   arrowUpLeftCircleFill,
@@ -1628,6 +1776,8 @@ export const allIcons = {
   badgeCc,
   badgeHdFill,
   badgeHd,
+  badgeSdFill,
+  badgeSd,
   badgeTmFill,
   badgeTm,
   badgeVoFill,
@@ -1641,11 +1791,17 @@ export const allIcons = {
   bagDashFill,
   bagDash,
   bagFill,
+  bagHeartFill,
+  bagHeart,
   bagPlusFill,
   bagPlus,
   bagXFill,
   bagX,
   bag,
+  balloonFill,
+  balloonHeartFill,
+  balloonHeart,
+  balloon,
   bandaidFill,
   bandaid,
   bank,
@@ -1736,7 +1892,12 @@ export const allIcons = {
   boxArrowUp,
   boxSeam,
   box,
+  box2Fill,
+  box2HeartFill,
+  box2Heart,
+  box2,
   boxes,
+  bracesAsterisk,
   braces,
   bricks,
   briefcaseFill,
@@ -1770,6 +1931,8 @@ export const allIcons = {
   calendarEventFill,
   calendarEvent,
   calendarFill,
+  calendarHeartFill,
+  calendarHeart,
   calendarMinusFill,
   calendarMinus,
   calendarMonthFill,
@@ -1792,6 +1955,8 @@ export const allIcons = {
   calendar2EventFill,
   calendar2Event,
   calendar2Fill,
+  calendar2HeartFill,
+  calendar2Heart,
   calendar2MinusFill,
   calendar2Minus,
   calendar2MonthFill,
@@ -1869,9 +2034,13 @@ export const allIcons = {
   chatDotsFill,
   chatDots,
   chatFill,
+  chatHeartFill,
+  chatHeart,
   chatLeftDotsFill,
   chatLeftDots,
   chatLeftFill,
+  chatLeftHeartFill,
+  chatLeftHeart,
   chatLeftQuoteFill,
   chatLeftQuote,
   chatLeftTextFill,
@@ -1882,6 +2051,8 @@ export const allIcons = {
   chatRightDotsFill,
   chatRightDots,
   chatRightFill,
+  chatRightHeartFill,
+  chatRightHeart,
   chatRightQuoteFill,
   chatRightQuote,
   chatRightTextFill,
@@ -1890,6 +2061,8 @@ export const allIcons = {
   chatSquareDotsFill,
   chatSquareDots,
   chatSquareFill,
+  chatSquareHeartFill,
+  chatSquareHeart,
   chatSquareQuoteFill,
   chatSquareQuote,
   chatSquareTextFill,
@@ -1933,12 +2106,37 @@ export const allIcons = {
   circleHalf,
   circleSquare,
   circle,
+  clipboardCheckFill,
   clipboardCheck,
+  clipboardDataFill,
   clipboardData,
+  clipboardFill,
+  clipboardHeartFill,
+  clipboardHeart,
+  clipboardMinusFill,
   clipboardMinus,
+  clipboardPlusFill,
   clipboardPlus,
+  clipboardPulse,
+  clipboardXFill,
   clipboardX,
   clipboard,
+  clipboard2CheckFill,
+  clipboard2Check,
+  clipboard2DataFill,
+  clipboard2Data,
+  clipboard2Fill,
+  clipboard2HeartFill,
+  clipboard2Heart,
+  clipboard2MinusFill,
+  clipboard2Minus,
+  clipboard2PlusFill,
+  clipboard2Plus,
+  clipboard2PulseFill,
+  clipboard2Pulse,
+  clipboard2XFill,
+  clipboard2X,
+  clipboard2,
   clockFill,
   clockHistory,
   clock,
@@ -2105,6 +2303,8 @@ export const allIcons = {
   emojiFrown,
   emojiHeartEyesFill,
   emojiHeartEyes,
+  emojiKissFill,
+  emojiKiss,
   emojiLaughingFill,
   emojiLaughing,
   emojiNeutralFill,
@@ -2124,8 +2324,16 @@ export const allIcons = {
   envelopeExclamationFill,
   envelopeExclamation,
   envelopeFill,
+  envelopeHeartFill,
+  envelopeHeart,
   envelopeOpenFill,
+  envelopeOpenHeartFill,
+  envelopeOpenHeart,
   envelopeOpen,
+  envelopePaperFill,
+  envelopePaperHeartFill,
+  envelopePaperHeart,
+  envelopePaper,
   envelopePlusFill,
   envelopePlus,
   envelopeSlashFill,
@@ -2289,6 +2497,54 @@ export const allIcons = {
   file,
   filesAlt,
   files,
+  filetypeAac,
+  filetypeAi,
+  filetypeBmp,
+  filetypeCs,
+  filetypeCss,
+  filetypeCsv,
+  filetypeDoc,
+  filetypeDocx,
+  filetypeExe,
+  filetypeGif,
+  filetypeHeic,
+  filetypeHtml,
+  filetypeJava,
+  filetypeJpg,
+  filetypeJs,
+  filetypeJson,
+  filetypeJsx,
+  filetypeKey,
+  filetypeM4P,
+  filetypeMd,
+  filetypeMdx,
+  filetypeMov,
+  filetypeMp3,
+  filetypeMp4,
+  filetypeOtf,
+  filetypePdf,
+  filetypePhp,
+  filetypePng,
+  filetypePpt,
+  filetypePptx,
+  filetypePsd,
+  filetypePy,
+  filetypeRaw,
+  filetypeRb,
+  filetypeSass,
+  filetypeScss,
+  filetypeSh,
+  filetypeSvg,
+  filetypeTiff,
+  filetypeTsx,
+  filetypeTtf,
+  filetypeTxt,
+  filetypeWav,
+  filetypeWoff,
+  filetypeXls,
+  filetypeXlsx,
+  filetypeXml,
+  filetypeYml,
   film,
   filterCircleFill,
   filterCircle,
@@ -2383,15 +2639,23 @@ export const allIcons = {
   headphones,
   headsetVr,
   headset,
+  heartArrow,
   heartFill,
   heartHalf,
+  heartPulseFill,
+  heartPulse,
   heart,
+  heartbreakFill,
+  heartbreak,
+  hearts,
   heptagonFill,
   heptagonHalf,
   heptagon,
   hexagonFill,
   hexagonHalf,
   hexagon,
+  hospitalFill,
+  hospital,
   hourglassBottom,
   hourglassSplit,
   hourglassTop,
@@ -2399,6 +2663,8 @@ export const allIcons = {
   houseDoorFill,
   houseDoor,
   houseFill,
+  houseHeartFill,
+  houseHeart,
   house,
   hr,
   hurricane,
@@ -2411,6 +2677,7 @@ export const allIcons = {
   inbox,
   inboxesFill,
   inboxes,
+  incognito,
   infinity,
   infoCircleFill,
   infoCircle,
@@ -2493,6 +2760,8 @@ export const allIcons = {
   lockFill,
   lock,
   magic,
+  magnetFill,
+  magnet,
   mailbox,
   mailbox2,
   mapFill,
@@ -2609,6 +2878,8 @@ export const allIcons = {
   personDashFill,
   personDash,
   personFill,
+  personHeart,
+  personHearts,
   personLinesFill,
   personPlusFill,
   personPlus,
@@ -2622,6 +2893,7 @@ export const allIcons = {
   personX,
   person,
   phoneFill,
+  phoneFlip,
   phoneLandscapeFill,
   phoneLandscape,
   phoneVibrateFill,
@@ -2649,6 +2921,7 @@ export const allIcons = {
   playstation,
   plugFill,
   plug,
+  plugin,
   plusCircleDotted,
   plusCircleFill,
   plusCircle,
@@ -2658,6 +2931,14 @@ export const allIcons = {
   plusSquareFill,
   plusSquare,
   plus,
+  postageFill,
+  postageHeartFill,
+  postageHeart,
+  postage,
+  postcardFill,
+  postcardHeartFill,
+  postcardHeart,
+  postcard,
   power,
   printerFill,
   printer,
@@ -2720,6 +3001,8 @@ export const allIcons = {
   screwdriver,
   sdCardFill,
   sdCard,
+  searchHeartFill,
+  searchHeart,
   search,
   segmentedNav,
   sendCheckFill,
@@ -2803,6 +3086,8 @@ export const allIcons = {
   slashSquare,
   slash,
   sliders,
+  sliders2Vertical,
+  sliders2,
   smartwatch,
   snapchat,
   snow,
@@ -2922,8 +3207,8 @@ export const allIcons = {
   ticketDetailedFill,
   ticketDetailed,
   ticketFill,
-  ticketPerferatedFill,
-  ticketPerferated,
+  ticketPerforatedFill,
+  ticketPerforated,
   ticket,
   tiktok,
   toggleOff,
@@ -2939,6 +3224,8 @@ export const allIcons = {
   trash,
   trash2Fill,
   trash2,
+  trash3Fill,
+  trash3,
   treeFill,
   tree,
   triangleFill,
@@ -2987,6 +3274,8 @@ export const allIcons = {
   usbPlug,
   usbSymbol,
   usb,
+  valentine,
+  valentine2,
   vectorPen,
   viewList,
   viewStacked,
@@ -3028,6 +3317,9 @@ export const allIcons = {
   window,
   windows,
   wordpress,
+  wrenchAdjustableCircleFill,
+  wrenchAdjustableCricle,
+  wrenchAdjustable,
   wrench,
   xCircleFill,
   xCircle,
