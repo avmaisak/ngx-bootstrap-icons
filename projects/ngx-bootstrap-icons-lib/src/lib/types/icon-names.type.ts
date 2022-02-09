@@ -3300,8 +3300,8 @@ export type IconName =
 'wordpress' | 
 /** {@link https://icons.getbootstrap.com/icons/wrench-adjustable-circle-fill} */
 'wrench-adjustable-circle-fill' | 
-/** {@link https://icons.getbootstrap.com/icons/wrench-adjustable-cricle} */
-'wrench-adjustable-cricle' | 
+/** {@link https://icons.getbootstrap.com/icons/wrench-adjustable-circle} */
+'wrench-adjustable-circle' | 
 /** {@link https://icons.getbootstrap.com/icons/wrench-adjustable} */
 'wrench-adjustable' | 
 /** {@link https://icons.getbootstrap.com/icons/wrench} */

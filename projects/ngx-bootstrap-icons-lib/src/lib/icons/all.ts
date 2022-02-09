@@ -1649,8 +1649,8 @@ import { windows } from './windows';
 import { wordpress } from './wordpress';
 import { wrench } from './wrench';
 import { wrenchAdjustable } from './wrench-adjustable';
+import { wrenchAdjustableCircle } from './wrench-adjustable-circle';
 import { wrenchAdjustableCircleFill } from './wrench-adjustable-circle-fill';
-import { wrenchAdjustableCricle } from './wrench-adjustable-cricle';
 import { x } from './x';
 import { xCircle } from './x-circle';
 import { xCircleFill } from './x-circle-fill';
@@ -3318,7 +3318,7 @@ export const allIcons = {
   windows,
   wordpress,
   wrenchAdjustableCircleFill,
-  wrenchAdjustableCricle,
+  wrenchAdjustableCircle,
   wrenchAdjustable,
   wrench,
   xCircleFill,
