@@ -3300,8 +3300,8 @@ export enum IconNamesEnum {
   Wordpress = 'wordpress',
   /** {@link https://icons.getbootstrap.com/icons/wrench-adjustable-circle-fill} */
   WrenchAdjustableCircleFill = 'wrench-adjustable-circle-fill',
-  /** {@link https://icons.getbootstrap.com/icons/wrench-adjustable-cricle} */
-  WrenchAdjustableCricle = 'wrench-adjustable-cricle',
+  /** {@link https://icons.getbootstrap.com/icons/wrench-adjustable-circle} */
+  WrenchAdjustableCircle = 'wrench-adjustable-circle',
   /** {@link https://icons.getbootstrap.com/icons/wrench-adjustable} */
   WrenchAdjustable = 'wrench-adjustable',
   /** {@link https://icons.getbootstrap.com/icons/wrench} */
