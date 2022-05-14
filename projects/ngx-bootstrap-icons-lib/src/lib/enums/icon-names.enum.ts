@@ -3336,4 +3336,4 @@ Youtube = 'youtube',
 ZoomIn = 'zoom-in',
 /** {@link https://icons.getbootstrap.com/icons/zoom-out} */
 ZoomOut = 'zoom-out',
-}
+};
