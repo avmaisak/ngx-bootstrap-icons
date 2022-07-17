@@ -743,6 +743,8 @@ import { eraserFill } from './eraser-fill';
 import { eraser } from './eraser';
 import { escape } from './escape';
 import { ethernet } from './ethernet';
+import { evStationFill } from './ev-station-fill';
+import { evStation } from './ev-station';
 import { exclamationCircleFill } from './exclamation-circle-fill';
 import { exclamationCircle } from './exclamation-circle';
 import { exclamationDiamondFill } from './exclamation-diamond-fill';
@@ -980,6 +982,10 @@ import { fonts } from './fonts';
 import { forwardFill } from './forward-fill';
 import { forward } from './forward';
 import { front } from './front';
+import { fuelPumpDieselFill } from './fuel-pump-diesel-fill';
+import { fuelPumpDiesel } from './fuel-pump-diesel';
+import { fuelPumpFill } from './fuel-pump-fill';
+import { fuelPump } from './fuel-pump';
 import { fullscreenExit } from './fullscreen-exit';
 import { fullscreen } from './fullscreen';
 import { funnelFill } from './funnel-fill';
@@ -2550,6 +2556,8 @@ export const allIcons = {
   eraser,
   escape,
   ethernet,
+  evStationFill,
+  evStation,
   exclamationCircleFill,
   exclamationCircle,
   exclamationDiamondFill,
@@ -2787,6 +2795,10 @@ export const allIcons = {
   forwardFill,
   forward,
   front,
+  fuelPumpDieselFill,
+  fuelPumpDiesel,
+  fuelPumpFill,
+  fuelPump,
   fullscreenExit,
   fullscreen,
   funnelFill,

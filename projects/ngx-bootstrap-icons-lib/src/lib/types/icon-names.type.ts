@@ -1490,6 +1490,10 @@ export type IconName =
 'escape' | 
 /** {@link https://icons.getbootstrap.com/icons/ethernet} */
 'ethernet' | 
+/** {@link https://icons.getbootstrap.com/icons/ev-station-fill} */
+'ev-station-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/ev-station} */
+'ev-station' | 
 /** {@link https://icons.getbootstrap.com/icons/exclamation-circle-fill} */
 'exclamation-circle-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/exclamation-circle} */
@@ -1964,6 +1968,14 @@ export type IconName =
 'forward' | 
 /** {@link https://icons.getbootstrap.com/icons/front} */
 'front' | 
+/** {@link https://icons.getbootstrap.com/icons/fuel-pump-diesel-fill} */
+'fuel-pump-diesel-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/fuel-pump-diesel} */
+'fuel-pump-diesel' | 
+/** {@link https://icons.getbootstrap.com/icons/fuel-pump-fill} */
+'fuel-pump-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/fuel-pump} */
+'fuel-pump' | 
 /** {@link https://icons.getbootstrap.com/icons/fullscreen-exit} */
 'fullscreen-exit' | 
 /** {@link https://icons.getbootstrap.com/icons/fullscreen} */

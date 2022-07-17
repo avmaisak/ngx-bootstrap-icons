@@ -1490,6 +1490,10 @@ Eraser = 'eraser',
 Escape = 'escape',
 /** {@link https://icons.getbootstrap.com/icons/ethernet} */
 Ethernet = 'ethernet',
+/** {@link https://icons.getbootstrap.com/icons/ev-station-fill} */
+EvStationFill = 'ev-station-fill',
+/** {@link https://icons.getbootstrap.com/icons/ev-station} */
+EvStation = 'ev-station',
 /** {@link https://icons.getbootstrap.com/icons/exclamation-circle-fill} */
 ExclamationCircleFill = 'exclamation-circle-fill',
 /** {@link https://icons.getbootstrap.com/icons/exclamation-circle} */
@@ -1964,6 +1968,14 @@ ForwardFill = 'forward-fill',
 Forward = 'forward',
 /** {@link https://icons.getbootstrap.com/icons/front} */
 Front = 'front',
+/** {@link https://icons.getbootstrap.com/icons/fuel-pump-diesel-fill} */
+FuelPumpDieselFill = 'fuel-pump-diesel-fill',
+/** {@link https://icons.getbootstrap.com/icons/fuel-pump-diesel} */
+FuelPumpDiesel = 'fuel-pump-diesel',
+/** {@link https://icons.getbootstrap.com/icons/fuel-pump-fill} */
+FuelPumpFill = 'fuel-pump-fill',
+/** {@link https://icons.getbootstrap.com/icons/fuel-pump} */
+FuelPump = 'fuel-pump',
 /** {@link https://icons.getbootstrap.com/icons/fullscreen-exit} */
 FullscreenExit = 'fullscreen-exit',
 /** {@link https://icons.getbootstrap.com/icons/fullscreen} */
