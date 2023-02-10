@@ -1,3 +1,7 @@
+import { icon0CircleFill } from './icon0-circle-fill';
+import { icon0Circle } from './icon0-circle';
+import { icon0SquareFill } from './icon0-square-fill';
+import { icon0Square } from './icon0-square';
 import { icon1CircleFill } from './icon1-circle-fill';
 import { icon1Circle } from './icon1-circle';
 import { icon1SquareFill } from './icon1-square-fill';
@@ -51,6 +55,7 @@ import { alignStart } from './align-start';
 import { alignTop } from './align-top';
 import { alipay } from './alipay';
 import { alt } from './alt';
+import { amd } from './amd';
 import { android } from './android';
 import { android2 } from './android2';
 import { appIndicator } from './app-indicator';
@@ -298,8 +303,33 @@ import { bucketFill } from './bucket-fill';
 import { bucket } from './bucket';
 import { bugFill } from './bug-fill';
 import { bug } from './bug';
+import { buildingAdd } from './building-add';
+import { buildingCheck } from './building-check';
+import { buildingDash } from './building-dash';
+import { buildingDown } from './building-down';
+import { buildingExclamation } from './building-exclamation';
+import { buildingFillAdd } from './building-fill-add';
+import { buildingFillCheck } from './building-fill-check';
+import { buildingFillDash } from './building-fill-dash';
+import { buildingFillDown } from './building-fill-down';
+import { buildingFillExclamation } from './building-fill-exclamation';
+import { buildingFillGear } from './building-fill-gear';
+import { buildingFillLock } from './building-fill-lock';
+import { buildingFillSlash } from './building-fill-slash';
+import { buildingFillUp } from './building-fill-up';
+import { buildingFillX } from './building-fill-x';
+import { buildingFill } from './building-fill';
+import { buildingGear } from './building-gear';
+import { buildingLock } from './building-lock';
+import { buildingSlash } from './building-slash';
+import { buildingUp } from './building-up';
+import { buildingX } from './building-x';
 import { building } from './building';
+import { buildingsFill } from './buildings-fill';
+import { buildings } from './buildings';
 import { bullseye } from './bullseye';
+import { busFrontFill } from './bus-front-fill';
+import { busFront } from './bus-front';
 import { cCircleFill } from './c-circle-fill';
 import { cCircle } from './c-circle';
 import { cSquareFill } from './c-square-fill';
@@ -632,6 +662,28 @@ import { dashSquareDotted } from './dash-square-dotted';
 import { dashSquareFill } from './dash-square-fill';
 import { dashSquare } from './dash-square';
 import { dash } from './dash';
+import { databaseAdd } from './database-add';
+import { databaseCheck } from './database-check';
+import { databaseDash } from './database-dash';
+import { databaseDown } from './database-down';
+import { databaseExclamation } from './database-exclamation';
+import { databaseFillAdd } from './database-fill-add';
+import { databaseFillCheck } from './database-fill-check';
+import { databaseFillDash } from './database-fill-dash';
+import { databaseFillDown } from './database-fill-down';
+import { databaseFillExclamation } from './database-fill-exclamation';
+import { databaseFillGear } from './database-fill-gear';
+import { databaseFillLock } from './database-fill-lock';
+import { databaseFillSlash } from './database-fill-slash';
+import { databaseFillUp } from './database-fill-up';
+import { databaseFillX } from './database-fill-x';
+import { databaseFill } from './database-fill';
+import { databaseGear } from './database-gear';
+import { databaseLock } from './database-lock';
+import { databaseSlash } from './database-slash';
+import { databaseUp } from './database-up';
+import { databaseX } from './database-x';
+import { database } from './database';
 import { deviceHddFill } from './device-hdd-fill';
 import { deviceHdd } from './device-hdd';
 import { deviceSsdFill } from './device-ssd-fill';
@@ -715,6 +767,8 @@ import { emojiSunglassesFill } from './emoji-sunglasses-fill';
 import { emojiSunglasses } from './emoji-sunglasses';
 import { emojiWinkFill } from './emoji-wink-fill';
 import { emojiWink } from './emoji-wink';
+import { envelopeAtFill } from './envelope-at-fill';
+import { envelopeAt } from './envelope-at';
 import { envelopeCheckFill } from './envelope-check-fill';
 import { envelopeCheck } from './envelope-check';
 import { envelopeDashFill } from './envelope-dash-fill';
@@ -743,6 +797,8 @@ import { eraserFill } from './eraser-fill';
 import { eraser } from './eraser';
 import { escape } from './escape';
 import { ethernet } from './ethernet';
+import { evFrontFill } from './ev-front-fill';
+import { evFront } from './ev-front';
 import { evStationFill } from './ev-station-fill';
 import { evStation } from './ev-station';
 import { exclamationCircleFill } from './exclamation-circle-fill';
@@ -1007,6 +1063,10 @@ import { giftFill } from './gift-fill';
 import { gift } from './gift';
 import { git } from './git';
 import { github } from './github';
+import { globeAmericas } from './globe-americas';
+import { globeAsiaAustralia } from './globe-asia-australia';
+import { globeCentralSouthAsia } from './globe-central-south-asia';
+import { globeEuropeAfrica } from './globe-europe-africa';
 import { globe } from './globe';
 import { globe2 } from './globe2';
 import { googlePlay } from './google-play';
@@ -1078,12 +1138,34 @@ import { hourglassBottom } from './hourglass-bottom';
 import { hourglassSplit } from './hourglass-split';
 import { hourglassTop } from './hourglass-top';
 import { hourglass } from './hourglass';
+import { houseAddFill } from './house-add-fill';
+import { houseAdd } from './house-add';
+import { houseCheckFill } from './house-check-fill';
+import { houseCheck } from './house-check';
+import { houseDashFill } from './house-dash-fill';
+import { houseDash } from './house-dash';
 import { houseDoorFill } from './house-door-fill';
 import { houseDoor } from './house-door';
+import { houseDownFill } from './house-down-fill';
+import { houseDown } from './house-down';
+import { houseExclamationFill } from './house-exclamation-fill';
+import { houseExclamation } from './house-exclamation';
 import { houseFill } from './house-fill';
+import { houseGearFill } from './house-gear-fill';
+import { houseGear } from './house-gear';
 import { houseHeartFill } from './house-heart-fill';
 import { houseHeart } from './house-heart';
+import { houseLockFill } from './house-lock-fill';
+import { houseLock } from './house-lock';
+import { houseSlashFill } from './house-slash-fill';
+import { houseSlash } from './house-slash';
+import { houseUpFill } from './house-up-fill';
+import { houseUp } from './house-up';
+import { houseXFill } from './house-x-fill';
+import { houseX } from './house-x';
 import { house } from './house';
+import { housesFill } from './houses-fill';
+import { houses } from './houses';
 import { hr } from './hr';
 import { hurricane } from './hurricane';
 import { hypnotize } from './hypnotize';
@@ -1243,6 +1325,7 @@ import { nodePlusFill } from './node-plus-fill';
 import { nodePlus } from './node-plus';
 import { nutFill } from './nut-fill';
 import { nut } from './nut';
+import { nvidia } from './nvidia';
 import { octagonFill } from './octagon-fill';
 import { octagonHalf } from './octagon-half';
 import { octagon } from './octagon';
@@ -1297,6 +1380,7 @@ import { pentagon } from './pentagon';
 import { peopleFill } from './people-fill';
 import { people } from './people';
 import { percent } from './percent';
+import { personAdd } from './person-add';
 import { personBadgeFill } from './person-badge-fill';
 import { personBadge } from './person-badge';
 import { personBoundingBox } from './person-bounding-box';
@@ -1305,14 +1389,32 @@ import { personCheck } from './person-check';
 import { personCircle } from './person-circle';
 import { personDashFill } from './person-dash-fill';
 import { personDash } from './person-dash';
+import { personDown } from './person-down';
+import { personExclamation } from './person-exclamation';
+import { personFillAdd } from './person-fill-add';
+import { personFillCheck } from './person-fill-check';
+import { personFillDash } from './person-fill-dash';
+import { personFillDown } from './person-fill-down';
+import { personFillExclamation } from './person-fill-exclamation';
+import { personFillGear } from './person-fill-gear';
+import { personFillLock } from './person-fill-lock';
+import { personFillSlash } from './person-fill-slash';
+import { personFillUp } from './person-fill-up';
+import { personFillX } from './person-fill-x';
 import { personFill } from './person-fill';
+import { personGear } from './person-gear';
 import { personHeart } from './person-heart';
 import { personHearts } from './person-hearts';
 import { personLinesFill } from './person-lines-fill';
+import { personLock } from './person-lock';
 import { personPlusFill } from './person-plus-fill';
 import { personPlus } from './person-plus';
 import { personRolodex } from './person-rolodex';
+import { personSlash } from './person-slash';
 import { personSquare } from './person-square';
+import { personUp } from './person-up';
+import { personVcardFill } from './person-vcard-fill';
+import { personVcard } from './person-vcard';
 import { personVideo } from './person-video';
 import { personVideo2 } from './person-video2';
 import { personVideo3 } from './person-video3';
@@ -1413,6 +1515,7 @@ import { record2Fill } from './record2-fill';
 import { record2 } from './record2';
 import { recycle } from './recycle';
 import { reddit } from './reddit';
+import { regex } from './regex';
 import { repeat1 } from './repeat-1';
 import { repeat } from './repeat';
 import { replyAllFill } from './reply-all-fill';
@@ -1426,6 +1529,10 @@ import { rewindCircle } from './rewind-circle';
 import { rewindFill } from './rewind-fill';
 import { rewind } from './rewind';
 import { robot } from './robot';
+import { rocketFill } from './rocket-fill';
+import { rocketTakeoffFill } from './rocket-takeoff-fill';
+import { rocketTakeoff } from './rocket-takeoff';
+import { rocket } from './rocket';
 import { routerFill } from './router-fill';
 import { router } from './router';
 import { rssFill } from './rss-fill';
@@ -1440,6 +1547,7 @@ import { save } from './save';
 import { save2Fill } from './save2-fill';
 import { save2 } from './save2';
 import { scissors } from './scissors';
+import { scooter } from './scooter';
 import { screwdriver } from './screwdriver';
 import { sdCardFill } from './sd-card-fill';
 import { sdCard } from './sd-card';
@@ -1486,6 +1594,30 @@ import { shift } from './shift';
 import { shopWindow } from './shop-window';
 import { shop } from './shop';
 import { shuffle } from './shuffle';
+import { signDeadEndFill } from './sign-dead-end-fill';
+import { signDeadEnd } from './sign-dead-end';
+import { signDoNotEnterFill } from './sign-do-not-enter-fill';
+import { signDoNotEnter } from './sign-do-not-enter';
+import { signIntersectionFill } from './sign-intersection-fill';
+import { signIntersectionSideFill } from './sign-intersection-side-fill';
+import { signIntersectionSide } from './sign-intersection-side';
+import { signIntersectionTFill } from './sign-intersection-t-fill';
+import { signIntersectionT } from './sign-intersection-t';
+import { signIntersectionYFill } from './sign-intersection-y-fill';
+import { signIntersectionY } from './sign-intersection-y';
+import { signIntersection } from './sign-intersection';
+import { signMergeLeftFill } from './sign-merge-left-fill';
+import { signMergeLeft } from './sign-merge-left';
+import { signMergeRightFill } from './sign-merge-right-fill';
+import { signMergeRight } from './sign-merge-right';
+import { signNoLeftTurnFill } from './sign-no-left-turn-fill';
+import { signNoLeftTurn } from './sign-no-left-turn';
+import { signNoParkingFill } from './sign-no-parking-fill';
+import { signNoParking } from './sign-no-parking';
+import { signNoRightTurnFill } from './sign-no-right-turn-fill';
+import { signNoRightTurn } from './sign-no-right-turn';
+import { signRailroadFill } from './sign-railroad-fill';
+import { signRailroad } from './sign-railroad';
 import { signStopFill } from './sign-stop-fill';
 import { signStopLightsFill } from './sign-stop-lights-fill';
 import { signStopLights } from './sign-stop-lights';
@@ -1509,6 +1641,7 @@ import { signpostSplit } from './signpost-split';
 import { signpost } from './signpost';
 import { simFill } from './sim-fill';
 import { sim } from './sim';
+import { sinaWeibo } from './sina-weibo';
 import { skipBackwardBtnFill } from './skip-backward-btn-fill';
 import { skipBackwardBtn } from './skip-backward-btn';
 import { skipBackwardCircleFill } from './skip-backward-circle-fill';
@@ -1593,6 +1726,8 @@ import { stoplights } from './stoplights';
 import { stopwatchFill } from './stopwatch-fill';
 import { stopwatch } from './stopwatch';
 import { strava } from './strava';
+import { stripe } from './stripe';
+import { subscript } from './subscript';
 import { subtract } from './subtract';
 import { suitClubFill } from './suit-club-fill';
 import { suitClub } from './suit-club';
@@ -1609,6 +1744,7 @@ import { sunriseFill } from './sunrise-fill';
 import { sunrise } from './sunrise';
 import { sunsetFill } from './sunset-fill';
 import { sunset } from './sunset';
+import { superscript } from './superscript';
 import { symmetryHorizontal } from './symmetry-horizontal';
 import { symmetryVertical } from './symmetry-vertical';
 import { table } from './table';
@@ -1620,6 +1756,8 @@ import { tagFill } from './tag-fill';
 import { tag } from './tag';
 import { tagsFill } from './tags-fill';
 import { tags } from './tags';
+import { taxiFrontFill } from './taxi-front-fill';
+import { taxiFront } from './taxi-front';
 import { telegram } from './telegram';
 import { telephoneFill } from './telephone-fill';
 import { telephoneForwardFill } from './telephone-forward-fill';
@@ -1635,6 +1773,7 @@ import { telephonePlus } from './telephone-plus';
 import { telephoneXFill } from './telephone-x-fill';
 import { telephoneX } from './telephone-x';
 import { telephone } from './telephone';
+import { tencentQq } from './tencent-qq';
 import { terminalDash } from './terminal-dash';
 import { terminalFill } from './terminal-fill';
 import { terminalPlus } from './terminal-plus';
@@ -1647,6 +1786,7 @@ import { textIndentRight } from './text-indent-right';
 import { textLeft } from './text-left';
 import { textParagraph } from './text-paragraph';
 import { textRight } from './text-right';
+import { textWrap } from './text-wrap';
 import { textareaResize } from './textarea-resize';
 import { textareaT } from './textarea-t';
 import { textarea } from './textarea';
@@ -1690,6 +1830,7 @@ import { trash3Fill } from './trash3-fill';
 import { trash3 } from './trash3';
 import { treeFill } from './tree-fill';
 import { tree } from './tree';
+import { trello } from './trello';
 import { triangleFill } from './triangle-fill';
 import { triangleHalf } from './triangle-half';
 import { triangle } from './triangle';
@@ -1776,6 +1917,7 @@ import { wifi1 } from './wifi-1';
 import { wifi2 } from './wifi-2';
 import { wifiOff } from './wifi-off';
 import { wifi } from './wifi';
+import { wikipedia } from './wikipedia';
 import { wind } from './wind';
 import { windowDash } from './window-dash';
 import { windowDesktop } from './window-desktop';
@@ -1811,6 +1953,10 @@ import { zoomIn } from './zoom-in';
 import { zoomOut } from './zoom-out';
 
 export const allIcons = {
+  icon0CircleFill,
+  icon0Circle,
+  icon0SquareFill,
+  icon0Square,
   icon1CircleFill,
   icon1Circle,
   icon1SquareFill,
@@ -1864,6 +2010,7 @@ export const allIcons = {
   alignTop,
   alipay,
   alt,
+  amd,
   android,
   android2,
   appIndicator,
@@ -2111,8 +2258,33 @@ export const allIcons = {
   bucket,
   bugFill,
   bug,
+  buildingAdd,
+  buildingCheck,
+  buildingDash,
+  buildingDown,
+  buildingExclamation,
+  buildingFillAdd,
+  buildingFillCheck,
+  buildingFillDash,
+  buildingFillDown,
+  buildingFillExclamation,
+  buildingFillGear,
+  buildingFillLock,
+  buildingFillSlash,
+  buildingFillUp,
+  buildingFillX,
+  buildingFill,
+  buildingGear,
+  buildingLock,
+  buildingSlash,
+  buildingUp,
+  buildingX,
   building,
+  buildingsFill,
+  buildings,
   bullseye,
+  busFrontFill,
+  busFront,
   cCircleFill,
   cCircle,
   cSquareFill,
@@ -2445,6 +2617,28 @@ export const allIcons = {
   dashSquareFill,
   dashSquare,
   dash,
+  databaseAdd,
+  databaseCheck,
+  databaseDash,
+  databaseDown,
+  databaseExclamation,
+  databaseFillAdd,
+  databaseFillCheck,
+  databaseFillDash,
+  databaseFillDown,
+  databaseFillExclamation,
+  databaseFillGear,
+  databaseFillLock,
+  databaseFillSlash,
+  databaseFillUp,
+  databaseFillX,
+  databaseFill,
+  databaseGear,
+  databaseLock,
+  databaseSlash,
+  databaseUp,
+  databaseX,
+  database,
   deviceHddFill,
   deviceHdd,
   deviceSsdFill,
@@ -2528,6 +2722,8 @@ export const allIcons = {
   emojiSunglasses,
   emojiWinkFill,
   emojiWink,
+  envelopeAtFill,
+  envelopeAt,
   envelopeCheckFill,
   envelopeCheck,
   envelopeDashFill,
@@ -2556,6 +2752,8 @@ export const allIcons = {
   eraser,
   escape,
   ethernet,
+  evFrontFill,
+  evFront,
   evStationFill,
   evStation,
   exclamationCircleFill,
@@ -2820,6 +3018,10 @@ export const allIcons = {
   gift,
   git,
   github,
+  globeAmericas,
+  globeAsiaAustralia,
+  globeCentralSouthAsia,
+  globeEuropeAfrica,
   globe,
   globe2,
   googlePlay,
@@ -2891,12 +3093,34 @@ export const allIcons = {
   hourglassSplit,
   hourglassTop,
   hourglass,
+  houseAddFill,
+  houseAdd,
+  houseCheckFill,
+  houseCheck,
+  houseDashFill,
+  houseDash,
   houseDoorFill,
   houseDoor,
+  houseDownFill,
+  houseDown,
+  houseExclamationFill,
+  houseExclamation,
   houseFill,
+  houseGearFill,
+  houseGear,
   houseHeartFill,
   houseHeart,
+  houseLockFill,
+  houseLock,
+  houseSlashFill,
+  houseSlash,
+  houseUpFill,
+  houseUp,
+  houseXFill,
+  houseX,
   house,
+  housesFill,
+  houses,
   hr,
   hurricane,
   hypnotize,
@@ -3056,6 +3280,7 @@ export const allIcons = {
   nodePlus,
   nutFill,
   nut,
+  nvidia,
   octagonFill,
   octagonHalf,
   octagon,
@@ -3110,6 +3335,7 @@ export const allIcons = {
   peopleFill,
   people,
   percent,
+  personAdd,
   personBadgeFill,
   personBadge,
   personBoundingBox,
@@ -3118,14 +3344,32 @@ export const allIcons = {
   personCircle,
   personDashFill,
   personDash,
+  personDown,
+  personExclamation,
+  personFillAdd,
+  personFillCheck,
+  personFillDash,
+  personFillDown,
+  personFillExclamation,
+  personFillGear,
+  personFillLock,
+  personFillSlash,
+  personFillUp,
+  personFillX,
   personFill,
+  personGear,
   personHeart,
   personHearts,
   personLinesFill,
+  personLock,
   personPlusFill,
   personPlus,
   personRolodex,
+  personSlash,
   personSquare,
+  personUp,
+  personVcardFill,
+  personVcard,
   personVideo,
   personVideo2,
   personVideo3,
@@ -3226,6 +3470,7 @@ export const allIcons = {
   record2,
   recycle,
   reddit,
+  regex,
   repeat1,
   repeat,
   replyAllFill,
@@ -3239,6 +3484,10 @@ export const allIcons = {
   rewindFill,
   rewind,
   robot,
+  rocketFill,
+  rocketTakeoffFill,
+  rocketTakeoff,
+  rocket,
   routerFill,
   router,
   rssFill,
@@ -3253,6 +3502,7 @@ export const allIcons = {
   save2Fill,
   save2,
   scissors,
+  scooter,
   screwdriver,
   sdCardFill,
   sdCard,
@@ -3299,6 +3549,30 @@ export const allIcons = {
   shopWindow,
   shop,
   shuffle,
+  signDeadEndFill,
+  signDeadEnd,
+  signDoNotEnterFill,
+  signDoNotEnter,
+  signIntersectionFill,
+  signIntersectionSideFill,
+  signIntersectionSide,
+  signIntersectionTFill,
+  signIntersectionT,
+  signIntersectionYFill,
+  signIntersectionY,
+  signIntersection,
+  signMergeLeftFill,
+  signMergeLeft,
+  signMergeRightFill,
+  signMergeRight,
+  signNoLeftTurnFill,
+  signNoLeftTurn,
+  signNoParkingFill,
+  signNoParking,
+  signNoRightTurnFill,
+  signNoRightTurn,
+  signRailroadFill,
+  signRailroad,
   signStopFill,
   signStopLightsFill,
   signStopLights,
@@ -3322,6 +3596,7 @@ export const allIcons = {
   signpost,
   simFill,
   sim,
+  sinaWeibo,
   skipBackwardBtnFill,
   skipBackwardBtn,
   skipBackwardCircleFill,
@@ -3406,6 +3681,8 @@ export const allIcons = {
   stopwatchFill,
   stopwatch,
   strava,
+  stripe,
+  subscript,
   subtract,
   suitClubFill,
   suitClub,
@@ -3422,6 +3699,7 @@ export const allIcons = {
   sunrise,
   sunsetFill,
   sunset,
+  superscript,
   symmetryHorizontal,
   symmetryVertical,
   table,
@@ -3433,6 +3711,8 @@ export const allIcons = {
   tag,
   tagsFill,
   tags,
+  taxiFrontFill,
+  taxiFront,
   telegram,
   telephoneFill,
   telephoneForwardFill,
@@ -3448,6 +3728,7 @@ export const allIcons = {
   telephoneXFill,
   telephoneX,
   telephone,
+  tencentQq,
   terminalDash,
   terminalFill,
   terminalPlus,
@@ -3460,6 +3741,7 @@ export const allIcons = {
   textLeft,
   textParagraph,
   textRight,
+  textWrap,
   textareaResize,
   textareaT,
   textarea,
@@ -3503,6 +3785,7 @@ export const allIcons = {
   trash3,
   treeFill,
   tree,
+  trello,
   triangleFill,
   triangleHalf,
   triangle,
@@ -3589,6 +3872,7 @@ export const allIcons = {
   wifi2,
   wifiOff,
   wifi,
+  wikipedia,
   wind,
   windowDash,
   windowDesktop,
