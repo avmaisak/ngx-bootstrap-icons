@@ -1,5 +1,13 @@
 /** Type for icon names. */
 export type IconName =
+/** {@link https://icons.getbootstrap.com/icons/icon0-circle-fill} */
+'icon0-circle-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/icon0-circle} */
+'icon0-circle' | 
+/** {@link https://icons.getbootstrap.com/icons/icon0-square-fill} */
+'icon0-square-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/icon0-square} */
+'icon0-square' | 
 /** {@link https://icons.getbootstrap.com/icons/icon1-circle-fill} */
 'icon1-circle-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/icon1-circle} */
@@ -106,6 +114,8 @@ export type IconName =
 'alipay' | 
 /** {@link https://icons.getbootstrap.com/icons/alt} */
 'alt' | 
+/** {@link https://icons.getbootstrap.com/icons/amd} */
+'amd' | 
 /** {@link https://icons.getbootstrap.com/icons/android} */
 'android' | 
 /** {@link https://icons.getbootstrap.com/icons/android2} */
@@ -600,10 +610,60 @@ export type IconName =
 'bug-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/bug} */
 'bug' | 
+/** {@link https://icons.getbootstrap.com/icons/building-add} */
+'building-add' | 
+/** {@link https://icons.getbootstrap.com/icons/building-check} */
+'building-check' | 
+/** {@link https://icons.getbootstrap.com/icons/building-dash} */
+'building-dash' | 
+/** {@link https://icons.getbootstrap.com/icons/building-down} */
+'building-down' | 
+/** {@link https://icons.getbootstrap.com/icons/building-exclamation} */
+'building-exclamation' | 
+/** {@link https://icons.getbootstrap.com/icons/building-fill-add} */
+'building-fill-add' | 
+/** {@link https://icons.getbootstrap.com/icons/building-fill-check} */
+'building-fill-check' | 
+/** {@link https://icons.getbootstrap.com/icons/building-fill-dash} */
+'building-fill-dash' | 
+/** {@link https://icons.getbootstrap.com/icons/building-fill-down} */
+'building-fill-down' | 
+/** {@link https://icons.getbootstrap.com/icons/building-fill-exclamation} */
+'building-fill-exclamation' | 
+/** {@link https://icons.getbootstrap.com/icons/building-fill-gear} */
+'building-fill-gear' | 
+/** {@link https://icons.getbootstrap.com/icons/building-fill-lock} */
+'building-fill-lock' | 
+/** {@link https://icons.getbootstrap.com/icons/building-fill-slash} */
+'building-fill-slash' | 
+/** {@link https://icons.getbootstrap.com/icons/building-fill-up} */
+'building-fill-up' | 
+/** {@link https://icons.getbootstrap.com/icons/building-fill-x} */
+'building-fill-x' | 
+/** {@link https://icons.getbootstrap.com/icons/building-fill} */
+'building-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/building-gear} */
+'building-gear' | 
+/** {@link https://icons.getbootstrap.com/icons/building-lock} */
+'building-lock' | 
+/** {@link https://icons.getbootstrap.com/icons/building-slash} */
+'building-slash' | 
+/** {@link https://icons.getbootstrap.com/icons/building-up} */
+'building-up' | 
+/** {@link https://icons.getbootstrap.com/icons/building-x} */
+'building-x' | 
 /** {@link https://icons.getbootstrap.com/icons/building} */
 'building' | 
+/** {@link https://icons.getbootstrap.com/icons/buildings-fill} */
+'buildings-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/buildings} */
+'buildings' | 
 /** {@link https://icons.getbootstrap.com/icons/bullseye} */
 'bullseye' | 
+/** {@link https://icons.getbootstrap.com/icons/bus-front-fill} */
+'bus-front-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/bus-front} */
+'bus-front' | 
 /** {@link https://icons.getbootstrap.com/icons/c-circle-fill} */
 'c-circle-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/c-circle} */
@@ -1268,6 +1328,50 @@ export type IconName =
 'dash-square' | 
 /** {@link https://icons.getbootstrap.com/icons/dash} */
 'dash' | 
+/** {@link https://icons.getbootstrap.com/icons/database-add} */
+'database-add' | 
+/** {@link https://icons.getbootstrap.com/icons/database-check} */
+'database-check' | 
+/** {@link https://icons.getbootstrap.com/icons/database-dash} */
+'database-dash' | 
+/** {@link https://icons.getbootstrap.com/icons/database-down} */
+'database-down' | 
+/** {@link https://icons.getbootstrap.com/icons/database-exclamation} */
+'database-exclamation' | 
+/** {@link https://icons.getbootstrap.com/icons/database-fill-add} */
+'database-fill-add' | 
+/** {@link https://icons.getbootstrap.com/icons/database-fill-check} */
+'database-fill-check' | 
+/** {@link https://icons.getbootstrap.com/icons/database-fill-dash} */
+'database-fill-dash' | 
+/** {@link https://icons.getbootstrap.com/icons/database-fill-down} */
+'database-fill-down' | 
+/** {@link https://icons.getbootstrap.com/icons/database-fill-exclamation} */
+'database-fill-exclamation' | 
+/** {@link https://icons.getbootstrap.com/icons/database-fill-gear} */
+'database-fill-gear' | 
+/** {@link https://icons.getbootstrap.com/icons/database-fill-lock} */
+'database-fill-lock' | 
+/** {@link https://icons.getbootstrap.com/icons/database-fill-slash} */
+'database-fill-slash' | 
+/** {@link https://icons.getbootstrap.com/icons/database-fill-up} */
+'database-fill-up' | 
+/** {@link https://icons.getbootstrap.com/icons/database-fill-x} */
+'database-fill-x' | 
+/** {@link https://icons.getbootstrap.com/icons/database-fill} */
+'database-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/database-gear} */
+'database-gear' | 
+/** {@link https://icons.getbootstrap.com/icons/database-lock} */
+'database-lock' | 
+/** {@link https://icons.getbootstrap.com/icons/database-slash} */
+'database-slash' | 
+/** {@link https://icons.getbootstrap.com/icons/database-up} */
+'database-up' | 
+/** {@link https://icons.getbootstrap.com/icons/database-x} */
+'database-x' | 
+/** {@link https://icons.getbootstrap.com/icons/database} */
+'database' | 
 /** {@link https://icons.getbootstrap.com/icons/device-hdd-fill} */
 'device-hdd-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/device-hdd} */
@@ -1434,6 +1538,10 @@ export type IconName =
 'emoji-wink-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/emoji-wink} */
 'emoji-wink' | 
+/** {@link https://icons.getbootstrap.com/icons/envelope-at-fill} */
+'envelope-at-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/envelope-at} */
+'envelope-at' | 
 /** {@link https://icons.getbootstrap.com/icons/envelope-check-fill} */
 'envelope-check-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/envelope-check} */
@@ -1490,6 +1598,14 @@ export type IconName =
 'escape' | 
 /** {@link https://icons.getbootstrap.com/icons/ethernet} */
 'ethernet' | 
+/** {@link https://icons.getbootstrap.com/icons/ev-front-fill} */
+'ev-front-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/ev-front} */
+'ev-front' | 
+/** {@link https://icons.getbootstrap.com/icons/ev-station-fill} */
+'ev-station-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/ev-station} */
+'ev-station' | 
 /** {@link https://icons.getbootstrap.com/icons/exclamation-circle-fill} */
 'exclamation-circle-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/exclamation-circle} */
@@ -1964,6 +2080,14 @@ export type IconName =
 'forward' | 
 /** {@link https://icons.getbootstrap.com/icons/front} */
 'front' | 
+/** {@link https://icons.getbootstrap.com/icons/fuel-pump-diesel-fill} */
+'fuel-pump-diesel-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/fuel-pump-diesel} */
+'fuel-pump-diesel' | 
+/** {@link https://icons.getbootstrap.com/icons/fuel-pump-fill} */
+'fuel-pump-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/fuel-pump} */
+'fuel-pump' | 
 /** {@link https://icons.getbootstrap.com/icons/fullscreen-exit} */
 'fullscreen-exit' | 
 /** {@link https://icons.getbootstrap.com/icons/fullscreen} */
@@ -2006,6 +2130,14 @@ export type IconName =
 'git' | 
 /** {@link https://icons.getbootstrap.com/icons/github} */
 'github' | 
+/** {@link https://icons.getbootstrap.com/icons/globe-americas} */
+'globe-americas' | 
+/** {@link https://icons.getbootstrap.com/icons/globe-asia-australia} */
+'globe-asia-australia' | 
+/** {@link https://icons.getbootstrap.com/icons/globe-central-south-asia} */
+'globe-central-south-asia' | 
+/** {@link https://icons.getbootstrap.com/icons/globe-europe-africa} */
+'globe-europe-africa' | 
 /** {@link https://icons.getbootstrap.com/icons/globe} */
 'globe' | 
 /** {@link https://icons.getbootstrap.com/icons/globe2} */
@@ -2148,18 +2280,62 @@ export type IconName =
 'hourglass-top' | 
 /** {@link https://icons.getbootstrap.com/icons/hourglass} */
 'hourglass' | 
+/** {@link https://icons.getbootstrap.com/icons/house-add-fill} */
+'house-add-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/house-add} */
+'house-add' | 
+/** {@link https://icons.getbootstrap.com/icons/house-check-fill} */
+'house-check-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/house-check} */
+'house-check' | 
+/** {@link https://icons.getbootstrap.com/icons/house-dash-fill} */
+'house-dash-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/house-dash} */
+'house-dash' | 
 /** {@link https://icons.getbootstrap.com/icons/house-door-fill} */
 'house-door-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/house-door} */
 'house-door' | 
+/** {@link https://icons.getbootstrap.com/icons/house-down-fill} */
+'house-down-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/house-down} */
+'house-down' | 
+/** {@link https://icons.getbootstrap.com/icons/house-exclamation-fill} */
+'house-exclamation-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/house-exclamation} */
+'house-exclamation' | 
 /** {@link https://icons.getbootstrap.com/icons/house-fill} */
 'house-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/house-gear-fill} */
+'house-gear-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/house-gear} */
+'house-gear' | 
 /** {@link https://icons.getbootstrap.com/icons/house-heart-fill} */
 'house-heart-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/house-heart} */
 'house-heart' | 
+/** {@link https://icons.getbootstrap.com/icons/house-lock-fill} */
+'house-lock-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/house-lock} */
+'house-lock' | 
+/** {@link https://icons.getbootstrap.com/icons/house-slash-fill} */
+'house-slash-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/house-slash} */
+'house-slash' | 
+/** {@link https://icons.getbootstrap.com/icons/house-up-fill} */
+'house-up-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/house-up} */
+'house-up' | 
+/** {@link https://icons.getbootstrap.com/icons/house-x-fill} */
+'house-x-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/house-x} */
+'house-x' | 
 /** {@link https://icons.getbootstrap.com/icons/house} */
 'house' | 
+/** {@link https://icons.getbootstrap.com/icons/houses-fill} */
+'houses-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/houses} */
+'houses' | 
 /** {@link https://icons.getbootstrap.com/icons/hr} */
 'hr' | 
 /** {@link https://icons.getbootstrap.com/icons/hurricane} */
@@ -2478,6 +2654,8 @@ export type IconName =
 'nut-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/nut} */
 'nut' | 
+/** {@link https://icons.getbootstrap.com/icons/nvidia} */
+'nvidia' | 
 /** {@link https://icons.getbootstrap.com/icons/octagon-fill} */
 'octagon-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/octagon-half} */
@@ -2586,6 +2764,8 @@ export type IconName =
 'people' | 
 /** {@link https://icons.getbootstrap.com/icons/percent} */
 'percent' | 
+/** {@link https://icons.getbootstrap.com/icons/person-add} */
+'person-add' | 
 /** {@link https://icons.getbootstrap.com/icons/person-badge-fill} */
 'person-badge-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/person-badge} */
@@ -2602,22 +2782,58 @@ export type IconName =
 'person-dash-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/person-dash} */
 'person-dash' | 
+/** {@link https://icons.getbootstrap.com/icons/person-down} */
+'person-down' | 
+/** {@link https://icons.getbootstrap.com/icons/person-exclamation} */
+'person-exclamation' | 
+/** {@link https://icons.getbootstrap.com/icons/person-fill-add} */
+'person-fill-add' | 
+/** {@link https://icons.getbootstrap.com/icons/person-fill-check} */
+'person-fill-check' | 
+/** {@link https://icons.getbootstrap.com/icons/person-fill-dash} */
+'person-fill-dash' | 
+/** {@link https://icons.getbootstrap.com/icons/person-fill-down} */
+'person-fill-down' | 
+/** {@link https://icons.getbootstrap.com/icons/person-fill-exclamation} */
+'person-fill-exclamation' | 
+/** {@link https://icons.getbootstrap.com/icons/person-fill-gear} */
+'person-fill-gear' | 
+/** {@link https://icons.getbootstrap.com/icons/person-fill-lock} */
+'person-fill-lock' | 
+/** {@link https://icons.getbootstrap.com/icons/person-fill-slash} */
+'person-fill-slash' | 
+/** {@link https://icons.getbootstrap.com/icons/person-fill-up} */
+'person-fill-up' | 
+/** {@link https://icons.getbootstrap.com/icons/person-fill-x} */
+'person-fill-x' | 
 /** {@link https://icons.getbootstrap.com/icons/person-fill} */
 'person-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/person-gear} */
+'person-gear' | 
 /** {@link https://icons.getbootstrap.com/icons/person-heart} */
 'person-heart' | 
 /** {@link https://icons.getbootstrap.com/icons/person-hearts} */
 'person-hearts' | 
 /** {@link https://icons.getbootstrap.com/icons/person-lines-fill} */
 'person-lines-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/person-lock} */
+'person-lock' | 
 /** {@link https://icons.getbootstrap.com/icons/person-plus-fill} */
 'person-plus-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/person-plus} */
 'person-plus' | 
 /** {@link https://icons.getbootstrap.com/icons/person-rolodex} */
 'person-rolodex' | 
+/** {@link https://icons.getbootstrap.com/icons/person-slash} */
+'person-slash' | 
 /** {@link https://icons.getbootstrap.com/icons/person-square} */
 'person-square' | 
+/** {@link https://icons.getbootstrap.com/icons/person-up} */
+'person-up' | 
+/** {@link https://icons.getbootstrap.com/icons/person-vcard-fill} */
+'person-vcard-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/person-vcard} */
+'person-vcard' | 
 /** {@link https://icons.getbootstrap.com/icons/person-video} */
 'person-video' | 
 /** {@link https://icons.getbootstrap.com/icons/person-video2} */
@@ -2818,6 +3034,8 @@ export type IconName =
 'recycle' | 
 /** {@link https://icons.getbootstrap.com/icons/reddit} */
 'reddit' | 
+/** {@link https://icons.getbootstrap.com/icons/regex} */
+'regex' | 
 /** {@link https://icons.getbootstrap.com/icons/repeat-1} */
 'repeat-1' | 
 /** {@link https://icons.getbootstrap.com/icons/repeat} */
@@ -2844,6 +3062,14 @@ export type IconName =
 'rewind' | 
 /** {@link https://icons.getbootstrap.com/icons/robot} */
 'robot' | 
+/** {@link https://icons.getbootstrap.com/icons/rocket-fill} */
+'rocket-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/rocket-takeoff-fill} */
+'rocket-takeoff-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/rocket-takeoff} */
+'rocket-takeoff' | 
+/** {@link https://icons.getbootstrap.com/icons/rocket} */
+'rocket' | 
 /** {@link https://icons.getbootstrap.com/icons/router-fill} */
 'router-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/router} */
@@ -2872,6 +3098,8 @@ export type IconName =
 'save2' | 
 /** {@link https://icons.getbootstrap.com/icons/scissors} */
 'scissors' | 
+/** {@link https://icons.getbootstrap.com/icons/scooter} */
+'scooter' | 
 /** {@link https://icons.getbootstrap.com/icons/screwdriver} */
 'screwdriver' | 
 /** {@link https://icons.getbootstrap.com/icons/sd-card-fill} */
@@ -2964,6 +3192,54 @@ export type IconName =
 'shop' | 
 /** {@link https://icons.getbootstrap.com/icons/shuffle} */
 'shuffle' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-dead-end-fill} */
+'sign-dead-end-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-dead-end} */
+'sign-dead-end' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-do-not-enter-fill} */
+'sign-do-not-enter-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-do-not-enter} */
+'sign-do-not-enter' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-intersection-fill} */
+'sign-intersection-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-intersection-side-fill} */
+'sign-intersection-side-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-intersection-side} */
+'sign-intersection-side' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-intersection-t-fill} */
+'sign-intersection-t-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-intersection-t} */
+'sign-intersection-t' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-intersection-y-fill} */
+'sign-intersection-y-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-intersection-y} */
+'sign-intersection-y' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-intersection} */
+'sign-intersection' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-merge-left-fill} */
+'sign-merge-left-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-merge-left} */
+'sign-merge-left' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-merge-right-fill} */
+'sign-merge-right-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-merge-right} */
+'sign-merge-right' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-no-left-turn-fill} */
+'sign-no-left-turn-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-no-left-turn} */
+'sign-no-left-turn' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-no-parking-fill} */
+'sign-no-parking-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-no-parking} */
+'sign-no-parking' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-no-right-turn-fill} */
+'sign-no-right-turn-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-no-right-turn} */
+'sign-no-right-turn' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-railroad-fill} */
+'sign-railroad-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/sign-railroad} */
+'sign-railroad' | 
 /** {@link https://icons.getbootstrap.com/icons/sign-stop-fill} */
 'sign-stop-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/sign-stop-lights-fill} */
@@ -3010,6 +3286,8 @@ export type IconName =
 'sim-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/sim} */
 'sim' | 
+/** {@link https://icons.getbootstrap.com/icons/sina-weibo} */
+'sina-weibo' | 
 /** {@link https://icons.getbootstrap.com/icons/skip-backward-btn-fill} */
 'skip-backward-btn-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/skip-backward-btn} */
@@ -3178,6 +3456,10 @@ export type IconName =
 'stopwatch' | 
 /** {@link https://icons.getbootstrap.com/icons/strava} */
 'strava' | 
+/** {@link https://icons.getbootstrap.com/icons/stripe} */
+'stripe' | 
+/** {@link https://icons.getbootstrap.com/icons/subscript} */
+'subscript' | 
 /** {@link https://icons.getbootstrap.com/icons/subtract} */
 'subtract' | 
 /** {@link https://icons.getbootstrap.com/icons/suit-club-fill} */
@@ -3210,6 +3492,8 @@ export type IconName =
 'sunset-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/sunset} */
 'sunset' | 
+/** {@link https://icons.getbootstrap.com/icons/superscript} */
+'superscript' | 
 /** {@link https://icons.getbootstrap.com/icons/symmetry-horizontal} */
 'symmetry-horizontal' | 
 /** {@link https://icons.getbootstrap.com/icons/symmetry-vertical} */
@@ -3232,6 +3516,10 @@ export type IconName =
 'tags-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/tags} */
 'tags' | 
+/** {@link https://icons.getbootstrap.com/icons/taxi-front-fill} */
+'taxi-front-fill' | 
+/** {@link https://icons.getbootstrap.com/icons/taxi-front} */
+'taxi-front' | 
 /** {@link https://icons.getbootstrap.com/icons/telegram} */
 'telegram' | 
 /** {@link https://icons.getbootstrap.com/icons/telephone-fill} */
@@ -3262,6 +3550,8 @@ export type IconName =
 'telephone-x' | 
 /** {@link https://icons.getbootstrap.com/icons/telephone} */
 'telephone' | 
+/** {@link https://icons.getbootstrap.com/icons/tencent-qq} */
+'tencent-qq' | 
 /** {@link https://icons.getbootstrap.com/icons/terminal-dash} */
 'terminal-dash' | 
 /** {@link https://icons.getbootstrap.com/icons/terminal-fill} */
@@ -3286,6 +3576,8 @@ export type IconName =
 'text-paragraph' | 
 /** {@link https://icons.getbootstrap.com/icons/text-right} */
 'text-right' | 
+/** {@link https://icons.getbootstrap.com/icons/text-wrap} */
+'text-wrap' | 
 /** {@link https://icons.getbootstrap.com/icons/textarea-resize} */
 'textarea-resize' | 
 /** {@link https://icons.getbootstrap.com/icons/textarea-t} */
@@ -3372,6 +3664,8 @@ export type IconName =
 'tree-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/tree} */
 'tree' | 
+/** {@link https://icons.getbootstrap.com/icons/trello} */
+'trello' | 
 /** {@link https://icons.getbootstrap.com/icons/triangle-fill} */
 'triangle-fill' | 
 /** {@link https://icons.getbootstrap.com/icons/triangle-half} */
@@ -3544,6 +3838,8 @@ export type IconName =
 'wifi-off' | 
 /** {@link https://icons.getbootstrap.com/icons/wifi} */
 'wifi' | 
+/** {@link https://icons.getbootstrap.com/icons/wikipedia} */
+'wikipedia' | 
 /** {@link https://icons.getbootstrap.com/icons/wind} */
 'wind' | 
 /** {@link https://icons.getbootstrap.com/icons/window-dash} */
