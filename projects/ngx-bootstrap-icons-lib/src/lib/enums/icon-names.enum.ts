@@ -112,8 +112,14 @@ AlignStart = 'align-start',
 AlignTop = 'align-top',
 /** {@link https://icons.getbootstrap.com/icons/alipay} */
 Alipay = 'alipay',
+/** {@link https://icons.getbootstrap.com/icons/alphabet-uppercase} */
+AlphabetUppercase = 'alphabet-uppercase',
+/** {@link https://icons.getbootstrap.com/icons/alphabet} */
+Alphabet = 'alphabet',
 /** {@link https://icons.getbootstrap.com/icons/alt} */
 Alt = 'alt',
+/** {@link https://icons.getbootstrap.com/icons/amazon} */
+Amazon = 'amazon',
 /** {@link https://icons.getbootstrap.com/icons/amd} */
 Amd = 'amd',
 /** {@link https://icons.getbootstrap.com/icons/android} */
@@ -256,14 +262,22 @@ ArrowUp = 'arrow-up',
 ArrowsAngleContract = 'arrows-angle-contract',
 /** {@link https://icons.getbootstrap.com/icons/arrows-angle-expand} */
 ArrowsAngleExpand = 'arrows-angle-expand',
+/** {@link https://icons.getbootstrap.com/icons/arrows-collapse-vertical} */
+ArrowsCollapseVertical = 'arrows-collapse-vertical',
 /** {@link https://icons.getbootstrap.com/icons/arrows-collapse} */
 ArrowsCollapse = 'arrows-collapse',
+/** {@link https://icons.getbootstrap.com/icons/arrows-expand-vertical} */
+ArrowsExpandVertical = 'arrows-expand-vertical',
 /** {@link https://icons.getbootstrap.com/icons/arrows-expand} */
 ArrowsExpand = 'arrows-expand',
 /** {@link https://icons.getbootstrap.com/icons/arrows-fullscreen} */
 ArrowsFullscreen = 'arrows-fullscreen',
 /** {@link https://icons.getbootstrap.com/icons/arrows-move} */
 ArrowsMove = 'arrows-move',
+/** {@link https://icons.getbootstrap.com/icons/arrows-vertical} */
+ArrowsVertical = 'arrows-vertical',
+/** {@link https://icons.getbootstrap.com/icons/arrows} */
+Arrows = 'arrows',
 /** {@link https://icons.getbootstrap.com/icons/aspect-ratio-fill} */
 AspectRatioFill = 'aspect-ratio-fill',
 /** {@link https://icons.getbootstrap.com/icons/aspect-ratio} */
@@ -278,6 +292,22 @@ AwardFill = 'award-fill',
 Award = 'award',
 /** {@link https://icons.getbootstrap.com/icons/back} */
 Back = 'back',
+/** {@link https://icons.getbootstrap.com/icons/backpack-fill} */
+BackpackFill = 'backpack-fill',
+/** {@link https://icons.getbootstrap.com/icons/backpack} */
+Backpack = 'backpack',
+/** {@link https://icons.getbootstrap.com/icons/backpack2-fill} */
+Backpack2Fill = 'backpack2-fill',
+/** {@link https://icons.getbootstrap.com/icons/backpack2} */
+Backpack2 = 'backpack2',
+/** {@link https://icons.getbootstrap.com/icons/backpack3-fill} */
+Backpack3Fill = 'backpack3-fill',
+/** {@link https://icons.getbootstrap.com/icons/backpack3} */
+Backpack3 = 'backpack3',
+/** {@link https://icons.getbootstrap.com/icons/backpack4-fill} */
+Backpack4Fill = 'backpack4-fill',
+/** {@link https://icons.getbootstrap.com/icons/backpack4} */
+Backpack4 = 'backpack4',
 /** {@link https://icons.getbootstrap.com/icons/backspace-fill} */
 BackspaceFill = 'backspace-fill',
 /** {@link https://icons.getbootstrap.com/icons/backspace-reverse-fill} */
@@ -366,6 +396,10 @@ BalloonHeartFill = 'balloon-heart-fill',
 BalloonHeart = 'balloon-heart',
 /** {@link https://icons.getbootstrap.com/icons/balloon} */
 Balloon = 'balloon',
+/** {@link https://icons.getbootstrap.com/icons/ban-fill} */
+BanFill = 'ban-fill',
+/** {@link https://icons.getbootstrap.com/icons/ban} */
+Ban = 'ban',
 /** {@link https://icons.getbootstrap.com/icons/bandaid-fill} */
 BandaidFill = 'bandaid-fill',
 /** {@link https://icons.getbootstrap.com/icons/bandaid} */
@@ -420,6 +454,8 @@ Bezier = 'bezier',
 Bezier2 = 'bezier2',
 /** {@link https://icons.getbootstrap.com/icons/bicycle} */
 Bicycle = 'bicycle',
+/** {@link https://icons.getbootstrap.com/icons/bing} */
+Bing = 'bing',
 /** {@link https://icons.getbootstrap.com/icons/binoculars-fill} */
 BinocularsFill = 'binoculars-fill',
 /** {@link https://icons.getbootstrap.com/icons/binoculars} */
@@ -586,6 +622,8 @@ BrightnessHigh = 'brightness-high',
 BrightnessLowFill = 'brightness-low-fill',
 /** {@link https://icons.getbootstrap.com/icons/brightness-low} */
 BrightnessLow = 'brightness-low',
+/** {@link https://icons.getbootstrap.com/icons/brilliance} */
+Brilliance = 'brilliance',
 /** {@link https://icons.getbootstrap.com/icons/broadcast-pin} */
 BroadcastPin = 'broadcast-pin',
 /** {@link https://icons.getbootstrap.com/icons/broadcast} */
@@ -672,6 +710,14 @@ CCircle = 'c-circle',
 CSquareFill = 'c-square-fill',
 /** {@link https://icons.getbootstrap.com/icons/c-square} */
 CSquare = 'c-square',
+/** {@link https://icons.getbootstrap.com/icons/cake-fill} */
+CakeFill = 'cake-fill',
+/** {@link https://icons.getbootstrap.com/icons/cake} */
+Cake = 'cake',
+/** {@link https://icons.getbootstrap.com/icons/cake2-fill} */
+Cake2Fill = 'cake2-fill',
+/** {@link https://icons.getbootstrap.com/icons/cake2} */
+Cake2 = 'cake2',
 /** {@link https://icons.getbootstrap.com/icons/calculator-fill} */
 CalculatorFill = 'calculator-fill',
 /** {@link https://icons.getbootstrap.com/icons/calculator} */
@@ -1264,6 +1310,10 @@ ConeStriped = 'cone-striped',
 Cone = 'cone',
 /** {@link https://icons.getbootstrap.com/icons/controller} */
 Controller = 'controller',
+/** {@link https://icons.getbootstrap.com/icons/cookie} */
+Cookie = 'cookie',
+/** {@link https://icons.getbootstrap.com/icons/copy} */
+Copy = 'copy',
 /** {@link https://icons.getbootstrap.com/icons/cpu-fill} */
 CpuFill = 'cpu-fill',
 /** {@link https://icons.getbootstrap.com/icons/cpu} */
@@ -1282,6 +1332,10 @@ CreditCardFill = 'credit-card-fill',
 CreditCard = 'credit-card',
 /** {@link https://icons.getbootstrap.com/icons/crop} */
 Crop = 'crop',
+/** {@link https://icons.getbootstrap.com/icons/crosshair} */
+Crosshair = 'crosshair',
+/** {@link https://icons.getbootstrap.com/icons/crosshair2} */
+Crosshair2 = 'crosshair2',
 /** {@link https://icons.getbootstrap.com/icons/cup-fill} */
 CupFill = 'cup-fill',
 /** {@link https://icons.getbootstrap.com/icons/cup-hot-fill} */
@@ -1462,6 +1516,10 @@ DropletFill = 'droplet-fill',
 DropletHalf = 'droplet-half',
 /** {@link https://icons.getbootstrap.com/icons/droplet} */
 Droplet = 'droplet',
+/** {@link https://icons.getbootstrap.com/icons/duffle-fill} */
+DuffleFill = 'duffle-fill',
+/** {@link https://icons.getbootstrap.com/icons/duffle} */
+Duffle = 'duffle',
 /** {@link https://icons.getbootstrap.com/icons/ear-fill} */
 EarFill = 'ear-fill',
 /** {@link https://icons.getbootstrap.com/icons/ear} */
@@ -1494,6 +1552,10 @@ Eject = 'eject',
 EmojiAngryFill = 'emoji-angry-fill',
 /** {@link https://icons.getbootstrap.com/icons/emoji-angry} */
 EmojiAngry = 'emoji-angry',
+/** {@link https://icons.getbootstrap.com/icons/emoji-astonished-fill} */
+EmojiAstonishedFill = 'emoji-astonished-fill',
+/** {@link https://icons.getbootstrap.com/icons/emoji-astonished} */
+EmojiAstonished = 'emoji-astonished',
 /** {@link https://icons.getbootstrap.com/icons/emoji-dizzy-fill} */
 EmojiDizzyFill = 'emoji-dizzy-fill',
 /** {@link https://icons.getbootstrap.com/icons/emoji-dizzy} */
@@ -1506,6 +1568,14 @@ EmojiExpressionless = 'emoji-expressionless',
 EmojiFrownFill = 'emoji-frown-fill',
 /** {@link https://icons.getbootstrap.com/icons/emoji-frown} */
 EmojiFrown = 'emoji-frown',
+/** {@link https://icons.getbootstrap.com/icons/emoji-grimace-fill} */
+EmojiGrimaceFill = 'emoji-grimace-fill',
+/** {@link https://icons.getbootstrap.com/icons/emoji-grimace} */
+EmojiGrimace = 'emoji-grimace',
+/** {@link https://icons.getbootstrap.com/icons/emoji-grin-fill} */
+EmojiGrinFill = 'emoji-grin-fill',
+/** {@link https://icons.getbootstrap.com/icons/emoji-grin} */
+EmojiGrin = 'emoji-grin',
 /** {@link https://icons.getbootstrap.com/icons/emoji-heart-eyes-fill} */
 EmojiHeartEyesFill = 'emoji-heart-eyes-fill',
 /** {@link https://icons.getbootstrap.com/icons/emoji-heart-eyes} */
@@ -1534,10 +1604,26 @@ EmojiSmile = 'emoji-smile',
 EmojiSunglassesFill = 'emoji-sunglasses-fill',
 /** {@link https://icons.getbootstrap.com/icons/emoji-sunglasses} */
 EmojiSunglasses = 'emoji-sunglasses',
+/** {@link https://icons.getbootstrap.com/icons/emoji-surprise-fill} */
+EmojiSurpriseFill = 'emoji-surprise-fill',
+/** {@link https://icons.getbootstrap.com/icons/emoji-surprise} */
+EmojiSurprise = 'emoji-surprise',
+/** {@link https://icons.getbootstrap.com/icons/emoji-tear-fill} */
+EmojiTearFill = 'emoji-tear-fill',
+/** {@link https://icons.getbootstrap.com/icons/emoji-tear} */
+EmojiTear = 'emoji-tear',
 /** {@link https://icons.getbootstrap.com/icons/emoji-wink-fill} */
 EmojiWinkFill = 'emoji-wink-fill',
 /** {@link https://icons.getbootstrap.com/icons/emoji-wink} */
 EmojiWink = 'emoji-wink',
+/** {@link https://icons.getbootstrap.com/icons/envelope-arrow-down-fill} */
+EnvelopeArrowDownFill = 'envelope-arrow-down-fill',
+/** {@link https://icons.getbootstrap.com/icons/envelope-arrow-down} */
+EnvelopeArrowDown = 'envelope-arrow-down',
+/** {@link https://icons.getbootstrap.com/icons/envelope-arrow-up-fill} */
+EnvelopeArrowUpFill = 'envelope-arrow-up-fill',
+/** {@link https://icons.getbootstrap.com/icons/envelope-arrow-up} */
+EnvelopeArrowUp = 'envelope-arrow-up',
 /** {@link https://icons.getbootstrap.com/icons/envelope-at-fill} */
 EnvelopeAtFill = 'envelope-at-fill',
 /** {@link https://icons.getbootstrap.com/icons/envelope-at} */
@@ -1636,6 +1722,8 @@ Exclude = 'exclude',
 ExplicitFill = 'explicit-fill',
 /** {@link https://icons.getbootstrap.com/icons/explicit} */
 Explicit = 'explicit',
+/** {@link https://icons.getbootstrap.com/icons/exposure} */
+Exposure = 'exposure',
 /** {@link https://icons.getbootstrap.com/icons/eye-fill} */
 EyeFill = 'eye-fill',
 /** {@link https://icons.getbootstrap.com/icons/eye-slash-fill} */
@@ -1664,6 +1752,10 @@ FastForwardCircle = 'fast-forward-circle',
 FastForwardFill = 'fast-forward-fill',
 /** {@link https://icons.getbootstrap.com/icons/fast-forward} */
 FastForward = 'fast-forward',
+/** {@link https://icons.getbootstrap.com/icons/feather} */
+Feather = 'feather',
+/** {@link https://icons.getbootstrap.com/icons/feather2} */
+Feather2 = 'feather2',
 /** {@link https://icons.getbootstrap.com/icons/file-arrow-down-fill} */
 FileArrowDownFill = 'file-arrow-down-fill',
 /** {@link https://icons.getbootstrap.com/icons/file-arrow-down} */
@@ -2046,6 +2138,14 @@ Fire = 'fire',
 FlagFill = 'flag-fill',
 /** {@link https://icons.getbootstrap.com/icons/flag} */
 Flag = 'flag',
+/** {@link https://icons.getbootstrap.com/icons/floppy-fill} */
+FloppyFill = 'floppy-fill',
+/** {@link https://icons.getbootstrap.com/icons/floppy} */
+Floppy = 'floppy',
+/** {@link https://icons.getbootstrap.com/icons/floppy2-fill} */
+Floppy2Fill = 'floppy2-fill',
+/** {@link https://icons.getbootstrap.com/icons/floppy2} */
+Floppy2 = 'floppy2',
 /** {@link https://icons.getbootstrap.com/icons/flower1} */
 Flower1 = 'flower1',
 /** {@link https://icons.getbootstrap.com/icons/flower2} */
@@ -2112,6 +2212,8 @@ GenderAmbiguous = 'gender-ambiguous',
 GenderFemale = 'gender-female',
 /** {@link https://icons.getbootstrap.com/icons/gender-male} */
 GenderMale = 'gender-male',
+/** {@link https://icons.getbootstrap.com/icons/gender-neuter} */
+GenderNeuter = 'gender-neuter',
 /** {@link https://icons.getbootstrap.com/icons/gender-trans} */
 GenderTrans = 'gender-trans',
 /** {@link https://icons.getbootstrap.com/icons/geo-alt-fill} */
@@ -2130,6 +2232,8 @@ Gift = 'gift',
 Git = 'git',
 /** {@link https://icons.getbootstrap.com/icons/github} */
 Github = 'github',
+/** {@link https://icons.getbootstrap.com/icons/gitlab} */
+Gitlab = 'gitlab',
 /** {@link https://icons.getbootstrap.com/icons/globe-americas} */
 GlobeAmericas = 'globe-americas',
 /** {@link https://icons.getbootstrap.com/icons/globe-asia-australia} */
@@ -2268,6 +2372,10 @@ HexagonFill = 'hexagon-fill',
 HexagonHalf = 'hexagon-half',
 /** {@link https://icons.getbootstrap.com/icons/hexagon} */
 Hexagon = 'hexagon',
+/** {@link https://icons.getbootstrap.com/icons/highlighter} */
+Highlighter = 'highlighter',
+/** {@link https://icons.getbootstrap.com/icons/highlights} */
+Highlights = 'highlights',
 /** {@link https://icons.getbootstrap.com/icons/hospital-fill} */
 HospitalFill = 'hospital-fill',
 /** {@link https://icons.getbootstrap.com/icons/hospital} */
@@ -2524,6 +2632,10 @@ List = 'list',
 LockFill = 'lock-fill',
 /** {@link https://icons.getbootstrap.com/icons/lock} */
 Lock = 'lock',
+/** {@link https://icons.getbootstrap.com/icons/luggage-fill} */
+LuggageFill = 'luggage-fill',
+/** {@link https://icons.getbootstrap.com/icons/luggage} */
+Luggage = 'luggage',
 /** {@link https://icons.getbootstrap.com/icons/lungs-fill} */
 LungsFill = 'lungs-fill',
 /** {@link https://icons.getbootstrap.com/icons/lungs} */
@@ -2534,8 +2646,12 @@ Magic = 'magic',
 MagnetFill = 'magnet-fill',
 /** {@link https://icons.getbootstrap.com/icons/magnet} */
 Magnet = 'magnet',
+/** {@link https://icons.getbootstrap.com/icons/mailbox-flag} */
+MailboxFlag = 'mailbox-flag',
 /** {@link https://icons.getbootstrap.com/icons/mailbox} */
 Mailbox = 'mailbox',
+/** {@link https://icons.getbootstrap.com/icons/mailbox2-flag} */
+Mailbox2Flag = 'mailbox2-flag',
 /** {@link https://icons.getbootstrap.com/icons/mailbox2} */
 Mailbox2 = 'mailbox2',
 /** {@link https://icons.getbootstrap.com/icons/map-fill} */
@@ -2546,6 +2662,8 @@ Map = 'map',
 MarkdownFill = 'markdown-fill',
 /** {@link https://icons.getbootstrap.com/icons/markdown} */
 Markdown = 'markdown',
+/** {@link https://icons.getbootstrap.com/icons/marker-tip} */
+MarkerTip = 'marker-tip',
 /** {@link https://icons.getbootstrap.com/icons/mask} */
 Mask = 'mask',
 /** {@link https://icons.getbootstrap.com/icons/mastodon} */
@@ -2650,18 +2768,26 @@ NodeMinus = 'node-minus',
 NodePlusFill = 'node-plus-fill',
 /** {@link https://icons.getbootstrap.com/icons/node-plus} */
 NodePlus = 'node-plus',
+/** {@link https://icons.getbootstrap.com/icons/noise-reduction} */
+NoiseReduction = 'noise-reduction',
 /** {@link https://icons.getbootstrap.com/icons/nut-fill} */
 NutFill = 'nut-fill',
 /** {@link https://icons.getbootstrap.com/icons/nut} */
 Nut = 'nut',
 /** {@link https://icons.getbootstrap.com/icons/nvidia} */
 Nvidia = 'nvidia',
+/** {@link https://icons.getbootstrap.com/icons/nvme-fill} */
+NvmeFill = 'nvme-fill',
+/** {@link https://icons.getbootstrap.com/icons/nvme} */
+Nvme = 'nvme',
 /** {@link https://icons.getbootstrap.com/icons/octagon-fill} */
 OctagonFill = 'octagon-fill',
 /** {@link https://icons.getbootstrap.com/icons/octagon-half} */
 OctagonHalf = 'octagon-half',
 /** {@link https://icons.getbootstrap.com/icons/octagon} */
 Octagon = 'octagon',
+/** {@link https://icons.getbootstrap.com/icons/opencollective} */
+Opencollective = 'opencollective',
 /** {@link https://icons.getbootstrap.com/icons/optical-audio-fill} */
 OpticalAudioFill = 'optical-audio-fill',
 /** {@link https://icons.getbootstrap.com/icons/optical-audio} */
@@ -2694,6 +2820,10 @@ Paragraph = 'paragraph',
 PassFill = 'pass-fill',
 /** {@link https://icons.getbootstrap.com/icons/pass} */
 Pass = 'pass',
+/** {@link https://icons.getbootstrap.com/icons/passport-fill} */
+PassportFill = 'passport-fill',
+/** {@link https://icons.getbootstrap.com/icons/passport} */
+Passport = 'passport',
 /** {@link https://icons.getbootstrap.com/icons/patch-check-fill} */
 PatchCheckFill = 'patch-check-fill',
 /** {@link https://icons.getbootstrap.com/icons/patch-check} */
@@ -2736,6 +2866,10 @@ PcDisplay = 'pc-display',
 PcHorizontal = 'pc-horizontal',
 /** {@link https://icons.getbootstrap.com/icons/pc} */
 Pc = 'pc',
+/** {@link https://icons.getbootstrap.com/icons/pci-card-network} */
+PciCardNetwork = 'pci-card-network',
+/** {@link https://icons.getbootstrap.com/icons/pci-card-sound} */
+PciCardSound = 'pci-card-sound',
 /** {@link https://icons.getbootstrap.com/icons/pci-card} */
 PciCard = 'pci-card',
 /** {@link https://icons.getbootstrap.com/icons/peace-fill} */
@@ -2766,6 +2900,8 @@ People = 'people',
 Percent = 'percent',
 /** {@link https://icons.getbootstrap.com/icons/person-add} */
 PersonAdd = 'person-add',
+/** {@link https://icons.getbootstrap.com/icons/person-arms-up} */
+PersonArmsUp = 'person-arms-up',
 /** {@link https://icons.getbootstrap.com/icons/person-badge-fill} */
 PersonBadgeFill = 'person-badge-fill',
 /** {@link https://icons.getbootstrap.com/icons/person-badge} */
@@ -2822,12 +2958,18 @@ PersonLock = 'person-lock',
 PersonPlusFill = 'person-plus-fill',
 /** {@link https://icons.getbootstrap.com/icons/person-plus} */
 PersonPlus = 'person-plus',
+/** {@link https://icons.getbootstrap.com/icons/person-raised-hand} */
+PersonRaisedHand = 'person-raised-hand',
 /** {@link https://icons.getbootstrap.com/icons/person-rolodex} */
 PersonRolodex = 'person-rolodex',
 /** {@link https://icons.getbootstrap.com/icons/person-slash} */
 PersonSlash = 'person-slash',
 /** {@link https://icons.getbootstrap.com/icons/person-square} */
 PersonSquare = 'person-square',
+/** {@link https://icons.getbootstrap.com/icons/person-standing-dress} */
+PersonStandingDress = 'person-standing-dress',
+/** {@link https://icons.getbootstrap.com/icons/person-standing} */
+PersonStanding = 'person-standing',
 /** {@link https://icons.getbootstrap.com/icons/person-up} */
 PersonUp = 'person-up',
 /** {@link https://icons.getbootstrap.com/icons/person-vcard-fill} */
@@ -2840,6 +2982,10 @@ PersonVideo = 'person-video',
 PersonVideo2 = 'person-video2',
 /** {@link https://icons.getbootstrap.com/icons/person-video3} */
 PersonVideo3 = 'person-video3',
+/** {@link https://icons.getbootstrap.com/icons/person-walking} */
+PersonWalking = 'person-walking',
+/** {@link https://icons.getbootstrap.com/icons/person-wheelchair} */
+PersonWheelchair = 'person-wheelchair',
 /** {@link https://icons.getbootstrap.com/icons/person-workspace} */
 PersonWorkspace = 'person-workspace',
 /** {@link https://icons.getbootstrap.com/icons/person-x-fill} */
@@ -2996,6 +3142,8 @@ RCircle = 'r-circle',
 RSquareFill = 'r-square-fill',
 /** {@link https://icons.getbootstrap.com/icons/r-square} */
 RSquare = 'r-square',
+/** {@link https://icons.getbootstrap.com/icons/radar} */
+Radar = 'radar',
 /** {@link https://icons.getbootstrap.com/icons/radioactive} */
 Radioactive = 'radioactive',
 /** {@link https://icons.getbootstrap.com/icons/rainbow} */
@@ -3114,6 +3262,14 @@ SearchHeart = 'search-heart',
 Search = 'search',
 /** {@link https://icons.getbootstrap.com/icons/segmented-nav} */
 SegmentedNav = 'segmented-nav',
+/** {@link https://icons.getbootstrap.com/icons/send-arrow-down-fill} */
+SendArrowDownFill = 'send-arrow-down-fill',
+/** {@link https://icons.getbootstrap.com/icons/send-arrow-down} */
+SendArrowDown = 'send-arrow-down',
+/** {@link https://icons.getbootstrap.com/icons/send-arrow-up-fill} */
+SendArrowUpFill = 'send-arrow-up-fill',
+/** {@link https://icons.getbootstrap.com/icons/send-arrow-up} */
+SendArrowUp = 'send-arrow-up',
 /** {@link https://icons.getbootstrap.com/icons/send-check-fill} */
 SendCheckFill = 'send-check-fill',
 /** {@link https://icons.getbootstrap.com/icons/send-check} */
@@ -3144,6 +3300,8 @@ SendX = 'send-x',
 Send = 'send',
 /** {@link https://icons.getbootstrap.com/icons/server} */
 Server = 'server',
+/** {@link https://icons.getbootstrap.com/icons/shadows} */
+Shadows = 'shadows',
 /** {@link https://icons.getbootstrap.com/icons/share-fill} */
 ShareFill = 'share-fill',
 /** {@link https://icons.getbootstrap.com/icons/share} */
@@ -3284,6 +3442,10 @@ SignpostSplit = 'signpost-split',
 Signpost = 'signpost',
 /** {@link https://icons.getbootstrap.com/icons/sim-fill} */
 SimFill = 'sim-fill',
+/** {@link https://icons.getbootstrap.com/icons/sim-slash-fill} */
+SimSlashFill = 'sim-slash-fill',
+/** {@link https://icons.getbootstrap.com/icons/sim-slash} */
+SimSlash = 'sim-slash',
 /** {@link https://icons.getbootstrap.com/icons/sim} */
 Sim = 'sim',
 /** {@link https://icons.getbootstrap.com/icons/sina-weibo} */
@@ -3394,6 +3556,8 @@ SortUpAlt = 'sort-up-alt',
 SortUp = 'sort-up',
 /** {@link https://icons.getbootstrap.com/icons/soundwave} */
 Soundwave = 'soundwave',
+/** {@link https://icons.getbootstrap.com/icons/sourceforge} */
+Sourceforge = 'sourceforge',
 /** {@link https://icons.getbootstrap.com/icons/speaker-fill} */
 SpeakerFill = 'speaker-fill',
 /** {@link https://icons.getbootstrap.com/icons/speaker} */
@@ -3460,6 +3624,8 @@ Strava = 'strava',
 Stripe = 'stripe',
 /** {@link https://icons.getbootstrap.com/icons/subscript} */
 Subscript = 'subscript',
+/** {@link https://icons.getbootstrap.com/icons/substack} */
+Substack = 'substack',
 /** {@link https://icons.getbootstrap.com/icons/subtract} */
 Subtract = 'subtract',
 /** {@link https://icons.getbootstrap.com/icons/suit-club-fill} */
@@ -3478,6 +3644,18 @@ SuitHeart = 'suit-heart',
 SuitSpadeFill = 'suit-spade-fill',
 /** {@link https://icons.getbootstrap.com/icons/suit-spade} */
 SuitSpade = 'suit-spade',
+/** {@link https://icons.getbootstrap.com/icons/suitcase-fill} */
+SuitcaseFill = 'suitcase-fill',
+/** {@link https://icons.getbootstrap.com/icons/suitcase-lg-fill} */
+SuitcaseLgFill = 'suitcase-lg-fill',
+/** {@link https://icons.getbootstrap.com/icons/suitcase-lg} */
+SuitcaseLg = 'suitcase-lg',
+/** {@link https://icons.getbootstrap.com/icons/suitcase} */
+Suitcase = 'suitcase',
+/** {@link https://icons.getbootstrap.com/icons/suitcase2-fill} */
+Suitcase2Fill = 'suitcase2-fill',
+/** {@link https://icons.getbootstrap.com/icons/suitcase2} */
+Suitcase2 = 'suitcase2',
 /** {@link https://icons.getbootstrap.com/icons/sun-fill} */
 SunFill = 'sun-fill',
 /** {@link https://icons.getbootstrap.com/icons/sun} */
@@ -3596,6 +3774,10 @@ ThermometerSnow = 'thermometer-snow',
 ThermometerSun = 'thermometer-sun',
 /** {@link https://icons.getbootstrap.com/icons/thermometer} */
 Thermometer = 'thermometer',
+/** {@link https://icons.getbootstrap.com/icons/threads-fill} */
+ThreadsFill = 'threads-fill',
+/** {@link https://icons.getbootstrap.com/icons/threads} */
+Threads = 'threads',
 /** {@link https://icons.getbootstrap.com/icons/three-dots-vertical} */
 ThreeDotsVertical = 'three-dots-vertical',
 /** {@link https://icons.getbootstrap.com/icons/three-dots} */
@@ -3648,6 +3830,8 @@ TrainLightrailFrontFill = 'train-lightrail-front-fill',
 TrainLightrailFront = 'train-lightrail-front',
 /** {@link https://icons.getbootstrap.com/icons/translate} */
 Translate = 'translate',
+/** {@link https://icons.getbootstrap.com/icons/transparency} */
+Transparency = 'transparency',
 /** {@link https://icons.getbootstrap.com/icons/trash-fill} */
 TrashFill = 'trash-fill',
 /** {@link https://icons.getbootstrap.com/icons/trash} */
@@ -3694,6 +3878,8 @@ TvFill = 'tv-fill',
 Tv = 'tv',
 /** {@link https://icons.getbootstrap.com/icons/twitch} */
 Twitch = 'twitch',
+/** {@link https://icons.getbootstrap.com/icons/twitter-x} */
+TwitterX = 'twitter-x',
 /** {@link https://icons.getbootstrap.com/icons/twitter} */
 Twitter = 'twitter',
 /** {@link https://icons.getbootstrap.com/icons/type-bold} */
@@ -3704,6 +3890,12 @@ TypeH1 = 'type-h1',
 TypeH2 = 'type-h2',
 /** {@link https://icons.getbootstrap.com/icons/type-h3} */
 TypeH3 = 'type-h3',
+/** {@link https://icons.getbootstrap.com/icons/type-h4} */
+TypeH4 = 'type-h4',
+/** {@link https://icons.getbootstrap.com/icons/type-h5} */
+TypeH5 = 'type-h5',
+/** {@link https://icons.getbootstrap.com/icons/type-h6} */
+TypeH6 = 'type-h6',
 /** {@link https://icons.getbootstrap.com/icons/type-italic} */
 TypeItalic = 'type-italic',
 /** {@link https://icons.getbootstrap.com/icons/type-strikethrough} */
@@ -3782,6 +3974,8 @@ VectorPen = 'vector-pen',
 ViewList = 'view-list',
 /** {@link https://icons.getbootstrap.com/icons/view-stacked} */
 ViewStacked = 'view-stacked',
+/** {@link https://icons.getbootstrap.com/icons/vignette} */
+Vignette = 'vignette',
 /** {@link https://icons.getbootstrap.com/icons/vimeo} */
 Vimeo = 'vimeo',
 /** {@link https://icons.getbootstrap.com/icons/vinyl-fill} */

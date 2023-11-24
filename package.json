@@ -1,6 +1,6 @@
 {
   "name": "ngx-bootstrap-icons-demo",
-  "version": "1.9.1",
+  "version": "1.11.2",
   "homepage": "https://avmaisak.github.io/ngx-bootstrap-icons/",
   "scripts": {
     "ng": "./node_modules/@angular/cli/bin/ng",
@@ -57,7 +57,7 @@
     "@typescript-eslint/eslint-plugin": "5.23.0",
     "@typescript-eslint/parser": "5.23.0",
     "angular-cli-ghpages": "1.0.0",
-    "bootstrap-icons": "1.9.0",
+    "bootstrap-icons": "1.11.2",
     "cli-color": "2.0.2",
     "codelyzer": "6.0.2",
     "eslint": "8.15.0",

@@ -54,7 +54,10 @@ import { alignMiddle } from './align-middle';
 import { alignStart } from './align-start';
 import { alignTop } from './align-top';
 import { alipay } from './alipay';
+import { alphabetUppercase } from './alphabet-uppercase';
+import { alphabet } from './alphabet';
 import { alt } from './alt';
+import { amazon } from './amazon';
 import { amd } from './amd';
 import { android } from './android';
 import { android2 } from './android2';
@@ -126,10 +129,14 @@ import { arrowUpSquare } from './arrow-up-square';
 import { arrowUp } from './arrow-up';
 import { arrowsAngleContract } from './arrows-angle-contract';
 import { arrowsAngleExpand } from './arrows-angle-expand';
+import { arrowsCollapseVertical } from './arrows-collapse-vertical';
 import { arrowsCollapse } from './arrows-collapse';
+import { arrowsExpandVertical } from './arrows-expand-vertical';
 import { arrowsExpand } from './arrows-expand';
 import { arrowsFullscreen } from './arrows-fullscreen';
 import { arrowsMove } from './arrows-move';
+import { arrowsVertical } from './arrows-vertical';
+import { arrows } from './arrows';
 import { aspectRatioFill } from './aspect-ratio-fill';
 import { aspectRatio } from './aspect-ratio';
 import { asterisk } from './asterisk';
@@ -137,6 +144,14 @@ import { at } from './at';
 import { awardFill } from './award-fill';
 import { award } from './award';
 import { back } from './back';
+import { backpackFill } from './backpack-fill';
+import { backpack } from './backpack';
+import { backpack2Fill } from './backpack2-fill';
+import { backpack2 } from './backpack2';
+import { backpack3Fill } from './backpack3-fill';
+import { backpack3 } from './backpack3';
+import { backpack4Fill } from './backpack4-fill';
+import { backpack4 } from './backpack4';
 import { backspaceFill } from './backspace-fill';
 import { backspaceReverseFill } from './backspace-reverse-fill';
 import { backspaceReverse } from './backspace-reverse';
@@ -181,6 +196,8 @@ import { balloonFill } from './balloon-fill';
 import { balloonHeartFill } from './balloon-heart-fill';
 import { balloonHeart } from './balloon-heart';
 import { balloon } from './balloon';
+import { banFill } from './ban-fill';
+import { ban } from './ban';
 import { bandaidFill } from './bandaid-fill';
 import { bandaid } from './bandaid';
 import { bank } from './bank';
@@ -208,6 +225,7 @@ import { bell } from './bell';
 import { bezier } from './bezier';
 import { bezier2 } from './bezier2';
 import { bicycle } from './bicycle';
+import { bing } from './bing';
 import { binocularsFill } from './binoculars-fill';
 import { binoculars } from './binoculars';
 import { blockquoteLeft } from './blockquote-left';
@@ -291,6 +309,7 @@ import { brightnessHighFill } from './brightness-high-fill';
 import { brightnessHigh } from './brightness-high';
 import { brightnessLowFill } from './brightness-low-fill';
 import { brightnessLow } from './brightness-low';
+import { brilliance } from './brilliance';
 import { broadcastPin } from './broadcast-pin';
 import { broadcast } from './broadcast';
 import { browserChrome } from './browser-chrome';
@@ -334,6 +353,10 @@ import { cCircleFill } from './c-circle-fill';
 import { cCircle } from './c-circle';
 import { cSquareFill } from './c-square-fill';
 import { cSquare } from './c-square';
+import { cakeFill } from './cake-fill';
+import { cake } from './cake';
+import { cake2Fill } from './cake2-fill';
+import { cake2 } from './cake2';
 import { calculatorFill } from './calculator-fill';
 import { calculator } from './calculator';
 import { calendarCheckFill } from './calendar-check-fill';
@@ -630,6 +653,8 @@ import { compass } from './compass';
 import { coneStriped } from './cone-striped';
 import { cone } from './cone';
 import { controller } from './controller';
+import { cookie } from './cookie';
+import { copy } from './copy';
 import { cpuFill } from './cpu-fill';
 import { cpu } from './cpu';
 import { creditCard2BackFill } from './credit-card-2-back-fill';
@@ -639,6 +664,8 @@ import { creditCard2Front } from './credit-card-2-front';
 import { creditCardFill } from './credit-card-fill';
 import { creditCard } from './credit-card';
 import { crop } from './crop';
+import { crosshair } from './crosshair';
+import { crosshair2 } from './crosshair2';
 import { cupFill } from './cup-fill';
 import { cupHotFill } from './cup-hot-fill';
 import { cupHot } from './cup-hot';
@@ -729,6 +756,8 @@ import { dropbox } from './dropbox';
 import { dropletFill } from './droplet-fill';
 import { dropletHalf } from './droplet-half';
 import { droplet } from './droplet';
+import { duffleFill } from './duffle-fill';
+import { duffle } from './duffle';
 import { earFill } from './ear-fill';
 import { ear } from './ear';
 import { earbuds } from './earbuds';
@@ -745,12 +774,18 @@ import { ejectFill } from './eject-fill';
 import { eject } from './eject';
 import { emojiAngryFill } from './emoji-angry-fill';
 import { emojiAngry } from './emoji-angry';
+import { emojiAstonishedFill } from './emoji-astonished-fill';
+import { emojiAstonished } from './emoji-astonished';
 import { emojiDizzyFill } from './emoji-dizzy-fill';
 import { emojiDizzy } from './emoji-dizzy';
 import { emojiExpressionlessFill } from './emoji-expressionless-fill';
 import { emojiExpressionless } from './emoji-expressionless';
 import { emojiFrownFill } from './emoji-frown-fill';
 import { emojiFrown } from './emoji-frown';
+import { emojiGrimaceFill } from './emoji-grimace-fill';
+import { emojiGrimace } from './emoji-grimace';
+import { emojiGrinFill } from './emoji-grin-fill';
+import { emojiGrin } from './emoji-grin';
 import { emojiHeartEyesFill } from './emoji-heart-eyes-fill';
 import { emojiHeartEyes } from './emoji-heart-eyes';
 import { emojiKissFill } from './emoji-kiss-fill';
@@ -765,8 +800,16 @@ import { emojiSmileUpsideDown } from './emoji-smile-upside-down';
 import { emojiSmile } from './emoji-smile';
 import { emojiSunglassesFill } from './emoji-sunglasses-fill';
 import { emojiSunglasses } from './emoji-sunglasses';
+import { emojiSurpriseFill } from './emoji-surprise-fill';
+import { emojiSurprise } from './emoji-surprise';
+import { emojiTearFill } from './emoji-tear-fill';
+import { emojiTear } from './emoji-tear';
 import { emojiWinkFill } from './emoji-wink-fill';
 import { emojiWink } from './emoji-wink';
+import { envelopeArrowDownFill } from './envelope-arrow-down-fill';
+import { envelopeArrowDown } from './envelope-arrow-down';
+import { envelopeArrowUpFill } from './envelope-arrow-up-fill';
+import { envelopeArrowUp } from './envelope-arrow-up';
 import { envelopeAtFill } from './envelope-at-fill';
 import { envelopeAt } from './envelope-at';
 import { envelopeCheckFill } from './envelope-check-fill';
@@ -816,6 +859,7 @@ import { exclamation } from './exclamation';
 import { exclude } from './exclude';
 import { explicitFill } from './explicit-fill';
 import { explicit } from './explicit';
+import { exposure } from './exposure';
 import { eyeFill } from './eye-fill';
 import { eyeSlashFill } from './eye-slash-fill';
 import { eyeSlash } from './eye-slash';
@@ -830,6 +874,8 @@ import { fastForwardCircleFill } from './fast-forward-circle-fill';
 import { fastForwardCircle } from './fast-forward-circle';
 import { fastForwardFill } from './fast-forward-fill';
 import { fastForward } from './fast-forward';
+import { feather } from './feather';
+import { feather2 } from './feather2';
 import { fileArrowDownFill } from './file-arrow-down-fill';
 import { fileArrowDown } from './file-arrow-down';
 import { fileArrowUpFill } from './file-arrow-up-fill';
@@ -1021,6 +1067,10 @@ import { fingerprint } from './fingerprint';
 import { fire } from './fire';
 import { flagFill } from './flag-fill';
 import { flag } from './flag';
+import { floppyFill } from './floppy-fill';
+import { floppy } from './floppy';
+import { floppy2Fill } from './floppy2-fill';
+import { floppy2 } from './floppy2';
 import { flower1 } from './flower1';
 import { flower2 } from './flower2';
 import { flower3 } from './flower3';
@@ -1054,6 +1104,7 @@ import { gem } from './gem';
 import { genderAmbiguous } from './gender-ambiguous';
 import { genderFemale } from './gender-female';
 import { genderMale } from './gender-male';
+import { genderNeuter } from './gender-neuter';
 import { genderTrans } from './gender-trans';
 import { geoAltFill } from './geo-alt-fill';
 import { geoAlt } from './geo-alt';
@@ -1063,6 +1114,7 @@ import { giftFill } from './gift-fill';
 import { gift } from './gift';
 import { git } from './git';
 import { github } from './github';
+import { gitlab } from './gitlab';
 import { globeAmericas } from './globe-americas';
 import { globeAsiaAustralia } from './globe-asia-australia';
 import { globeCentralSouthAsia } from './globe-central-south-asia';
@@ -1132,6 +1184,8 @@ import { heptagon } from './heptagon';
 import { hexagonFill } from './hexagon-fill';
 import { hexagonHalf } from './hexagon-half';
 import { hexagon } from './hexagon';
+import { highlighter } from './highlighter';
+import { highlights } from './highlights';
 import { hospitalFill } from './hospital-fill';
 import { hospital } from './hospital';
 import { hourglassBottom } from './hourglass-bottom';
@@ -1260,17 +1314,22 @@ import { listUl } from './list-ul';
 import { list } from './list';
 import { lockFill } from './lock-fill';
 import { lock } from './lock';
+import { luggageFill } from './luggage-fill';
+import { luggage } from './luggage';
 import { lungsFill } from './lungs-fill';
 import { lungs } from './lungs';
 import { magic } from './magic';
 import { magnetFill } from './magnet-fill';
 import { magnet } from './magnet';
+import { mailboxFlag } from './mailbox-flag';
 import { mailbox } from './mailbox';
+import { mailbox2Flag } from './mailbox2-flag';
 import { mailbox2 } from './mailbox2';
 import { mapFill } from './map-fill';
 import { map } from './map';
 import { markdownFill } from './markdown-fill';
 import { markdown } from './markdown';
+import { markerTip } from './marker-tip';
 import { mask } from './mask';
 import { mastodon } from './mastodon';
 import { medium } from './medium';
@@ -1323,12 +1382,16 @@ import { nodeMinusFill } from './node-minus-fill';
 import { nodeMinus } from './node-minus';
 import { nodePlusFill } from './node-plus-fill';
 import { nodePlus } from './node-plus';
+import { noiseReduction } from './noise-reduction';
 import { nutFill } from './nut-fill';
 import { nut } from './nut';
 import { nvidia } from './nvidia';
+import { nvmeFill } from './nvme-fill';
+import { nvme } from './nvme';
 import { octagonFill } from './octagon-fill';
 import { octagonHalf } from './octagon-half';
 import { octagon } from './octagon';
+import { opencollective } from './opencollective';
 import { opticalAudioFill } from './optical-audio-fill';
 import { opticalAudio } from './optical-audio';
 import { option } from './option';
@@ -1345,6 +1408,8 @@ import { paperclip } from './paperclip';
 import { paragraph } from './paragraph';
 import { passFill } from './pass-fill';
 import { pass } from './pass';
+import { passportFill } from './passport-fill';
+import { passport } from './passport';
 import { patchCheckFill } from './patch-check-fill';
 import { patchCheck } from './patch-check';
 import { patchExclamationFill } from './patch-exclamation-fill';
@@ -1366,6 +1431,8 @@ import { pcDisplayHorizontal } from './pc-display-horizontal';
 import { pcDisplay } from './pc-display';
 import { pcHorizontal } from './pc-horizontal';
 import { pc } from './pc';
+import { pciCardNetwork } from './pci-card-network';
+import { pciCardSound } from './pci-card-sound';
 import { pciCard } from './pci-card';
 import { peaceFill } from './peace-fill';
 import { peace } from './peace';
@@ -1381,6 +1448,7 @@ import { peopleFill } from './people-fill';
 import { people } from './people';
 import { percent } from './percent';
 import { personAdd } from './person-add';
+import { personArmsUp } from './person-arms-up';
 import { personBadgeFill } from './person-badge-fill';
 import { personBadge } from './person-badge';
 import { personBoundingBox } from './person-bounding-box';
@@ -1409,15 +1477,20 @@ import { personLinesFill } from './person-lines-fill';
 import { personLock } from './person-lock';
 import { personPlusFill } from './person-plus-fill';
 import { personPlus } from './person-plus';
+import { personRaisedHand } from './person-raised-hand';
 import { personRolodex } from './person-rolodex';
 import { personSlash } from './person-slash';
 import { personSquare } from './person-square';
+import { personStandingDress } from './person-standing-dress';
+import { personStanding } from './person-standing';
 import { personUp } from './person-up';
 import { personVcardFill } from './person-vcard-fill';
 import { personVcard } from './person-vcard';
 import { personVideo } from './person-video';
 import { personVideo2 } from './person-video2';
 import { personVideo3 } from './person-video3';
+import { personWalking } from './person-walking';
+import { personWheelchair } from './person-wheelchair';
 import { personWorkspace } from './person-workspace';
 import { personXFill } from './person-x-fill';
 import { personX } from './person-x';
@@ -1496,6 +1569,7 @@ import { rCircleFill } from './r-circle-fill';
 import { rCircle } from './r-circle';
 import { rSquareFill } from './r-square-fill';
 import { rSquare } from './r-square';
+import { radar } from './radar';
 import { radioactive } from './radioactive';
 import { rainbow } from './rainbow';
 import { receiptCutoff } from './receipt-cutoff';
@@ -1555,6 +1629,10 @@ import { searchHeartFill } from './search-heart-fill';
 import { searchHeart } from './search-heart';
 import { search } from './search';
 import { segmentedNav } from './segmented-nav';
+import { sendArrowDownFill } from './send-arrow-down-fill';
+import { sendArrowDown } from './send-arrow-down';
+import { sendArrowUpFill } from './send-arrow-up-fill';
+import { sendArrowUp } from './send-arrow-up';
 import { sendCheckFill } from './send-check-fill';
 import { sendCheck } from './send-check';
 import { sendDashFill } from './send-dash-fill';
@@ -1570,6 +1648,7 @@ import { sendXFill } from './send-x-fill';
 import { sendX } from './send-x';
 import { send } from './send';
 import { server } from './server';
+import { shadows } from './shadows';
 import { shareFill } from './share-fill';
 import { share } from './share';
 import { shieldCheck } from './shield-check';
@@ -1640,6 +1719,8 @@ import { signpostSplitFill } from './signpost-split-fill';
 import { signpostSplit } from './signpost-split';
 import { signpost } from './signpost';
 import { simFill } from './sim-fill';
+import { simSlashFill } from './sim-slash-fill';
+import { simSlash } from './sim-slash';
 import { sim } from './sim';
 import { sinaWeibo } from './sina-weibo';
 import { skipBackwardBtnFill } from './skip-backward-btn-fill';
@@ -1695,6 +1776,7 @@ import { sortNumericUp } from './sort-numeric-up';
 import { sortUpAlt } from './sort-up-alt';
 import { sortUp } from './sort-up';
 import { soundwave } from './soundwave';
+import { sourceforge } from './sourceforge';
 import { speakerFill } from './speaker-fill';
 import { speaker } from './speaker';
 import { speedometer } from './speedometer';
@@ -1728,6 +1810,7 @@ import { stopwatch } from './stopwatch';
 import { strava } from './strava';
 import { stripe } from './stripe';
 import { subscript } from './subscript';
+import { substack } from './substack';
 import { subtract } from './subtract';
 import { suitClubFill } from './suit-club-fill';
 import { suitClub } from './suit-club';
@@ -1737,6 +1820,12 @@ import { suitHeartFill } from './suit-heart-fill';
 import { suitHeart } from './suit-heart';
 import { suitSpadeFill } from './suit-spade-fill';
 import { suitSpade } from './suit-spade';
+import { suitcaseFill } from './suitcase-fill';
+import { suitcaseLgFill } from './suitcase-lg-fill';
+import { suitcaseLg } from './suitcase-lg';
+import { suitcase } from './suitcase';
+import { suitcase2Fill } from './suitcase2-fill';
+import { suitcase2 } from './suitcase2';
 import { sunFill } from './sun-fill';
 import { sun } from './sun';
 import { sunglasses } from './sunglasses';
@@ -1796,6 +1885,8 @@ import { thermometerLow } from './thermometer-low';
 import { thermometerSnow } from './thermometer-snow';
 import { thermometerSun } from './thermometer-sun';
 import { thermometer } from './thermometer';
+import { threadsFill } from './threads-fill';
+import { threads } from './threads';
 import { threeDotsVertical } from './three-dots-vertical';
 import { threeDots } from './three-dots';
 import { thunderboltFill } from './thunderbolt-fill';
@@ -1822,6 +1913,7 @@ import { trainFront } from './train-front';
 import { trainLightrailFrontFill } from './train-lightrail-front-fill';
 import { trainLightrailFront } from './train-lightrail-front';
 import { translate } from './translate';
+import { transparency } from './transparency';
 import { trashFill } from './trash-fill';
 import { trash } from './trash';
 import { trash2Fill } from './trash2-fill';
@@ -1845,11 +1937,15 @@ import { tsunami } from './tsunami';
 import { tvFill } from './tv-fill';
 import { tv } from './tv';
 import { twitch } from './twitch';
+import { twitterX } from './twitter-x';
 import { twitter } from './twitter';
 import { typeBold } from './type-bold';
 import { typeH1 } from './type-h1';
 import { typeH2 } from './type-h2';
 import { typeH3 } from './type-h3';
+import { typeH4 } from './type-h4';
+import { typeH5 } from './type-h5';
+import { typeH6 } from './type-h6';
 import { typeItalic } from './type-italic';
 import { typeStrikethrough } from './type-strikethrough';
 import { typeUnderline } from './type-underline';
@@ -1889,6 +1985,7 @@ import { valentine2 } from './valentine2';
 import { vectorPen } from './vector-pen';
 import { viewList } from './view-list';
 import { viewStacked } from './view-stacked';
+import { vignette } from './vignette';
 import { vimeo } from './vimeo';
 import { vinylFill } from './vinyl-fill';
 import { vinyl } from './vinyl';
@@ -2009,7 +2106,10 @@ export const allIcons = {
   alignStart,
   alignTop,
   alipay,
+  alphabetUppercase,
+  alphabet,
   alt,
+  amazon,
   amd,
   android,
   android2,
@@ -2081,10 +2181,14 @@ export const allIcons = {
   arrowUp,
   arrowsAngleContract,
   arrowsAngleExpand,
+  arrowsCollapseVertical,
   arrowsCollapse,
+  arrowsExpandVertical,
   arrowsExpand,
   arrowsFullscreen,
   arrowsMove,
+  arrowsVertical,
+  arrows,
   aspectRatioFill,
   aspectRatio,
   asterisk,
@@ -2092,6 +2196,14 @@ export const allIcons = {
   awardFill,
   award,
   back,
+  backpackFill,
+  backpack,
+  backpack2Fill,
+  backpack2,
+  backpack3Fill,
+  backpack3,
+  backpack4Fill,
+  backpack4,
   backspaceFill,
   backspaceReverseFill,
   backspaceReverse,
@@ -2136,6 +2248,8 @@ export const allIcons = {
   balloonHeartFill,
   balloonHeart,
   balloon,
+  banFill,
+  ban,
   bandaidFill,
   bandaid,
   bank,
@@ -2163,6 +2277,7 @@ export const allIcons = {
   bezier,
   bezier2,
   bicycle,
+  bing,
   binocularsFill,
   binoculars,
   blockquoteLeft,
@@ -2246,6 +2361,7 @@ export const allIcons = {
   brightnessHigh,
   brightnessLowFill,
   brightnessLow,
+  brilliance,
   broadcastPin,
   broadcast,
   browserChrome,
@@ -2289,6 +2405,10 @@ export const allIcons = {
   cCircle,
   cSquareFill,
   cSquare,
+  cakeFill,
+  cake,
+  cake2Fill,
+  cake2,
   calculatorFill,
   calculator,
   calendarCheckFill,
@@ -2585,6 +2705,8 @@ export const allIcons = {
   coneStriped,
   cone,
   controller,
+  cookie,
+  copy,
   cpuFill,
   cpu,
   creditCard2BackFill,
@@ -2594,6 +2716,8 @@ export const allIcons = {
   creditCardFill,
   creditCard,
   crop,
+  crosshair,
+  crosshair2,
   cupFill,
   cupHotFill,
   cupHot,
@@ -2684,6 +2808,8 @@ export const allIcons = {
   dropletFill,
   dropletHalf,
   droplet,
+  duffleFill,
+  duffle,
   earFill,
   ear,
   earbuds,
@@ -2700,12 +2826,18 @@ export const allIcons = {
   eject,
   emojiAngryFill,
   emojiAngry,
+  emojiAstonishedFill,
+  emojiAstonished,
   emojiDizzyFill,
   emojiDizzy,
   emojiExpressionlessFill,
   emojiExpressionless,
   emojiFrownFill,
   emojiFrown,
+  emojiGrimaceFill,
+  emojiGrimace,
+  emojiGrinFill,
+  emojiGrin,
   emojiHeartEyesFill,
   emojiHeartEyes,
   emojiKissFill,
@@ -2720,8 +2852,16 @@ export const allIcons = {
   emojiSmile,
   emojiSunglassesFill,
   emojiSunglasses,
+  emojiSurpriseFill,
+  emojiSurprise,
+  emojiTearFill,
+  emojiTear,
   emojiWinkFill,
   emojiWink,
+  envelopeArrowDownFill,
+  envelopeArrowDown,
+  envelopeArrowUpFill,
+  envelopeArrowUp,
   envelopeAtFill,
   envelopeAt,
   envelopeCheckFill,
@@ -2771,6 +2911,7 @@ export const allIcons = {
   exclude,
   explicitFill,
   explicit,
+  exposure,
   eyeFill,
   eyeSlashFill,
   eyeSlash,
@@ -2785,6 +2926,8 @@ export const allIcons = {
   fastForwardCircle,
   fastForwardFill,
   fastForward,
+  feather,
+  feather2,
   fileArrowDownFill,
   fileArrowDown,
   fileArrowUpFill,
@@ -2976,6 +3119,10 @@ export const allIcons = {
   fire,
   flagFill,
   flag,
+  floppyFill,
+  floppy,
+  floppy2Fill,
+  floppy2,
   flower1,
   flower2,
   flower3,
@@ -3009,6 +3156,7 @@ export const allIcons = {
   genderAmbiguous,
   genderFemale,
   genderMale,
+  genderNeuter,
   genderTrans,
   geoAltFill,
   geoAlt,
@@ -3018,6 +3166,7 @@ export const allIcons = {
   gift,
   git,
   github,
+  gitlab,
   globeAmericas,
   globeAsiaAustralia,
   globeCentralSouthAsia,
@@ -3087,6 +3236,8 @@ export const allIcons = {
   hexagonFill,
   hexagonHalf,
   hexagon,
+  highlighter,
+  highlights,
   hospitalFill,
   hospital,
   hourglassBottom,
@@ -3215,17 +3366,22 @@ export const allIcons = {
   list,
   lockFill,
   lock,
+  luggageFill,
+  luggage,
   lungsFill,
   lungs,
   magic,
   magnetFill,
   magnet,
+  mailboxFlag,
   mailbox,
+  mailbox2Flag,
   mailbox2,
   mapFill,
   map,
   markdownFill,
   markdown,
+  markerTip,
   mask,
   mastodon,
   medium,
@@ -3278,12 +3434,16 @@ export const allIcons = {
   nodeMinus,
   nodePlusFill,
   nodePlus,
+  noiseReduction,
   nutFill,
   nut,
   nvidia,
+  nvmeFill,
+  nvme,
   octagonFill,
   octagonHalf,
   octagon,
+  opencollective,
   opticalAudioFill,
   opticalAudio,
   option,
@@ -3300,6 +3460,8 @@ export const allIcons = {
   paragraph,
   passFill,
   pass,
+  passportFill,
+  passport,
   patchCheckFill,
   patchCheck,
   patchExclamationFill,
@@ -3321,6 +3483,8 @@ export const allIcons = {
   pcDisplay,
   pcHorizontal,
   pc,
+  pciCardNetwork,
+  pciCardSound,
   pciCard,
   peaceFill,
   peace,
@@ -3336,6 +3500,7 @@ export const allIcons = {
   people,
   percent,
   personAdd,
+  personArmsUp,
   personBadgeFill,
   personBadge,
   personBoundingBox,
@@ -3364,15 +3529,20 @@ export const allIcons = {
   personLock,
   personPlusFill,
   personPlus,
+  personRaisedHand,
   personRolodex,
   personSlash,
   personSquare,
+  personStandingDress,
+  personStanding,
   personUp,
   personVcardFill,
   personVcard,
   personVideo,
   personVideo2,
   personVideo3,
+  personWalking,
+  personWheelchair,
   personWorkspace,
   personXFill,
   personX,
@@ -3451,6 +3621,7 @@ export const allIcons = {
   rCircle,
   rSquareFill,
   rSquare,
+  radar,
   radioactive,
   rainbow,
   receiptCutoff,
@@ -3510,6 +3681,10 @@ export const allIcons = {
   searchHeart,
   search,
   segmentedNav,
+  sendArrowDownFill,
+  sendArrowDown,
+  sendArrowUpFill,
+  sendArrowUp,
   sendCheckFill,
   sendCheck,
   sendDashFill,
@@ -3525,6 +3700,7 @@ export const allIcons = {
   sendX,
   send,
   server,
+  shadows,
   shareFill,
   share,
   shieldCheck,
@@ -3595,6 +3771,8 @@ export const allIcons = {
   signpostSplit,
   signpost,
   simFill,
+  simSlashFill,
+  simSlash,
   sim,
   sinaWeibo,
   skipBackwardBtnFill,
@@ -3650,6 +3828,7 @@ export const allIcons = {
   sortUpAlt,
   sortUp,
   soundwave,
+  sourceforge,
   speakerFill,
   speaker,
   speedometer,
@@ -3683,6 +3862,7 @@ export const allIcons = {
   strava,
   stripe,
   subscript,
+  substack,
   subtract,
   suitClubFill,
   suitClub,
@@ -3692,6 +3872,12 @@ export const allIcons = {
   suitHeart,
   suitSpadeFill,
   suitSpade,
+  suitcaseFill,
+  suitcaseLgFill,
+  suitcaseLg,
+  suitcase,
+  suitcase2Fill,
+  suitcase2,
   sunFill,
   sun,
   sunglasses,
@@ -3751,6 +3937,8 @@ export const allIcons = {
   thermometerSnow,
   thermometerSun,
   thermometer,
+  threadsFill,
+  threads,
   threeDotsVertical,
   threeDots,
   thunderboltFill,
@@ -3777,6 +3965,7 @@ export const allIcons = {
   trainLightrailFrontFill,
   trainLightrailFront,
   translate,
+  transparency,
   trashFill,
   trash,
   trash2Fill,
@@ -3800,11 +3989,15 @@ export const allIcons = {
   tvFill,
   tv,
   twitch,
+  twitterX,
   twitter,
   typeBold,
   typeH1,
   typeH2,
   typeH3,
+  typeH4,
+  typeH5,
+  typeH6,
   typeItalic,
   typeStrikethrough,
   typeUnderline,
@@ -3844,6 +4037,7 @@ export const allIcons = {
   vectorPen,
   viewList,
   viewStacked,
+  vignette,
   vimeo,
   vinylFill,
   vinyl,
