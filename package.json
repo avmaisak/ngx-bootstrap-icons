@@ -1,7 +1,7 @@
 {
   "name": "ngx-bootstrap-icons-demo",
   "version": "1.9.1",
-  "homepage": "https://avmaisak.github.io/ngx-bootstrap-icons/",
+  "homepage": "https://github.com/pripramot/ngx-bootstrap-icons",
   "scripts": {
     "ng": "./node_modules/@angular/cli/bin/ng",
     "start": "ng serve --open --port=8838",
